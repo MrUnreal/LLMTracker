@@ -643,10 +643,11 @@ def generate_compare(prices: dict) -> str:
                             <th class="py-4 px-4 font-semibold">Context</th>
                             <th class="py-4 px-4 font-semibold">Category</th>
                             <th class="py-4 px-4 font-semibold">Features</th>
+                            <th class="py-4 px-4 font-semibold">Actions</th>
                         </tr>
                     </thead>
                     <tbody id="models-body">
-                        <tr><td colspan="7" class="py-12 text-center text-gray-500">Loading models...</td></tr>
+                        <tr><td colspan="8" class="py-12 text-center text-gray-500">Loading models...</td></tr>
                     </tbody>
                 </table>
             </div>
@@ -734,7 +735,7 @@ def generate_compare(prices: dict) -> str:
             
             const tbody = document.getElementById('models-body');
             if (filtered.length === 0) {{
-                tbody.innerHTML = '<tr><td colspan="7" class="py-12 text-center text-gray-500">No models match your filters</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="8" class="py-12 text-center text-gray-500">No models match your filters</td></tr>';
                 return;
             }}
             
@@ -754,6 +755,18 @@ def generate_compare(prices: dict) -> str:
                             ${{getTypeBadge(m.model_type)}}
                             ${{m.supports_vision ? '<span class="text-xs bg-purple-100 text-purple-600 px-1.5 py-0.5 rounded">Vision</span>' : ''}}
                             ${{m.supports_function_calling ? '<span class="text-xs bg-blue-100 text-blue-600 px-1.5 py-0.5 rounded">Functions</span>' : ''}}
+                        </div>
+                    </td>
+                    <td class="py-3 px-4">
+                        <div class="flex gap-2">
+                            <a href="calculator.html?model=${{encodeURIComponent(m.id)}}" 
+                               class="text-xs bg-brand-500 text-white px-3 py-1.5 rounded-lg hover:bg-brand-600 transition-colors whitespace-nowrap">
+                                🧮 Calculate
+                            </a>
+                            <a href="https://openrouter.ai/models?q=${{encodeURIComponent(m.display_name || m.id)}}" target="_blank"
+                               class="text-xs bg-gray-100 text-gray-700 px-3 py-1.5 rounded-lg hover:bg-gray-200 transition-colors whitespace-nowrap">
+                                Try →
+                            </a>
                         </div>
                     </td>
                 </tr>
@@ -926,6 +939,15 @@ def generate_calculator(prices: dict) -> str:
             const response = await fetch('data/prices.json');
             const data = await response.json();
             modelsData = data.models || {{}};
+            
+            // Check if model ID was passed in URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const modelFromUrl = urlParams.get('model');
+            
+            if (modelFromUrl && modelsData[modelFromUrl]) {{
+                selectModel(modelFromUrl);
+                return;
+            }}
             
             // Auto-select first popular model if available
             const popular = ['openai/gpt-4o-mini', 'anthropic/claude-3.5-sonnet', 'openai/gpt-4o'];

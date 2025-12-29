@@ -295,6 +295,15 @@
             const data = await response.json();
             modelsData = data.models || {};
             
+            // Check if model ID was passed in URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const modelFromUrl = urlParams.get('model');
+            
+            if (modelFromUrl && modelsData[modelFromUrl]) {
+                selectModel(modelFromUrl);
+                return;
+            }
+            
             // Auto-select first popular model if available
             const popular = ['openai/gpt-4o-mini', 'anthropic/claude-3.5-sonnet', 'openai/gpt-4o'];
             for (const id of popular) {
