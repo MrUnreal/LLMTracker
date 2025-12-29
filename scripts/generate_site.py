@@ -518,12 +518,8 @@ def generate_index(prices: dict, changelog: dict) -> str:
                     Get instant notifications when LLM prices change. Be the first to save on AI costs.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center flex-wrap">
-                    <a href="https://buttondown.email/llm-price-tracker" target="_blank" 
-                       class="bg-white text-brand-600 px-8 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg">
-                        📧 Subscribe to Alerts
-                    </a>
                     <a href="https://discord.gg/AZUajwQuvA" target="_blank"
-                       class="bg-[#5865F2] text-white px-8 py-3 rounded-xl font-semibold hover:bg-[#4752C4] transition-all shadow-lg">
+                       class="bg-white text-brand-600 px-8 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg">
                         💬 Join Discord
                     </a>
                     <a href="https://github.com/MrUnreal/LLMTracker" target="_blank"
@@ -1393,11 +1389,11 @@ def generate_changelog(changelog: dict) -> str:
             <div class="flex flex-col md:flex-row items-center justify-between gap-4">
                 <div>
                     <h2 class="text-xl md:text-2xl font-bold mb-1">🔔 Never Miss a Price Drop</h2>
-                    <p class="text-white/90 text-sm md:text-base">Get instant email alerts when your favorite models get cheaper</p>
+                    <p class="text-white/90 text-sm md:text-base">Join our Discord to get instant alerts when prices change</p>
                 </div>
-                <a href="https://buttondown.email/llm-price-tracker" target="_blank" 
+                <a href="https://discord.gg/AZUajwQuvA" target="_blank" 
                    class="whitespace-nowrap bg-white text-brand-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-all hover:shadow-lg">
-                    Subscribe Free →
+                    💬 Join Discord →
                 </a>
             </div>
         </div>
@@ -1683,7 +1679,7 @@ def generate_api(prices: dict) -> str:
             <div class="bg-white rounded-2xl shadow-lg p-6">
                 <h3 class="text-lg font-semibold text-gray-900 mb-2">Current Prices</h3>
                 <code class="block bg-gray-900 text-green-400 p-4 rounded-xl text-sm mb-4 overflow-x-auto">
-                    GET https://raw.githubusercontent.com/yourusername/llm-price-tracker/main/data/current/prices.json
+                    GET https://raw.githubusercontent.com/MrUnreal/LLMTracker/main/data/current/prices.json
                 </code>
                 <p class="text-gray-600 text-sm">Returns normalized pricing for all models.</p>
             </div>
@@ -1691,7 +1687,7 @@ def generate_api(prices: dict) -> str:
             <div class="bg-white rounded-2xl shadow-lg p-6">
                 <h3 class="text-lg font-semibold text-gray-900 mb-2">Latest Changes</h3>
                 <code class="block bg-gray-900 text-green-400 p-4 rounded-xl text-sm mb-4 overflow-x-auto">
-                    GET https://raw.githubusercontent.com/yourusername/llm-price-tracker/main/data/changelog/latest.json
+                    GET https://raw.githubusercontent.com/MrUnreal/LLMTracker/main/data/changelog/latest.json
                 </code>
                 <p class="text-gray-600 text-sm">Returns the most recent price changes.</p>
             </div>
@@ -1699,7 +1695,7 @@ def generate_api(prices: dict) -> str:
             <div class="bg-white rounded-2xl shadow-lg p-6">
                 <h3 class="text-lg font-semibold text-gray-900 mb-2">Historical Data</h3>
                 <code class="block bg-gray-900 text-green-400 p-4 rounded-xl text-sm mb-4 overflow-x-auto">
-                    GET https://raw.githubusercontent.com/yourusername/llm-price-tracker/main/data/history/YYYY/MM/DD.json
+                    GET https://raw.githubusercontent.com/MrUnreal/LLMTracker/main/data/history/YYYY/MM/DD.json
                 </code>
                 <p class="text-gray-600 text-sm">Daily snapshots stored by date.</p>
             </div>
