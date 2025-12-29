@@ -369,20 +369,28 @@ def normalize_litellm(raw_data: dict[str, Any], fetched_at: str) -> dict[str, Mo
             # LiteLLM uses litellm_provider or we extract from key
             provider = model_data.get("litellm_provider", "") or extract_provider(model_key)
             
-            # Known image model patterns (override incorrect mode classifications)
+            # Known model name patterns (override incorrect mode classifications)
             model_name_lower = model_key.lower()
+            
+            # Image model patterns
             image_patterns = [
                 "stable-diffusion", "sdxl", "flux", "dall-e", "midjourney",
                 "playground-v2", "ssd-1b", "japanese-stable"
             ]
             is_image_by_name = any(p in model_name_lower for p in image_patterns)
             
+            # Embedding model patterns
+            embedding_patterns = ["embedding", "embed"]
+            is_embedding_by_name = any(p in model_name_lower for p in embedding_patterns)
+            
             # Get model type from LiteLLM mode field
             mode = model_data.get("mode", "chat")
             
-            # Override with name-based detection for image models
+            # Override with name-based detection
             if is_image_by_name:
                 model_type = "image"
+            elif is_embedding_by_name:
+                model_type = "embedding"
             elif mode in ("chat", "completion", "responses"):
                 model_type = "chat"
             elif mode in ("image_generation", "image_edit"):
