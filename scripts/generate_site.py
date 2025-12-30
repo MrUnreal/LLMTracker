@@ -682,7 +682,7 @@ def generate_compare(prices: dict) -> str:
         
         async function loadData() {{
             const response = await fetch('data/prices.json');
-            const Data = await response.json();
+            const data = await response.json();
             allModels = Object.entries(data.models || {{}}).map(([id, m]) => ({{
                 id, ...m,
                 input: m.pricing?.input_per_million || 0,
@@ -1256,7 +1256,7 @@ def generate_find(prices: dict) -> str:
         
         async function loadData() {{
             const response = await fetch('data/prices.json');
-            const Data = await response.json();
+            const data = await response.json();
             allModels = Object.entries(data.models || {{}}).map(([id, m]) => ({{
                 id, ...m,
                 input: m.pricing?.input_per_million || 0,
@@ -1460,11 +1460,11 @@ def _load_all_changelogs() -> list[dict]:
             continue  # Skip latest.json, we'll use dated files
         try:
             with open(file, "r", encoding="utf-8") as f:
-                Data = json.load(f)
+                changelog_data = json.load(f)
                 # Extract date from filename (2025-12-29.json)
                 date_str = file.stem
-                Data["_date"] = date_str
-                changelogs.append(data)
+                changelog_data["_date"] = date_str
+                changelogs.append(changelog_data)
         except Exception:
             continue
     

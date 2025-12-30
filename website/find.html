@@ -290,7 +290,7 @@
         
         async function loadData() {
             const response = await fetch('data/prices.json');
-            const Data = await response.json();
+            const data = await response.json();
             allModels = Object.entries(data.models || {}).map(([id, m]) => ({
                 id, ...m,
                 input: m.pricing?.input_per_million || 0,
