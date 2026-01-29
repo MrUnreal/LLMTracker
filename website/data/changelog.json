@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-01-28T18:06:17.320186+00:00",
+  "generated_at": "2026-01-29T06:12:54.428644+00:00",
   "changes": [
     {
-      "model_id": "gemini/gemini-robotics-er-1.5-preview",
+      "model_id": "openrouter/minimax/minimax-m2.1",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.27,
+        "output_per_million": 1.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-01-29T06:12:54.425179+00:00"
+    },
+    {
+      "model_id": "gemini-robotics-er-1.5-preview",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
@@ -11,64 +23,68 @@
         "output_per_million": 2.5
       },
       "percent_change": null,
-      "detected_at": "2026-01-28T18:06:17.318137+00:00"
+      "detected_at": "2026-01-29T06:12:54.425179+00:00"
     },
     {
-      "model_id": "gemini-robotics-er-1.5-preview",
-      "change_type": "removed_model",
+      "model_id": "openrouter/z-ai/glm-4.7",
+      "change_type": "new_model",
       "field": "model",
-      "old_value": {
-        "input_per_million": 0.3,
-        "output_per_million": 2.5
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.4,
+        "output_per_million": 1.5
       },
-      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-01-28T18:06:17.318137+00:00"
+      "detected_at": "2026-01-29T06:12:54.425179+00:00"
     },
     {
-      "model_id": "nvidia/nemotron-3-nano-30b-a3b",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.06,
-      "new_value": 0.05,
-      "percent_change": -16.67,
-      "detected_at": "2026-01-28T18:06:17.318137+00:00"
+      "model_id": "openrouter/z-ai/glm-4.7-flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.07,
+        "output_per_million": 0.4
+      },
+      "percent_change": null,
+      "detected_at": "2026-01-29T06:12:54.425179+00:00"
     },
     {
-      "model_id": "nvidia/nemotron-3-nano-30b-a3b",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.24,
-      "new_value": 0.2,
-      "percent_change": -16.67,
-      "detected_at": "2026-01-28T18:06:17.318137+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.5",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.6,
-      "new_value": 0.57,
-      "percent_change": -5.0,
-      "detected_at": "2026-01-28T18:06:17.318137+00:00"
+      "model_id": "openrouter/xiaomi/mimo-v2-flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.09,
+        "output_per_million": 0.29
+      },
+      "percent_change": null,
+      "detected_at": "2026-01-29T06:12:54.425179+00:00"
     },
     {
       "model_id": "moonshotai/kimi-k2.5",
       "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.57,
+      "new_value": 0.5,
+      "percent_change": -12.28,
+      "detected_at": "2026-01-29T06:12:54.425179+00:00"
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.5",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 3.0,
-      "new_value": 2.85,
-      "percent_change": -5.0,
-      "detected_at": "2026-01-28T18:06:17.318137+00:00"
+      "old_value": 2.85,
+      "new_value": 2.5,
+      "percent_change": -12.28,
+      "detected_at": "2026-01-29T06:12:54.425179+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 4,
-    "new_models": 1,
-    "removed_models": 1,
+    "price_decreases": 2,
+    "new_models": 5,
+    "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-01-28T18:06:33.223718+00:00"
+  }
 }
