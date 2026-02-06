@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-02-05T18:15:22.871447+00:00",
+  "generated_at": "2026-02-06T00:11:49.743728+00:00",
   "changes": [
     {
-      "model_id": "anthropic/claude-opus-4.6",
+      "model_id": "apac.anthropic.claude-opus-4-6-v1:0",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.5,
+        "output_per_million": 27.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-02-06T00:11:49.741629+00:00"
+    },
+    {
+      "model_id": "vertex_ai/claude-opus-4-6",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
@@ -11,13 +23,97 @@
         "output_per_million": 25.0
       },
       "percent_change": null,
-      "detected_at": "2026-02-05T18:15:22.869656+00:00"
+      "detected_at": "2026-02-06T00:11:49.741629+00:00"
+    },
+    {
+      "model_id": "azure_ai/claude-opus-4-6",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.0,
+        "output_per_million": 25.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-02-06T00:11:49.741629+00:00"
+    },
+    {
+      "model_id": "anthropic.claude-opus-4-6-v1:0",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.0,
+        "output_per_million": 25.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-02-06T00:11:49.741629+00:00"
+    },
+    {
+      "model_id": "claude-opus-4-6",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.0,
+        "output_per_million": 25.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-02-06T00:11:49.741629+00:00"
+    },
+    {
+      "model_id": "claude-opus-4-6-20260205",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.0,
+        "output_per_million": 25.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-02-06T00:11:49.741629+00:00"
+    },
+    {
+      "model_id": "us.anthropic.claude-opus-4-6-v1:0",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.5,
+        "output_per_million": 27.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-02-06T00:11:49.741629+00:00"
+    },
+    {
+      "model_id": "eu.anthropic.claude-opus-4-6-v1:0",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.5,
+        "output_per_million": 27.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-02-06T00:11:49.741629+00:00"
+    },
+    {
+      "model_id": "global.anthropic.claude-opus-4-6-v1:0",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.0,
+        "output_per_million": 25.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-02-06T00:11:49.741629+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
     "price_decreases": 0,
-    "new_models": 1,
+    "new_models": 9,
     "removed_models": 0,
     "other_changes": 0
   }
