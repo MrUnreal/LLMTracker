@@ -1,167 +1,23 @@
 {
-  "generated_at": "2026-02-09T12:13:14.859147+00:00",
+  "generated_at": "2026-02-09T18:16:00.860722+00:00",
   "changes": [
     {
-      "model_id": "fast/claude-opus-4-6-20260205",
+      "model_id": "openrouter/aurora-alpha",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 30.0,
-        "output_per_million": 150.0
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
       },
       "percent_change": null,
-      "detected_at": "2026-02-09T12:13:14.856716+00:00"
-    },
-    {
-      "model_id": "fast/us/claude-opus-4-6",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 30.0,
-        "output_per_million": 150.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-09T12:13:14.856716+00:00"
-    },
-    {
-      "model_id": "vercel_ai_gateway/anthropic/claude-opus-4.1",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 15.0,
-        "output_per_million": 75.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-09T12:13:14.856716+00:00"
-    },
-    {
-      "model_id": "vercel_ai_gateway/anthropic/claude-opus-4",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 15.0,
-        "output_per_million": 75.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-09T12:13:14.856716+00:00"
-    },
-    {
-      "model_id": "vercel_ai_gateway/anthropic/claude-opus-4.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 25.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-09T12:13:14.856716+00:00"
-    },
-    {
-      "model_id": "fast/claude-opus-4-6",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 30.0,
-        "output_per_million": 150.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-09T12:13:14.856716+00:00"
-    },
-    {
-      "model_id": "vercel_ai_gateway/anthropic/claude-3-5-sonnet",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 3.0,
-        "output_per_million": 15.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-09T12:13:14.856716+00:00"
-    },
-    {
-      "model_id": "vercel_ai_gateway/anthropic/claude-3-5-sonnet-20241022",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 3.0,
-        "output_per_million": 15.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-09T12:13:14.856716+00:00"
-    },
-    {
-      "model_id": "vercel_ai_gateway/anthropic/claude-3-7-sonnet",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 3.0,
-        "output_per_million": 15.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-09T12:13:14.856716+00:00"
-    },
-    {
-      "model_id": "vercel_ai_gateway/anthropic/claude-sonnet-4.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 3.0,
-        "output_per_million": 15.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-09T12:13:14.856716+00:00"
-    },
-    {
-      "model_id": "vercel_ai_gateway/anthropic/claude-sonnet-4",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 3.0,
-        "output_per_million": 15.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-09T12:13:14.856716+00:00"
-    },
-    {
-      "model_id": "vercel_ai_gateway/anthropic/claude-opus-4.6",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 25.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-09T12:13:14.856716+00:00"
-    },
-    {
-      "model_id": "vercel_ai_gateway/anthropic/claude-haiku-4.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.0,
-        "output_per_million": 5.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-09T12:13:14.856716+00:00"
+      "detected_at": "2026-02-09T18:16:00.857767+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
     "price_decreases": 0,
-    "new_models": 13,
+    "new_models": 1,
     "removed_models": 0,
     "other_changes": 0
   }
