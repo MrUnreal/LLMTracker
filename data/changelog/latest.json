@@ -1,38 +1,21 @@
 {
-  "generated_at": "2026-02-11T06:22:35.013744+00:00",
+  "generated_at": "2026-02-11T12:12:58.012579+00:00",
   "changes": [
     {
-      "model_id": "bedrock/moonshotai.kimi-k2-thinking",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.73,
-        "output_per_million": 3.03
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-11T06:22:35.011093+00:00"
-    },
-    {
-      "model_id": "stepfun/step-3.5-flash",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.1,
-        "output_per_million": 0.3
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-11T06:22:35.011093+00:00"
+      "model_id": "deepseek/deepseek-reasoner",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 128000,
+      "new_value": 131072,
+      "percent_change": 2.4,
+      "detected_at": "2026-02-11T12:12:58.009669+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
     "price_decreases": 0,
-    "new_models": 2,
+    "new_models": 0,
     "removed_models": 0,
-    "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-02-11T06:22:55.867216+00:00"
+    "other_changes": 1
+  }
 }
