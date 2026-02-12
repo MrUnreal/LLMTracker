@@ -1,21 +1,99 @@
 {
-  "generated_at": "2026-02-11T12:12:58.012579+00:00",
+  "generated_at": "2026-02-12T00:12:37.315279+00:00",
   "changes": [
     {
-      "model_id": "deepseek/deepseek-reasoner",
+      "model_id": "z-ai/glm-5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.0,
+        "output_per_million": 3.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-02-12T00:12:37.312947+00:00"
+    },
+    {
+      "model_id": "mistralai/ministral-3b",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.04,
+        "output_per_million": 0.04
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-02-12T00:12:37.312947+00:00"
+    },
+    {
+      "model_id": "openrouter/pony-alpha",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-02-12T00:12:37.312947+00:00"
+    },
+    {
+      "model_id": "mistralai/mistral-tiny",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.25,
+        "output_per_million": 0.25
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-02-12T00:12:37.312947+00:00"
+    },
+    {
+      "model_id": "mistralai/ministral-8b",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.1,
+        "output_per_million": 0.1
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-02-12T00:12:37.312947+00:00"
+    },
+    {
+      "model_id": "microsoft/wizardlm-2-8x22b",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.48,
+      "new_value": 0.62,
+      "percent_change": 29.17,
+      "detected_at": "2026-02-12T00:12:37.312947+00:00"
+    },
+    {
+      "model_id": "microsoft/wizardlm-2-8x22b",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.48,
+      "new_value": 0.62,
+      "percent_change": 29.17,
+      "detected_at": "2026-02-12T00:12:37.312947+00:00"
+    },
+    {
+      "model_id": "microsoft/wizardlm-2-8x22b",
       "change_type": "context_change",
       "field": "context_window",
-      "old_value": 128000,
-      "new_value": 131072,
-      "percent_change": 2.4,
-      "detected_at": "2026-02-11T12:12:58.009669+00:00"
+      "old_value": 65536,
+      "new_value": 65535,
+      "percent_change": -0.0,
+      "detected_at": "2026-02-12T00:12:37.312947+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
+    "price_increases": 2,
     "price_decreases": 0,
-    "new_models": 0,
-    "removed_models": 0,
+    "new_models": 1,
+    "removed_models": 4,
     "other_changes": 1
   }
 }
