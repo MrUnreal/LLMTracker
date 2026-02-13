@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-02-13T00:15:18.244887+00:00",
+  "fetched_at": "2026-02-13T06:19:44.691855+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 342,
   "data": [
@@ -5757,7 +5757,7 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": "2026-02-25"
+      "expiration_date": null
     },
     {
       "id": "qwen/qwen3-next-80b-a3b-instruct:free",
