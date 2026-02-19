@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-02-19T00:14:49.235505+00:00",
+  "fetched_at": "2026-02-19T06:20:54.332078+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 338,
+  "model_count": 337,
   "data": [
     {
       "id": "anthropic/claude-sonnet-4.6",
@@ -3787,8 +3787,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.0000006"
+        "prompt": "0.00000007",
+        "completion": "0.0000002"
       },
       "top_provider": {
         "context_length": 131072,
@@ -4157,7 +4157,7 @@
       "top_provider": {
         "context_length": 200000,
         "max_completion_tokens": 64000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "per_request_limits": null,
       "supported_parameters": [
@@ -9627,50 +9627,6 @@
       "expiration_date": null
     },
     {
-      "id": "qwen/qwen3-4b",
-      "canonical_slug": "qwen/qwen3-4b-04-28",
-      "hugging_face_id": "Qwen/Qwen3-4B",
-      "name": "Qwen: Qwen3 4B",
-      "created": 1746031104,
-      "description": "Qwen3-4B is a 4 billion parameter dense language model from the Qwen3 series, designed to support both general-purpose and reasoning-intensive tasks. It introduces a dual-mode architecture—thinking and non-thinking—allowing dynamic switching between high-precision logical reasoning and efficient dialogue generation. This makes it well-suited for multi-turn chat, instruction following, and complex agent workflows.",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Qwen3",
-        "instruct_type": "qwen3"
-      },
-      "pricing": {
-        "prompt": "0.0000000715",
-        "completion": "0.000000273"
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 8192,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "response_format",
-        "seed",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "expiration_date": null
-    },
-    {
       "id": "meta-llama/llama-guard-4-12b",
       "canonical_slug": "meta-llama/llama-guard-4-12b",
       "hugging_face_id": "meta-llama/Llama-Guard-4-12B",
@@ -13502,7 +13458,9 @@
       },
       "pricing": {
         "prompt": "0.000006",
-        "completion": "0.00003"
+        "completion": "0.00003",
+        "input_cache_read": "0.0000006",
+        "input_cache_write": "0.0000075"
       },
       "top_provider": {
         "context_length": 200000,
