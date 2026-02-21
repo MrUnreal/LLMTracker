@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-02-21T00:13:38.632226+00:00",
+  "fetched_at": "2026-02-21T06:10:54.706177+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 337,
   "data": [
@@ -7552,7 +7552,7 @@
         "top_p": null,
         "frequency_penalty": null
       },
-      "expiration_date": "2026-03-06"
+      "expiration_date": null
     },
     {
       "id": "z-ai/glm-4-32b",
