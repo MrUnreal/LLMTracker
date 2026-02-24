@@ -1,42 +1,60 @@
 {
-  "generated_at": "2026-02-24T06:20:07.861041+00:00",
+  "generated_at": "2026-02-24T18:18:19.286370+00:00",
   "changes": [
     {
-      "model_id": "groq/openai/gpt-oss-safeguard-20b",
-      "change_type": "new_model",
+      "model_id": "deepseek/deepseek-r1-0528:free",
+      "change_type": "removed_model",
       "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.075,
-        "output_per_million": 0.3
+      "old_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
       },
+      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-02-24T06:20:07.858659+00:00"
+      "detected_at": "2026-02-24T18:18:19.283516+00:00"
     },
     {
-      "model_id": "qwen/qwen3.5-397b-a17b",
-      "change_type": "price_increase",
+      "model_id": "deepseek/deepseek-v3.2",
+      "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.15,
-      "new_value": 0.55,
-      "percent_change": 266.67,
-      "detected_at": "2026-02-24T06:20:07.858659+00:00"
+      "old_value": 0.26,
+      "new_value": 0.25,
+      "percent_change": -3.85,
+      "detected_at": "2026-02-24T18:18:19.283516+00:00"
     },
     {
-      "model_id": "qwen/qwen3.5-397b-a17b",
+      "model_id": "deepseek/deepseek-v3.2",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 1.0,
-      "new_value": 3.5,
-      "percent_change": 250.0,
-      "detected_at": "2026-02-24T06:20:07.858659+00:00"
+      "old_value": 0.38,
+      "new_value": 0.4,
+      "percent_change": 5.26,
+      "detected_at": "2026-02-24T18:18:19.283516+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-4.7",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.38,
+      "new_value": 0.3,
+      "percent_change": -21.05,
+      "detected_at": "2026-02-24T18:18:19.283516+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-4.7",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 1.7,
+      "new_value": 1.4,
+      "percent_change": -17.65,
+      "detected_at": "2026-02-24T18:18:19.283516+00:00"
     }
   ],
   "summary": {
-    "price_increases": 2,
-    "price_decreases": 0,
-    "new_models": 1,
-    "removed_models": 0,
+    "price_increases": 1,
+    "price_decreases": 3,
+    "new_models": 0,
+    "removed_models": 1,
     "other_changes": 0
   }
 }
