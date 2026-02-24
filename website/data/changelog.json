@@ -1,113 +1,42 @@
 {
-  "generated_at": "2026-02-23T18:19:43.705068+00:00",
+  "generated_at": "2026-02-24T06:20:07.861041+00:00",
   "changes": [
     {
-      "model_id": "us/claude-opus-4-6-20260205",
-      "change_type": "removed_model",
+      "model_id": "groq/openai/gpt-oss-safeguard-20b",
+      "change_type": "new_model",
       "field": "model",
-      "old_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 27.5
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.075,
+        "output_per_million": 0.3
       },
-      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-02-23T18:19:43.701150+00:00"
+      "detected_at": "2026-02-24T06:20:07.858659+00:00"
     },
     {
-      "model_id": "fast/us/claude-opus-4-6",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 30.0,
-        "output_per_million": 150.0
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-02-23T18:19:43.701150+00:00"
-    },
-    {
-      "model_id": "us/claude-sonnet-4-6",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 3.3,
-        "output_per_million": 16.5
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-02-23T18:19:43.701150+00:00"
-    },
-    {
-      "model_id": "us/claude-opus-4-6",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 27.5
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-02-23T18:19:43.701150+00:00"
-    },
-    {
-      "model_id": "fast/claude-opus-4-6",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 30.0,
-        "output_per_million": 150.0
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-02-23T18:19:43.701150+00:00"
-    },
-    {
-      "model_id": "fast/claude-opus-4-6-20260205",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 30.0,
-        "output_per_million": 150.0
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-02-23T18:19:43.701150+00:00"
-    },
-    {
-      "model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "model_id": "qwen/qwen3.5-397b-a17b",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.25,
-      "new_value": 0.8,
-      "percent_change": 220.0,
-      "detected_at": "2026-02-23T18:19:43.701150+00:00"
+      "old_value": 0.15,
+      "new_value": 0.55,
+      "percent_change": 266.67,
+      "detected_at": "2026-02-24T06:20:07.858659+00:00"
     },
     {
-      "model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "model_id": "qwen/qwen3.5-397b-a17b",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 0.75,
-      "new_value": 0.8,
-      "percent_change": 6.67,
-      "detected_at": "2026-02-23T18:19:43.701150+00:00"
-    },
-    {
-      "model_id": "qwen/qwen2.5-vl-72b-instruct",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 32000,
-      "new_value": 32768,
-      "percent_change": 2.4,
-      "detected_at": "2026-02-23T18:19:43.701150+00:00"
+      "old_value": 1.0,
+      "new_value": 3.5,
+      "percent_change": 250.0,
+      "detected_at": "2026-02-24T06:20:07.858659+00:00"
     }
   ],
   "summary": {
     "price_increases": 2,
     "price_decreases": 0,
-    "new_models": 0,
-    "removed_models": 6,
-    "other_changes": 1
-  },
-  "notified": true,
-  "notified_at": "2026-02-23T18:20:09.275329+00:00"
+    "new_models": 1,
+    "removed_models": 0,
+    "other_changes": 0
+  }
 }
