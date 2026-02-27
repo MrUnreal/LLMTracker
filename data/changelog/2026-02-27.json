@@ -1,24 +1,21 @@
 {
-  "generated_at": "2026-02-27T00:14:57.542526+00:00",
+  "generated_at": "2026-02-27T12:07:37.430096+00:00",
   "changes": [
     {
-      "model_id": "bytedance-seed/seed-2.0-mini",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.1,
-        "output_per_million": 0.4
-      },
-      "percent_change": null,
-      "detected_at": "2026-02-27T00:14:57.539998+00:00"
+      "model_id": "qwen/qwen3-8b",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 32000,
+      "new_value": 40960,
+      "percent_change": 28.0,
+      "detected_at": "2026-02-27T12:07:37.428003+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
     "price_decreases": 0,
-    "new_models": 1,
+    "new_models": 0,
     "removed_models": 0,
-    "other_changes": 0
+    "other_changes": 1
   }
 }
