@@ -1,26 +1,60 @@
 {
-  "generated_at": "2026-03-01T18:04:21.870165+00:00",
+  "generated_at": "2026-03-02T18:11:44.491753+00:00",
   "changes": [
     {
-      "model_id": "opengvlab/internvl3-78b",
-      "change_type": "removed_model",
+      "model_id": "allenai/olmo-3.1-32b-think",
+      "change_type": "new_model",
       "field": "model",
-      "old_value": {
+      "old_value": null,
+      "new_value": {
         "input_per_million": 0.15,
-        "output_per_million": 0.6
+        "output_per_million": 0.5
       },
-      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-03-01T18:04:21.867665+00:00"
+      "detected_at": "2026-03-02T18:11:44.489753+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3.5-35b-a3b",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 2.0,
+      "new_value": 1.0,
+      "percent_change": -50.0,
+      "detected_at": "2026-03-02T18:11:44.489753+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.95,
+      "new_value": 0.8,
+      "percent_change": -15.79,
+      "detected_at": "2026-03-02T18:11:44.489753+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 2.55,
+      "new_value": 2.56,
+      "percent_change": 0.39,
+      "detected_at": "2026-03-02T18:11:44.489753+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 204800,
+      "new_value": 202752,
+      "percent_change": -1.0,
+      "detected_at": "2026-03-02T18:11:44.489753+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
-    "price_decreases": 0,
-    "new_models": 0,
-    "removed_models": 1,
-    "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-03-01T18:04:55.012187+00:00"
+    "price_increases": 1,
+    "price_decreases": 2,
+    "new_models": 1,
+    "removed_models": 0,
+    "other_changes": 1
+  }
 }
