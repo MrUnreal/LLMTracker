@@ -1,60 +1,210 @@
 {
-  "generated_at": "2026-03-02T18:11:44.491753+00:00",
+  "generated_at": "2026-03-03T00:14:18.972910+00:00",
   "changes": [
     {
-      "model_id": "allenai/olmo-3.1-32b-think",
+      "model_id": "mistral/mistral-small-3-2-2506",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.06,
+        "output_per_million": 0.18
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "mistral/mistral-medium-3-1-2508",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.4,
+        "output_per_million": 2.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "mistral/magistral-medium-1-2-2509",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.0,
+        "output_per_million": 5.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "mistral/mistral-large-2512",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.5,
+        "output_per_million": 1.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "mistral/ministral-3-8b-2512",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
         "input_per_million": 0.15,
-        "output_per_million": 0.5
+        "output_per_million": 0.15
       },
       "percent_change": null,
-      "detected_at": "2026-03-02T18:11:44.489753+00:00"
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
     },
     {
-      "model_id": "qwen/qwen3.5-35b-a3b",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 2.0,
-      "new_value": 1.0,
-      "percent_change": -50.0,
-      "detected_at": "2026-03-02T18:11:44.489753+00:00"
+      "model_id": "mistral/ministral-3-14b-2512",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.2,
+        "output_per_million": 0.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
     },
     {
-      "model_id": "z-ai/glm-5",
+      "model_id": "mistral/ministral-3-3b-2512",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.1,
+        "output_per_million": 0.1
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "mistral/magistral-small-1-2-2509",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.5,
+        "output_per_million": 1.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "arcee-ai/trinity-mini",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.045,
+        "output_per_million": 0.15
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "mistral/mistral-large-latest",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.95,
-      "new_value": 0.8,
-      "percent_change": -15.79,
-      "detected_at": "2026-03-02T18:11:44.489753+00:00"
+      "old_value": 2.0,
+      "new_value": 0.5,
+      "percent_change": -75.0,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
     },
     {
-      "model_id": "z-ai/glm-5",
-      "change_type": "price_increase",
+      "model_id": "mistral/mistral-large-latest",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 2.55,
-      "new_value": 2.56,
-      "percent_change": 0.39,
-      "detected_at": "2026-03-02T18:11:44.489753+00:00"
+      "old_value": 6.0,
+      "new_value": 1.5,
+      "percent_change": -75.0,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
     },
     {
-      "model_id": "z-ai/glm-5",
+      "model_id": "mistral/mistral-large-latest",
       "change_type": "context_change",
       "field": "context_window",
-      "old_value": 204800,
-      "new_value": 202752,
-      "percent_change": -1.0,
-      "detected_at": "2026-03-02T18:11:44.489753+00:00"
+      "old_value": 128000,
+      "new_value": 262144,
+      "percent_change": 104.8,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "mistral/mistral-large-3",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 256000,
+      "new_value": 262144,
+      "percent_change": 2.4,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "meta-llama/llama-3.2-3b-instruct",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.02,
+      "new_value": 0.051,
+      "percent_change": 155.0,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "meta-llama/llama-3.2-3b-instruct",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.02,
+      "new_value": 0.34,
+      "percent_change": 1600.0,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "meta-llama/llama-3.2-3b-instruct",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 131072,
+      "new_value": 80000,
+      "percent_change": -38.96,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "mistral/mistral-small-latest",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.1,
+      "new_value": 0.06,
+      "percent_change": -40.0,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "mistral/mistral-small-latest",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.3,
+      "new_value": 0.18,
+      "percent_change": -40.0,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
+    },
+    {
+      "model_id": "mistral/mistral-small-latest",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 32000,
+      "new_value": 131072,
+      "percent_change": 309.6,
+      "detected_at": "2026-03-03T00:14:18.969499+00:00"
     }
   ],
   "summary": {
-    "price_increases": 1,
-    "price_decreases": 2,
-    "new_models": 1,
-    "removed_models": 0,
-    "other_changes": 1
+    "price_increases": 2,
+    "price_decreases": 4,
+    "new_models": 8,
+    "removed_models": 1,
+    "other_changes": 4
   }
 }
