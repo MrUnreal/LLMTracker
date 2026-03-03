@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-03-03T00:14:18.255394+00:00",
+  "fetched_at": "2026-03-03T06:14:09.605845+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 342,
   "data": [
@@ -1287,10 +1287,10 @@
       "expiration_date": null
     },
     {
-      "id": "upstage/solar-pro-3:free",
+      "id": "upstage/solar-pro-3",
       "canonical_slug": "upstage/solar-pro-3",
       "hugging_face_id": "",
-      "name": "Upstage: Solar Pro 3 (free)",
+      "name": "Upstage: Solar Pro 3",
       "created": 1769481200,
       "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational efficiency. Optimized for Korean with English and Japanese support.",
       "context_length": 128000,
@@ -1306,8 +1306,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0",
-        "completion": "0"
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "input_cache_read": "0.000000015"
       },
       "top_provider": {
         "context_length": 128000,
@@ -1333,7 +1334,7 @@
         "presence_penalty": null,
         "repetition_penalty": null
       },
-      "expiration_date": "2026-03-02"
+      "expiration_date": null
     },
     {
       "id": "minimax/minimax-m2-her",
