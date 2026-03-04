@@ -1,38 +1,39 @@
 {
-  "generated_at": "2026-03-04T06:12:26.320043+00:00",
+  "generated_at": "2026-03-04T18:11:32.522087+00:00",
   "changes": [
     {
-      "model_id": "together_ai/Qwen/Qwen3.5-397B-A17B",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.6,
-        "output_per_million": 3.6
-      },
-      "percent_change": null,
-      "detected_at": "2026-03-04T06:12:26.317587+00:00"
+      "model_id": "z-ai/glm-4.6",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.35,
+      "new_value": 0.39,
+      "percent_change": 11.43,
+      "detected_at": "2026-03-04T18:11:32.518855+00:00"
     },
     {
-      "model_id": "gpt-5.3-chat-latest",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.75,
-        "output_per_million": 14.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-03-04T06:12:26.317587+00:00"
+      "model_id": "z-ai/glm-4.6",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 1.71,
+      "new_value": 1.9,
+      "percent_change": 11.11,
+      "detected_at": "2026-03-04T18:11:32.518855+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-4.6",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 202752,
+      "new_value": 204800,
+      "percent_change": 1.01,
+      "detected_at": "2026-03-04T18:11:32.518855+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
+    "price_increases": 2,
     "price_decreases": 0,
-    "new_models": 2,
+    "new_models": 0,
     "removed_models": 0,
-    "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-03-04T06:12:54.373342+00:00"
+    "other_changes": 1
+  }
 }
