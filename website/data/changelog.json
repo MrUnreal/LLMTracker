@@ -1,36 +1,39 @@
 {
-  "generated_at": "2026-03-05T00:13:45.128551+00:00",
+  "generated_at": "2026-03-05T06:14:11.159493+00:00",
   "changes": [
     {
-      "model_id": "mistral.devstral-2-123b",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.4,
-        "output_per_million": 2.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-03-05T00:13:45.124971+00:00"
+      "model_id": "z-ai/glm-4.5",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.55,
+      "new_value": 0.6,
+      "percent_change": 9.09,
+      "detected_at": "2026-03-05T06:14:11.156829+00:00"
     },
     {
-      "model_id": "zai.glm-4.7-flash",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.07,
-        "output_per_million": 0.4
-      },
-      "percent_change": null,
-      "detected_at": "2026-03-05T00:13:45.124971+00:00"
+      "model_id": "z-ai/glm-4.5",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 2.0,
+      "new_value": 2.2,
+      "percent_change": 10.0,
+      "detected_at": "2026-03-05T06:14:11.156829+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-4.5",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 131000,
+      "new_value": 131072,
+      "percent_change": 0.05,
+      "detected_at": "2026-03-05T06:14:11.156829+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
+    "price_increases": 2,
     "price_decreases": 0,
-    "new_models": 2,
+    "new_models": 0,
     "removed_models": 0,
-    "other_changes": 0
+    "other_changes": 1
   }
 }
