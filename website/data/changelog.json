@@ -1,26 +1,21 @@
 {
-  "generated_at": "2026-03-09T06:19:31.359497+00:00",
+  "generated_at": "2026-03-10T00:10:33.240056+00:00",
   "changes": [
     {
-      "model_id": "gemini/gemini-3.1-flash-image-preview",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.25,
-        "output_per_million": 1.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-03-09T06:19:31.357591+00:00"
+      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 262144,
+      "new_value": 131072,
+      "percent_change": -50.0,
+      "detected_at": "2026-03-10T00:10:33.237745+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
     "price_decreases": 0,
-    "new_models": 1,
+    "new_models": 0,
     "removed_models": 0,
-    "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-03-09T06:20:02.712256+00:00"
+    "other_changes": 1
+  }
 }
