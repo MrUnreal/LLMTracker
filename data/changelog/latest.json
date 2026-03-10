@@ -1,74 +1,126 @@
 {
-  "generated_at": "2026-03-10T06:12:40.683220+00:00",
+  "generated_at": "2026-03-10T18:14:15.308075+00:00",
   "changes": [
     {
-      "model_id": "azure/gpt-5.4",
+      "model_id": "bytedance-seed/seed-2.0-lite",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 2.5,
-        "output_per_million": 15.0
+        "input_per_million": 0.25,
+        "output_per_million": 2.0
       },
       "percent_change": null,
-      "detected_at": "2026-03-10T06:12:40.681172+00:00"
+      "detected_at": "2026-03-10T18:14:15.305841+00:00"
     },
     {
-      "model_id": "azure/gpt-5.4-pro",
+      "model_id": "qwen/qwen3.5-9b",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 30.0,
-        "output_per_million": 180.0
+        "input_per_million": 0.1,
+        "output_per_million": 0.15
       },
       "percent_change": null,
-      "detected_at": "2026-03-10T06:12:40.681172+00:00"
+      "detected_at": "2026-03-10T18:14:15.305841+00:00"
     },
     {
-      "model_id": "azure/gpt-5.3-chat",
-      "change_type": "new_model",
+      "model_id": "neversleep/noromaid-20b",
+      "change_type": "removed_model",
       "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.75,
-        "output_per_million": 14.0
+      "old_value": {
+        "input_per_million": 1.0,
+        "output_per_million": 1.75
       },
+      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-03-10T06:12:40.681172+00:00"
+      "detected_at": "2026-03-10T18:14:15.305841+00:00"
     },
     {
-      "model_id": "azure/gpt-5.4-2026-03-05",
-      "change_type": "new_model",
+      "model_id": "neversleep/llama-3.1-lumimaid-8b",
+      "change_type": "removed_model",
       "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.5,
-        "output_per_million": 15.0
+      "old_value": {
+        "input_per_million": 0.09,
+        "output_per_million": 0.6
       },
+      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-03-10T06:12:40.681172+00:00"
+      "detected_at": "2026-03-10T18:14:15.305841+00:00"
     },
     {
-      "model_id": "azure/gpt-5.4-pro-2026-03-05",
-      "change_type": "new_model",
+      "model_id": "meta-llama/llama-guard-2-8b",
+      "change_type": "removed_model",
       "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 30.0,
-        "output_per_million": 180.0
+      "old_value": {
+        "input_per_million": 0.2,
+        "output_per_million": 0.2
       },
+      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-03-10T06:12:40.681172+00:00"
+      "detected_at": "2026-03-10T18:14:15.305841+00:00"
+    },
+    {
+      "model_id": "nousresearch/hermes-3-llama-3.1-70b",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 65536,
+      "new_value": 131072,
+      "percent_change": 100.0,
+      "detected_at": "2026-03-10T18:14:15.305841+00:00"
+    },
+    {
+      "model_id": "sao10k/l3.1-euryale-70b",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.65,
+      "new_value": 0.85,
+      "percent_change": 30.77,
+      "detected_at": "2026-03-10T18:14:15.305841+00:00"
+    },
+    {
+      "model_id": "sao10k/l3.1-euryale-70b",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.75,
+      "new_value": 0.85,
+      "percent_change": 13.33,
+      "detected_at": "2026-03-10T18:14:15.305841+00:00"
+    },
+    {
+      "model_id": "sao10k/l3.1-euryale-70b",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 32768,
+      "new_value": 131072,
+      "percent_change": 300.0,
+      "detected_at": "2026-03-10T18:14:15.305841+00:00"
+    },
+    {
+      "model_id": "minimax/minimax-m2.5",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.295,
+      "new_value": 0.27,
+      "percent_change": -8.47,
+      "detected_at": "2026-03-10T18:14:15.305841+00:00"
+    },
+    {
+      "model_id": "minimax/minimax-m2.5",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 1.2,
+      "new_value": 0.95,
+      "percent_change": -20.83,
+      "detected_at": "2026-03-10T18:14:15.305841+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
-    "price_decreases": 0,
-    "new_models": 5,
-    "removed_models": 0,
-    "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-03-10T06:13:10.577331+00:00"
+    "price_increases": 2,
+    "price_decreases": 2,
+    "new_models": 2,
+    "removed_models": 3,
+    "other_changes": 2
+  }
 }
