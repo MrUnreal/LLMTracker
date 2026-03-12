@@ -1,29 +1,35 @@
 {
-  "generated_at": "2026-03-12T12:07:15.984385+00:00",
+  "generated_at": "2026-03-12T18:14:58.256924+00:00",
   "changes": [
     {
-      "model_id": "vertex_ai/gemini-embedding-2-preview",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.15,
-      "new_value": 0.2,
-      "percent_change": 33.33,
-      "detected_at": "2026-03-12T12:07:15.981248+00:00"
+      "model_id": "x-ai/grok-4.20-multi-agent-beta",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.0,
+        "output_per_million": 6.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-12T18:14:58.254676+00:00"
     },
     {
-      "model_id": "gemini/gemini-embedding-2-preview",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.15,
-      "new_value": 0.2,
-      "percent_change": 33.33,
-      "detected_at": "2026-03-12T12:07:15.981248+00:00"
+      "model_id": "x-ai/grok-4.20-beta",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.0,
+        "output_per_million": 6.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-12T18:14:58.254676+00:00"
     }
   ],
   "summary": {
-    "price_increases": 2,
+    "price_increases": 0,
     "price_decreases": 0,
-    "new_models": 0,
+    "new_models": 2,
     "removed_models": 0,
     "other_changes": 0
   }
