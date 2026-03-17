@@ -1,26 +1,45 @@
 {
-  "generated_at": "2026-03-17T12:13:29.225270+00:00",
+  "generated_at": "2026-03-17T18:17:03.800281+00:00",
   "changes": [
     {
-      "model_id": "mistralai/mistral-small-2603",
+      "model_id": "openai/gpt-5.4-mini",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.15,
-        "output_per_million": 0.6
+        "input_per_million": 0.75,
+        "output_per_million": 4.5
       },
       "percent_change": null,
-      "detected_at": "2026-03-17T12:13:29.223403+00:00"
+      "detected_at": "2026-03-17T18:17:03.797846+00:00"
+    },
+    {
+      "model_id": "openai/gpt-5.4-nano",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.2,
+        "output_per_million": 1.25
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-17T18:17:03.797846+00:00"
+    },
+    {
+      "model_id": "minimax/minimax-m2.5",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.25,
+      "new_value": 0.2,
+      "percent_change": -20.0,
+      "detected_at": "2026-03-17T18:17:03.797846+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 0,
-    "new_models": 1,
+    "price_decreases": 1,
+    "new_models": 2,
     "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-03-17T12:14:03.015817+00:00"
+  }
 }
