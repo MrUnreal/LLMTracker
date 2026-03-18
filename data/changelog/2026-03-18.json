@@ -1,48 +1,30 @@
 {
-  "generated_at": "2026-03-18T00:15:30.383601+00:00",
+  "generated_at": "2026-03-18T12:13:33.771114+00:00",
   "changes": [
     {
-      "model_id": "deepseek/deepseek-v3.2",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.26,
-      "new_value": 0.255,
-      "percent_change": -1.92,
-      "detected_at": "2026-03-18T00:15:30.381680+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-v3.2",
+      "model_id": "z-ai/glm-4.7",
       "change_type": "price_increase",
-      "field": "output_per_million",
+      "field": "input_per_million",
       "old_value": 0.38,
       "new_value": 0.4,
       "percent_change": 5.26,
-      "detected_at": "2026-03-18T00:15:30.381680+00:00"
+      "detected_at": "2026-03-18T12:13:33.769120+00:00"
     },
     {
-      "model_id": "microsoft/phi-4",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.06,
-      "new_value": 0.065,
-      "percent_change": 8.33,
-      "detected_at": "2026-03-18T00:15:30.381680+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 202752,
-      "new_value": 80000,
-      "percent_change": -60.54,
-      "detected_at": "2026-03-18T00:15:30.381680+00:00"
+      "model_id": "z-ai/glm-4.7",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 1.98,
+      "new_value": 1.75,
+      "percent_change": -11.62,
+      "detected_at": "2026-03-18T12:13:33.769120+00:00"
     }
   ],
   "summary": {
-    "price_increases": 2,
+    "price_increases": 1,
     "price_decreases": 1,
     "new_models": 0,
     "removed_models": 0,
-    "other_changes": 1
+    "other_changes": 0
   }
 }
