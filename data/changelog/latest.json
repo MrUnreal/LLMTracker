@@ -1,203 +1,63 @@
 {
-  "generated_at": "2026-03-19T00:14:55.315686+00:00",
+  "generated_at": "2026-03-19T06:19:27.349609+00:00",
   "changes": [
     {
-      "model_id": "xiaomi/mimo-v2-omni",
-      "change_type": "new_model",
+      "model_id": "openrouter/healer-alpha",
+      "change_type": "removed_model",
       "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.4,
-        "output_per_million": 2.0
+      "old_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
       },
+      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
+      "detected_at": "2026-03-19T06:19:27.345868+00:00"
+    },
+    {
+      "model_id": "openrouter/hunter-alpha",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-03-19T06:19:27.345868+00:00"
     },
     {
       "model_id": "nvidia/nemotron-3-super-120b-a12b",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.3,
-        "output_per_million": 0.9
-      },
-      "percent_change": null,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "xai/grok-4.20-beta-0309-non-reasoning",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.0,
-        "output_per_million": 6.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "xiaomi/mimo-v2-pro",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.0,
-        "output_per_million": 3.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "xai/grok-4.20-multi-agent-beta-0309",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.0,
-        "output_per_million": 6.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "xai/grok-4.20-beta-0309-reasoning",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.0,
-        "output_per_million": 6.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "google/gemma-3-27b-it",
-      "change_type": "price_increase",
+      "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.03,
-      "new_value": 0.08,
-      "percent_change": 166.67,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
+      "old_value": 0.3,
+      "new_value": 0.1,
+      "percent_change": -66.67,
+      "detected_at": "2026-03-19T06:19:27.345868+00:00"
     },
     {
-      "model_id": "google/gemma-3-27b-it",
-      "change_type": "price_increase",
+      "model_id": "nvidia/nemotron-3-super-120b-a12b",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.11,
-      "new_value": 0.16,
-      "percent_change": 45.45,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
+      "old_value": 0.9,
+      "new_value": 0.5,
+      "percent_change": -44.44,
+      "detected_at": "2026-03-19T06:19:27.345868+00:00"
     },
     {
-      "model_id": "google/gemma-3-27b-it",
+      "model_id": "nvidia/nemotron-3-super-120b-a12b",
       "change_type": "context_change",
       "field": "context_window",
-      "old_value": 128000,
-      "new_value": 131072,
-      "percent_change": 2.4,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.051,
-      "new_value": 0.08,
-      "percent_change": 56.86,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 0.34,
-      "new_value": 0.4,
-      "percent_change": 17.65,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 32768,
-      "new_value": 131072,
-      "percent_change": 300.0,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 131072,
+      "old_value": 8000,
       "new_value": 262144,
-      "percent_change": 100.0,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.11,
-      "new_value": 0.1495,
-      "percent_change": 35.91,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 0.6,
-      "new_value": 1.495,
-      "percent_change": 149.17,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 262144,
-      "new_value": 131072,
-      "percent_change": -50.0,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "mistralai/mistral-small-3.2-24b-instruct",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.06,
-      "new_value": 0.075,
-      "percent_change": 25.0,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "mistralai/mistral-small-3.2-24b-instruct",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 0.18,
-      "new_value": 0.2,
-      "percent_change": 11.11,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
-    },
-    {
-      "model_id": "mistralai/mistral-small-3.2-24b-instruct",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 131072,
-      "new_value": 128000,
-      "percent_change": -2.34,
-      "detected_at": "2026-03-19T00:14:55.312055+00:00"
+      "percent_change": 3176.8,
+      "detected_at": "2026-03-19T06:19:27.345868+00:00"
     }
   ],
   "summary": {
-    "price_increases": 8,
-    "price_decreases": 0,
-    "new_models": 6,
-    "removed_models": 0,
-    "other_changes": 5
-  },
-  "notified": true,
-  "notified_at": "2026-03-19T00:15:30.280808+00:00"
+    "price_increases": 0,
+    "price_decreases": 2,
+    "new_models": 0,
+    "removed_models": 2,
+    "other_changes": 1
+  }
 }
