@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-03-25T00:14:57.385035+00:00",
+  "generated_at": "2026-03-25T18:17:44.970522+00:00",
   "changes": [
     {
-      "model_id": "z-ai/glm-5",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.8,
-      "new_value": 0.72,
-      "percent_change": -10.0,
-      "detected_at": "2026-03-25T00:14:57.382934+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 2.56,
-      "new_value": 2.3,
-      "percent_change": -10.16,
-      "detected_at": "2026-03-25T00:14:57.382934+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 202752,
-      "new_value": 80000,
-      "percent_change": -60.54,
-      "detected_at": "2026-03-25T00:14:57.382934+00:00"
+      "model_id": "reka/reka-edge",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.2,
+        "output_per_million": 0.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-25T18:17:44.968427+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 2,
-    "new_models": 0,
+    "price_decreases": 0,
+    "new_models": 1,
     "removed_models": 0,
-    "other_changes": 1
-  },
-  "notified": true,
-  "notified_at": "2026-03-25T00:15:32.370036+00:00"
+    "other_changes": 0
+  }
 }
