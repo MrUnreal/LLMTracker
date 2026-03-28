@@ -1,41 +1,47 @@
 {
-  "generated_at": "2026-03-28T06:18:46.722857+00:00",
+  "generated_at": "2026-03-28T12:07:07.438795+00:00",
   "changes": [
     {
-      "model_id": "kwaipilot/kat-coder-pro-v2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.3,
-        "output_per_million": 1.2
-      },
-      "percent_change": null,
-      "detected_at": "2026-03-28T06:18:46.719399+00:00"
+      "model_id": "minimax/minimax-m2.5",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.2,
+      "new_value": 0.19,
+      "percent_change": -5.0,
+      "detected_at": "2026-03-28T12:07:07.436407+00:00"
+    },
+    {
+      "model_id": "minimax/minimax-m2.5",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 1.17,
+      "new_value": 1.15,
+      "percent_change": -1.71,
+      "detected_at": "2026-03-28T12:07:07.436407+00:00"
     },
     {
       "model_id": "moonshotai/kimi-k2.5",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.45,
-      "new_value": 0.445,
-      "percent_change": -1.11,
-      "detected_at": "2026-03-28T06:18:46.719399+00:00"
+      "old_value": 0.445,
+      "new_value": 0.42,
+      "percent_change": -5.62,
+      "detected_at": "2026-03-28T12:07:07.436407+00:00"
     },
     {
       "model_id": "moonshotai/kimi-k2.5",
-      "change_type": "price_increase",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 2.2,
-      "new_value": 2.22,
-      "percent_change": 0.91,
-      "detected_at": "2026-03-28T06:18:46.719399+00:00"
+      "old_value": 2.22,
+      "new_value": 2.2,
+      "percent_change": -0.9,
+      "detected_at": "2026-03-28T12:07:07.436407+00:00"
     }
   ],
   "summary": {
-    "price_increases": 1,
-    "price_decreases": 1,
-    "new_models": 1,
+    "price_increases": 0,
+    "price_decreases": 4,
+    "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
   }
