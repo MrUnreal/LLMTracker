@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-03-31T00:17:06.308528+00:00",
+  "fetched_at": "2026-03-31T06:26:56.947140+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 347,
+  "model_count": 348,
   "data": [
     {
       "id": "google/lyria-3-pro-preview",
@@ -2511,12 +2511,11 @@
       },
       "pricing": {
         "prompt": "0.0000001",
-        "completion": "0.0000003",
-        "input_cache_read": "0.00000002"
+        "completion": "0.0000003"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": null,
+        "max_completion_tokens": 65536,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -2532,6 +2531,7 @@
         "seed",
         "stop",
         "temperature",
+        "tool_choice",
         "tools",
         "top_k",
         "top_p"
@@ -2543,6 +2543,55 @@
       },
       "knowledge_cutoff": null,
       "expiration_date": null
+    },
+    {
+      "id": "arcee-ai/trinity-large-preview:free",
+      "canonical_slug": "arcee-ai/trinity-large-preview",
+      "hugging_face_id": "arcee-ai/Trinity-Large-Preview",
+      "name": "Arcee AI: Trinity Large Preview (free)",
+      "created": 1769552670,
+      "description": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing. \n\nIt excels in creative writing, storytelling, role-play, chat scenarios, and real-time voice assistance, better than your average reasoning model usually can. But we’re also introducing some of our newer agentic performance. It was trained to navigate well in agent harnesses like OpenCode, Cline, and Kilo Code, and to handle complex toolchains and long, constraint-filled prompts. \n\nThe architecture natively supports very long context windows up to 512k tokens, with the Preview API currently served at 128k context using 8-bit quantization for practical deployment. Trinity-Large-Preview reflects Arcee’s efficiency-first design philosophy, offering a production-oriented frontier model with open weights and permissive licensing suitable for real-world applications and experimentation.",
+      "context_length": 131000,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 131000,
+        "max_completion_tokens": null,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "max_tokens",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 0.8,
+        "top_p": 0.8,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "knowledge_cutoff": null,
+      "expiration_date": "2026-04-03"
     },
     {
       "id": "moonshotai/kimi-k2.5",
@@ -5148,59 +5197,6 @@
         "frequency_penalty": null,
         "presence_penalty": null,
         "repetition_penalty": null
-      },
-      "knowledge_cutoff": null,
-      "expiration_date": null
-    },
-    {
-      "id": "kwaipilot/kat-coder-pro",
-      "canonical_slug": "kwaipilot/kat-coder-pro-v1",
-      "hugging_face_id": "",
-      "name": "Kwaipilot: KAT-Coder-Pro V1",
-      "created": 1762745912,
-      "description": "KAT-Coder-Pro V1 is KwaiKAT's most advanced agentic coding model in the KAT-Coder series. Designed specifically for agentic coding tasks, it excels in real-world software engineering scenarios, achieving 73.4% solve rate on the SWE-Bench Verified benchmark. \n\nThe model has been optimized for tool-use capability, multi-turn interaction, instruction following, generalization, and comprehensive capabilities through a multi-stage training process, including mid-training, supervised fine-tuning (SFT), reinforcement fine-tuning (RFT), and scalable agentic RL.",
-      "context_length": 256000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.000000207",
-        "completion": "0.000000828",
-        "input_cache_read": "0.0000000414"
-      },
-      "top_provider": {
-        "context_length": 256000,
-        "max_completion_tokens": 128000,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
       },
       "knowledge_cutoff": null,
       "expiration_date": null
@@ -12648,6 +12644,58 @@
       ],
       "default_parameters": {},
       "knowledge_cutoff": "2023-10-31",
+      "expiration_date": null
+    },
+    {
+      "id": "rekaai/reka-flash-3",
+      "canonical_slug": "rekaai/reka-flash-3",
+      "hugging_face_id": "RekaAI/reka-flash-3",
+      "name": "Reka: Flash 3",
+      "created": 1741812813,
+      "description": "Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka. It excels at general chat, coding tasks, instruction-following, and function calling. Featuring a 32K context length and optimized through reinforcement learning (RLOO), it provides competitive performance comparable to proprietary models within a smaller parameter footprint. Ideal for low-latency, local, or on-device deployments, Reka Flash 3 is compact, supports efficient quantization (down to 11GB at 4-bit precision), and employs explicit reasoning tags (\"<reasoning>\") to indicate its internal thought process.\n\nReka Flash 3 is primarily an English model with limited multilingual understanding capabilities. The model weights are released under the Apache 2.0 license.",
+      "context_length": 65536,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000002"
+      },
+      "top_provider": {
+        "context_length": 65536,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "seed",
+        "stop",
+        "temperature",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "knowledge_cutoff": "2025-01-31",
       "expiration_date": null
     },
     {
