@@ -1,48 +1,30 @@
 {
-  "generated_at": "2026-03-31T06:26:57.622718+00:00",
+  "generated_at": "2026-03-31T12:15:41.780921+00:00",
   "changes": [
     {
-      "model_id": "arcee-ai/trinity-large-preview:free",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.0,
-        "output_per_million": 0.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-03-31T06:26:57.620694+00:00"
+      "model_id": "minimax/minimax-m2.5",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.19,
+      "new_value": 0.18,
+      "percent_change": -5.26,
+      "detected_at": "2026-03-31T12:15:41.778826+00:00"
     },
     {
-      "model_id": "rekaai/reka-flash-3",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.1,
-        "output_per_million": 0.2
-      },
-      "percent_change": null,
-      "detected_at": "2026-03-31T06:26:57.620694+00:00"
-    },
-    {
-      "model_id": "kwaipilot/kat-coder-pro",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 0.207,
-        "output_per_million": 0.828
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-03-31T06:26:57.620694+00:00"
+      "model_id": "minimax/minimax-m2.5",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 1.15,
+      "new_value": 1.1,
+      "percent_change": -4.35,
+      "detected_at": "2026-03-31T12:15:41.778826+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 0,
-    "new_models": 2,
-    "removed_models": 1,
+    "price_decreases": 2,
+    "new_models": 0,
+    "removed_models": 0,
     "other_changes": 0
   }
 }
