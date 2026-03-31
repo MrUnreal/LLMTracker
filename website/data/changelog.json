@@ -1,23 +1,60 @@
 {
-  "generated_at": "2026-03-29T06:22:44.143607+00:00",
+  "generated_at": "2026-03-31T00:17:06.970399+00:00",
   "changes": [
     {
-      "model_id": "vertex_ai/gemini-embedding-2-preview",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.15,
-      "new_value": 0.2,
-      "percent_change": 33.33,
-      "detected_at": "2026-03-29T06:22:44.141515+00:00"
+      "model_id": "qwen/qwen3.6-plus-preview:free",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-31T00:17:06.967685+00:00"
+    },
+    {
+      "model_id": "google/lyria-3-clip-preview",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-31T00:17:06.967685+00:00"
+    },
+    {
+      "model_id": "google/lyria-3-pro-preview",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-03-31T00:17:06.967685+00:00"
+    },
+    {
+      "model_id": "arcee-ai/trinity-large-preview:free",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-03-31T00:17:06.967685+00:00"
     }
   ],
   "summary": {
-    "price_increases": 1,
+    "price_increases": 0,
     "price_decreases": 0,
-    "new_models": 0,
-    "removed_models": 0,
+    "new_models": 3,
+    "removed_models": 1,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-03-29T06:23:21.964552+00:00"
+  }
 }
