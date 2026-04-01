@@ -1,9 +1,122 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-03-31T18:17:27.934100+00:00",
+  "fetched_at": "2026-04-01T00:18:34.488182+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 348,
   "data": [
+    {
+      "id": "x-ai/grok-4.20-multi-agent",
+      "canonical_slug": "x-ai/grok-4.20-multi-agent-20260309",
+      "hugging_face_id": "",
+      "name": "xAI: Grok 4.20 Multi-Agent",
+      "created": 1774979158,
+      "description": "Grok 4.20 Multi-Agent is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information across complex tasks.\n\nReasoning effort behavior:\n- low / medium: 4 agents\n- high / xhigh: 16 agents",
+      "context_length": 2000000,
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Grok",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "web_search": "0.005",
+        "input_cache_read": "0.0000002"
+      },
+      "top_provider": {
+        "context_length": 2000000,
+        "max_completion_tokens": null,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "knowledge_cutoff": "2025-09-01",
+      "expiration_date": null
+    },
+    {
+      "id": "x-ai/grok-4.20",
+      "canonical_slug": "x-ai/grok-4.20-20260309",
+      "hugging_face_id": "",
+      "name": "xAI: Grok 4.20",
+      "created": 1774979019,
+      "description": "Grok 4.20 is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
+      "context_length": 2000000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Grok",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "web_search": "0.005",
+        "input_cache_read": "0.0000002"
+      },
+      "top_provider": {
+        "context_length": 2000000,
+        "max_completion_tokens": null,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "knowledge_cutoff": "2025-09-01",
+      "expiration_date": null
+    },
     {
       "id": "google/lyria-3-pro-preview",
       "canonical_slug": "google/lyria-3-pro-preview-20260330",
@@ -646,119 +759,6 @@
       "default_parameters": {
         "temperature": 1,
         "top_p": 0.95,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "knowledge_cutoff": null,
-      "expiration_date": null
-    },
-    {
-      "id": "x-ai/grok-4.20-multi-agent-beta",
-      "canonical_slug": "x-ai/grok-4.20-multi-agent-beta-20260309",
-      "hugging_face_id": "",
-      "name": "xAI: Grok 4.20 Multi-Agent Beta",
-      "created": 1773325367,
-      "description": "Grok 4.20 Multi-Agent Beta is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information across complex tasks.\n\nReasoning effort behavior:\n- low / medium: 4 agents\n- high / xhigh: 16 agents",
-      "context_length": 2000000,
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Grok",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.000006",
-        "web_search": "0.005",
-        "input_cache_read": "0.0000002"
-      },
-      "top_provider": {
-        "context_length": 2000000,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "reasoning",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "temperature",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "knowledge_cutoff": null,
-      "expiration_date": null
-    },
-    {
-      "id": "x-ai/grok-4.20-beta",
-      "canonical_slug": "x-ai/grok-4.20-beta-20260309",
-      "hugging_face_id": "",
-      "name": "xAI: Grok 4.20 Beta",
-      "created": 1773325354,
-      "description": "Grok 4.20 Beta is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
-      "context_length": 2000000,
-      "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Grok",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.000006",
-        "web_search": "0.005",
-        "input_cache_read": "0.0000002"
-      },
-      "top_provider": {
-        "context_length": 2000000,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "reasoning",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
         "top_k": null,
         "frequency_penalty": null,
         "presence_penalty": null,
@@ -2110,7 +2110,7 @@
       "name": "MiniMax: MiniMax M2.5",
       "created": 1770908502,
       "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1 to extend into general office work, reaching fluency in generating and operating Word, Excel, and Powerpoint files, context switching between diverse software environments, and working across different agent and human teams. Scoring 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp, M2.5 is also more token efficient than previous generations, having been trained to optimize its actions and output through planning.",
-      "context_length": 196600,
+      "context_length": 196608,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -2123,13 +2123,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000001755",
-        "completion": "0.000001125",
-        "input_cache_read": "0.00000009"
+        "prompt": "0.00000016",
+        "completion": "0.0000011",
+        "input_cache_read": "0.00000008"
       },
       "top_provider": {
-        "context_length": 196600,
-        "max_completion_tokens": 196600,
+        "context_length": 196608,
+        "max_completion_tokens": 65536,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -2592,7 +2592,7 @@
         "repetition_penalty": null
       },
       "knowledge_cutoff": null,
-      "expiration_date": "2026-04-03"
+      "expiration_date": "2026-04-10"
     },
     {
       "id": "moonshotai/kimi-k2.5",
