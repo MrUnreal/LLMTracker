@@ -1,230 +1,30 @@
 {
-  "generated_at": "2026-04-03T06:23:52.872985+00:00",
+  "generated_at": "2026-04-03T12:10:51.350838+00:00",
   "changes": [
     {
-      "model_id": "bedrock/eu-central-1/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.36,
-        "output_per_million": 1.44
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
+      "model_id": "moonshotai/kimi-k2.5",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 1.909,
+      "new_value": 1.72,
+      "percent_change": -9.9,
+      "detected_at": "2026-04-03T12:10:51.347431+00:00"
     },
     {
-      "model_id": "minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.3,
-        "output_per_million": 1.2
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "bedrock/ap-southeast-2/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.309,
-        "output_per_million": 1.236
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "nvidia.nemotron-super-3-120b",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.15,
-        "output_per_million": 0.65
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "bedrock/us-east-1/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.3,
-        "output_per_million": 1.2
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "bedrock/ap-northeast-1/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.36,
-        "output_per_million": 1.44
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "bedrock/ap-south-1/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.36,
-        "output_per_million": 1.44
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "zai.glm-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.0,
-        "output_per_million": 3.2
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "bedrock/sa-east-1/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.36,
-        "output_per_million": 1.44
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "bedrock/us-west-2/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.3,
-        "output_per_million": 1.2
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "bedrock/eu-west-1/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.36,
-        "output_per_million": 1.44
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "bedrock/ap-southeast-3/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.36,
-        "output_per_million": 1.44
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "bedrock/eu-north-1/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.36,
-        "output_per_million": 1.44
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "bedrock/eu-west-2/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.47,
-        "output_per_million": 1.86
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "bedrock/us-east-2/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.3,
-        "output_per_million": 1.2
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "bedrock/eu-south-1/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.36,
-        "output_per_million": 1.44
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "liquid/lfm-2.2-6b",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 0.01,
-        "output_per_million": 0.02
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
-    },
-    {
-      "model_id": "liquid/lfm2-8b-a1b",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 0.01,
-        "output_per_million": 0.02
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-04-03T06:23:52.869910+00:00"
+      "model_id": "minimax/minimax-m2.5",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 1.0,
+      "new_value": 0.99,
+      "percent_change": -1.0,
+      "detected_at": "2026-04-03T12:10:51.347431+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 0,
-    "new_models": 16,
-    "removed_models": 2,
+    "price_decreases": 2,
+    "new_models": 0,
+    "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-04-03T06:24:40.548045+00:00"
+  }
 }
