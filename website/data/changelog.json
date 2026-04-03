@@ -1,81 +1,84 @@
 {
-  "generated_at": "2026-04-02T18:15:26.902815+00:00",
+  "generated_at": "2026-04-03T00:18:36.277015+00:00",
   "changes": [
     {
-      "model_id": "qwen/qwen3.6-plus:free",
+      "model_id": "bedrock/us-gov-west-1/anthropic.claude-haiku-4-5-20251001-v1:0",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
+        "input_per_million": 1.2,
+        "output_per_million": 6.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-04-03T00:18:36.274941+00:00"
+    },
+    {
+      "model_id": "bedrock/us-gov-east-1/anthropic.claude-haiku-4-5-20251001-v1:0",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.2,
+        "output_per_million": 6.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-04-03T00:18:36.274941+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3.6-plus-preview:free",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
         "input_per_million": 0.0,
         "output_per_million": 0.0
       },
+      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-04-02T18:15:26.899202+00:00"
+      "detected_at": "2026-04-03T00:18:36.274941+00:00"
     },
     {
-      "model_id": "google/gemma-4-31b-it",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.14,
-        "output_per_million": 0.4
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-02T18:15:26.899202+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.5",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 1.9092,
-      "new_value": 1.909,
-      "percent_change": -0.01,
-      "detected_at": "2026-04-02T18:15:26.899202+00:00"
-    },
-    {
-      "model_id": "arcee-ai/trinity-large-thinking",
-      "change_type": "price_decrease",
+      "model_id": "bedrock/us-gov-west-1/claude-sonnet-4-5-20250929-v1:0",
+      "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.25,
-      "new_value": 0.22,
-      "percent_change": -12.0,
-      "detected_at": "2026-04-02T18:15:26.899202+00:00"
+      "old_value": 3.3,
+      "new_value": 3.6,
+      "percent_change": 9.09,
+      "detected_at": "2026-04-03T00:18:36.274941+00:00"
     },
     {
-      "model_id": "arcee-ai/trinity-large-thinking",
-      "change_type": "price_decrease",
+      "model_id": "bedrock/us-gov-west-1/claude-sonnet-4-5-20250929-v1:0",
+      "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 0.9,
-      "new_value": 0.85,
-      "percent_change": -5.56,
-      "detected_at": "2026-04-02T18:15:26.899202+00:00"
+      "old_value": 16.5,
+      "new_value": 18.0,
+      "percent_change": 9.09,
+      "detected_at": "2026-04-03T00:18:36.274941+00:00"
     },
     {
-      "model_id": "minimax/minimax-m2.5",
-      "change_type": "price_decrease",
+      "model_id": "bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 3.3,
+      "new_value": 3.6,
+      "percent_change": 9.09,
+      "detected_at": "2026-04-03T00:18:36.274941+00:00"
+    },
+    {
+      "model_id": "bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0",
+      "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 1.25,
-      "new_value": 1.0,
-      "percent_change": -20.0,
-      "detected_at": "2026-04-02T18:15:26.899202+00:00"
-    },
-    {
-      "model_id": "minimax/minimax-m2.5",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 196600,
-      "new_value": 196608,
-      "percent_change": 0.0,
-      "detected_at": "2026-04-02T18:15:26.899202+00:00"
+      "old_value": 16.5,
+      "new_value": 18.0,
+      "percent_change": 9.09,
+      "detected_at": "2026-04-03T00:18:36.274941+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
-    "price_decreases": 4,
+    "price_increases": 4,
+    "price_decreases": 0,
     "new_models": 2,
-    "removed_models": 0,
-    "other_changes": 1
+    "removed_models": 1,
+    "other_changes": 0
   }
 }
