@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-05T06:24:57.991878+00:00",
+  "generated_at": "2026-04-06T00:17:44.693925+00:00",
   "changes": [
     {
-      "model_id": "anthropic/claude-3.5-sonnet",
+      "model_id": "allenai/olmo-3.1-32b-think",
       "change_type": "removed_model",
       "field": "model",
       "old_value": {
-        "input_per_million": 6.0,
-        "output_per_million": 30.0
+        "input_per_million": 0.15,
+        "output_per_million": 0.5
       },
       "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-04-05T06:24:57.988430+00:00"
+      "detected_at": "2026-04-06T00:17:44.691464+00:00"
     }
   ],
   "summary": {
@@ -20,7 +20,5 @@
     "new_models": 0,
     "removed_models": 1,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-04-05T06:25:47.503520+00:00"
+  }
 }
