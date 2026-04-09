@@ -1,62 +1,51 @@
 {
-  "generated_at": "2026-04-08T06:29:51.625809+00:00",
+  "generated_at": "2026-04-09T00:15:04.100603+00:00",
   "changes": [
     {
-      "model_id": "qwen/qwen3.6-plus",
-      "change_type": "new_model",
+      "model_id": "stepfun/step-3.5-flash:free",
+      "change_type": "removed_model",
       "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.325,
-        "output_per_million": 1.95
+      "old_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
       },
+      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-04-08T06:29:51.622358+00:00"
+      "detected_at": "2026-04-09T00:15:04.097922+00:00"
     },
     {
-      "model_id": "moonshotai/kimi-k2-thinking",
+      "model_id": "z-ai/glm-5.1",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.47,
-      "new_value": 0.6,
-      "percent_change": 27.66,
-      "detected_at": "2026-04-08T06:29:51.622358+00:00"
+      "old_value": 1.26,
+      "new_value": 1.395,
+      "percent_change": 10.71,
+      "detected_at": "2026-04-09T00:15:04.097922+00:00"
     },
     {
-      "model_id": "moonshotai/kimi-k2-thinking",
+      "model_id": "z-ai/glm-5.1",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 2.0,
-      "new_value": 2.5,
-      "percent_change": 25.0,
-      "detected_at": "2026-04-08T06:29:51.622358+00:00"
+      "old_value": 3.96,
+      "new_value": 4.4,
+      "percent_change": 11.11,
+      "detected_at": "2026-04-09T00:15:04.097922+00:00"
     },
     {
-      "model_id": "moonshotai/kimi-k2-thinking",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 131072,
-      "new_value": 262144,
-      "percent_change": 100.0,
-      "detected_at": "2026-04-08T06:29:51.622358+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2-0905",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 131072,
-      "new_value": 262144,
-      "percent_change": 100.0,
-      "detected_at": "2026-04-08T06:29:51.622358+00:00"
+      "model_id": "minimax/minimax-m2.1",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.27,
+      "new_value": 0.29,
+      "percent_change": 7.41,
+      "detected_at": "2026-04-09T00:15:04.097922+00:00"
     }
   ],
   "summary": {
-    "price_increases": 2,
+    "price_increases": 3,
     "price_decreases": 0,
-    "new_models": 1,
-    "removed_models": 0,
-    "other_changes": 2
-  },
-  "notified": true,
-  "notified_at": "2026-04-08T06:30:41.440227+00:00"
+    "new_models": 0,
+    "removed_models": 1,
+    "other_changes": 0
+  }
 }
