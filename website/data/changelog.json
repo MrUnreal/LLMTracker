@@ -1,41 +1,24 @@
 {
-  "generated_at": "2026-04-12T12:09:39.189741+00:00",
+  "generated_at": "2026-04-13T00:19:46.373053+00:00",
   "changes": [
     {
-      "model_id": "deepseek/deepseek-r1-0528",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.45,
-      "new_value": 0.5,
-      "percent_change": 11.11,
-      "detected_at": "2026-04-12T12:09:39.187400+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-coder-next",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.12,
-      "new_value": 0.15,
-      "percent_change": 25.0,
-      "detected_at": "2026-04-12T12:09:39.187400+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-coder-next",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 0.75,
-      "new_value": 0.8,
-      "percent_change": 6.67,
-      "detected_at": "2026-04-12T12:09:39.187400+00:00"
+      "model_id": "eleutherai/llemma_7b",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.8,
+        "output_per_million": 1.2
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-04-13T00:19:46.370060+00:00"
     }
   ],
   "summary": {
-    "price_increases": 3,
+    "price_increases": 0,
     "price_decreases": 0,
     "new_models": 0,
-    "removed_models": 0,
+    "removed_models": 1,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-04-12T12:10:29.260268+00:00"
+  }
 }
