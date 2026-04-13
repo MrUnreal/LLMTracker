@@ -1,32 +1,24 @@
 {
-  "generated_at": "2026-04-13T06:41:47.438166+00:00",
+  "generated_at": "2026-04-13T18:23:44.123733+00:00",
   "changes": [
     {
-      "model_id": "together_ai/openai/gpt-oss-120b",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 128000,
-      "new_value": 131072,
-      "percent_change": 2.4,
-      "detected_at": "2026-04-13T06:41:47.435165+00:00"
-    },
-    {
-      "model_id": "minimax/minimax-m2.7",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 204800,
-      "new_value": 196608,
-      "percent_change": -4.0,
-      "detected_at": "2026-04-13T06:41:47.435165+00:00"
+      "model_id": "openrouter/elephant-alpha",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-04-13T18:23:44.121313+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
     "price_decreases": 0,
-    "new_models": 0,
+    "new_models": 1,
     "removed_models": 0,
-    "other_changes": 2
-  },
-  "notified": true,
-  "notified_at": "2026-04-13T06:42:39.771673+00:00"
+    "other_changes": 0
+  }
 }
