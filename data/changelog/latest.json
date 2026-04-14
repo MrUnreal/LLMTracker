@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-14T06:34:37.395574+00:00",
+  "generated_at": "2026-04-14T12:18:57.312303+00:00",
   "changes": [
     {
-      "model_id": "meituan/longcat-flash-chat",
+      "model_id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
       "change_type": "removed_model",
       "field": "model",
       "old_value": {
-        "input_per_million": 0.2,
-        "output_per_million": 0.8
+        "input_per_million": 0.6,
+        "output_per_million": 1.8
       },
       "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-04-14T06:34:37.392150+00:00"
+      "detected_at": "2026-04-14T12:18:57.309285+00:00"
     }
   ],
   "summary": {
@@ -20,7 +20,5 @@
     "new_models": 0,
     "removed_models": 1,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-04-14T06:35:26.694347+00:00"
+  }
 }
