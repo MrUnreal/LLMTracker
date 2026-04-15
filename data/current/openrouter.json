@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-04-14T18:23:05.387823+00:00",
+  "fetched_at": "2026-04-15T00:23:01.422538+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 346,
+  "model_count": 344,
   "data": [
     {
       "id": "openrouter/elephant-alpha",
@@ -10907,56 +10907,6 @@
       }
     },
     {
-      "id": "inception/mercury",
-      "canonical_slug": "inception/mercury",
-      "hugging_face_id": "",
-      "name": "Inception: Mercury",
-      "created": 1750973026,
-      "description": "Mercury is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like GPT-4.1 Nano and Claude...",
-      "context_length": 128000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.00000075",
-        "input_cache_read": "0.000000025"
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 32000,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools"
-      ],
-      "default_parameters": {
-        "temperature": 0,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "knowledge_cutoff": "2025-01-31",
-      "expiration_date": "2026-04-15",
-      "links": {
-        "details": "/api/v1/models/inception/mercury/endpoints"
-      }
-    },
-    {
       "id": "mistralai/mistral-small-3.2-24b-instruct",
       "canonical_slug": "mistralai/mistral-small-3.2-24b-instruct-2506",
       "hugging_face_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
@@ -11988,56 +11938,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/arcee-ai/coder-large/endpoints"
-      }
-    },
-    {
-      "id": "inception/mercury-coder",
-      "canonical_slug": "inception/mercury-coder-small-beta",
-      "hugging_face_id": "",
-      "name": "Inception: Mercury Coder",
-      "created": 1746033880,
-      "description": "Mercury Coder is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like Claude 3.5 Haiku...",
-      "context_length": 128000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.00000075",
-        "input_cache_read": "0.000000025"
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 32000,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools"
-      ],
-      "default_parameters": {
-        "temperature": 0,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "knowledge_cutoff": "2025-01-31",
-      "expiration_date": "2026-04-15",
-      "links": {
-        "details": "/api/v1/models/inception/mercury-coder-small-beta/endpoints"
       }
     },
     {

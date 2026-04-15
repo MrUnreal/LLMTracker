@@ -1,6 +1,6 @@
 {
   "source": "litellm",
-  "fetched_at": "2026-04-14T18:23:05.447658+00:00",
+  "fetched_at": "2026-04-15T00:23:01.495418+00:00",
   "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
   "model_count": 2659,
   "data": {
@@ -32033,7 +32033,8 @@
       "output_cost_per_token": 1e-06,
       "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
       "supported_regions": [
-        "global"
+        "global",
+        "us-south1"
       ],
       "supports_function_calling": true,
       "supports_tool_choice": true
