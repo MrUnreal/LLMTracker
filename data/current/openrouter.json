@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-04-16T18:23:36.903101+00:00",
+  "fetched_at": "2026-04-17T00:21:48.892613+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 346,
+  "model_count": 345,
   "data": [
     {
       "id": "anthropic/claude-opus-4.7",
@@ -2740,7 +2740,8 @@
       },
       "pricing": {
         "prompt": "0.00000039",
-        "completion": "0.00000234"
+        "completion": "0.00000234",
+        "input_cache_read": "0.000000195"
       },
       "top_provider": {
         "context_length": 262144,
@@ -2752,6 +2753,7 @@
         "frequency_penalty",
         "include_reasoning",
         "logit_bias",
+        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -2765,6 +2767,7 @@
         "tool_choice",
         "tools",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {
@@ -8529,7 +8532,9 @@
       "per_request_limits": null,
       "supported_parameters": [
         "frequency_penalty",
+        "logit_bias",
         "max_tokens",
+        "min_p",
         "presence_penalty",
         "repetition_penalty",
         "response_format",
@@ -9958,7 +9963,7 @@
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
       "created": 1753449557,
       "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144...",
-      "context_length": 131072,
+      "context_length": 262144,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -9971,12 +9976,12 @@
         "instruct_type": "qwen3"
       },
       "pricing": {
-        "prompt": "0.0000001495",
-        "completion": "0.000001495"
+        "prompt": "0.00000013",
+        "completion": "0.0000006"
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": null,
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -13150,43 +13155,6 @@
       }
     },
     {
-      "id": "allenai/olmo-2-0325-32b-instruct",
-      "canonical_slug": "allenai/olmo-2-0325-32b-instruct",
-      "hugging_face_id": "allenai/OLMo-2-0325-32B-Instruct",
-      "name": "AllenAI: Olmo 2 32B Instruct",
-      "created": 1741988556,
-      "description": "OLMo-2 32B Instruct is a supervised instruction-finetuned variant of the OLMo-2 32B March 2025 base model. It excels in complex reasoning and instruction-following tasks across diverse benchmarks such as GSM8K,...",
-      "context_length": 128000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.0000002"
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [],
-      "default_parameters": {},
-      "knowledge_cutoff": "2024-10-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/allenai/olmo-2-0325-32b-instruct/endpoints"
-      }
-    },
-    {
       "id": "google/gemma-3-4b-it:free",
       "canonical_slug": "google/gemma-3-4b-it",
       "hugging_face_id": "google/gemma-3-4b-it",
@@ -14574,7 +14542,7 @@
       "name": "Qwen: Qwen2.5 VL 72B Instruct",
       "created": 1738410311,
       "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
-      "context_length": 32768,
+      "context_length": 32000,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -14588,12 +14556,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000008",
-        "completion": "0.0000008"
+        "prompt": "0.00000025",
+        "completion": "0.00000075"
       },
       "top_provider": {
-        "context_length": 32768,
-        "max_completion_tokens": 32768,
+        "context_length": 32000,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "per_request_limits": null,
