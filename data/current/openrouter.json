@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-04-20T18:18:29.837300+00:00",
+  "fetched_at": "2026-04-21T00:22:18.408020+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 343,
   "data": [
@@ -2973,7 +2973,7 @@
       "name": "Z.ai: GLM 5",
       "created": 1770829182,
       "description": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows. Built for expert developers, it delivers production-grade performance on large-scale programming tasks, rivaling leading...",
-      "context_length": 202752,
+      "context_length": 80000,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -2986,12 +2986,11 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000007",
-        "completion": "0.00000014",
-        "input_cache_read": "0.00000224"
+        "prompt": "0.00000072",
+        "completion": "0.0000023"
       },
       "top_provider": {
-        "context_length": 202752,
+        "context_length": 80000,
         "max_completion_tokens": 131072,
         "is_moderated": false
       },
@@ -3003,7 +3002,6 @@
         "logprobs",
         "max_tokens",
         "min_p",
-        "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
         "repetition_penalty",
