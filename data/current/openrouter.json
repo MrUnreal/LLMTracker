@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-04-21T00:22:18.408020+00:00",
+  "fetched_at": "2026-04-21T06:35:44.199665+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 343,
   "data": [
@@ -25,19 +25,20 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000095",
-        "completion": "0.000004",
-        "input_cache_read": "0.00000016"
+        "prompt": "0.0000006",
+        "completion": "0.0000028",
+        "input_cache_read": "0.0000002"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": null,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logit_bias",
         "max_tokens",
         "presence_penalty",
         "reasoning",
@@ -256,13 +257,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000105",
-        "completion": "0.0000035",
-        "input_cache_read": "0.000000525"
+        "prompt": "0.000000698",
+        "completion": "0.0000044",
+        "input_cache_read": "0.00000026"
       },
       "top_provider": {
         "context_length": 202752,
-        "max_completion_tokens": 65535,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -1974,6 +1975,7 @@
         "completion": "0.0000015",
         "image": "0.00000025",
         "audio": "0.0000005",
+        "web_search": "0.014",
         "internal_reasoning": "0.0000015",
         "input_cache_read": "0.000000025",
         "input_cache_write": "0.00000008333333333333334"
@@ -2089,7 +2091,8 @@
       },
       "pricing": {
         "prompt": "0.0000005",
-        "completion": "0.000003"
+        "completion": "0.000003",
+        "web_search": "0.014"
       },
       "top_provider": {
         "context_length": 65536,
@@ -2459,6 +2462,7 @@
         "completion": "0.000012",
         "image": "0.000002",
         "audio": "0.000002",
+        "web_search": "0.014",
         "internal_reasoning": "0.000012",
         "input_cache_read": "0.0000002",
         "input_cache_write": "0.000000375"
@@ -2627,6 +2631,7 @@
         "completion": "0.000012",
         "image": "0.000002",
         "audio": "0.000002",
+        "web_search": "0.014",
         "internal_reasoning": "0.000012",
         "input_cache_read": "0.0000002",
         "input_cache_write": "0.000000375"
@@ -4234,6 +4239,7 @@
         "completion": "0.000003",
         "image": "0.0000005",
         "audio": "0.000001",
+        "web_search": "0.014",
         "internal_reasoning": "0.000003",
         "input_cache_read": "0.00000005",
         "input_cache_write": "0.00000008333333333333334"
@@ -5666,6 +5672,7 @@
         "completion": "0.000012",
         "image": "0.000002",
         "audio": "0.000002",
+        "web_search": "0.014",
         "internal_reasoning": "0.000012",
         "input_cache_read": "0.0000002",
         "input_cache_write": "0.000000375"
@@ -7133,6 +7140,7 @@
         "completion": "0.0000025",
         "image": "0.0000003",
         "audio": "0.000001",
+        "web_search": "0.014",
         "internal_reasoning": "0.0000025",
         "input_cache_read": "0.00000003",
         "input_cache_write": "0.00000008333333333333334"
@@ -7646,6 +7654,7 @@
         "completion": "0.0000004",
         "image": "0.0000001",
         "audio": "0.0000003",
+        "web_search": "0.014",
         "internal_reasoning": "0.0000004",
         "input_cache_read": "0.00000001",
         "input_cache_write": "0.00000008333333333333334"
@@ -10305,6 +10314,7 @@
         "completion": "0.0000004",
         "image": "0.0000001",
         "audio": "0.0000003",
+        "web_search": "0.014",
         "internal_reasoning": "0.0000004",
         "input_cache_read": "0.00000001",
         "input_cache_write": "0.00000008333333333333334"
@@ -11172,6 +11182,7 @@
         "completion": "0.0000025",
         "image": "0.0000003",
         "audio": "0.000001",
+        "web_search": "0.014",
         "internal_reasoning": "0.0000025",
         "input_cache_read": "0.00000003",
         "input_cache_write": "0.00000008333333333333334"
@@ -11234,6 +11245,7 @@
         "completion": "0.00001",
         "image": "0.00000125",
         "audio": "0.00000125",
+        "web_search": "0.014",
         "internal_reasoning": "0.00001",
         "input_cache_read": "0.000000125",
         "input_cache_write": "0.000000375"
@@ -11458,6 +11470,7 @@
         "completion": "0.00001",
         "image": "0.00000125",
         "audio": "0.00000125",
+        "web_search": "0.014",
         "internal_reasoning": "0.00001",
         "input_cache_read": "0.000000125",
         "input_cache_write": "0.000000375"
@@ -11838,6 +11851,7 @@
         "completion": "0.00001",
         "image": "0.00000125",
         "audio": "0.00000125",
+        "web_search": "0.014",
         "internal_reasoning": "0.00001",
         "input_cache_read": "0.000000125",
         "input_cache_write": "0.000000375"
@@ -13868,6 +13882,7 @@
         "completion": "0.0000003",
         "image": "0.000000075",
         "audio": "0.000000075",
+        "web_search": "0.014",
         "internal_reasoning": "0.0000003"
       },
       "top_provider": {
@@ -14193,6 +14208,7 @@
         "completion": "0.0000004",
         "image": "0.0000001",
         "audio": "0.0000007",
+        "web_search": "0.014",
         "internal_reasoning": "0.0000004",
         "input_cache_read": "0.000000025",
         "input_cache_write": "0.00000008333333333333334"
