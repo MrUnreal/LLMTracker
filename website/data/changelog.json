@@ -1,98 +1,21 @@
 {
-  "generated_at": "2026-04-22T00:19:28.075287+00:00",
+  "generated_at": "2026-04-22T12:19:11.404684+00:00",
   "changes": [
     {
-      "model_id": "inclusionai/ling-2.6-flash:free",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.0,
-        "output_per_million": 0.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-22T00:19:28.073294+00:00"
-    },
-    {
-      "model_id": "~anthropic/claude-opus-latest",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 25.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-22T00:19:28.073294+00:00"
-    },
-    {
-      "model_id": "openai/gpt-5.4-image-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.0,
-        "output_per_million": 15.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-22T00:19:28.073294+00:00"
-    },
-    {
-      "model_id": "openrouter/elephant-alpha",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 0.0,
-        "output_per_million": 0.0
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-04-22T00:19:28.073294+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.6",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.6,
-      "new_value": 0.8,
-      "percent_change": 33.33,
-      "detected_at": "2026-04-22T00:19:28.073294+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.6",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 2.8,
-      "new_value": 3.5,
-      "percent_change": 25.0,
-      "detected_at": "2026-04-22T00:19:28.073294+00:00"
-    },
-    {
-      "model_id": "meta-llama/llama-3.3-70b-instruct",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.12,
-      "new_value": 0.1,
-      "percent_change": -16.67,
-      "detected_at": "2026-04-22T00:19:28.073294+00:00"
-    },
-    {
-      "model_id": "meta-llama/llama-3.3-70b-instruct",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.38,
-      "new_value": 0.32,
-      "percent_change": -15.79,
-      "detected_at": "2026-04-22T00:19:28.073294+00:00"
+      "model_id": "google/gemini-2.0-flash-001",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1000000,
+      "new_value": 1048576,
+      "percent_change": 4.86,
+      "detected_at": "2026-04-22T12:19:11.402349+00:00"
     }
   ],
   "summary": {
-    "price_increases": 2,
-    "price_decreases": 2,
-    "new_models": 3,
-    "removed_models": 1,
-    "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-04-22T00:20:17.432396+00:00"
+    "price_increases": 0,
+    "price_decreases": 0,
+    "new_models": 0,
+    "removed_models": 0,
+    "other_changes": 1
+  }
 }
