@@ -1,23 +1,57 @@
 {
-  "generated_at": "2026-04-22T12:19:11.404684+00:00",
+  "generated_at": "2026-04-22T18:21:12.421903+00:00",
   "changes": [
+    {
+      "model_id": "xiaomi/mimo-v2.5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.4,
+        "output_per_million": 2.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-04-22T18:21:12.419485+00:00"
+    },
+    {
+      "model_id": "arcee-ai/trinity-large-preview",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.45
+      },
+      "percent_change": null,
+      "detected_at": "2026-04-22T18:21:12.419485+00:00"
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.5-pro",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.0,
+        "output_per_million": 3.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-04-22T18:21:12.419485+00:00"
+    },
     {
       "model_id": "google/gemini-2.0-flash-001",
       "change_type": "context_change",
       "field": "context_window",
-      "old_value": 1000000,
-      "new_value": 1048576,
-      "percent_change": 4.86,
-      "detected_at": "2026-04-22T12:19:11.402349+00:00"
+      "old_value": 1048576,
+      "new_value": 1000000,
+      "percent_change": -4.63,
+      "detected_at": "2026-04-22T18:21:12.419485+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
     "price_decreases": 0,
-    "new_models": 0,
+    "new_models": 3,
     "removed_models": 0,
     "other_changes": 1
-  },
-  "notified": true,
-  "notified_at": "2026-04-22T12:20:01.637166+00:00"
+  }
 }
