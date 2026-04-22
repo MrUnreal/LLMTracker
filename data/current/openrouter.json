@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-04-22T00:19:27.376233+00:00",
+  "fetched_at": "2026-04-22T06:35:37.654138+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 346,
   "data": [
@@ -10251,7 +10251,7 @@
         "frequency_penalty": null
       },
       "knowledge_cutoff": "2025-06-30",
-      "expiration_date": null,
+      "expiration_date": "2026-04-22",
       "links": {
         "details": "/api/v1/models/qwen/qwen3-235b-a22b-thinking-2507/endpoints"
       }
@@ -14017,7 +14017,7 @@
       ],
       "default_parameters": {},
       "knowledge_cutoff": "2024-06-30",
-      "expiration_date": null,
+      "expiration_date": "2026-04-29",
       "links": {
         "details": "/api/v1/models/qwen/qwq-32b/endpoints"
       }
