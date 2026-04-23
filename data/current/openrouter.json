@@ -1,16 +1,74 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-04-23T12:19:29.486273+00:00",
+  "fetched_at": "2026-04-23T18:22:07.650758+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 349,
+  "model_count": 350,
   "data": [
+    {
+      "id": "inclusionai/ling-2.6-1t:free",
+      "canonical_slug": "inclusionai/ling-2.6-1t-20260423",
+      "hugging_face_id": null,
+      "name": "inclusionAI: Ling-2.6-1T (free)",
+      "created": 1776948238,
+      "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a “fast...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "max_tokens",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "knowledge_cutoff": null,
+      "expiration_date": "2026-04-30",
+      "links": {
+        "details": "/api/v1/models/inclusionai/ling-2.6-1t-20260423/endpoints"
+      }
+    },
     {
       "id": "tencent/hy3-preview:free",
       "canonical_slug": "tencent/hy3-preview-20260421",
-      "hugging_face_id": null,
+      "hugging_face_id": "tencent/Hy3-preview",
       "name": "Tencent: Hy3 preview (free)",
       "created": 1776878150,
-      "description": "Hy3 Preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...",
+      "description": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...",
       "context_length": 262144,
       "architecture": {
         "modality": "text->text",
@@ -45,14 +103,7 @@
         "top_k",
         "top_p"
       ],
-      "default_parameters": {
-        "temperature": 0.9,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
+      "default_parameters": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
       "links": {
@@ -461,7 +512,7 @@
       "name": "MoonshotAI: Kimi K2.6",
       "created": 1776699402,
       "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust, and Go, and...",
-      "context_length": 262144,
+      "context_length": 256000,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -475,13 +526,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000075",
+        "prompt": "0.00000056",
         "completion": "0.0000035",
-        "input_cache_read": "0.00000015"
+        "input_cache_read": "0.00000011"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": null,
+        "context_length": 256000,
+        "max_completion_tokens": 65536,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -782,8 +833,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000007",
-        "completion": "0.00000034"
+        "prompt": "0.00000006",
+        "completion": "0.00000033"
       },
       "top_provider": {
         "context_length": 262144,
@@ -17327,17 +17378,19 @@
         "instruct_type": "mistral"
       },
       "pricing": {
-        "prompt": "0.00000002",
-        "completion": "0.00000004"
+        "prompt": "0.00000001",
+        "completion": "0.00000003"
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": 16384,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
         "frequency_penalty",
+        "logit_bias",
+        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -17350,6 +17403,7 @@
         "tool_choice",
         "tools",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {

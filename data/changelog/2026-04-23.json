@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-23T06:36:34.565257+00:00",
+  "generated_at": "2026-04-23T18:22:08.414172+00:00",
   "changes": [
     {
-      "model_id": "tencent/hy3-preview:free",
+      "model_id": "inclusionai/ling-2.6-1t:free",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
@@ -11,71 +11,68 @@
         "output_per_million": 0.0
       },
       "percent_change": null,
-      "detected_at": "2026-04-23T06:36:34.562175+00:00"
+      "detected_at": "2026-04-23T18:22:08.412053+00:00"
     },
     {
-      "model_id": "baidu/qianfan-ocr-fast:free",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.0,
-        "output_per_million": 0.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-23T06:36:34.562175+00:00"
+      "model_id": "moonshotai/kimi-k2.6",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.75,
+      "new_value": 0.56,
+      "percent_change": -25.33,
+      "detected_at": "2026-04-23T18:22:08.412053+00:00"
     },
     {
-      "model_id": "moonshot/kimi-k2.6",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.95,
-        "output_per_million": 4.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-23T06:36:34.562175+00:00"
-    },
-    {
-      "model_id": "openrouter/anthropic/claude-opus-4.7",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 25.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-04-23T06:36:34.562175+00:00"
-    },
-    {
-      "model_id": "deepcogito/cogito-v2.1-671b",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 1.25,
-        "output_per_million": 1.25
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-04-23T06:36:34.562175+00:00"
-    },
-    {
-      "model_id": "google/gemini-2.0-flash-001",
+      "model_id": "moonshotai/kimi-k2.6",
       "change_type": "context_change",
       "field": "context_window",
-      "old_value": 1000000,
-      "new_value": 1048576,
-      "percent_change": 4.86,
-      "detected_at": "2026-04-23T06:36:34.562175+00:00"
+      "old_value": 262144,
+      "new_value": 256000,
+      "percent_change": -2.34,
+      "detected_at": "2026-04-23T18:22:08.412053+00:00"
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.07,
+      "new_value": 0.06,
+      "percent_change": -14.29,
+      "detected_at": "2026-04-23T18:22:08.412053+00:00"
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.34,
+      "new_value": 0.33,
+      "percent_change": -2.94,
+      "detected_at": "2026-04-23T18:22:08.412053+00:00"
+    },
+    {
+      "model_id": "mistralai/mistral-nemo",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.02,
+      "new_value": 0.01,
+      "percent_change": -50.0,
+      "detected_at": "2026-04-23T18:22:08.412053+00:00"
+    },
+    {
+      "model_id": "mistralai/mistral-nemo",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.04,
+      "new_value": 0.03,
+      "percent_change": -25.0,
+      "detected_at": "2026-04-23T18:22:08.412053+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 0,
-    "new_models": 4,
-    "removed_models": 1,
+    "price_decreases": 5,
+    "new_models": 1,
+    "removed_models": 0,
     "other_changes": 1
   }
 }
