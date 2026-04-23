@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-04-22T18:21:11.754422+00:00",
+  "fetched_at": "2026-04-23T00:24:43.788519+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 349,
+  "model_count": 348,
   "data": [
     {
       "id": "xiaomi/mimo-v2.5-pro",
@@ -236,7 +236,7 @@
         "repetition_penalty": null
       },
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-04-29",
       "links": {
         "details": "/api/v1/models/inclusionai/ling-2.6-flash-20260421/endpoints"
       }
@@ -364,13 +364,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000008",
+        "prompt": "0.00000075",
         "completion": "0.0000035",
-        "input_cache_read": "0.0000002"
+        "input_cache_read": "0.00000015"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -669,12 +669,11 @@
       },
       "pricing": {
         "prompt": "0.00000007",
-        "completion": "0.00000035",
-        "input_cache_read": "0.00000004"
+        "completion": "0.00000034"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -789,8 +788,7 @@
       },
       "pricing": {
         "prompt": "0.00000013",
-        "completion": "0.00000038",
-        "input_cache_read": "0.0000000199999995"
+        "completion": "0.00000038"
       },
       "top_provider": {
         "context_length": 262144,
@@ -3297,7 +3295,6 @@
         "logprobs",
         "max_tokens",
         "min_p",
-        "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
         "repetition_penalty",
@@ -3610,58 +3607,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/stepfun/step-3.5-flash/endpoints"
-      }
-    },
-    {
-      "id": "arcee-ai/trinity-large-preview:free",
-      "canonical_slug": "arcee-ai/trinity-large-preview",
-      "hugging_face_id": "arcee-ai/Trinity-Large-Preview",
-      "name": "Arcee AI: Trinity Large Preview (free)",
-      "created": 1769552670,
-      "description": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing. It excels in creative writing,...",
-      "context_length": 131000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 131000,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "structured_outputs",
-        "temperature",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.8,
-        "top_p": 0.8,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-04-22",
-      "links": {
-        "details": "/api/v1/models/arcee-ai/trinity-large-preview/endpoints"
       }
     },
     {
@@ -5775,7 +5720,7 @@
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": 32768,
+        "max_completion_tokens": 65536,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -5786,7 +5731,6 @@
         "logprobs",
         "max_tokens",
         "min_p",
-        "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
         "repetition_penalty",
@@ -8066,7 +8010,6 @@
         "response_format",
         "seed",
         "stop",
-        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -10373,7 +10316,7 @@
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
       "created": 1753449557,
       "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144...",
-      "context_length": 262144,
+      "context_length": 131072,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -10386,12 +10329,12 @@
         "instruct_type": "qwen3"
       },
       "pricing": {
-        "prompt": "0.00000013",
-        "completion": "0.0000006"
+        "prompt": "0.0000001495",
+        "completion": "0.000001495"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "context_length": 131072,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -10420,7 +10363,7 @@
         "frequency_penalty": null
       },
       "knowledge_cutoff": "2025-06-30",
-      "expiration_date": "2026-04-22",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/qwen/qwen3-235b-a22b-thinking-2507/endpoints"
       }
@@ -11365,10 +11308,8 @@
         "max_tokens",
         "presence_penalty",
         "repetition_penalty",
-        "response_format",
         "seed",
         "stop",
-        "structured_outputs",
         "temperature",
         "top_k",
         "top_p"
