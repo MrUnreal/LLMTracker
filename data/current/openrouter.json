@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-04-26T00:21:52.457324+00:00",
+  "fetched_at": "2026-04-26T06:35:57.309486+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 355,
   "data": [
@@ -150,17 +150,13 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
-        "logit_bias",
         "logprobs",
         "max_tokens",
-        "min_p",
         "presence_penalty",
         "reasoning",
-        "repetition_penalty",
         "response_format",
         "seed",
         "stop",
-        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
