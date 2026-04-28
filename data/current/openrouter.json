@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-04-28T06:52:23.583700+00:00",
+  "fetched_at": "2026-04-28T12:33:17.887868+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 367,
   "data": [
@@ -625,9 +625,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000013",
-        "completion": "0.0000078",
-        "input_cache_write": "0.000001625"
+        "prompt": "0.00000104",
+        "completion": "0.00000624",
+        "input_cache_write": "0.0000013"
       },
       "top_provider": {
         "context_length": 262144,
@@ -664,7 +664,7 @@
       "name": "Qwen: Qwen3.6 27B",
       "created": 1777255064,
       "description": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs...",
-      "context_length": 262144,
+      "context_length": 256000,
       "architecture": {
         "modality": "text+image+video->text",
         "input_modalities": [
@@ -679,12 +679,11 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.000002",
-        "input_cache_read": "0.00000025"
+        "prompt": "0.000000325",
+        "completion": "0.00000325"
       },
       "top_provider": {
-        "context_length": 262144,
+        "context_length": 256000,
         "max_completion_tokens": 65536,
         "is_moderated": false
       },
@@ -15636,7 +15635,7 @@
       "name": "Google: Gemini 2.0 Flash",
       "created": 1738769413,
       "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). It...",
-      "context_length": 1000000,
+      "context_length": 1048576,
       "architecture": {
         "modality": "text+image+file+audio+video->text",
         "input_modalities": [
@@ -15663,7 +15662,7 @@
         "input_cache_write": "0.00000008333333333333334"
       },
       "top_provider": {
-        "context_length": 1000000,
+        "context_length": 1048576,
         "max_completion_tokens": 8192,
         "is_moderated": false
       },
