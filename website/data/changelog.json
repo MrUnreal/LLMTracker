@@ -1,104 +1,24 @@
 {
-  "generated_at": "2026-04-29T06:47:35.825983+00:00",
+  "generated_at": "2026-04-30T00:26:48.384972+00:00",
   "changes": [
     {
-      "model_id": "gpt-5.5-pro",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 60.0,
-      "new_value": 30.0,
-      "percent_change": -50.0,
-      "detected_at": "2026-04-29T06:47:35.822315+00:00"
-    },
-    {
-      "model_id": "gpt-5.5-pro",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 360.0,
-      "new_value": 180.0,
-      "percent_change": -50.0,
-      "detected_at": "2026-04-29T06:47:35.822315+00:00"
-    },
-    {
-      "model_id": "azure/gpt-5.5-pro-2026-04-23",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 60.0,
-      "new_value": 30.0,
-      "percent_change": -50.0,
-      "detected_at": "2026-04-29T06:47:35.822315+00:00"
-    },
-    {
-      "model_id": "azure/gpt-5.5-pro-2026-04-23",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 360.0,
-      "new_value": 180.0,
-      "percent_change": -50.0,
-      "detected_at": "2026-04-29T06:47:35.822315+00:00"
-    },
-    {
-      "model_id": "google/gemini-2.0-flash-001",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 1000000,
-      "new_value": 1048576,
-      "percent_change": 4.86,
-      "detected_at": "2026-04-29T06:47:35.822315+00:00"
-    },
-    {
-      "model_id": "mistralai/mistral-nemo",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.04,
-      "new_value": 0.03,
-      "percent_change": -25.0,
-      "detected_at": "2026-04-29T06:47:35.822315+00:00"
-    },
-    {
-      "model_id": "gpt-5.5-pro-2026-04-23",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 60.0,
-      "new_value": 30.0,
-      "percent_change": -50.0,
-      "detected_at": "2026-04-29T06:47:35.822315+00:00"
-    },
-    {
-      "model_id": "gpt-5.5-pro-2026-04-23",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 360.0,
-      "new_value": 180.0,
-      "percent_change": -50.0,
-      "detected_at": "2026-04-29T06:47:35.822315+00:00"
-    },
-    {
-      "model_id": "azure/gpt-5.5-pro",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 60.0,
-      "new_value": 30.0,
-      "percent_change": -50.0,
-      "detected_at": "2026-04-29T06:47:35.822315+00:00"
-    },
-    {
-      "model_id": "azure/gpt-5.5-pro",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 360.0,
-      "new_value": 180.0,
-      "percent_change": -50.0,
-      "detected_at": "2026-04-29T06:47:35.822315+00:00"
+      "model_id": "mistralai/mistral-small-creative",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.1,
+        "output_per_million": 0.3
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-04-30T00:26:48.380083+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 9,
+    "price_decreases": 0,
     "new_models": 0,
-    "removed_models": 0,
-    "other_changes": 1
-  },
-  "notified": true,
-  "notified_at": "2026-04-29T06:48:29.636300+00:00"
+    "removed_models": 1,
+    "other_changes": 0
+  }
 }
