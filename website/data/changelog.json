@@ -1,54 +1,78 @@
 {
-  "generated_at": "2026-05-01T00:28:13.286590+00:00",
+  "generated_at": "2026-05-01T06:52:46.045481+00:00",
   "changes": [
     {
-      "model_id": "ibm-granite/granite-4.1-8b",
+      "model_id": "gpt-image-2",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.05,
-        "output_per_million": 0.1
+        "input_per_million": 5.0,
+        "output_per_million": 10.0
       },
       "percent_change": null,
-      "detected_at": "2026-05-01T00:28:13.284309+00:00"
+      "detected_at": "2026-05-01T06:52:46.043515+00:00"
     },
     {
-      "model_id": "x-ai/grok-4.3",
+      "model_id": "gpt-image-2-2026-04-21",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 1.25,
-        "output_per_million": 2.5
+        "input_per_million": 5.0,
+        "output_per_million": 10.0
       },
       "percent_change": null,
-      "detected_at": "2026-05-01T00:28:13.284309+00:00"
+      "detected_at": "2026-05-01T06:52:46.043515+00:00"
     },
     {
-      "model_id": "google/gemini-2.0-flash-001",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 1048576,
-      "new_value": 1000000,
-      "percent_change": -4.63,
-      "detected_at": "2026-05-01T00:28:13.284309+00:00"
+      "model_id": "azure/gpt-image-2-2026-04-21",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.0,
+        "output_per_million": 10.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-05-01T06:52:46.043515+00:00"
     },
     {
-      "model_id": "qwen/qwen3-coder-next",
+      "model_id": "azure/gpt-image-2",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.0,
+        "output_per_million": 10.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-05-01T06:52:46.043515+00:00"
+    },
+    {
+      "model_id": "x-ai/grok-4.20",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.14,
-      "new_value": 0.12,
-      "percent_change": -14.29,
-      "detected_at": "2026-05-01T00:28:13.284309+00:00"
+      "old_value": 2.0,
+      "new_value": 1.25,
+      "percent_change": -37.5,
+      "detected_at": "2026-05-01T06:52:46.043515+00:00"
+    },
+    {
+      "model_id": "x-ai/grok-4.20",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 6.0,
+      "new_value": 2.5,
+      "percent_change": -58.33,
+      "detected_at": "2026-05-01T06:52:46.043515+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 1,
-    "new_models": 2,
+    "price_decreases": 2,
+    "new_models": 4,
     "removed_models": 0,
-    "other_changes": 1
+    "other_changes": 0
   }
 }
