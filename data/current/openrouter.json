@@ -1,9 +1,131 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-04-30T18:27:54.653777+00:00",
+  "fetched_at": "2026-05-01T00:28:12.577377+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 369,
+  "model_count": 371,
   "data": [
+    {
+      "id": "x-ai/grok-4.3",
+      "canonical_slug": "x-ai/grok-4.3-20260430",
+      "hugging_face_id": null,
+      "name": "xAI: Grok 4.3",
+      "created": 1777591821,
+      "description": "Grok 4.3 is a reasoning model from xAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
+      "context_length": 1000000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Grok",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.0000025",
+        "web_search": "0.005",
+        "input_cache_read": "0.0000002"
+      },
+      "top_provider": {
+        "context_length": 1000000,
+        "max_completion_tokens": null,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/x-ai/grok-4.3-20260430/endpoints"
+      }
+    },
+    {
+      "id": "ibm-granite/granite-4.1-8b",
+      "canonical_slug": "ibm-granite/granite-4.1-8b-20260429",
+      "hugging_face_id": "ibm-granite/granite-4.1-8b",
+      "name": "IBM: Granite 4.1 8B",
+      "created": 1777577071,
+      "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks...",
+      "context_length": 131072,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000005",
+        "completion": "0.0000001",
+        "input_cache_read": "0.00000005"
+      },
+      "top_provider": {
+        "context_length": 131072,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "max_tokens",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/ibm-granite/granite-4.1-8b-20260429/endpoints"
+      }
+    },
     {
       "id": "openrouter/owl-alpha",
       "canonical_slug": "openrouter/owl-alpha",
@@ -4813,9 +4935,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000014",
+        "prompt": "0.00000012",
         "completion": "0.0000008",
-        "input_cache_read": "0.00000009"
+        "input_cache_read": "0.00000007"
       },
       "top_provider": {
         "context_length": 262144,
@@ -5623,7 +5745,7 @@
         "frequency_penalty": null
       },
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-05-07",
       "links": {
         "details": "/api/v1/models/allenai/olmo-3.1-32b-instruct-20251215/endpoints"
       }
@@ -8024,7 +8146,7 @@
         "frequency_penalty": null
       },
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-05-07",
       "links": {
         "details": "/api/v1/models/nvidia/nemotron-nano-12b-v2-vl/endpoints"
       }
@@ -15759,7 +15881,7 @@
       "name": "Google: Gemini 2.0 Flash",
       "created": 1738769413,
       "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). It...",
-      "context_length": 1048576,
+      "context_length": 1000000,
       "architecture": {
         "modality": "text+image+file+audio+video->text",
         "input_modalities": [
@@ -15786,7 +15908,7 @@
         "input_cache_write": "0.00000008333333333333334"
       },
       "top_provider": {
-        "context_length": 1048576,
+        "context_length": 1000000,
         "max_completion_tokens": 8192,
         "is_moderated": false
       },
@@ -19037,7 +19159,7 @@
       ],
       "default_parameters": {},
       "knowledge_cutoff": "2023-12-31",
-      "expiration_date": null,
+      "expiration_date": "2026-05-07",
       "links": {
         "details": "/api/v1/models/meta-llama/llama-3-8b-instruct/endpoints"
       }
@@ -19495,7 +19617,7 @@
         "temperature": 0.3
       },
       "knowledge_cutoff": "2023-12-31",
-      "expiration_date": null,
+      "expiration_date": "2026-05-08",
       "links": {
         "details": "/api/v1/models/mistralai/mixtral-8x7b-instruct/endpoints"
       }
