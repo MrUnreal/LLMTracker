@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-01T18:21:17.684944+00:00",
+  "generated_at": "2026-05-02T00:25:46.320137+00:00",
   "changes": [
     {
       "model_id": "google/gemini-2.0-flash-001",
       "change_type": "context_change",
       "field": "context_window",
-      "old_value": 1000000,
-      "new_value": 1048576,
-      "percent_change": 4.86,
-      "detected_at": "2026-05-01T18:21:17.682889+00:00"
+      "old_value": 1048576,
+      "new_value": 1000000,
+      "percent_change": -4.63,
+      "detected_at": "2026-05-02T00:25:46.316713+00:00"
     }
   ],
   "summary": {
