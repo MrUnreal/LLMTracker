@@ -1,18 +1,54 @@
 {
-  "generated_at": "2026-05-03T00:25:37.847174+00:00",
+  "generated_at": "2026-05-03T12:15:00.810088+00:00",
   "changes": [
+    {
+      "model_id": "qwen/qwen3-30b-a3b",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.08,
+      "new_value": 0.09,
+      "percent_change": 12.5,
+      "detected_at": "2026-05-03T12:15:00.807915+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3-30b-a3b",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.28,
+      "new_value": 0.45,
+      "percent_change": 60.71,
+      "detected_at": "2026-05-03T12:15:00.807915+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v3.1-terminus",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.21,
+      "new_value": 0.27,
+      "percent_change": 28.57,
+      "detected_at": "2026-05-03T12:15:00.807915+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v3.1-terminus",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.79,
+      "new_value": 0.95,
+      "percent_change": 20.25,
+      "detected_at": "2026-05-03T12:15:00.807915+00:00"
+    },
     {
       "model_id": "google/gemini-2.0-flash-001",
       "change_type": "context_change",
       "field": "context_window",
-      "old_value": 1048576,
-      "new_value": 1000000,
-      "percent_change": -4.63,
-      "detected_at": "2026-05-03T00:25:37.844977+00:00"
+      "old_value": 1000000,
+      "new_value": 1048576,
+      "percent_change": 4.86,
+      "detected_at": "2026-05-03T12:15:00.807915+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
+    "price_increases": 4,
     "price_decreases": 0,
     "new_models": 0,
     "removed_models": 0,
