@@ -1,59 +1,24 @@
 {
-  "generated_at": "2026-05-07T00:26:24.266234+00:00",
+  "generated_at": "2026-05-07T06:57:13.305414+00:00",
   "changes": [
     {
-      "model_id": "allenai/olmo-3.1-32b-instruct",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 0.2,
-        "output_per_million": 0.6
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-05-07T00:26:24.262428+00:00"
-    },
-    {
       "model_id": "inclusionai/ling-2.6-1t:free",
-      "change_type": "removed_model",
+      "change_type": "new_model",
       "field": "model",
-      "old_value": {
+      "old_value": null,
+      "new_value": {
         "input_per_million": 0.0,
         "output_per_million": 0.0
       },
-      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-05-07T00:26:24.262428+00:00"
-    },
-    {
-      "model_id": "nvidia/nemotron-nano-12b-v2-vl",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 0.2,
-        "output_per_million": 0.6
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-05-07T00:26:24.262428+00:00"
-    },
-    {
-      "model_id": "meta-llama/llama-3-8b-instruct",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.03,
-      "new_value": 0.04,
-      "percent_change": 33.33,
-      "detected_at": "2026-05-07T00:26:24.262428+00:00"
+      "detected_at": "2026-05-07T06:57:13.303790+00:00"
     }
   ],
   "summary": {
-    "price_increases": 1,
+    "price_increases": 0,
     "price_decreases": 0,
-    "new_models": 0,
-    "removed_models": 3,
+    "new_models": 1,
+    "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-05-07T00:27:28.096183+00:00"
+  }
 }

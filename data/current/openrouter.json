@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-05-07T00:26:23.556557+00:00",
+  "fetched_at": "2026-05-07T06:57:12.684172+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 367,
+  "model_count": 368,
   "data": [
     {
       "id": "baidu/cobuddy:free",
@@ -1496,6 +1496,65 @@
       }
     },
     {
+      "id": "inclusionai/ling-2.6-1t:free",
+      "canonical_slug": "inclusionai/ling-2.6-1t-20260423",
+      "hugging_face_id": null,
+      "name": "inclusionAI: Ling-2.6-1T (free)",
+      "created": 1776948238,
+      "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a “fast...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "max_tokens",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": "2026-05-07",
+      "links": {
+        "details": "/api/v1/models/inclusionai/ling-2.6-1t-20260423/endpoints"
+      }
+    },
+    {
       "id": "tencent/hy3-preview:free",
       "canonical_slug": "tencent/hy3-preview-20260421",
       "hugging_face_id": "tencent/Hy3-preview",
@@ -1547,7 +1606,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2026-05-08",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/tencent/hy3-preview-20260421/endpoints"
       }
@@ -17931,7 +17990,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2023-12-31",
-      "expiration_date": "2026-05-08",
+      "expiration_date": "2026-05-07",
       "links": {
         "details": "/api/v1/models/nvidia/llama-3.1-nemotron-70b-instruct/endpoints"
       }
@@ -19798,7 +19857,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2023-12-31",
-      "expiration_date": "2026-05-08",
+      "expiration_date": "2026-05-07",
       "links": {
         "details": "/api/v1/models/mistralai/mixtral-8x7b-instruct/endpoints"
       }
@@ -20077,7 +20136,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2023-09-30",
-      "expiration_date": null,
+      "expiration_date": "2026-05-30",
       "links": {
         "details": "/api/v1/models/mistralai/mistral-7b-instruct-v0.1/endpoints"
       }
