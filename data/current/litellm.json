@@ -1,8 +1,8 @@
 {
   "source": "litellm",
-  "fetched_at": "2026-05-09T18:17:37.122344+00:00",
+  "fetched_at": "2026-05-10T00:27:15.307098+00:00",
   "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
-  "model_count": 2706,
+  "model_count": 2707,
   "data": {
     "sample_spec": {
       "code_interpreter_cost_per_session": 0.0,
@@ -27193,6 +27193,20 @@
       "supports_function_calling": true,
       "supports_reasoning": true,
       "supports_tool_choice": true
+    },
+    "openrouter/qwen/qwen3.6-plus": {
+      "input_cost_per_token": 3.25e-07,
+      "litellm_provider": "openrouter",
+      "max_input_tokens": 1000000,
+      "max_output_tokens": 65536,
+      "max_tokens": 65536,
+      "mode": "chat",
+      "output_cost_per_token": 1.95e-06,
+      "source": "https://openrouter.ai/qwen/qwen3.6-plus",
+      "supports_function_calling": true,
+      "supports_reasoning": true,
+      "supports_tool_choice": true,
+      "supports_vision": true
     },
     "openrouter/qwen/qwen3.5-35b-a3b": {
       "input_cost_per_token": 2.5e-07,
