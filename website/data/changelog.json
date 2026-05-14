@@ -1,27 +1,18 @@
 {
-  "generated_at": "2026-05-14T06:57:58.528368+00:00",
+  "generated_at": "2026-05-14T12:34:33.478814+00:00",
   "changes": [
-    {
-      "model_id": "vertex_ai/gemini-embedding-2-preview",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.15,
-      "new_value": 0.2,
-      "percent_change": 33.33,
-      "detected_at": "2026-05-14T06:57:58.524753+00:00"
-    },
     {
       "model_id": "minimax/minimax-m2.7",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.28,
-      "new_value": 0.279,
-      "percent_change": -0.36,
-      "detected_at": "2026-05-14T06:57:58.524753+00:00"
+      "old_value": 0.279,
+      "new_value": 0.26,
+      "percent_change": -6.81,
+      "detected_at": "2026-05-14T12:34:33.476526+00:00"
     }
   ],
   "summary": {
-    "price_increases": 1,
+    "price_increases": 0,
     "price_decreases": 1,
     "new_models": 0,
     "removed_models": 0,
