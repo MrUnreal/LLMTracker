@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-05-15T12:35:03.919651+00:00",
+  "fetched_at": "2026-05-15T18:31:21.344862+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 364,
   "data": [
@@ -122,10 +122,10 @@
       }
     },
     {
-      "id": "inclusionai/ring-2.6-1t:free",
+      "id": "inclusionai/ring-2.6-1t",
       "canonical_slug": "inclusionai/ring-2.6-1t-20260508",
       "hugging_face_id": null,
-      "name": "inclusionAI: Ring-2.6-1T (free)",
+      "name": "inclusionAI: Ring-2.6-1T",
       "created": 1778247440,
       "description": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool...",
       "context_length": 262144,
@@ -141,8 +141,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0",
-        "completion": "0"
+        "prompt": "0.000000075",
+        "completion": "0.000000625",
+        "input_cache_read": "0.000000015"
       },
       "top_provider": {
         "context_length": 262144,
@@ -157,6 +158,7 @@
         "presence_penalty",
         "reasoning",
         "repetition_penalty",
+        "response_format",
         "seed",
         "stop",
         "temperature",
@@ -1732,7 +1734,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash",
       "created": 1777000666,
       "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
-      "context_length": 1048576,
+      "context_length": 1048575,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -1745,13 +1747,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000126",
-        "completion": "0.000000252",
-        "input_cache_read": "0.0000000252"
+        "prompt": "0.000000112",
+        "completion": "0.000000224",
+        "input_cache_read": "0.000000022"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "context_length": 1048575,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -8398,8 +8400,7 @@
       },
       "pricing": {
         "prompt": "0.0000006",
-        "completion": "0.0000025",
-        "input_cache_read": "0.00000015"
+        "completion": "0.0000025"
       },
       "top_provider": {
         "context_length": 262144,
@@ -13365,6 +13366,7 @@
         "max_tokens",
         "presence_penalty",
         "repetition_penalty",
+        "response_format",
         "seed",
         "stop",
         "temperature",
@@ -16833,8 +16835,10 @@
         "presence_penalty",
         "reasoning",
         "repetition_penalty",
+        "response_format",
         "seed",
         "stop",
+        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -19328,6 +19332,7 @@
         "min_p",
         "presence_penalty",
         "repetition_penalty",
+        "response_format",
         "seed",
         "stop",
         "temperature",
@@ -19378,6 +19383,7 @@
         "repetition_penalty",
         "seed",
         "stop",
+        "structured_outputs",
         "temperature",
         "top_k",
         "top_p"
@@ -19478,6 +19484,7 @@
         "max_tokens",
         "presence_penalty",
         "repetition_penalty",
+        "response_format",
         "seed",
         "stop",
         "temperature",
