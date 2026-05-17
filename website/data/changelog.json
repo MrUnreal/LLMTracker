@@ -1,122 +1,57 @@
 {
-  "generated_at": "2026-05-17T06:55:50.313726+00:00",
+  "generated_at": "2026-05-17T18:20:46.864987+00:00",
   "changes": [
     {
-      "model_id": "azure_ai/gpt-5.4-nano",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.2,
-        "output_per_million": 1.25
-      },
-      "percent_change": null,
-      "detected_at": "2026-05-17T06:55:50.311532+00:00"
+      "model_id": "nvidia/nemotron-3-super-120b-a12b",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.1,
+      "new_value": 0.09,
+      "percent_change": -10.0,
+      "detected_at": "2026-05-17T18:20:46.861583+00:00"
     },
     {
-      "model_id": "azure_ai/gpt-5.4-pro",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 30.0,
-        "output_per_million": 180.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-05-17T06:55:50.311532+00:00"
+      "model_id": "nvidia/nemotron-3-super-120b-a12b",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.5,
+      "new_value": 0.45,
+      "percent_change": -10.0,
+      "detected_at": "2026-05-17T18:20:46.861583+00:00"
     },
     {
-      "model_id": "azure_ai/gpt-5.4-pro-2026-03-05",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 30.0,
-        "output_per_million": 180.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-05-17T06:55:50.311532+00:00"
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.07,
+      "new_value": 0.06,
+      "percent_change": -14.29,
+      "detected_at": "2026-05-17T18:20:46.861583+00:00"
     },
     {
-      "model_id": "azure_ai/gpt-5.4-nano-2026-03-17",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.2,
-        "output_per_million": 1.25
-      },
-      "percent_change": null,
-      "detected_at": "2026-05-17T06:55:50.311532+00:00"
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.34,
+      "new_value": 0.33,
+      "percent_change": -2.94,
+      "detected_at": "2026-05-17T18:20:46.861583+00:00"
     },
     {
-      "model_id": "azure_ai/gpt-5.4-mini",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.75,
-        "output_per_million": 4.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-05-17T06:55:50.311532+00:00"
-    },
-    {
-      "model_id": "azure_ai/gpt-5.4-mini-2026-03-17",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.75,
-        "output_per_million": 4.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-05-17T06:55:50.311532+00:00"
-    },
-    {
-      "model_id": "azure_ai/gpt-5.4-2026-03-05",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.5,
-        "output_per_million": 15.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-05-17T06:55:50.311532+00:00"
-    },
-    {
-      "model_id": "azure_ai/gpt-5.4",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.5,
-        "output_per_million": 15.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-05-17T06:55:50.311532+00:00"
-    },
-    {
-      "model_id": "jp.anthropic.claude-sonnet-4-6",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 3.3,
-        "output_per_million": 16.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-05-17T06:55:50.311532+00:00"
+      "model_id": "mistralai/mistral-nemo",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.04,
+      "new_value": 0.03,
+      "percent_change": -25.0,
+      "detected_at": "2026-05-17T18:20:46.861583+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 0,
-    "new_models": 9,
+    "price_decreases": 5,
+    "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-05-17T06:56:53.882062+00:00"
+  }
 }
