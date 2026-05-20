@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-05-20T07:08:54.628353+00:00",
+  "generated_at": "2026-05-20T12:47:38.554804+00:00",
   "changes": [
     {
-      "model_id": "google/gemini-2.0-flash-001",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 1048576,
-      "new_value": 1000000,
-      "percent_change": -4.63,
-      "detected_at": "2026-05-20T07:08:54.624048+00:00"
+      "model_id": "qwen/qwen3.6-35b-a3b",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.15,
+      "new_value": 0.149,
+      "percent_change": -0.67,
+      "detected_at": "2026-05-20T12:47:38.551906+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 0,
+    "price_decreases": 1,
     "new_models": 0,
     "removed_models": 0,
-    "other_changes": 1
+    "other_changes": 0
   }
 }
