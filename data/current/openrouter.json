@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-05-21T07:13:20.516003+00:00",
+  "fetched_at": "2026-05-21T13:02:13.160869+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 358,
   "data": [
@@ -1458,12 +1458,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000149",
-        "completion": "0.000001"
+        "prompt": "0.00000015",
+        "completion": "0.000001",
+        "input_cache_read": "0.00000005"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": null,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
