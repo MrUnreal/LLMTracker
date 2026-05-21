@@ -1,44 +1,21 @@
 {
-  "generated_at": "2026-05-20T18:44:57.970152+00:00",
+  "generated_at": "2026-05-21T07:13:21.266784+00:00",
   "changes": [
     {
-      "model_id": "x-ai/grok-build-0.1",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.0,
-        "output_per_million": 2.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-05-20T18:44:57.967704+00:00"
-    },
-    {
-      "model_id": "inclusionai/ling-2.6-1t",
+      "model_id": "stepfun/step-3.5-flash",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.3,
-      "new_value": 0.075,
-      "percent_change": -75.0,
-      "detected_at": "2026-05-20T18:44:57.967704+00:00"
-    },
-    {
-      "model_id": "inclusionai/ling-2.6-1t",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 2.5,
-      "new_value": 0.625,
-      "percent_change": -75.0,
-      "detected_at": "2026-05-20T18:44:57.967704+00:00"
+      "old_value": 0.1,
+      "new_value": 0.09,
+      "percent_change": -10.0,
+      "detected_at": "2026-05-21T07:13:21.263805+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 2,
-    "new_models": 1,
+    "price_decreases": 1,
+    "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-05-20T18:45:19.156727+00:00"
+  }
 }
