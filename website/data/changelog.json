@@ -1,21 +1,72 @@
 {
-  "generated_at": "2026-05-21T13:02:13.932492+00:00",
+  "generated_at": "2026-05-21T18:35:42.991002+00:00",
   "changes": [
     {
-      "model_id": "qwen/qwen3.6-35b-a3b",
+      "model_id": "qwen/qwen3.7-max",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.5,
+        "output_per_million": 7.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-05-21T18:35:42.987434+00:00"
+    },
+    {
+      "model_id": "arcee-ai/trinity-large-preview",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.45
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-05-21T18:35:42.987434+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3.6-27b",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.32,
+      "new_value": 0.317,
+      "percent_change": -0.94,
+      "detected_at": "2026-05-21T18:35:42.987434+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.1",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.149,
-      "new_value": 0.15,
-      "percent_change": 0.67,
-      "detected_at": "2026-05-21T13:02:13.929885+00:00"
+      "old_value": 0.0,
+      "new_value": 0.98,
+      "percent_change": 100.0,
+      "detected_at": "2026-05-21T18:35:42.987434+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.1",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.0,
+      "new_value": 3.08,
+      "percent_change": 100.0,
+      "detected_at": "2026-05-21T18:35:42.987434+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.1",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 202800,
+      "new_value": 202752,
+      "percent_change": -0.02,
+      "detected_at": "2026-05-21T18:35:42.987434+00:00"
     }
   ],
   "summary": {
-    "price_increases": 1,
-    "price_decreases": 0,
-    "new_models": 0,
-    "removed_models": 0,
-    "other_changes": 0
+    "price_increases": 2,
+    "price_decreases": 1,
+    "new_models": 1,
+    "removed_models": 1,
+    "other_changes": 1
   }
 }
