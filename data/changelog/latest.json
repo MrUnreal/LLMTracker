@@ -1,23 +1,87 @@
 {
-  "generated_at": "2026-05-26T12:55:19.846962+00:00",
+  "generated_at": "2026-05-26T18:46:35.215183+00:00",
   "changes": [
     {
-      "model_id": "qwen/qwen3.6-27b",
+      "model_id": "arcee-ai/trinity-large-thinking:free",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-05-26T18:46:35.212830+00:00"
+    },
+    {
+      "model_id": "poolside/laguna-m.1:free",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 131072,
+      "new_value": 262144,
+      "percent_change": 100.0,
+      "detected_at": "2026-05-26T18:46:35.212830+00:00"
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.5-pro",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 1.0,
+      "new_value": 0.435,
+      "percent_change": -56.5,
+      "detected_at": "2026-05-26T18:46:35.212830+00:00"
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.5-pro",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 3.2,
-      "new_value": 2.0,
-      "percent_change": -37.5,
-      "detected_at": "2026-05-26T12:55:19.844242+00:00"
+      "old_value": 3.0,
+      "new_value": 0.87,
+      "percent_change": -71.0,
+      "detected_at": "2026-05-26T18:46:35.212830+00:00"
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.5",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.4,
+      "new_value": 0.14,
+      "percent_change": -65.0,
+      "detected_at": "2026-05-26T18:46:35.212830+00:00"
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.5",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 2.0,
+      "new_value": 0.28,
+      "percent_change": -86.0,
+      "detected_at": "2026-05-26T18:46:35.212830+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-4.5-air",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.13,
+      "new_value": 0.125,
+      "percent_change": -3.85,
+      "detected_at": "2026-05-26T18:46:35.212830+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-4.5-air",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.85,
+      "new_value": 0.84,
+      "percent_change": -1.18,
+      "detected_at": "2026-05-26T18:46:35.212830+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 1,
+    "price_decreases": 6,
     "new_models": 0,
-    "removed_models": 0,
-    "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-05-26T12:55:43.784467+00:00"
+    "removed_models": 1,
+    "other_changes": 1
+  }
 }
