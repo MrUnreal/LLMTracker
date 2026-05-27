@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-05-27T07:22:11.453352+00:00",
+  "fetched_at": "2026-05-27T13:03:59.358230+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 356,
   "data": [
@@ -480,7 +480,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2026-05-27",
+      "expiration_date": "2026-05-29",
       "links": {
         "details": "/api/v1/models/baidu/cobuddy-20260430/endpoints"
       }
