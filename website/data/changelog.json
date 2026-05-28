@@ -1,21 +1,30 @@
 {
-  "generated_at": "2026-05-28T00:29:52.350033+00:00",
+  "generated_at": "2026-05-28T07:15:34.546820+00:00",
   "changes": [
     {
-      "model_id": "minimax/minimax-m2.5:free",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 204800,
-      "new_value": 262144,
-      "percent_change": 28.0,
-      "detected_at": "2026-05-28T00:29:52.347723+00:00"
+      "model_id": "tencent/hy3-preview",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.066,
+      "new_value": 0.063,
+      "percent_change": -4.55,
+      "detected_at": "2026-05-28T07:15:34.543947+00:00"
+    },
+    {
+      "model_id": "tencent/hy3-preview",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.26,
+      "new_value": 0.21,
+      "percent_change": -19.23,
+      "detected_at": "2026-05-28T07:15:34.543947+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 0,
+    "price_decreases": 2,
     "new_models": 0,
     "removed_models": 0,
-    "other_changes": 1
+    "other_changes": 0
   }
 }
