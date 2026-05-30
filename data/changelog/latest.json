@@ -1,26 +1,21 @@
 {
-  "generated_at": "2026-05-30T00:31:51.503736+00:00",
+  "generated_at": "2026-05-30T06:57:41.090043+00:00",
   "changes": [
     {
-      "model_id": "openai/gpt-4o-audio-preview",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 2.5,
-        "output_per_million": 10.0
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-05-30T00:31:51.500150+00:00"
+      "model_id": "qwen/qwen3.5-35b-a3b",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.139,
+      "new_value": 0.14,
+      "percent_change": 0.72,
+      "detected_at": "2026-05-30T06:57:41.087812+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
+    "price_increases": 1,
     "price_decreases": 0,
     "new_models": 0,
-    "removed_models": 1,
+    "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-05-30T00:32:17.309641+00:00"
+  }
 }
