@@ -1,66 +1,24 @@
 {
-  "generated_at": "2026-05-29T18:49:08.891281+00:00",
+  "generated_at": "2026-05-30T00:31:51.503736+00:00",
   "changes": [
     {
-      "model_id": "deepseek/deepseek-v4-flash",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.1,
-      "new_value": 0.0983,
-      "percent_change": -1.7,
-      "detected_at": "2026-05-29T18:49:08.888189+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-v4-flash",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.2,
-      "new_value": 0.1966,
-      "percent_change": -1.7,
-      "detected_at": "2026-05-29T18:49:08.888189+00:00"
-    },
-    {
-      "model_id": "~moonshotai/kimi-latest",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.73,
-      "new_value": 0.684,
-      "percent_change": -6.3,
-      "detected_at": "2026-05-29T18:49:08.888189+00:00"
-    },
-    {
-      "model_id": "~moonshotai/kimi-latest",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 3.49,
-      "new_value": 3.42,
-      "percent_change": -2.01,
-      "detected_at": "2026-05-29T18:49:08.888189+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.6",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.73,
-      "new_value": 0.684,
-      "percent_change": -6.3,
-      "detected_at": "2026-05-29T18:49:08.888189+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.6",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 3.49,
-      "new_value": 3.42,
-      "percent_change": -2.01,
-      "detected_at": "2026-05-29T18:49:08.888189+00:00"
+      "model_id": "openai/gpt-4o-audio-preview",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 2.5,
+        "output_per_million": 10.0
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-05-30T00:31:51.500150+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 6,
+    "price_decreases": 0,
     "new_models": 0,
-    "removed_models": 0,
+    "removed_models": 1,
     "other_changes": 0
   }
 }
