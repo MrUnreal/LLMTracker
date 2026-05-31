@@ -1,50 +1,60 @@
 {
-  "generated_at": "2026-05-31T07:15:33.683912+00:00",
+  "generated_at": "2026-05-31T12:25:47.418540+00:00",
   "changes": [
     {
-      "model_id": "alfredpros/codellama-7b-instruct-solidity",
+      "model_id": "mistralai/mistral-large-2411",
       "change_type": "removed_model",
       "field": "model",
       "old_value": {
-        "input_per_million": 0.8,
-        "output_per_million": 1.2
+        "input_per_million": 2.0,
+        "output_per_million": 6.0
       },
       "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-05-31T07:15:33.680832+00:00"
+      "detected_at": "2026-05-31T12:25:47.416226+00:00"
     },
     {
-      "model_id": "baidu/ernie-4.5-21b-a3b",
+      "model_id": "mistralai/pixtral-large-2411",
       "change_type": "removed_model",
       "field": "model",
       "old_value": {
-        "input_per_million": 0.07,
-        "output_per_million": 0.28
+        "input_per_million": 2.0,
+        "output_per_million": 6.0
       },
       "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-05-31T07:15:33.680832+00:00"
+      "detected_at": "2026-05-31T12:25:47.416226+00:00"
     },
     {
-      "model_id": "minimax/minimax-m2.5:free",
+      "model_id": "mistralai/devstral-small",
       "change_type": "removed_model",
       "field": "model",
       "old_value": {
-        "input_per_million": 0.0,
-        "output_per_million": 0.0
+        "input_per_million": 0.1,
+        "output_per_million": 0.3
       },
       "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-05-31T07:15:33.680832+00:00"
+      "detected_at": "2026-05-31T12:25:47.416226+00:00"
+    },
+    {
+      "model_id": "mistralai/devstral-medium",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.4,
+        "output_per_million": 2.0
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-05-31T12:25:47.416226+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
     "price_decreases": 0,
     "new_models": 0,
-    "removed_models": 3,
+    "removed_models": 4,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-05-31T07:15:57.809046+00:00"
+  }
 }
