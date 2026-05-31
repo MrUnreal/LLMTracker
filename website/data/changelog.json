@@ -1,24 +1,54 @@
 {
-  "generated_at": "2026-05-30T18:21:22.184358+00:00",
+  "generated_at": "2026-05-31T00:32:56.509800+00:00",
   "changes": [
     {
-      "model_id": "mistralai/mistral-7b-instruct-v0.1",
+      "model_id": "upstage/solar-pro-3",
       "change_type": "removed_model",
       "field": "model",
       "old_value": {
-        "input_per_million": 0.11,
-        "output_per_million": 0.19
+        "input_per_million": 0.15,
+        "output_per_million": 0.6
       },
       "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-05-30T18:21:22.180905+00:00"
+      "detected_at": "2026-05-31T00:32:56.507365+00:00"
+    },
+    {
+      "model_id": "baidu/ernie-4.5-21b-a3b-thinking",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.07,
+        "output_per_million": 0.28
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-05-31T00:32:56.507365+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.1495,
+      "new_value": 0.1,
+      "percent_change": -33.11,
+      "detected_at": "2026-05-31T00:32:56.507365+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 1.495,
+      "new_value": 0.1,
+      "percent_change": -93.31,
+      "detected_at": "2026-05-31T00:32:56.507365+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 0,
+    "price_decreases": 2,
     "new_models": 0,
-    "removed_models": 1,
+    "removed_models": 2,
     "other_changes": 0
   }
 }
