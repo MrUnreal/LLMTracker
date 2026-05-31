@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-05-31T12:25:46.678980+00:00",
+  "fetched_at": "2026-05-31T18:22:12.174482+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 346,
+  "model_count": 343,
   "data": [
     {
       "id": "stepfun/step-3.7-flash",
@@ -514,9 +514,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.000000625",
-        "input_cache_read": "0.000000015"
+        "prompt": "0.0000003",
+        "completion": "0.0000025",
+        "input_cache_read": "0.00000006"
       },
       "top_provider": {
         "context_length": 262144,
@@ -1999,56 +1999,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/deepseek/deepseek-v4-pro-20260423/endpoints"
-      }
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash:free",
-      "canonical_slug": "deepseek/deepseek-v4-flash-20260423",
-      "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash",
-      "name": "DeepSeek: DeepSeek V4 Flash (free)",
-      "created": 1777000666,
-      "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
-      "context_length": 1048576,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "DeepSeek",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 384000,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "reasoning",
-        "tool_choice",
-        "tools"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/deepseek/deepseek-v4-flash-20260423/endpoints"
       }
     },
     {
@@ -3669,125 +3619,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/rekaai/reka-edge-2603/endpoints"
-      }
-    },
-    {
-      "id": "xiaomi/mimo-v2-omni",
-      "canonical_slug": "xiaomi/mimo-v2-omni-20260318",
-      "hugging_face_id": "",
-      "name": "Xiaomi: MiMo-V2-Omni",
-      "created": 1773863703,
-      "description": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture. It combines strong multimodal perception with agentic capability - visual grounding, multi-step...",
-      "context_length": 262144,
-      "architecture": {
-        "modality": "text+image+audio+video->text",
-        "input_modalities": [
-          "text",
-          "audio",
-          "image",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.000002",
-        "input_cache_read": "0.00000008"
-      },
-      "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 65536,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "response_format",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 1,
-        "top_p": 0.95,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-05-31",
-      "links": {
-        "details": "/api/v1/models/xiaomi/mimo-v2-omni-20260318/endpoints"
-      }
-    },
-    {
-      "id": "xiaomi/mimo-v2-pro",
-      "canonical_slug": "xiaomi/mimo-v2-pro-20260318",
-      "hugging_face_id": "",
-      "name": "Xiaomi: MiMo-V2-Pro",
-      "created": 1773863643,
-      "description": "MiMo-V2-Pro is Xiaomi's flagship foundation model, featuring over 1T total parameters and a 1M context length, deeply optimized for agentic scenarios. It is highly adaptable to general agent frameworks like...",
-      "context_length": 1048576,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000003",
-        "input_cache_read": "0.0000002"
-      },
-      "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 131072,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "response_format",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 1,
-        "top_p": 0.95,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-05-31",
-      "links": {
-        "details": "/api/v1/models/xiaomi/mimo-v2-pro-20260318/endpoints"
       }
     },
     {
