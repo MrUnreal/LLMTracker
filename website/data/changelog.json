@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-31T00:32:56.509800+00:00",
+  "generated_at": "2026-05-31T07:15:33.683912+00:00",
   "changes": [
     {
-      "model_id": "upstage/solar-pro-3",
+      "model_id": "alfredpros/codellama-7b-instruct-solidity",
       "change_type": "removed_model",
       "field": "model",
       "old_value": {
-        "input_per_million": 0.15,
-        "output_per_million": 0.6
+        "input_per_million": 0.8,
+        "output_per_million": 1.2
       },
       "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-05-31T00:32:56.507365+00:00"
+      "detected_at": "2026-05-31T07:15:33.680832+00:00"
     },
     {
-      "model_id": "baidu/ernie-4.5-21b-a3b-thinking",
+      "model_id": "baidu/ernie-4.5-21b-a3b",
       "change_type": "removed_model",
       "field": "model",
       "old_value": {
@@ -23,32 +23,26 @@
       },
       "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-05-31T00:32:56.507365+00:00"
+      "detected_at": "2026-05-31T07:15:33.680832+00:00"
     },
     {
-      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.1495,
-      "new_value": 0.1,
-      "percent_change": -33.11,
-      "detected_at": "2026-05-31T00:32:56.507365+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 1.495,
-      "new_value": 0.1,
-      "percent_change": -93.31,
-      "detected_at": "2026-05-31T00:32:56.507365+00:00"
+      "model_id": "minimax/minimax-m2.5:free",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-05-31T07:15:33.680832+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 2,
+    "price_decreases": 0,
     "new_models": 0,
-    "removed_models": 2,
+    "removed_models": 3,
     "other_changes": 0
   }
 }

@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-05-31T00:32:55.830557+00:00",
+  "fetched_at": "2026-05-31T07:15:33.097075+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 353,
+  "model_count": 350,
   "data": [
     {
       "id": "stepfun/step-3.7-flash",
@@ -5493,60 +5493,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/qwen/qwen3.5-397b-a17b-20260216/endpoints"
-      }
-    },
-    {
-      "id": "minimax/minimax-m2.5:free",
-      "canonical_slug": "minimax/minimax-m2.5-20260211",
-      "hugging_face_id": "MiniMaxAI/MiniMax-M2.5",
-      "name": "MiniMax: MiniMax M2.5 (free)",
-      "created": 1770908502,
-      "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1...",
-      "context_length": 204800,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 196608,
-        "max_completion_tokens": 8192,
-        "is_moderated": true
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "response_format",
-        "seed",
-        "stop",
-        "temperature",
-        "tools"
-      ],
-      "default_parameters": {
-        "temperature": 1,
-        "top_p": 0.95,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/minimax/minimax-m2.5-20260211/endpoints"
       }
     },
     {
@@ -11153,60 +11099,6 @@
       }
     },
     {
-      "id": "baidu/ernie-4.5-21b-a3b",
-      "canonical_slug": "baidu/ernie-4.5-21b-a3b",
-      "hugging_face_id": "baidu/ERNIE-4.5-21B-A3B-PT",
-      "name": "Baidu: ERNIE 4.5 21B A3B",
-      "created": 1755034167,
-      "description": "A sophisticated text-based Mixture-of-Experts (MoE) model featuring 21B total parameters with 3B activated per token, delivering exceptional multimodal understanding and generation through heterogeneous MoE structures and modality-isolated routing. Supporting an...",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00000007",
-        "completion": "0.00000028"
-      },
-      "top_provider": {
-        "context_length": 120000,
-        "max_completion_tokens": 8000,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "repetition_penalty",
-        "seed",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.8,
-        "top_p": 0.8,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": "2025-03-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/baidu/ernie-4.5-21b-a3b/endpoints"
-      }
-    },
-    {
       "id": "baidu/ernie-4.5-vl-28b-a3b",
       "canonical_slug": "baidu/ernie-4.5-vl-28b-a3b",
       "hugging_face_id": "baidu/ERNIE-4.5-VL-28B-A3B-PT",
@@ -14635,55 +14527,6 @@
       }
     },
     {
-      "id": "alfredpros/codellama-7b-instruct-solidity",
-      "canonical_slug": "alfredpros/codellama-7b-instruct-solidity",
-      "hugging_face_id": "AlfredPros/CodeLlama-7b-Instruct-Solidity",
-      "name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
-      "created": 1744641874,
-      "description": "A finetuned 7 billion parameters Code LLaMA - Instruct model to generate Solidity smart contract using 4-bit QLoRA finetuning provided by PEFT library.",
-      "context_length": 4096,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": "alpaca"
-      },
-      "pricing": {
-        "prompt": "0.0000008",
-        "completion": "0.0000012"
-      },
-      "top_provider": {
-        "context_length": 4096,
-        "max_completion_tokens": 4096,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "seed",
-        "stop",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2023-06-30",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/alfredpros/codellama-7b-instruct-solidity/endpoints"
-      }
-    },
-    {
       "id": "meta-llama/llama-4-maverick",
       "canonical_slug": "meta-llama/llama-4-maverick-17b-128e-instruct",
       "hugging_face_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
@@ -17416,12 +17259,9 @@
         "min_p",
         "presence_penalty",
         "repetition_penalty",
-        "response_format",
         "seed",
         "stop",
         "temperature",
-        "tool_choice",
-        "tools",
         "top_k",
         "top_p"
       ],
