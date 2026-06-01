@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-06-01T13:56:52.303613+00:00",
+  "fetched_at": "2026-06-01T19:36:45.372996+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 343,
   "data": [
@@ -3698,12 +3698,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000026",
+        "prompt": "0.000000279",
         "completion": "0.0000012"
       },
       "top_provider": {
         "context_length": 196608,
-        "max_completion_tokens": null,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -11823,7 +11823,7 @@
       "name": "Qwen: Qwen3 30B A3B Instruct 2507",
       "created": 1753806965,
       "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and...",
-      "context_length": 262144,
+      "context_length": 131072,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -11836,12 +11836,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003"
+        "prompt": "0.0000000428",
+        "completion": "0.0000001716"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "context_length": 128000,
+        "max_completion_tokens": 32000,
         "is_moderated": false
       },
       "per_request_limits": null,
