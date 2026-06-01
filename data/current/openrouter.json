@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-06-01T07:40:52.031823+00:00",
+  "fetched_at": "2026-06-01T13:56:52.303613+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 345,
+  "model_count": 343,
   "data": [
     {
       "id": "minimax/minimax-m3",
@@ -7751,13 +7751,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000252",
-        "completion": "0.000000378",
-        "input_cache_read": "0.0000000252"
+        "prompt": "0.0000002288",
+        "completion": "0.0000003432"
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 65536,
+        "context_length": 128000,
+        "max_completion_tokens": 64000,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -15186,66 +15185,6 @@
       }
     },
     {
-      "id": "google/gemini-2.0-flash-lite-001",
-      "canonical_slug": "google/gemini-2.0-flash-lite-001",
-      "hugging_face_id": "",
-      "name": "Google: Gemini 2.0 Flash Lite",
-      "created": 1740506212,
-      "description": "Gemini 2.0 Flash Lite offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5),...",
-      "context_length": 1048576,
-      "architecture": {
-        "modality": "text+image+file+audio+video->text",
-        "input_modalities": [
-          "text",
-          "image",
-          "file",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Gemini",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.0000003",
-        "image": "0.000000075",
-        "audio": "0.000000075",
-        "web_search": "0.014",
-        "internal_reasoning": "0.0000003"
-      },
-      "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 8192,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-08-31",
-      "expiration_date": "2026-06-01",
-      "links": {
-        "details": "/api/v1/models/google/gemini-2.0-flash-lite-001/endpoints"
-      }
-    },
-    {
       "id": "mistralai/mistral-saba",
       "canonical_slug": "mistralai/mistral-saba-2502",
       "hugging_face_id": "",
@@ -15401,68 +15340,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/openai/o3-mini-high-2025-01-31/endpoints"
-      }
-    },
-    {
-      "id": "google/gemini-2.0-flash-001",
-      "canonical_slug": "google/gemini-2.0-flash-001",
-      "hugging_face_id": "",
-      "name": "Google: Gemini 2.0 Flash",
-      "created": 1738769413,
-      "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). It...",
-      "context_length": 1048576,
-      "architecture": {
-        "modality": "text+image+file+audio+video->text",
-        "input_modalities": [
-          "text",
-          "image",
-          "file",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Gemini",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000004",
-        "image": "0.0000001",
-        "audio": "0.0000007",
-        "web_search": "0.014",
-        "internal_reasoning": "0.0000004",
-        "input_cache_read": "0.000000025",
-        "input_cache_write": "0.00000008333333333333334"
-      },
-      "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 8192,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-08-31",
-      "expiration_date": "2026-06-01",
-      "links": {
-        "details": "/api/v1/models/google/gemini-2.0-flash-001/endpoints"
       }
     },
     {
@@ -16196,8 +16073,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000002288",
-        "completion": "0.0000009144"
+        "prompt": "0.0000002002",
+        "completion": "0.0000008001"
       },
       "top_provider": {
         "context_length": 128000,
