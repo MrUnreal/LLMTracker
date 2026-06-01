@@ -1,21 +1,48 @@
 {
-  "generated_at": "2026-06-01T00:33:46.451502+00:00",
+  "generated_at": "2026-06-01T07:40:52.758718+00:00",
   "changes": [
     {
-      "model_id": "upstage/solar-pro-3",
+      "model_id": "minimax/minimax-m3",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.15,
-        "output_per_million": 0.6
+        "input_per_million": 0.3,
+        "output_per_million": 1.2
       },
       "percent_change": null,
-      "detected_at": "2026-06-01T00:33:46.448149+00:00"
+      "detected_at": "2026-06-01T07:40:52.756070+00:00"
+    },
+    {
+      "model_id": "tencent/hy3-preview",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.063,
+      "new_value": 0.066,
+      "percent_change": 4.76,
+      "detected_at": "2026-06-01T07:40:52.756070+00:00"
+    },
+    {
+      "model_id": "tencent/hy3-preview",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.21,
+      "new_value": 0.26,
+      "percent_change": 23.81,
+      "detected_at": "2026-06-01T07:40:52.756070+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 1.92,
+      "new_value": 2.08,
+      "percent_change": 8.33,
+      "detected_at": "2026-06-01T07:40:52.756070+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
+    "price_increases": 3,
     "price_decreases": 0,
     "new_models": 1,
     "removed_models": 0,
