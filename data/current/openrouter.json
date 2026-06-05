@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-06-04T18:43:29.745981+00:00",
+  "fetched_at": "2026-06-05T00:35:10.026196+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 346,
   "data": [
@@ -10985,7 +10985,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2025-03-31",
-      "expiration_date": null,
+      "expiration_date": "2026-06-11",
       "links": {
         "details": "/api/v1/models/nvidia/nemotron-nano-9b-v2/endpoints"
       }
@@ -16056,7 +16056,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2024-07-31",
-      "expiration_date": null,
+      "expiration_date": "2026-06-11",
       "links": {
         "details": "/api/v1/models/deepseek/deepseek-r1-distill-llama-70b/endpoints"
       }
@@ -17932,10 +17932,10 @@
       },
       "pricing": {
         "prompt": "0.00000002",
-        "completion": "0.00000005"
+        "completion": "0.00000003"
       },
       "top_provider": {
-        "context_length": 16384,
+        "context_length": 131072,
         "max_completion_tokens": 16384,
         "is_moderated": false
       },
