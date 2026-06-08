@@ -1,9 +1,72 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-06-08T13:24:05.240225+00:00",
+  "fetched_at": "2026-06-08T18:47:11.325678+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 340,
+  "model_count": 341,
   "data": [
+    {
+      "id": "nex-agi/nex-n2-pro:free",
+      "canonical_slug": "nex-agi/nex-n2-pro",
+      "hugging_face_id": "nex-agi/Nex-N2-Pro",
+      "name": "Nex AGI: Nex-N2-Pro (free)",
+      "created": 1780937140,
+      "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen3",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "top_k": 40,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/nex-agi/nex-n2-pro/endpoints"
+      }
+    },
     {
       "id": "nvidia/nemotron-3.5-content-safety:free",
       "canonical_slug": "nvidia/nemotron-3.5-content-safety-20260604",
@@ -5993,6 +6056,7 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
