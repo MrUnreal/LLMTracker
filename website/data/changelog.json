@@ -1,48 +1,24 @@
 {
-  "generated_at": "2026-06-08T07:36:51.743955+00:00",
+  "generated_at": "2026-06-08T13:24:05.944312+00:00",
   "changes": [
     {
-      "model_id": "~moonshotai/kimi-latest",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.684,
-      "new_value": 0.68,
-      "percent_change": -0.58,
-      "detected_at": "2026-06-08T07:36:51.740636+00:00"
-    },
-    {
-      "model_id": "~moonshotai/kimi-latest",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 3.42,
-      "new_value": 3.41,
-      "percent_change": -0.29,
-      "detected_at": "2026-06-08T07:36:51.740636+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.6",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.684,
-      "new_value": 0.68,
-      "percent_change": -0.58,
-      "detected_at": "2026-06-08T07:36:51.740636+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.6",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 3.42,
-      "new_value": 3.41,
-      "percent_change": -0.29,
-      "detected_at": "2026-06-08T07:36:51.740636+00:00"
+      "model_id": "nex-agi/deepseek-v3.1-nex-n1",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.135,
+        "output_per_million": 0.5
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-06-08T13:24:05.940945+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 4,
+    "price_decreases": 0,
     "new_models": 0,
-    "removed_models": 0,
+    "removed_models": 1,
     "other_changes": 0
   }
 }
