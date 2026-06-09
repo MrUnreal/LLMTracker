@@ -1,39 +1,48 @@
 {
-  "generated_at": "2026-06-09T12:55:54.147731+00:00",
+  "generated_at": "2026-06-09T18:41:28.448552+00:00",
   "changes": [
     {
-      "model_id": "minimax/minimax-m2.5",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 1.15,
-      "new_value": 0.9,
-      "percent_change": -21.74,
-      "detected_at": "2026-06-09T12:55:54.144769+00:00"
+      "model_id": "anthropic/claude-fable-5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 10.0,
+        "output_per_million": 50.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-09T18:41:28.446320+00:00"
     },
     {
-      "model_id": "minimax/minimax-m2.7",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.279,
-      "new_value": 0.27,
-      "percent_change": -3.23,
-      "detected_at": "2026-06-09T12:55:54.144769+00:00"
+      "model_id": "~anthropic/claude-fable-latest",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": -1000000.0,
+        "output_per_million": -1000000.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-09T18:41:28.446320+00:00"
     },
     {
-      "model_id": "minimax/minimax-m2.7",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 1.2,
-      "new_value": 1.08,
-      "percent_change": -10.0,
-      "detected_at": "2026-06-09T12:55:54.144769+00:00"
+      "model_id": "arcee-ai/maestro-reasoning",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.9,
+        "output_per_million": 3.3
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-06-09T18:41:28.446320+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 3,
-    "new_models": 0,
-    "removed_models": 0,
+    "price_decreases": 0,
+    "new_models": 2,
+    "removed_models": 1,
     "other_changes": 0
   }
 }
