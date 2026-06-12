@@ -1,69 +1,87 @@
 {
-  "generated_at": "2026-06-12T13:04:28.715416+00:00",
+  "generated_at": "2026-06-12T18:37:14.330893+00:00",
   "changes": [
     {
-      "model_id": "moonshotai/kimi-k2.7-code",
-      "change_type": "new_model",
+      "model_id": "meta-llama/llama-guard-3-8b",
+      "change_type": "removed_model",
       "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.95,
-        "output_per_million": 4.0
+      "old_value": {
+        "input_per_million": 0.484,
+        "output_per_million": 0.03
       },
+      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-06-12T13:04:28.711694+00:00"
+      "detected_at": "2026-06-12T18:37:14.328001+00:00"
     },
     {
       "model_id": "qwen/qwen3.6-27b",
-      "change_type": "price_decrease",
+      "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.289,
-      "new_value": 0.287,
-      "percent_change": -0.69,
-      "detected_at": "2026-06-12T13:04:28.711694+00:00"
+      "old_value": 0.287,
+      "new_value": 0.2885,
+      "percent_change": 0.52,
+      "detected_at": "2026-06-12T18:37:14.328001+00:00"
     },
     {
       "model_id": "qwen/qwen3.6-27b",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 2.4,
-      "new_value": 3.1,
-      "percent_change": 29.17,
-      "detected_at": "2026-06-12T13:04:28.711694+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.5",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.35,
-      "new_value": 0.4,
-      "percent_change": 14.29,
-      "detected_at": "2026-06-12T13:04:28.711694+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.5",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 1.89,
-      "new_value": 1.9,
-      "percent_change": 0.53,
-      "detected_at": "2026-06-12T13:04:28.711694+00:00"
+      "old_value": 3.1,
+      "new_value": 3.17,
+      "percent_change": 2.26,
+      "detected_at": "2026-06-12T18:37:14.328001+00:00"
     },
     {
       "model_id": "deepseek/deepseek-chat-v3-0324",
       "change_type": "context_change",
       "field": "context_window",
-      "old_value": 163840,
-      "new_value": 131072,
-      "percent_change": -20.0,
-      "detected_at": "2026-06-12T13:04:28.711694+00:00"
+      "old_value": 131072,
+      "new_value": 163840,
+      "percent_change": 25.0,
+      "detected_at": "2026-06-12T18:37:14.328001+00:00"
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.6",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.67,
+      "new_value": 0.68,
+      "percent_change": 1.49,
+      "detected_at": "2026-06-12T18:37:14.328001+00:00"
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.6",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 3.39,
+      "new_value": 3.41,
+      "percent_change": 0.59,
+      "detected_at": "2026-06-12T18:37:14.328001+00:00"
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.67,
+      "new_value": 0.68,
+      "percent_change": 1.49,
+      "detected_at": "2026-06-12T18:37:14.328001+00:00"
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 3.39,
+      "new_value": 3.41,
+      "percent_change": 0.59,
+      "detected_at": "2026-06-12T18:37:14.328001+00:00"
     }
   ],
   "summary": {
-    "price_increases": 3,
-    "price_decreases": 1,
-    "new_models": 1,
-    "removed_models": 0,
+    "price_increases": 6,
+    "price_decreases": 0,
+    "new_models": 0,
+    "removed_models": 1,
     "other_changes": 1
   }
 }
