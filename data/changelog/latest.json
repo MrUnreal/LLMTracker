@@ -1,59 +1,48 @@
 {
-  "generated_at": "2026-06-12T00:38:19.148330+00:00",
+  "generated_at": "2026-06-12T07:33:49.311919+00:00",
   "changes": [
     {
-      "model_id": "deepseek/deepseek-chat-v3-0324",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 131072,
-      "new_value": 163840,
-      "percent_change": 25.0,
-      "detected_at": "2026-06-12T00:38:19.144716+00:00"
-    },
-    {
-      "model_id": "minimax/minimax-m2.7",
-      "change_type": "price_decrease",
+      "model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.27,
-      "new_value": 0.25,
-      "percent_change": -7.41,
-      "detected_at": "2026-06-12T00:38:19.144716+00:00"
+      "old_value": 0.25,
+      "new_value": 0.8,
+      "percent_change": 220.0,
+      "detected_at": "2026-06-12T07:33:49.308700+00:00"
     },
     {
-      "model_id": "minimax/minimax-m2.7",
-      "change_type": "price_decrease",
+      "model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 1.08,
+      "old_value": 0.75,
       "new_value": 1.0,
-      "percent_change": -7.41,
-      "detected_at": "2026-06-12T00:38:19.144716+00:00"
+      "percent_change": 33.33,
+      "detected_at": "2026-06-12T07:33:49.308700+00:00"
     },
     {
-      "model_id": "deepseek/deepseek-v4-flash",
+      "model_id": "moonshotai/kimi-k2.5",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.0983,
-      "new_value": 0.098,
-      "percent_change": -0.31,
-      "detected_at": "2026-06-12T00:38:19.144716+00:00"
+      "old_value": 0.4,
+      "new_value": 0.35,
+      "percent_change": -12.5,
+      "detected_at": "2026-06-12T07:33:49.308700+00:00"
     },
     {
-      "model_id": "deepseek/deepseek-v4-flash",
+      "model_id": "moonshotai/kimi-k2.5",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.1966,
-      "new_value": 0.196,
-      "percent_change": -0.31,
-      "detected_at": "2026-06-12T00:38:19.144716+00:00"
+      "old_value": 1.9,
+      "new_value": 1.89,
+      "percent_change": -0.53,
+      "detected_at": "2026-06-12T07:33:49.308700+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
-    "price_decreases": 4,
+    "price_increases": 2,
+    "price_decreases": 2,
     "new_models": 0,
     "removed_models": 0,
-    "other_changes": 1
-  },
-  "notified": true,
-  "notified_at": "2026-06-12T00:38:51.168412+00:00"
+    "other_changes": 0
+  }
 }
