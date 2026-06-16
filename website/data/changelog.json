@@ -1,37 +1,55 @@
 {
-  "generated_at": "2026-06-15T19:17:11.362035+00:00",
+  "generated_at": "2026-06-16T00:43:29.312151+00:00",
   "changes": [
     {
-      "model_id": "openrouter/fusion",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 128000,
-      "new_value": 1000000,
-      "percent_change": 681.25,
-      "detected_at": "2026-06-15T19:17:11.359380+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-v4-flash",
-      "change_type": "price_increase",
+      "model_id": "x-ai/grok-4.20-multi-agent",
+      "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.09,
-      "new_value": 0.098,
-      "percent_change": 8.89,
-      "detected_at": "2026-06-15T19:17:11.359380+00:00"
+      "old_value": 2.0,
+      "new_value": 1.25,
+      "percent_change": -37.5,
+      "detected_at": "2026-06-16T00:43:29.309952+00:00"
     },
     {
-      "model_id": "deepseek/deepseek-v4-flash",
+      "model_id": "x-ai/grok-4.20-multi-agent",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 6.0,
+      "new_value": 2.5,
+      "percent_change": -58.33,
+      "detected_at": "2026-06-16T00:43:29.309952+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3.5-397b-a17b",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.39,
+      "new_value": 0.385,
+      "percent_change": -1.28,
+      "detected_at": "2026-06-16T00:43:29.309952+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3.5-397b-a17b",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 0.18,
-      "new_value": 0.196,
-      "percent_change": 8.89,
-      "detected_at": "2026-06-15T19:17:11.359380+00:00"
+      "old_value": 2.34,
+      "new_value": 2.45,
+      "percent_change": 4.7,
+      "detected_at": "2026-06-16T00:43:29.309952+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3.5-397b-a17b",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 262144,
+      "new_value": 256000,
+      "percent_change": -2.34,
+      "detected_at": "2026-06-16T00:43:29.309952+00:00"
     }
   ],
   "summary": {
-    "price_increases": 2,
-    "price_decreases": 0,
+    "price_increases": 1,
+    "price_decreases": 3,
     "new_models": 0,
     "removed_models": 0,
     "other_changes": 1
