@@ -1,50 +1,1083 @@
 {
-  "generated_at": "2026-06-20T12:33:35.530305+00:00",
+  "generated_at": "2026-06-21T07:34:48.890813+00:00",
   "changes": [
     {
-      "model_id": "moonshotai/kimi-k2.6",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.67,
-      "new_value": 0.66,
-      "percent_change": -1.49,
-      "detected_at": "2026-06-20T12:33:35.528081+00:00"
+      "model_id": "fireworks_ai/accounts/fireworks/models/minimax-m2p7",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.3,
+        "output_per_million": 1.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
     },
     {
-      "model_id": "arcee-ai/trinity-large-thinking",
+      "model_id": "fireworks_ai/glm-5p1-fast",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.8,
+        "output_per_million": 8.8
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/qwen/qwen3.6-35b-a3b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.25,
+        "output_per_million": 1.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "tensormesh/deepseek-ai/DeepSeek-V4-Flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.14,
+        "output_per_million": 0.28
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "libertai/qwen3.6-35b-a3b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/accounts/fireworks/routers/glm-5p1-fast",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.8,
+        "output_per_million": 8.8
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/qwen3p7-plus",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.4,
+        "output_per_million": 1.6
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/minimax-m2p7",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.3,
+        "output_per_million": 1.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "github_copilot/mai-code-1-flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.75,
+        "output_per_million": 4.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/kimi-k2p6-fast",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.0,
+        "output_per_million": 8.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "deepseek-v4-pro",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.435,
+        "output_per_million": 0.87
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/accounts/fireworks/models/qwen3p7-plus",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.4,
+        "output_per_million": 1.6
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "libertai/gemma-4-31b-it-thinking",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.4
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "azure_ai/gpt-5.5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.0,
+        "output_per_million": 30.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "tensormesh/Qwen/Qwen3.6-27B-FP8",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.32,
+        "output_per_million": 3.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/google.gemma-4-31b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.14,
+        "output_per_million": 0.4
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/google/gemma-3-27b-it",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.25,
+        "output_per_million": 0.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "azure_ai/MAI-Image-2.5-Flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.75,
+        "output_per_million": 0.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "tensormesh/openai/gpt-oss-120b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.6
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "tensormesh/MiniMaxAI/MiniMax-M2.5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.3,
+        "output_per_million": 1.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "azure_ai/deepseek-v4-flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.19,
+        "output_per_million": 0.51
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/minimax-m3",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.3,
+        "output_per_million": 1.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/gpt-oss-20b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.07,
+        "output_per_million": 0.3
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "libertai/deepseek-v4-flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.25,
+        "output_per_million": 1.75
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-v4-pro",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.74,
+        "output_per_million": 3.48
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/kimi-k2p7-code",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.95,
+        "output_per_million": 4.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "azure_ai/gpt-5.5-2026-04-23",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.0,
+        "output_per_million": 30.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/accounts/fireworks/models/minimax-m3",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.3,
+        "output_per_million": 1.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/openai/gpt-oss-120b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.6
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "azure_ai/deepseek-v3.1",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.23,
+        "output_per_million": 4.94
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "github_copilot/mai-code-1-flash-internal",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.75,
+        "output_per_million": 4.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.14,
+        "output_per_million": 0.28
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/google.gemma-4-e2b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.04,
+        "output_per_million": 0.08
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "pinstripes/ps/qwen3.6-35b-a3b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.14,
+        "output_per_million": 0.45
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/qwen/qwen3-embedding-8b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.1,
+        "output_per_million": 0.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "azure_ai/MAI-Image-2.5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.0,
+        "output_per_million": 0.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "libertai/qwen3.5-122b-a10b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.25,
+        "output_per_million": 1.75
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "tensormesh/Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.45,
+        "output_per_million": 1.8
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/google/gemma-4-26b-a4b-it",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.25,
+        "output_per_million": 0.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/google.gemma-4-26b-a4b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.13,
+        "output_per_million": 0.4
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "mistral/mistral-medium-3-5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.5,
+        "output_per_million": 7.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "pinstripes/ps/minimax-m2.7",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.255,
+        "output_per_million": 0.55
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "pinstripes/ps/glm-4.5-air",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.125,
+        "output_per_million": 0.45
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/accounts/fireworks/models/kimi-k2p6",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.95,
+        "output_per_million": 4.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/deepseek-v4-pro",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.74,
+        "output_per_million": 3.48
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/gpt-oss-120b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.6
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "libertai/qwen3.6-27b-thinking",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "libertai/qwen3.6-27b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/mistralai/mistral-small-3.2-24b-instruct-2506",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.35
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "libertai/bge-m3",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.01,
+        "output_per_million": 0.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/accounts/fireworks/models/glm-5p2",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.4,
+        "output_per_million": 4.4
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/accounts/fireworks/models/kimi-k2p7-code",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.95,
+        "output_per_million": 4.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "pinstripes/ps/qwen3-30b-a3b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.09,
+        "output_per_million": 0.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/accounts/fireworks/routers/kimi-k2p6-fast",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.0,
+        "output_per_million": 8.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/qwen/qwen3-235b-a22b-instruct-2507",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.75,
+        "output_per_million": 2.25
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/BAAI/bge-multilingual-gemma2",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.1,
+        "output_per_million": 0.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/hcompany/holo2-30b-a3b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.3,
+        "output_per_million": 0.7
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "tensormesh/lukealonso/GLM-5.1-NVFP4-MTP",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.4,
+        "output_per_million": 4.4
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "deepseek-v4-flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.14,
+        "output_per_million": 0.28
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/qwen/qwen3-coder-30b-a3b-instruct",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.2,
+        "output_per_million": 0.8
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/glm-5p2",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.4,
+        "output_per_million": 4.4
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "libertai/qwen3.5-122b-a10b-thinking",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.25,
+        "output_per_million": 1.75
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/mistralai/voxtral-small-24b-2507",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.35
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "libertai/hermes-3-8b-tee",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.6
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "pinstripes/ps/deepseek-v4-flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.1,
+        "output_per_million": 0.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/kimi-k2p6",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.95,
+        "output_per_million": 4.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "libertai/gemma-4-31b-it",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.4
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "libertai/qwen3.6-35b-a3b-thinking",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "azure_ai/MAI-Image-2e",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.0,
+        "output_per_million": 0.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "tensormesh/openai/gpt-oss-20b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.07,
+        "output_per_million": 0.28
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "libertai/deepseek-v4-flash-thinking",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.25,
+        "output_per_million": 1.75
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "tensormesh/google/gemma-4-31B-it",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.14,
+        "output_per_million": 0.56
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/qwen/qwen3.5-397b-a17b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.6,
+        "output_per_million": 3.6
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "tensormesh/Qwen/Qwen3.5-397B-A17B-FP8",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.6,
+        "output_per_million": 3.6
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/mistralai/devstral-2-123b-instruct-2512",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.4,
+        "output_per_million": 2.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "pinstripes/ps/qwen3-coder-30b-a3b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.3,
+        "output_per_million": 0.6
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/accounts/fireworks/routers/kimi-k2p7-code-fast",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.9,
+        "output_per_million": 8.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/mistralai/pixtral-12b-2409",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.2,
+        "output_per_million": 0.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/meta/llama-3.3-70b-instruct",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.9,
+        "output_per_million": 0.9
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "azure_ai/deepseek-v4-pro",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.74,
+        "output_per_million": 3.48
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/deepseek-v4-flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.14,
+        "output_per_million": 0.28
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "tensormesh/moonshotai/Kimi-K2.6",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.96,
+        "output_per_million": 4.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "scaleway/mistralai/mistral-medium-3.5-128b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.5,
+        "output_per_million": 7.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/kimi-k2p7-code-fast",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.9,
+        "output_per_million": 8.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "fireworks_ai/accounts/fireworks/models/gpt-oss-20b",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.22,
-      "new_value": 0.25,
-      "percent_change": 13.64,
-      "detected_at": "2026-06-20T12:33:35.528081+00:00"
+      "old_value": 0.05,
+      "new_value": 0.07,
+      "percent_change": 40.0,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
     },
     {
-      "model_id": "arcee-ai/trinity-large-thinking",
-      "change_type": "price_decrease",
+      "model_id": "fireworks_ai/accounts/fireworks/models/gpt-oss-20b",
+      "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 0.85,
-      "new_value": 0.8,
-      "percent_change": -5.88,
-      "detected_at": "2026-06-20T12:33:35.528081+00:00"
+      "old_value": 0.2,
+      "new_value": 0.3,
+      "percent_change": 50.0,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
     },
     {
-      "model_id": "~moonshotai/kimi-latest",
+      "model_id": "minimax/MiniMax-M3",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.67,
-      "new_value": 0.66,
-      "percent_change": -1.49,
-      "detected_at": "2026-06-20T12:33:35.528081+00:00"
+      "old_value": 0.6,
+      "new_value": 0.3,
+      "percent_change": -50.0,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "minimax/MiniMax-M3",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 2.4,
+      "new_value": 1.2,
+      "percent_change": -50.0,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "minimax/MiniMax-M3",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 512000,
+      "new_value": 1000000,
+      "percent_change": 95.31,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "command-r7b-12-2024",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.15,
+      "new_value": 0.0375,
+      "percent_change": -75.0,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
+    },
+    {
+      "model_id": "command-r7b-12-2024",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.0375,
+      "new_value": 0.15,
+      "percent_change": 300.0,
+      "detected_at": "2026-06-21T07:34:48.887625+00:00"
     }
   ],
   "summary": {
-    "price_increases": 1,
+    "price_increases": 3,
     "price_decreases": 3,
-    "new_models": 0,
+    "new_models": 84,
     "removed_models": 0,
-    "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-06-20T12:34:04.272859+00:00"
+    "other_changes": 1
+  }
 }
