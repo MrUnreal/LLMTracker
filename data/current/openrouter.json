@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-06-22T00:37:05.531224+00:00",
+  "fetched_at": "2026-06-22T07:54:30.149771+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 341,
+  "model_count": 340,
   "data": [
     {
       "id": "google/gemini-3.1-flash-image",
@@ -3542,12 +3542,12 @@
       },
       "pricing": {
         "prompt": "0.00000066",
-        "completion": "0.0000035",
-        "input_cache_read": "0.00000033"
+        "completion": "0.00000341",
+        "input_cache_read": "0.000000144"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 65535,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -5380,12 +5380,12 @@
       },
       "pricing": {
         "prompt": "0.00000066",
-        "completion": "0.0000035",
-        "input_cache_read": "0.00000033"
+        "completion": "0.00000341",
+        "input_cache_read": "0.000000144"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 65535,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -24746,60 +24746,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/thedrummer/unslopnemo-12b/endpoints"
-      }
-    },
-    {
-      "id": "anthropic/claude-3.5-haiku",
-      "canonical_slug": "anthropic/claude-3-5-haiku",
-      "hugging_face_id": null,
-      "name": "Anthropic: Claude 3.5 Haiku",
-      "created": 1730678400,
-      "description": "Claude 3.5 Haiku features offers enhanced capabilities in speed, coding accuracy, and tool use. Engineered to excel in real-time applications, it delivers quick response times that are essential for dynamic...",
-      "context_length": 200000,
-      "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Claude",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.0000008",
-        "completion": "0.000004",
-        "web_search": "0.01",
-        "input_cache_read": "0.00000008",
-        "input_cache_write": "0.000001"
-      },
-      "top_provider": {
-        "context_length": 200000,
-        "max_completion_tokens": 8192,
-        "is_moderated": true
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "max_tokens",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-07-31",
-      "expiration_date": "2026-06-19",
-      "links": {
-        "details": "/api/v1/models/anthropic/claude-3-5-haiku/endpoints"
       }
     },
     {
