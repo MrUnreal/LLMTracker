@@ -1,44 +1,54 @@
 {
-  "generated_at": "2026-06-22T07:54:30.859838+00:00",
+  "generated_at": "2026-06-22T19:04:14.853351+00:00",
   "changes": [
     {
-      "model_id": "anthropic/claude-3.5-haiku",
+      "model_id": "z-ai/glm-5v-turbo",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.2,
+        "output_per_million": 4.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-06-22T19:04:14.849458+00:00"
+    },
+    {
+      "model_id": "nex-agi/nex-n2-pro:free",
       "change_type": "removed_model",
       "field": "model",
       "old_value": {
-        "input_per_million": 0.8,
-        "output_per_million": 4.0
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
       },
       "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-06-22T07:54:30.856746+00:00"
+      "detected_at": "2026-06-22T19:04:14.849458+00:00"
     },
     {
-      "model_id": "~moonshotai/kimi-latest",
+      "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 3.5,
-      "new_value": 3.41,
-      "percent_change": -2.57,
-      "detected_at": "2026-06-22T07:54:30.856746+00:00"
+      "field": "input_per_million",
+      "old_value": 1.0,
+      "new_value": 0.98,
+      "percent_change": -2.0,
+      "detected_at": "2026-06-22T19:04:14.849458+00:00"
     },
     {
-      "model_id": "moonshotai/kimi-k2.6",
+      "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 3.5,
-      "new_value": 3.41,
-      "percent_change": -2.57,
-      "detected_at": "2026-06-22T07:54:30.856746+00:00"
+      "old_value": 4.0,
+      "new_value": 3.08,
+      "percent_change": -23.0,
+      "detected_at": "2026-06-22T19:04:14.849458+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
     "price_decreases": 2,
-    "new_models": 0,
+    "new_models": 1,
     "removed_models": 1,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-06-22T07:55:03.177798+00:00"
+  }
 }
