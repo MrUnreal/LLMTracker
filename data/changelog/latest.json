@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-06-25T07:08:08.796738+00:00",
+  "generated_at": "2026-06-25T12:45:07.384221+00:00",
   "changes": [
     {
       "model_id": "deepseek/deepseek-v4-flash",
-      "change_type": "price_decrease",
+      "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.09,
-      "new_value": 0.089,
-      "percent_change": -1.11,
-      "detected_at": "2026-06-25T07:08:08.793966+00:00"
+      "old_value": 0.089,
+      "new_value": 0.09,
+      "percent_change": 1.12,
+      "detected_at": "2026-06-25T12:45:07.381682+00:00"
     },
     {
       "model_id": "deepseek/deepseek-v4-flash",
-      "change_type": "price_increase",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.18,
-      "new_value": 0.224,
-      "percent_change": 24.44,
-      "detected_at": "2026-06-25T07:08:08.793966+00:00"
+      "old_value": 0.224,
+      "new_value": 0.18,
+      "percent_change": -19.64,
+      "detected_at": "2026-06-25T12:45:07.381682+00:00"
     }
   ],
   "summary": {
@@ -26,7 +26,5 @@
     "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-06-25T07:08:45.026857+00:00"
+  }
 }
