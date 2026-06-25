@@ -1,26 +1,30 @@
 {
-  "generated_at": "2026-06-24T07:07:56.985383+00:00",
+  "generated_at": "2026-06-25T07:08:08.796738+00:00",
   "changes": [
     {
-      "model_id": "sakana/fugu-ultra",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 30.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-06-24T07:07:56.982723+00:00"
+      "model_id": "deepseek/deepseek-v4-flash",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.09,
+      "new_value": 0.089,
+      "percent_change": -1.11,
+      "detected_at": "2026-06-25T07:08:08.793966+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.18,
+      "new_value": 0.224,
+      "percent_change": 24.44,
+      "detected_at": "2026-06-25T07:08:08.793966+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
-    "price_decreases": 0,
-    "new_models": 1,
+    "price_increases": 1,
+    "price_decreases": 1,
+    "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-06-24T07:08:32.512652+00:00"
+  }
 }
