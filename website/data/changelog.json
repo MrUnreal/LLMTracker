@@ -1,28 +1,64 @@
 {
-  "generated_at": "2026-06-25T12:45:07.384221+00:00",
+  "generated_at": "2026-06-25T18:42:13.052405+00:00",
   "changes": [
     {
-      "model_id": "deepseek/deepseek-v4-flash",
-      "change_type": "price_increase",
+      "model_id": "minimax/minimax-m2.5",
+      "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.089,
-      "new_value": 0.09,
-      "percent_change": 1.12,
-      "detected_at": "2026-06-25T12:45:07.381682+00:00"
+      "old_value": 0.15,
+      "new_value": 0.12,
+      "percent_change": -20.0,
+      "detected_at": "2026-06-25T18:42:13.048387+00:00"
     },
     {
-      "model_id": "deepseek/deepseek-v4-flash",
+      "model_id": "minimax/minimax-m2.5",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.224,
+      "old_value": 0.9,
+      "new_value": 0.48,
+      "percent_change": -46.67,
+      "detected_at": "2026-06-25T18:42:13.048387+00:00"
+    },
+    {
+      "model_id": "minimax/minimax-m2.7",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.24,
       "new_value": 0.18,
-      "percent_change": -19.64,
-      "detected_at": "2026-06-25T12:45:07.381682+00:00"
+      "percent_change": -25.0,
+      "detected_at": "2026-06-25T18:42:13.048387+00:00"
+    },
+    {
+      "model_id": "minimax/minimax-m2.7",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.96,
+      "new_value": 0.72,
+      "percent_change": -25.0,
+      "detected_at": "2026-06-25T18:42:13.048387+00:00"
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.039,
+      "new_value": 0.03,
+      "percent_change": -23.08,
+      "detected_at": "2026-06-25T18:42:13.048387+00:00"
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.18,
+      "new_value": 0.15,
+      "percent_change": -16.67,
+      "detected_at": "2026-06-25T18:42:13.048387+00:00"
     }
   ],
   "summary": {
-    "price_increases": 1,
-    "price_decreases": 1,
+    "price_increases": 0,
+    "price_decreases": 6,
     "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
