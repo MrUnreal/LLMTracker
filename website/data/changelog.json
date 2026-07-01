@@ -1,90 +1,171 @@
 {
-  "generated_at": "2026-06-30T18:33:30.549952+00:00",
+  "generated_at": "2026-07-01T00:34:21.447388+00:00",
   "changes": [
     {
-      "model_id": "google/gemini-3.1-flash-lite-image",
+      "model_id": "azure_ai/claude-sonnet-5",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.25,
-        "output_per_million": 1.5
+        "input_per_million": 3.0,
+        "output_per_million": 15.0
       },
       "percent_change": null,
-      "detected_at": "2026-06-30T18:33:30.546000+00:00"
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
     },
     {
-      "model_id": "anthropic/claude-sonnet-5",
+      "model_id": "claude-sonnet-5",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 2.0,
-        "output_per_million": 10.0
+        "input_per_million": 3.0,
+        "output_per_million": 15.0
       },
       "percent_change": null,
-      "detected_at": "2026-06-30T18:33:30.546000+00:00"
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
     },
     {
-      "model_id": "~anthropic/claude-sonnet-latest",
+      "model_id": "us.anthropic.claude-sonnet-5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 3.3,
+        "output_per_million": 16.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
+    },
+    {
+      "model_id": "au.anthropic.claude-sonnet-5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 3.3,
+        "output_per_million": 16.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
+    },
+    {
+      "model_id": "vertex_ai/claude-sonnet-5@default",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 3.0,
+        "output_per_million": 15.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
+    },
+    {
+      "model_id": "jp.anthropic.claude-sonnet-5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 3.3,
+        "output_per_million": 16.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
+    },
+    {
+      "model_id": "eu.anthropic.claude-sonnet-5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 3.3,
+        "output_per_million": 16.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
+    },
+    {
+      "model_id": "anthropic.claude-sonnet-5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 3.0,
+        "output_per_million": 15.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
+    },
+    {
+      "model_id": "vertex_ai/claude-sonnet-5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 3.0,
+        "output_per_million": 15.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
+    },
+    {
+      "model_id": "global.anthropic.claude-sonnet-5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 3.0,
+        "output_per_million": 15.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
+    },
+    {
+      "model_id": "microsoft/phi-4-mini-instruct",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.08,
+        "output_per_million": 0.35
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 3.0,
-      "new_value": 2.0,
-      "percent_change": -33.33,
-      "detected_at": "2026-06-30T18:33:30.546000+00:00"
+      "old_value": 0.94,
+      "new_value": 0.93,
+      "percent_change": -1.06,
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
     },
     {
-      "model_id": "~anthropic/claude-sonnet-latest",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 15.0,
-      "new_value": 10.0,
-      "percent_change": -33.33,
-      "detected_at": "2026-06-30T18:33:30.546000+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-v4-flash",
+      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.09,
-      "new_value": 0.098,
-      "percent_change": 8.89,
-      "detected_at": "2026-06-30T18:33:30.546000+00:00"
+      "old_value": 0.1,
+      "new_value": 0.1495,
+      "percent_change": 49.5,
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
     },
     {
-      "model_id": "deepseek/deepseek-v4-flash",
+      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 0.18,
-      "new_value": 0.196,
-      "percent_change": 8.89,
-      "detected_at": "2026-06-30T18:33:30.546000+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3.6-27b",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.2596,
-      "new_value": 0.285,
-      "percent_change": 9.78,
-      "detected_at": "2026-06-30T18:33:30.546000+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3.6-27b",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 2.385,
-      "new_value": 2.4,
-      "percent_change": 0.63,
-      "detected_at": "2026-06-30T18:33:30.546000+00:00"
+      "old_value": 0.1,
+      "new_value": 1.495,
+      "percent_change": 1395.0,
+      "detected_at": "2026-07-01T00:34:21.442305+00:00"
     }
   ],
   "summary": {
-    "price_increases": 4,
-    "price_decreases": 2,
-    "new_models": 2,
-    "removed_models": 0,
+    "price_increases": 2,
+    "price_decreases": 1,
+    "new_models": 10,
+    "removed_models": 1,
     "other_changes": 0
   }
 }
