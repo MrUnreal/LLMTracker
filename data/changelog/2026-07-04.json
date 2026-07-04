@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-04T13:03:07.351614+00:00",
+  "generated_at": "2026-07-04T18:58:14.201253+00:00",
   "changes": [
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.91,
-      "new_value": 0.84,
-      "percent_change": -7.69,
-      "detected_at": "2026-07-04T13:03:07.347701+00:00"
+      "old_value": 0.84,
+      "new_value": 0.77,
+      "percent_change": -8.33,
+      "detected_at": "2026-07-04T18:58:14.198573+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 2.86,
-      "new_value": 2.64,
-      "percent_change": -7.69,
-      "detected_at": "2026-07-04T13:03:07.347701+00:00"
+      "old_value": 2.64,
+      "new_value": 2.42,
+      "percent_change": -8.33,
+      "detected_at": "2026-07-04T18:58:14.198573+00:00"
     }
   ],
   "summary": {
