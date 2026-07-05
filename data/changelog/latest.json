@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-05T02:11:54.142262+00:00",
+  "generated_at": "2026-07-05T08:42:11.381293+00:00",
   "changes": [
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.77,
-      "new_value": 0.742,
-      "percent_change": -3.64,
-      "detected_at": "2026-07-05T02:11:54.138166+00:00"
+      "old_value": 0.742,
+      "new_value": 0.728,
+      "percent_change": -1.89,
+      "detected_at": "2026-07-05T08:42:11.378803+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 2.42,
-      "new_value": 2.332,
-      "percent_change": -3.64,
-      "detected_at": "2026-07-05T02:11:54.138166+00:00"
+      "old_value": 2.332,
+      "new_value": 2.288,
+      "percent_change": -1.89,
+      "detected_at": "2026-07-05T08:42:11.378803+00:00"
     }
   ],
   "summary": {
@@ -26,7 +26,5 @@
     "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-07-05T02:12:28.802591+00:00"
+  }
 }
