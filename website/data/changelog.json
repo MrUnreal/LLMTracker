@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-05T19:03:18.916799+00:00",
+  "generated_at": "2026-07-06T02:23:45.468049+00:00",
   "changes": [
     {
       "model_id": "z-ai/glm-5.2",
-      "change_type": "price_decrease",
+      "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.686,
-      "new_value": 0.574,
-      "percent_change": -16.33,
-      "detected_at": "2026-07-05T19:03:18.913374+00:00"
+      "old_value": 0.574,
+      "new_value": 0.686,
+      "percent_change": 19.51,
+      "detected_at": "2026-07-06T02:23:45.464199+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
-      "change_type": "price_decrease",
+      "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 2.156,
-      "new_value": 1.804,
-      "percent_change": -16.33,
-      "detected_at": "2026-07-05T19:03:18.913374+00:00"
+      "old_value": 1.804,
+      "new_value": 2.156,
+      "percent_change": 19.51,
+      "detected_at": "2026-07-06T02:23:45.464199+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
-    "price_decreases": 2,
+    "price_increases": 2,
+    "price_decreases": 0,
     "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
