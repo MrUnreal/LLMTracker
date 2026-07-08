@@ -1,117 +1,30 @@
 {
-  "generated_at": "2026-07-08T01:52:46.659665+00:00",
+  "generated_at": "2026-07-08T13:43:19.799382+00:00",
   "changes": [
     {
-      "model_id": "azure/eu/gpt-5.4",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.75,
-        "output_per_million": 16.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-08T01:52:46.656795+00:00"
+      "model_id": "moonshotai/kimi-k2.6",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.66,
+      "new_value": 0.65,
+      "percent_change": -1.52,
+      "detected_at": "2026-07-08T13:43:19.794861+00:00"
     },
     {
-      "model_id": "azure/us/gpt-5.5-2026-04-23",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 33.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-08T01:52:46.656795+00:00"
-    },
-    {
-      "model_id": "azure/eu/gpt-5.5-2026-04-23",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 33.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-08T01:52:46.656795+00:00"
-    },
-    {
-      "model_id": "azure/eu/gpt-5.4-2026-03-05",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.75,
-        "output_per_million": 16.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-08T01:52:46.656795+00:00"
-    },
-    {
-      "model_id": "azure/us/gpt-5.4",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.75,
-        "output_per_million": 16.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-08T01:52:46.656795+00:00"
-    },
-    {
-      "model_id": "azure/eu/gpt-5.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 33.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-08T01:52:46.656795+00:00"
-    },
-    {
-      "model_id": "azure/us/gpt-5.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 33.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-08T01:52:46.656795+00:00"
-    },
-    {
-      "model_id": "azure/us/gpt-5.4-2026-03-05",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.75,
-        "output_per_million": 16.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-08T01:52:46.656795+00:00"
-    },
-    {
-      "model_id": "thedrummer/rocinante-12b",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 32768,
-      "new_value": 65536,
-      "percent_change": 100.0,
-      "detected_at": "2026-07-08T01:52:46.656795+00:00"
+      "model_id": "~moonshotai/kimi-latest",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.66,
+      "new_value": 0.65,
+      "percent_change": -1.52,
+      "detected_at": "2026-07-08T13:43:19.794861+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 0,
-    "new_models": 8,
+    "price_decreases": 2,
+    "new_models": 0,
     "removed_models": 0,
-    "other_changes": 1
+    "other_changes": 0
   }
 }
