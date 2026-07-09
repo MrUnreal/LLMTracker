@@ -1,58 +1,40 @@
 {
-  "generated_at": "2026-07-09T02:05:51.376202+00:00",
+  "generated_at": "2026-07-09T09:22:45.932815+00:00",
   "changes": [
     {
-      "model_id": "switchpoint/router",
+      "model_id": "liquid/lfm-2-24b-a2b",
       "change_type": "removed_model",
       "field": "model",
       "old_value": {
-        "input_per_million": 0.85,
-        "output_per_million": 3.4
+        "input_per_million": 0.03,
+        "output_per_million": 0.12
       },
       "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-07-09T02:05:51.372465+00:00"
-    },
-    {
-      "model_id": "tencent/hy3",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.2,
-      "new_value": 0.14,
-      "percent_change": -30.0,
-      "detected_at": "2026-07-09T02:05:51.372465+00:00"
-    },
-    {
-      "model_id": "tencent/hy3",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.8,
-      "new_value": 0.58,
-      "percent_change": -27.5,
-      "detected_at": "2026-07-09T02:05:51.372465+00:00"
+      "detected_at": "2026-07-09T09:22:45.929231+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.42,
-      "new_value": 0.9,
-      "percent_change": 114.29,
-      "detected_at": "2026-07-09T02:05:51.372465+00:00"
+      "old_value": 0.9,
+      "new_value": 0.93,
+      "percent_change": 3.33,
+      "detected_at": "2026-07-09T09:22:45.929231+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
-      "change_type": "price_increase",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 1.32,
-      "new_value": 3.08,
-      "percent_change": 133.33,
-      "detected_at": "2026-07-09T02:05:51.372465+00:00"
+      "old_value": 3.08,
+      "new_value": 3.0,
+      "percent_change": -2.6,
+      "detected_at": "2026-07-09T09:22:45.929231+00:00"
     }
   ],
   "summary": {
-    "price_increases": 2,
-    "price_decreases": 2,
+    "price_increases": 1,
+    "price_decreases": 1,
     "new_models": 0,
     "removed_models": 1,
     "other_changes": 0
