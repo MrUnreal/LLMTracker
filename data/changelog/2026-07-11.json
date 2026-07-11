@@ -1,69 +1,39 @@
 {
-  "generated_at": "2026-07-11T07:41:57.746342+00:00",
+  "generated_at": "2026-07-11T12:58:18.593512+00:00",
   "changes": [
     {
-      "model_id": "meta-llama/llama-3-8b-instruct",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 0.14,
-        "output_per_million": 0.14
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-07-11T07:41:57.743586+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.2",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.42,
-      "new_value": 0.406,
-      "percent_change": -3.33,
-      "detected_at": "2026-07-11T07:41:57.743586+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.2",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 1.32,
-      "new_value": 1.276,
-      "percent_change": -3.33,
-      "detected_at": "2026-07-11T07:41:57.743586+00:00"
-    },
-    {
       "model_id": "moonshotai/kimi-k2.7-code",
-      "change_type": "price_increase",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 3.49,
-      "new_value": 3.5,
-      "percent_change": 0.29,
-      "detected_at": "2026-07-11T07:41:57.743586+00:00"
+      "old_value": 3.5,
+      "new_value": 3.49,
+      "percent_change": -0.29,
+      "detected_at": "2026-07-11T12:58:18.590338+00:00"
     },
     {
-      "model_id": "deepseek/deepseek-v4-flash",
+      "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.084,
-      "new_value": 0.077,
-      "percent_change": -8.33,
-      "detected_at": "2026-07-11T07:41:57.743586+00:00"
+      "old_value": 0.406,
+      "new_value": 0.392,
+      "percent_change": -3.45,
+      "detected_at": "2026-07-11T12:58:18.590338+00:00"
     },
     {
-      "model_id": "deepseek/deepseek-v4-flash",
+      "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.168,
-      "new_value": 0.154,
-      "percent_change": -8.33,
-      "detected_at": "2026-07-11T07:41:57.743586+00:00"
+      "old_value": 1.276,
+      "new_value": 1.232,
+      "percent_change": -3.45,
+      "detected_at": "2026-07-11T12:58:18.590338+00:00"
     }
   ],
   "summary": {
-    "price_increases": 1,
-    "price_decreases": 4,
+    "price_increases": 0,
+    "price_decreases": 3,
     "new_models": 0,
-    "removed_models": 1,
+    "removed_models": 0,
     "other_changes": 0
   }
 }
