@@ -1,197 +1,47 @@
 {
-  "generated_at": "2026-07-12T01:53:42.332841+00:00",
+  "generated_at": "2026-07-12T08:01:56.913182+00:00",
   "changes": [
     {
-      "model_id": "azure/us/gpt-5.6-sol",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 33.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
-      "model_id": "azure/gpt-5.6-sol",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 30.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
-      "model_id": "azure/gpt-5.6-luna",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.0,
-        "output_per_million": 6.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
-      "model_id": "meta/muse-spark-1.1",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.25,
-        "output_per_million": 4.25
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
-      "model_id": "azure/gpt-5.6",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 30.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
-      "model_id": "jp.anthropic.claude-opus-4-8",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 27.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
-      "model_id": "azure/us/gpt-5.6-luna",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.1,
-        "output_per_million": 6.6
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
-      "model_id": "azure/us/gpt-5.6",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 33.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
-      "model_id": "azure/eu/gpt-5.6-sol",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 33.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
-      "model_id": "azure/us/gpt-5.6-terra",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.75,
-        "output_per_million": 16.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
-      "model_id": "azure/eu/gpt-5.6",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 33.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
-      "model_id": "azure/eu/gpt-5.6-luna",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.1,
-        "output_per_million": 6.6
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
-      "model_id": "azure/gpt-5.6-terra",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.5,
-        "output_per_million": 15.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
-      "model_id": "azure/eu/gpt-5.6-terra",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.75,
-        "output_per_million": 16.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
-    },
-    {
       "model_id": "z-ai/glm-5.2",
-      "change_type": "price_increase",
+      "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.35,
-      "new_value": 0.7,
-      "percent_change": 100.0,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
+      "old_value": 0.7,
+      "new_value": 0.42,
+      "percent_change": -40.0,
+      "detected_at": "2026-07-12T08:01:56.909277+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
-      "change_type": "price_increase",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 1.1,
-      "new_value": 2.2,
-      "percent_change": 100.0,
-      "detected_at": "2026-07-12T01:53:42.330361+00:00"
+      "old_value": 2.2,
+      "new_value": 1.32,
+      "percent_change": -40.0,
+      "detected_at": "2026-07-12T08:01:56.909277+00:00"
+    },
+    {
+      "model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.8,
+      "new_value": 0.25,
+      "percent_change": -68.75,
+      "detected_at": "2026-07-12T08:01:56.909277+00:00"
+    },
+    {
+      "model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 1.0,
+      "new_value": 0.75,
+      "percent_change": -25.0,
+      "detected_at": "2026-07-12T08:01:56.909277+00:00"
     }
   ],
   "summary": {
-    "price_increases": 2,
-    "price_decreases": 0,
-    "new_models": 14,
+    "price_increases": 0,
+    "price_decreases": 4,
+    "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
   }
