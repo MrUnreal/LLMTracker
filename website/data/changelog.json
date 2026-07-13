@@ -1,48 +1,36 @@
 {
-  "generated_at": "2026-07-13T14:09:14.853864+00:00",
+  "generated_at": "2026-07-13T19:13:47.371388+00:00",
   "changes": [
     {
-      "model_id": "deepseek/deepseek-v4-flash",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.077,
-      "new_value": 0.09,
-      "percent_change": 16.88,
-      "detected_at": "2026-07-13T14:09:14.851039+00:00"
+      "model_id": "liquid/lfm-2.5-1.2b-instruct:free",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-07-13T19:13:47.369011+00:00"
     },
     {
-      "model_id": "deepseek/deepseek-v4-flash",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 0.154,
-      "new_value": 0.18,
-      "percent_change": 16.88,
-      "detected_at": "2026-07-13T14:09:14.851039+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-chat-v3.1",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.21,
-      "new_value": 0.25,
-      "percent_change": 19.05,
-      "detected_at": "2026-07-13T14:09:14.851039+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-chat-v3.1",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 0.79,
-      "new_value": 0.95,
-      "percent_change": 20.25,
-      "detected_at": "2026-07-13T14:09:14.851039+00:00"
+      "model_id": "liquid/lfm-2.5-1.2b-thinking:free",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-07-13T19:13:47.369011+00:00"
     }
   ],
   "summary": {
-    "price_increases": 4,
+    "price_increases": 0,
     "price_decreases": 0,
     "new_models": 0,
-    "removed_models": 0,
+    "removed_models": 2,
     "other_changes": 0
   }
 }
