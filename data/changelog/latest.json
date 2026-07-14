@@ -1,44 +1,30 @@
 {
-  "generated_at": "2026-07-14T13:12:06.123777+00:00",
+  "generated_at": "2026-07-14T19:04:34.725432+00:00",
   "changes": [
-    {
-      "model_id": "sao10k/l3.1-70b-hanami-x1",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 3.0,
-        "output_per_million": 3.0
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-07-14T13:12:06.120449+00:00"
-    },
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.9282,
-      "new_value": 0.924,
-      "percent_change": -0.45,
-      "detected_at": "2026-07-14T13:12:06.120449+00:00"
+      "old_value": 0.924,
+      "new_value": 0.91,
+      "percent_change": -1.52,
+      "detected_at": "2026-07-14T19:04:34.722385+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 2.9172,
-      "new_value": 2.904,
-      "percent_change": -0.45,
-      "detected_at": "2026-07-14T13:12:06.120449+00:00"
+      "old_value": 2.904,
+      "new_value": 2.86,
+      "percent_change": -1.52,
+      "detected_at": "2026-07-14T19:04:34.722385+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
     "price_decreases": 2,
     "new_models": 0,
-    "removed_models": 1,
+    "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-07-14T13:12:53.934751+00:00"
+  }
 }
