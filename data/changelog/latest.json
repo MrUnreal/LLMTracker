@@ -1,68 +1,60 @@
 {
-  "generated_at": "2026-07-15T13:15:59.084942+00:00",
+  "generated_at": "2026-07-15T18:57:08.639044+00:00",
   "changes": [
     {
-      "model_id": "google/gemma-4-31b-it",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.12,
-      "new_value": 0.22,
-      "percent_change": 83.33,
-      "detected_at": "2026-07-15T13:15:59.082300+00:00"
+      "model_id": "arcee-ai/coder-large",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.5,
+        "output_per_million": 0.8
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-07-15T18:57:08.636176+00:00"
     },
     {
-      "model_id": "google/gemma-4-31b-it",
+      "model_id": "qwen/qwen3.7-max",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 1.25,
+      "new_value": 1.475,
+      "percent_change": 18.0,
+      "detected_at": "2026-07-15T18:57:08.636176+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3.7-max",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 0.37,
-      "new_value": 0.55,
-      "percent_change": 48.65,
-      "detected_at": "2026-07-15T13:15:59.082300+00:00"
+      "old_value": 3.75,
+      "new_value": 4.425,
+      "percent_change": 18.0,
+      "detected_at": "2026-07-15T18:57:08.636176+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.8918,
-      "new_value": 0.8694,
-      "percent_change": -2.51,
-      "detected_at": "2026-07-15T13:15:59.082300+00:00"
+      "old_value": 0.8694,
+      "new_value": 0.8512,
+      "percent_change": -2.09,
+      "detected_at": "2026-07-15T18:57:08.636176+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 2.8028,
-      "new_value": 2.7324,
-      "percent_change": -2.51,
-      "detected_at": "2026-07-15T13:15:59.082300+00:00"
-    },
-    {
-      "model_id": "meta-llama/llama-3.2-3b-instruct",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.0509,
-      "new_value": 0.05,
-      "percent_change": -1.77,
-      "detected_at": "2026-07-15T13:15:59.082300+00:00"
-    },
-    {
-      "model_id": "meta-llama/llama-3.2-3b-instruct",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.335,
-      "new_value": 0.33,
-      "percent_change": -1.49,
-      "detected_at": "2026-07-15T13:15:59.082300+00:00"
+      "old_value": 2.7324,
+      "new_value": 2.6752,
+      "percent_change": -2.09,
+      "detected_at": "2026-07-15T18:57:08.636176+00:00"
     }
   ],
   "summary": {
     "price_increases": 2,
-    "price_decreases": 4,
+    "price_decreases": 2,
     "new_models": 0,
-    "removed_models": 0,
+    "removed_models": 1,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-07-15T13:16:56.249173+00:00"
+  }
 }
