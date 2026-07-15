@@ -1,29 +1,62 @@
 {
-  "generated_at": "2026-07-14T19:04:34.725432+00:00",
+  "generated_at": "2026-07-15T01:29:20.607366+00:00",
   "changes": [
+    {
+      "model_id": "gemini/gemini-omni-flash-preview",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.5,
+        "output_per_million": 9.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-07-15T01:29:20.604737+00:00"
+    },
+    {
+      "model_id": "gemini-omni-flash-preview",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.5,
+        "output_per_million": 9.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-07-15T01:29:20.604737+00:00"
+    },
+    {
+      "model_id": "google/gemma-4-31b-it",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.06,
+      "new_value": 0.12,
+      "percent_change": 100.0,
+      "detected_at": "2026-07-15T01:29:20.604737+00:00"
+    },
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.924,
-      "new_value": 0.91,
-      "percent_change": -1.52,
-      "detected_at": "2026-07-14T19:04:34.722385+00:00"
+      "old_value": 0.91,
+      "new_value": 0.9072,
+      "percent_change": -0.31,
+      "detected_at": "2026-07-15T01:29:20.604737+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 2.904,
-      "new_value": 2.86,
-      "percent_change": -1.52,
-      "detected_at": "2026-07-14T19:04:34.722385+00:00"
+      "old_value": 2.86,
+      "new_value": 2.8512,
+      "percent_change": -0.31,
+      "detected_at": "2026-07-15T01:29:20.604737+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
+    "price_increases": 1,
     "price_decreases": 2,
-    "new_models": 0,
+    "new_models": 2,
     "removed_models": 0,
     "other_changes": 0
   }
