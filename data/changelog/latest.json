@@ -1,50 +1,39 @@
 {
-  "generated_at": "2026-07-16T07:57:37.815867+00:00",
+  "generated_at": "2026-07-16T13:23:10.620367+00:00",
   "changes": [
     {
-      "model_id": "z-ai/glm-5.2",
-      "change_type": "price_increase",
+      "model_id": "qwen/qwen3-14b",
+      "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.9646,
-      "new_value": 0.9674,
-      "percent_change": 0.29,
-      "detected_at": "2026-07-16T07:57:37.812602+00:00"
+      "old_value": 0.12,
+      "new_value": 0.1,
+      "percent_change": -16.67,
+      "detected_at": "2026-07-16T13:23:10.617684+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 3.0316,
-      "new_value": 3.0404,
-      "percent_change": 0.29,
-      "detected_at": "2026-07-16T07:57:37.812602+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.6",
-      "change_type": "price_increase",
+      "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.66,
-      "new_value": 0.95,
-      "percent_change": 43.94,
-      "detected_at": "2026-07-16T07:57:37.812602+00:00"
+      "old_value": 0.9674,
+      "new_value": 0.9464,
+      "percent_change": -2.17,
+      "detected_at": "2026-07-16T13:23:10.617684+00:00"
     },
     {
-      "model_id": "moonshotai/kimi-k2.6",
-      "change_type": "price_increase",
+      "model_id": "z-ai/glm-5.2",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 3.41,
-      "new_value": 4.0,
-      "percent_change": 17.3,
-      "detected_at": "2026-07-16T07:57:37.812602+00:00"
+      "old_value": 3.0404,
+      "new_value": 2.9744,
+      "percent_change": -2.17,
+      "detected_at": "2026-07-16T13:23:10.617684+00:00"
     }
   ],
   "summary": {
-    "price_increases": 4,
-    "price_decreases": 0,
+    "price_increases": 0,
+    "price_decreases": 3,
     "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-07-16T07:58:21.478482+00:00"
+  }
 }
