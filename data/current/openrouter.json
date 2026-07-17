@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-07-17T01:53:19.519082+00:00",
+  "fetched_at": "2026-07-17T07:54:04.827413+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 344,
   "data": [
@@ -2191,9 +2191,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000008974",
-        "completion": "0.0000028204",
-        "input_cache_read": "0.00000016666"
+        "prompt": "0.0000009646",
+        "completion": "0.0000030316",
+        "input_cache_read": "0.00000017914"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -20061,7 +20061,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2024-12-31",
-      "expiration_date": null,
+      "expiration_date": "2026-12-31",
       "links": {
         "details": "/api/v1/models/z-ai/glm-4.5v/endpoints"
       },
@@ -28850,7 +28850,6 @@
         "include_reasoning",
         "logit_bias",
         "logprobs",
-        "max_completion_tokens",
         "max_tokens",
         "min_p",
         "prediction",
