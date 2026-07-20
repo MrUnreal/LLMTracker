@@ -1,29 +1,59 @@
 {
-  "generated_at": "2026-07-20T13:49:54.824587+00:00",
+  "generated_at": "2026-07-20T19:26:47.736669+00:00",
   "changes": [
     {
-      "model_id": "z-ai/glm-5.2",
-      "change_type": "price_increase",
+      "model_id": "meituan/longcat-2.0",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.3,
+        "output_per_million": 1.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-07-20T19:26:47.732884+00:00"
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.7-code",
+      "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.9576,
-      "new_value": 0.9688,
-      "percent_change": 1.17,
-      "detected_at": "2026-07-20T13:49:54.822160+00:00"
+      "old_value": 0.85,
+      "new_value": 0.82,
+      "percent_change": -3.53,
+      "detected_at": "2026-07-20T19:26:47.732884+00:00"
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.7-code",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 3.8,
+      "new_value": 3.75,
+      "percent_change": -1.32,
+      "detected_at": "2026-07-20T19:26:47.732884+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
-      "change_type": "price_increase",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.9688,
+      "new_value": 0.9464,
+      "percent_change": -2.31,
+      "detected_at": "2026-07-20T19:26:47.732884+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 3.0096,
-      "new_value": 3.0448,
-      "percent_change": 1.17,
-      "detected_at": "2026-07-20T13:49:54.822160+00:00"
+      "old_value": 3.0448,
+      "new_value": 2.9744,
+      "percent_change": -2.31,
+      "detected_at": "2026-07-20T19:26:47.732884+00:00"
     }
   ],
   "summary": {
-    "price_increases": 2,
-    "price_decreases": 0,
-    "new_models": 0,
+    "price_increases": 0,
+    "price_decreases": 4,
+    "new_models": 1,
     "removed_models": 0,
     "other_changes": 0
   }
