@@ -1,50 +1,48 @@
 {
-  "generated_at": "2026-07-25T07:52:12.175949+00:00",
+  "generated_at": "2026-07-25T13:04:30.314181+00:00",
   "changes": [
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.819,
-      "new_value": 0.7532,
-      "percent_change": -8.03,
-      "detected_at": "2026-07-25T07:52:12.173441+00:00"
+      "old_value": 0.7532,
+      "new_value": 0.7196,
+      "percent_change": -4.46,
+      "detected_at": "2026-07-25T13:04:30.311796+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 2.574,
-      "new_value": 2.3672,
-      "percent_change": -8.03,
-      "detected_at": "2026-07-25T07:52:12.173441+00:00"
+      "old_value": 2.3672,
+      "new_value": 2.2616,
+      "percent_change": -4.46,
+      "detected_at": "2026-07-25T13:04:30.311796+00:00"
     },
     {
-      "model_id": "moonshotai/kimi-k2.6",
+      "model_id": "arcee-ai/trinity-large-thinking",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.684,
-      "new_value": 0.646,
-      "percent_change": -5.56,
-      "detected_at": "2026-07-25T07:52:12.173441+00:00"
+      "old_value": 0.25,
+      "new_value": 0.22,
+      "percent_change": -12.0,
+      "detected_at": "2026-07-25T13:04:30.311796+00:00"
     },
     {
-      "model_id": "moonshotai/kimi-k2.6",
-      "change_type": "price_decrease",
+      "model_id": "arcee-ai/trinity-large-thinking",
+      "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 3.42,
-      "new_value": 2.72,
-      "percent_change": -20.47,
-      "detected_at": "2026-07-25T07:52:12.173441+00:00"
+      "old_value": 0.8,
+      "new_value": 0.85,
+      "percent_change": 6.25,
+      "detected_at": "2026-07-25T13:04:30.311796+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
-    "price_decreases": 4,
+    "price_increases": 1,
+    "price_decreases": 3,
     "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-07-25T07:53:01.404414+00:00"
+  }
 }
