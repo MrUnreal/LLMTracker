@@ -1,209 +1,128 @@
 {
-  "generated_at": "2026-07-24T19:13:55.865251+00:00",
+  "generated_at": "2026-07-25T01:53:17.453772+00:00",
   "changes": [
     {
-      "model_id": "anthropic.claude-opus-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 25.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "au.anthropic.claude-opus-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 27.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "claude-opus-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 25.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "global.anthropic.claude-opus-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 25.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "us.anthropic.claude-opus-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 27.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "vertex_ai/claude-opus-5@default",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 25.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "anthropic/claude-opus-5-fast",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 10.0,
-        "output_per_million": 50.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "vertex_ai/claude-opus-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 25.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "anthropic/claude-opus-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 25.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "azure_ai/claude-opus-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 25.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "jp.anthropic.claude-opus-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 27.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "eu.anthropic.claude-opus-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 27.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
+      "model_id": "moonshotai/kimi-k2.7-code",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.82,
+      "new_value": 0.78,
+      "percent_change": -4.88,
+      "detected_at": "2026-07-25T01:53:17.451504+00:00"
     },
     {
       "model_id": "moonshotai/kimi-k2.7-code",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.71,
-      "new_value": 0.82,
-      "percent_change": 15.49,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.7-code",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 3.49,
-      "new_value": 3.75,
-      "percent_change": 7.45,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.15,
-      "new_value": 0.1,
-      "percent_change": -33.33,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 1.2,
-      "new_value": 1.1,
-      "percent_change": -8.33,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
+      "old_value": 3.75,
+      "new_value": 3.5,
+      "percent_change": -6.67,
+      "detected_at": "2026-07-25T01:53:17.451504+00:00"
+    },
+    {
+      "model_id": "nvidia/nemotron-3-super-120b-a12b",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.08,
+      "new_value": 0.085,
+      "percent_change": 6.25,
+      "detected_at": "2026-07-25T01:53:17.451504+00:00"
+    },
+    {
+      "model_id": "nvidia/nemotron-3-super-120b-a12b",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.45,
+      "new_value": 0.4,
+      "percent_change": -11.11,
+      "detected_at": "2026-07-25T01:53:17.451504+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3.6-27b",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.288,
+      "new_value": 0.289,
+      "percent_change": 0.35,
+      "detected_at": "2026-07-25T01:53:17.451504+00:00"
+    },
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.029,
+      "new_value": 0.03,
+      "percent_change": 3.45,
+      "detected_at": "2026-07-25T01:53:17.451504+00:00"
+    },
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.14,
+      "new_value": 0.13,
+      "percent_change": -7.14,
+      "detected_at": "2026-07-25T01:53:17.451504+00:00"
+    },
+    {
+      "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.5,
+      "new_value": 0.6,
+      "percent_change": 20.0,
+      "detected_at": "2026-07-25T01:53:17.451504+00:00"
+    },
+    {
+      "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 2.2,
+      "new_value": 3.6,
+      "percent_change": 63.64,
+      "detected_at": "2026-07-25T01:53:17.451504+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
-      "change_type": "price_decrease",
+      "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.812,
-      "new_value": 0.7826,
-      "percent_change": -3.62,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
+      "old_value": 0.7826,
+      "new_value": 0.819,
+      "percent_change": 4.65,
+      "detected_at": "2026-07-25T01:53:17.451504+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 2.4596,
+      "new_value": 2.574,
+      "percent_change": 4.65,
+      "detected_at": "2026-07-25T01:53:17.451504+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.098,
+      "new_value": 0.0938,
+      "percent_change": -4.29,
+      "detected_at": "2026-07-25T01:53:17.451504+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 2.552,
-      "new_value": 2.4596,
-      "percent_change": -3.62,
-      "detected_at": "2026-07-24T19:13:55.861242+00:00"
+      "old_value": 0.196,
+      "new_value": 0.1876,
+      "percent_change": -4.29,
+      "detected_at": "2026-07-25T01:53:17.451504+00:00"
     }
   ],
   "summary": {
-    "price_increases": 2,
-    "price_decreases": 4,
-    "new_models": 12,
+    "price_increases": 7,
+    "price_decreases": 6,
+    "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
   }
