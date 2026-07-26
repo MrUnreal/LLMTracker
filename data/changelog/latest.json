@@ -1,59 +1,30 @@
 {
-  "generated_at": "2026-07-26T08:10:32.158176+00:00",
+  "generated_at": "2026-07-26T13:00:58.919235+00:00",
   "changes": [
     {
-      "model_id": "moonshotai/kimi-k2.7-code",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.78,
-      "new_value": 0.75,
-      "percent_change": -3.85,
-      "detected_at": "2026-07-26T08:10:32.154895+00:00"
-    },
-    {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.7196,
-      "new_value": 0.7042,
-      "percent_change": -2.14,
-      "detected_at": "2026-07-26T08:10:32.154895+00:00"
+      "old_value": 0.7042,
+      "new_value": 0.6734,
+      "percent_change": -4.37,
+      "detected_at": "2026-07-26T13:00:58.915509+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 2.2616,
-      "new_value": 2.2132,
-      "percent_change": -2.14,
-      "detected_at": "2026-07-26T08:10:32.154895+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-30b-a3b",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.13,
-      "new_value": 0.12,
-      "percent_change": -7.69,
-      "detected_at": "2026-07-26T08:10:32.154895+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-30b-a3b",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.52,
-      "new_value": 0.5,
-      "percent_change": -3.85,
-      "detected_at": "2026-07-26T08:10:32.154895+00:00"
+      "old_value": 2.2132,
+      "new_value": 2.1164,
+      "percent_change": -4.37,
+      "detected_at": "2026-07-26T13:00:58.915509+00:00"
     }
   ],
   "summary": {
     "price_increases": 0,
-    "price_decreases": 5,
+    "price_decreases": 2,
     "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-07-26T08:11:11.973537+00:00"
+  }
 }
