@@ -1,81 +1,39 @@
 {
-  "generated_at": "2026-07-28T01:46:39.804580+00:00",
+  "generated_at": "2026-07-28T08:17:22.230363+00:00",
   "changes": [
     {
-      "model_id": "qwen/qwen3.7-flash",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.03,
-        "output_per_million": 0.13
-      },
-      "percent_change": null,
-      "detected_at": "2026-07-28T01:46:39.801977+00:00"
-    },
-    {
-      "model_id": "openai/gpt-5-chat",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 1.25,
-        "output_per_million": 10.0
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-07-28T01:46:39.801977+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.2",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.7644,
-      "new_value": 0.7322,
-      "percent_change": -4.21,
-      "detected_at": "2026-07-28T01:46:39.801977+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.2",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 2.4024,
-      "new_value": 2.3012,
-      "percent_change": -4.21,
-      "detected_at": "2026-07-28T01:46:39.801977+00:00"
-    },
-    {
-      "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.5,
-      "new_value": 0.6,
-      "percent_change": 20.0,
-      "detected_at": "2026-07-28T01:46:39.801977+00:00"
-    },
-    {
-      "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 2.2,
-      "new_value": 3.6,
-      "percent_change": 63.64,
-      "detected_at": "2026-07-28T01:46:39.801977+00:00"
-    },
-    {
       "model_id": "qwen/qwen3.5-35b-a3b",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.15,
+      "new_value": 0.14,
+      "percent_change": -6.67,
+      "detected_at": "2026-07-28T08:17:22.226989+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.14,
-      "new_value": 0.15,
-      "percent_change": 7.14,
-      "detected_at": "2026-07-28T01:46:39.801977+00:00"
+      "old_value": 0.7322,
+      "new_value": 0.7686,
+      "percent_change": 4.97,
+      "detected_at": "2026-07-28T08:17:22.226989+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 2.3012,
+      "new_value": 2.4156,
+      "percent_change": 4.97,
+      "detected_at": "2026-07-28T08:17:22.226989+00:00"
     }
   ],
   "summary": {
-    "price_increases": 3,
-    "price_decreases": 2,
-    "new_models": 1,
-    "removed_models": 1,
+    "price_increases": 2,
+    "price_decreases": 1,
+    "new_models": 0,
+    "removed_models": 0,
     "other_changes": 0
   }
 }

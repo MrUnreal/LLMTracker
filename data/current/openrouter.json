@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-07-28T01:46:39.089379+00:00",
+  "fetched_at": "2026-07-28T08:17:21.536242+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 341,
   "data": [
@@ -963,7 +963,6 @@
         "reasoning_effort",
         "repetition_penalty",
         "response_format",
-        "seed",
         "stop",
         "structured_outputs",
         "temperature",
@@ -3075,9 +3074,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000007322",
-        "completion": "0.0000023012",
-        "input_cache_read": "0.00000013598"
+        "prompt": "0.0000007686",
+        "completion": "0.0000024156",
+        "input_cache_read": "0.00000014274"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -6659,7 +6658,7 @@
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 1048576,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -6675,7 +6674,6 @@
         "reasoning_effort",
         "repetition_penalty",
         "response_format",
-        "seed",
         "stop",
         "structured_outputs",
         "temperature",
@@ -12134,9 +12132,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.000001",
-        "input_cache_read": "0.00000005"
+        "prompt": "0.00000014",
+        "completion": "0.000001"
       },
       "top_provider": {
         "context_length": 262144,
@@ -27619,7 +27616,6 @@
       "supported_parameters": [
         "frequency_penalty",
         "logit_bias",
-        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -27632,7 +27628,6 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {
