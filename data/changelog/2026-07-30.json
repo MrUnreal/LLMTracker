@@ -1,55 +1,46 @@
 {
-  "generated_at": "2026-07-30T08:09:12.198546+00:00",
+  "generated_at": "2026-07-30T13:29:56.460139+00:00",
   "changes": [
     {
-      "model_id": "~moonshotai/kimi-latest",
+      "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 3.0,
-      "new_value": 2.9,
-      "percent_change": -3.33,
-      "detected_at": "2026-07-30T08:09:12.193873+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-chat",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.2002,
-      "new_value": 0.2574,
-      "percent_change": 28.57,
-      "detected_at": "2026-07-30T08:09:12.193873+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-chat",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 0.8001,
-      "new_value": 1.0287,
-      "percent_change": 28.57,
-      "detected_at": "2026-07-30T08:09:12.193873+00:00"
+      "old_value": 0.6993,
+      "new_value": 0.6153,
+      "percent_change": -12.01,
+      "detected_at": "2026-07-30T13:29:56.456343+00:00"
     },
     {
       "model_id": "z-ai/glm-5.2",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.6776,
-      "new_value": 0.6993,
-      "percent_change": 3.2,
-      "detected_at": "2026-07-30T08:09:12.193873+00:00"
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 2.1978,
+      "new_value": 1.9338,
+      "percent_change": -12.01,
+      "detected_at": "2026-07-30T13:29:56.456343+00:00"
     },
     {
-      "model_id": "z-ai/glm-5.2",
+      "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.5,
+      "new_value": 0.6,
+      "percent_change": 20.0,
+      "detected_at": "2026-07-30T13:29:56.456343+00:00"
+    },
+    {
+      "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 2.1296,
-      "new_value": 2.1978,
-      "percent_change": 3.2,
-      "detected_at": "2026-07-30T08:09:12.193873+00:00"
+      "old_value": 2.2,
+      "new_value": 3.6,
+      "percent_change": 63.64,
+      "detected_at": "2026-07-30T13:29:56.456343+00:00"
     }
   ],
   "summary": {
-    "price_increases": 4,
-    "price_decreases": 1,
+    "price_increases": 2,
+    "price_decreases": 2,
     "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
