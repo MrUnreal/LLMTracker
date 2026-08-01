@@ -1,29 +1,59 @@
 {
-  "generated_at": "2026-08-01T12:59:26.536470+00:00",
+  "generated_at": "2026-08-01T18:56:20.449137+00:00",
   "changes": [
     {
-      "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.6,
-      "new_value": 0.5,
-      "percent_change": -16.67,
-      "detected_at": "2026-08-01T12:59:26.531744+00:00"
+      "model_id": "~deepseek/deepseek-v4-flash-latest",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.09,
+        "output_per_million": 0.18
+      },
+      "percent_change": null,
+      "detected_at": "2026-08-01T18:56:20.445719+00:00"
     },
     {
       "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.5,
+      "new_value": 0.6,
+      "percent_change": 20.0,
+      "detected_at": "2026-08-01T18:56:20.445719+00:00"
+    },
+    {
+      "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 2.2,
+      "new_value": 3.6,
+      "percent_change": 63.64,
+      "detected_at": "2026-08-01T18:56:20.445719+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.7601,
+      "new_value": 0.7168,
+      "percent_change": -5.7,
+      "detected_at": "2026-08-01T18:56:20.445719+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 3.6,
-      "new_value": 2.2,
-      "percent_change": -38.89,
-      "detected_at": "2026-08-01T12:59:26.531744+00:00"
+      "old_value": 2.3888,
+      "new_value": 2.2528,
+      "percent_change": -5.69,
+      "detected_at": "2026-08-01T18:56:20.445719+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
+    "price_increases": 2,
     "price_decreases": 2,
-    "new_models": 0,
+    "new_models": 1,
     "removed_models": 0,
     "other_changes": 0
   }
