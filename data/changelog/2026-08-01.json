@@ -1,55 +1,37 @@
 {
-  "generated_at": "2026-08-01T01:59:55.763040+00:00",
+  "generated_at": "2026-08-01T08:05:36.394063+00:00",
   "changes": [
     {
-      "model_id": "moonshotai/kimi-k2.6",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.589,
-      "new_value": 0.6,
-      "percent_change": 1.87,
-      "detected_at": "2026-08-01T01:59:55.759669+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.6",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 2.48,
-      "new_value": 3.41,
-      "percent_change": 37.5,
-      "detected_at": "2026-08-01T01:59:55.759669+00:00"
-    },
-    {
-      "model_id": "thinkingmachines/inkling-small",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.58,
-      "new_value": 0.5,
-      "percent_change": -13.79,
-      "detected_at": "2026-08-01T01:59:55.759669+00:00"
-    },
-    {
-      "model_id": "thinkingmachines/inkling-small",
+      "model_id": "openai/gpt-oss-20b",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 1.44,
-      "new_value": 1.2,
-      "percent_change": -16.67,
-      "detected_at": "2026-08-01T01:59:55.759669+00:00"
+      "old_value": 0.14,
+      "new_value": 0.13,
+      "percent_change": -7.14,
+      "detected_at": "2026-08-01T08:05:36.390321+00:00"
     },
     {
-      "model_id": "qwen/qwen3-coder-30b-a3b-instruct",
-      "change_type": "price_increase",
+      "model_id": "z-ai/glm-5.2",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 1.12,
+      "new_value": 0.7601,
+      "percent_change": -32.13,
+      "detected_at": "2026-08-01T08:05:36.390321+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.27,
-      "new_value": 0.28,
-      "percent_change": 3.7,
-      "detected_at": "2026-08-01T01:59:55.759669+00:00"
+      "old_value": 3.52,
+      "new_value": 2.3888,
+      "percent_change": -32.14,
+      "detected_at": "2026-08-01T08:05:36.390321+00:00"
     }
   ],
   "summary": {
-    "price_increases": 3,
-    "price_decreases": 2,
+    "price_increases": 0,
+    "price_decreases": 3,
     "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
