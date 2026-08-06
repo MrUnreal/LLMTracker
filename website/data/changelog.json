@@ -1,75 +1,90 @@
 {
-  "generated_at": "2026-08-05T18:30:22.964126+00:00",
+  "generated_at": "2026-08-06T00:22:23.258848+00:00",
   "changes": [
     {
-      "model_id": "moonshotai/kimi-k2.7-code",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.73,
-      "new_value": 0.7,
-      "percent_change": -4.11,
-      "detected_at": "2026-08-05T18:30:22.961231+00:00"
+      "model_id": "inclusionai/ling-3.0-flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.075,
+        "output_per_million": 0.22
+      },
+      "percent_change": null,
+      "detected_at": "2026-08-06T00:22:23.255831+00:00"
     },
     {
-      "model_id": "z-ai/glm-5.1",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.966,
-      "new_value": 0.952,
-      "percent_change": -1.45,
-      "detected_at": "2026-08-05T18:30:22.961231+00:00"
+      "model_id": "meta/muse-spark-1.2",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.25,
+        "output_per_million": 4.25
+      },
+      "percent_change": null,
+      "detected_at": "2026-08-06T00:22:23.255831+00:00"
     },
     {
-      "model_id": "z-ai/glm-5.1",
+      "model_id": "deepseek/deepseek-v4-flash",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.14,
+      "new_value": 0.0882,
+      "percent_change": -37.0,
+      "detected_at": "2026-08-06T00:22:23.255831+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 3.036,
-      "new_value": 2.992,
-      "percent_change": -1.45,
-      "detected_at": "2026-08-05T18:30:22.961231+00:00"
-    },
-    {
-      "model_id": "minimax/minimax-m2.5",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.15,
-      "new_value": 0.22,
-      "percent_change": 46.67,
-      "detected_at": "2026-08-05T18:30:22.961231+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.98,
-      "new_value": 0.4,
-      "percent_change": -59.18,
-      "detected_at": "2026-08-05T18:30:22.961231+00:00"
+      "old_value": 0.28,
+      "new_value": 0.1764,
+      "percent_change": -37.0,
+      "detected_at": "2026-08-06T00:22:23.255831+00:00"
     },
     {
       "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
       "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 3.95,
-      "new_value": 4.0,
-      "percent_change": 1.27,
-      "detected_at": "2026-08-05T18:30:22.961231+00:00"
+      "field": "input_per_million",
+      "old_value": 0.4,
+      "new_value": 0.98,
+      "percent_change": 145.0,
+      "detected_at": "2026-08-06T00:22:23.255831+00:00"
     },
     {
-      "model_id": "upstage/solar-pro-3",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 128000,
-      "new_value": 131072,
-      "percent_change": 2.4,
-      "detected_at": "2026-08-05T18:30:22.961231+00:00"
+      "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 4.0,
+      "new_value": 3.95,
+      "percent_change": -1.25,
+      "detected_at": "2026-08-06T00:22:23.255831+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3-235b-a22b-2507",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.1495,
+      "new_value": 0.09,
+      "percent_change": -39.8,
+      "detected_at": "2026-08-06T00:22:23.255831+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3-235b-a22b-2507",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.598,
+      "new_value": 0.55,
+      "percent_change": -8.03,
+      "detected_at": "2026-08-06T00:22:23.255831+00:00"
     }
   ],
   "summary": {
-    "price_increases": 2,
-    "price_decreases": 4,
-    "new_models": 0,
+    "price_increases": 1,
+    "price_decreases": 5,
+    "new_models": 2,
     "removed_models": 0,
-    "other_changes": 1
+    "other_changes": 0
   }
 }
