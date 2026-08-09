@@ -1,27 +1,45 @@
 {
-  "generated_at": "2026-08-09T12:07:20.687251+00:00",
+  "generated_at": "2026-08-09T18:07:12.104074+00:00",
   "changes": [
     {
-      "model_id": "z-ai/glm-5.2",
-      "change_type": "price_decrease",
+      "model_id": "qwen/qwen3.5-397b-a17b",
+      "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.098,
-      "new_value": 0.07,
-      "percent_change": -28.57,
-      "detected_at": "2026-08-09T12:07:20.683685+00:00"
+      "old_value": 0.39,
+      "new_value": 0.5,
+      "percent_change": 28.21,
+      "detected_at": "2026-08-09T18:07:12.101414+00:00"
     },
     {
-      "model_id": "z-ai/glm-5.2",
+      "model_id": "qwen/qwen3.5-397b-a17b",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 2.34,
+      "new_value": 3.6,
+      "percent_change": 53.85,
+      "detected_at": "2026-08-09T18:07:12.101414+00:00"
+    },
+    {
+      "model_id": "gryphe/mythomax-l2-13b",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.08,
+      "new_value": 0.06,
+      "percent_change": -25.0,
+      "detected_at": "2026-08-09T18:07:12.101414+00:00"
+    },
+    {
+      "model_id": "gryphe/mythomax-l2-13b",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.308,
-      "new_value": 0.22,
-      "percent_change": -28.57,
-      "detected_at": "2026-08-09T12:07:20.683685+00:00"
+      "old_value": 0.11,
+      "new_value": 0.06,
+      "percent_change": -45.45,
+      "detected_at": "2026-08-09T18:07:12.101414+00:00"
     }
   ],
   "summary": {
-    "price_increases": 0,
+    "price_increases": 2,
     "price_decreases": 2,
     "new_models": 0,
     "removed_models": 0,
