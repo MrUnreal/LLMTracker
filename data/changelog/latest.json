@@ -1,59 +1,60 @@
 {
-  "generated_at": "2026-08-13T06:28:20.639217+00:00",
+  "generated_at": "2026-08-13T12:14:54.273825+00:00",
   "changes": [
     {
-      "model_id": "qwen/qwen3.5-397b-a17b",
+      "model_id": "inclusionai/ling-3.0-tiny:free",
+      "change_type": "removed_model",
+      "field": "model",
+      "old_value": {
+        "input_per_million": 0.0,
+        "output_per_million": 0.0
+      },
+      "new_value": null,
+      "percent_change": null,
+      "detected_at": "2026-08-13T12:14:54.271190+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.45,
-      "new_value": 0.5,
-      "percent_change": 11.11,
-      "detected_at": "2026-08-13T06:28:20.636157+00:00"
+      "old_value": 0.5,
+      "new_value": 0.63,
+      "percent_change": 26.0,
+      "detected_at": "2026-08-13T12:14:54.271190+00:00"
     },
     {
-      "model_id": "qwen/qwen3.5-397b-a17b",
-      "change_type": "price_increase",
+      "model_id": "z-ai/glm-5.2",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 3.0,
-      "new_value": 3.6,
-      "percent_change": 20.0,
-      "detected_at": "2026-08-13T06:28:20.636157+00:00"
+      "old_value": 3.15,
+      "new_value": 1.98,
+      "percent_change": -37.14,
+      "detected_at": "2026-08-13T12:14:54.271190+00:00"
     },
     {
-      "model_id": "qwen/qwen3.8-2.4t-a95b",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 262144,
-      "new_value": 1000000,
-      "percent_change": 281.47,
-      "detected_at": "2026-08-13T06:28:20.636157+00:00"
+      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.09,
+      "new_value": 0.1,
+      "percent_change": 11.11,
+      "detected_at": "2026-08-13T12:14:54.271190+00:00"
     },
     {
-      "model_id": "nvidia/nemotron-3.5-lightning",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 1000000,
-      "new_value": 1048576,
-      "percent_change": 4.86,
-      "detected_at": "2026-08-13T06:28:20.636157+00:00"
-    },
-    {
-      "model_id": "anthracite-org/magnum-v4-72b",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 16384,
-      "new_value": 32768,
-      "percent_change": 100.0,
-      "detected_at": "2026-08-13T06:28:20.636157+00:00"
+      "model_id": "minimax/minimax-m2.5",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.22,
+      "new_value": 0.225,
+      "percent_change": 2.27,
+      "detected_at": "2026-08-13T12:14:54.271190+00:00"
     }
   ],
   "summary": {
-    "price_increases": 2,
-    "price_decreases": 0,
+    "price_increases": 3,
+    "price_decreases": 1,
     "new_models": 0,
-    "removed_models": 0,
-    "other_changes": 3
-  },
-  "notified": true,
-  "notified_at": "2026-08-13T06:29:05.284094+00:00"
+    "removed_models": 1,
+    "other_changes": 0
+  }
 }
