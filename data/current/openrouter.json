@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-08-17T18:06:55.451959+00:00",
+  "fetched_at": "2026-08-18T00:07:28.223736+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 414,
   "data": [
@@ -738,16 +738,13 @@
       },
       "per_request_limits": null,
       "supported_parameters": [
-        "frequency_penalty",
         "include_reasoning",
         "logprobs",
         "max_tokens",
-        "presence_penalty",
         "reasoning",
         "reasoning_effort",
         "response_format",
         "seed",
-        "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
@@ -1574,13 +1571,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000078596",
-        "completion": "0.000000157192",
-        "input_cache_read": "0.0000000157192"
+        "prompt": "0.0000000783",
+        "completion": "0.0000001566",
+        "input_cache_read": "0.00000001566"
       },
       "top_provider": {
-        "context_length": 1024000,
-        "max_completion_tokens": 384000,
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -2037,14 +2034,7 @@
         "tools",
         "verbosity"
       ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
+      "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
@@ -2183,14 +2173,7 @@
         "tools",
         "verbosity"
       ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
+      "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
@@ -4925,16 +4908,13 @@
       },
       "per_request_limits": null,
       "supported_parameters": [
-        "frequency_penalty",
         "include_reasoning",
         "logprobs",
         "max_tokens",
-        "presence_penalty",
         "reasoning",
         "reasoning_effort",
         "response_format",
         "seed",
-        "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
@@ -5127,16 +5107,13 @@
       },
       "per_request_limits": null,
       "supported_parameters": [
-        "frequency_penalty",
         "include_reasoning",
         "logprobs",
         "max_tokens",
-        "presence_penalty",
         "reasoning",
         "reasoning_effort",
         "response_format",
         "seed",
-        "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
@@ -5534,14 +5511,7 @@
         "tools",
         "verbosity"
       ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
+      "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
@@ -5729,14 +5699,7 @@
         "tools",
         "verbosity"
       ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
+      "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
@@ -6287,9 +6250,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000049",
-        "completion": "0.00000154",
-        "input_cache_read": "0.000000091"
+        "prompt": "0.0000005",
+        "completion": "0.00000315",
+        "input_cache_read": "0.000000115"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -9776,15 +9739,12 @@
       },
       "per_request_limits": null,
       "supported_parameters": [
-        "frequency_penalty",
         "include_reasoning",
         "logprobs",
         "max_tokens",
-        "presence_penalty",
         "reasoning",
         "response_format",
         "seed",
-        "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
@@ -10758,16 +10718,13 @@
       },
       "per_request_limits": null,
       "supported_parameters": [
-        "frequency_penalty",
         "include_reasoning",
         "logprobs",
         "max_tokens",
-        "presence_penalty",
         "reasoning",
         "reasoning_effort",
         "response_format",
         "seed",
-        "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
@@ -11625,14 +11582,7 @@
         "tools",
         "verbosity"
       ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
+      "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
@@ -12923,9 +12873,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000798",
-        "completion": "0.0000001596",
-        "input_cache_read": "0.00000001596"
+        "prompt": "0.0000000826",
+        "completion": "0.0000001652",
+        "input_cache_read": "0.00000001652"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -13640,14 +13590,7 @@
         "tools",
         "verbosity"
       ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
+      "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
@@ -13733,9 +13676,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005605",
-        "completion": "0.00000236",
-        "input_cache_read": "0.0000000944"
+        "prompt": "0.00000095",
+        "completion": "0.000004",
+        "input_cache_read": "0.00000016"
       },
       "top_provider": {
         "context_length": 262144,
