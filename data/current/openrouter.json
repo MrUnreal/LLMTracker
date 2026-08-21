@@ -1,9 +1,73 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-08-20T18:06:38.835926+00:00",
+  "fetched_at": "2026-08-21T00:08:20.928013+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 417,
+  "model_count": 418,
   "data": [
+    {
+      "id": "stealth/ox-alpha",
+      "canonical_slug": "stealth/ox-alpha",
+      "hugging_face_id": null,
+      "name": "Ox Alpha",
+      "created": 1787256295,
+      "description": "Ox Alpha is a reasoning model designed for coding, sustained agentic work, and production workloads. It is suited for long-horizon software engineering, complex reasoning, and workflows that combine text with...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": "2098-12-31",
+      "links": {
+        "details": "/api/v1/models/stealth/ox-alpha/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default_effort": "max"
+      }
+    },
     {
       "id": "tencent/hy-mt2-1.8b",
       "canonical_slug": "tencent/hy-mt2-1.8b-20260521",
@@ -1441,13 +1505,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000035",
-        "completion": "0.0000015",
+        "prompt": "0.0000003",
+        "completion": "0.0000011",
         "input_cache_read": "0.00000004"
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": null,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -1992,7 +2056,7 @@
       "name": "Thinking Machines: Inkling Small",
       "created": 1785443117,
       "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
-      "context_length": 524288,
+      "context_length": 1048576,
       "architecture": {
         "modality": "text+image+audio->text",
         "input_modalities": [
@@ -6683,7 +6747,7 @@
       "name": "Z.ai: GLM 5.2 (batch)",
       "created": 1781631930,
       "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
-      "context_length": 512000,
+      "context_length": 1048575,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -6701,7 +6765,7 @@
         "input_cache_read": "0.00000026"
       },
       "top_provider": {
-        "context_length": 512000,
+        "context_length": 1048575,
         "max_completion_tokens": null,
         "is_moderated": false
       },
@@ -7129,9 +7193,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000071",
-        "completion": "0.0000035",
-        "input_cache_read": "0.00000015"
+        "prompt": "0.00000067",
+        "completion": "0.0000034",
+        "input_cache_read": "0.00000017"
       },
       "top_provider": {
         "context_length": 262144,
@@ -7600,7 +7664,7 @@
       "top_provider": {
         "context_length": 1000000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
@@ -13087,9 +13151,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000784",
-        "completion": "0.0000001568",
-        "input_cache_read": "0.00000001568"
+        "prompt": "0.0000000826",
+        "completion": "0.0000001652",
+        "input_cache_read": "0.00000001652"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -13895,9 +13959,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005605",
-        "completion": "0.00000236",
-        "input_cache_read": "0.0000000944"
+        "prompt": "0.00000095",
+        "completion": "0.000004",
+        "input_cache_read": "0.00000016"
       },
       "top_provider": {
         "context_length": 262144,
@@ -14925,13 +14989,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000009",
+        "prompt": "0.0000001",
         "completion": "0.00000034",
-        "input_cache_read": "0.00000005"
+        "input_cache_read": "0.0000001"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 16384,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -18131,7 +18195,7 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "max_completion_tokens": 65536,
         "is_moderated": false
       },
       "per_request_limits": null,
