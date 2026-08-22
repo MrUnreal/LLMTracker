@@ -1,9 +1,77 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-08-21T18:06:57.000440+00:00",
+  "fetched_at": "2026-08-22T00:07:28.774295+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 420,
+  "model_count": 421,
   "data": [
+    {
+      "id": "meta/muse-spark-1.2-contributor",
+      "canonical_slug": "meta/muse-spark-1.2-contributor-20260805",
+      "hugging_face_id": null,
+      "name": "Meta: Muse Spark 1.2 Contributor",
+      "created": 1787336476,
+      "description": "Muse Spark 1.2 contributor tier is a reasoning model from Meta designed for developers who want to start building at an even lower cost. It’s meaningfully cheaper than Muse Spark...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000002",
+        "web_search": "0.0025",
+        "input_cache_read": "0.000000002"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": null,
+        "is_moderated": true
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/meta/muse-spark-1.2-contributor-20260805/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default_effort": "medium"
+      }
+    },
     {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
       "canonical_slug": "deepseek/deepseek-v4-flash-vision-exp-20260821",
@@ -862,8 +930,8 @@
         "input_cache_read": "0.00000025"
       },
       "top_provider": {
-        "context_length": 1000000,
-        "max_completion_tokens": 262144,
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -2230,6 +2298,86 @@
         "tools",
         "top_k",
         "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/thinkingmachines/inkling-small-20260730/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 41.2,
+          "coding_index": 52.9,
+          "agentic_index": 31.9
+        }
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling-small:free",
+      "canonical_slug": "thinkingmachines/inkling-small-20260730",
+      "hugging_face_id": "thinkingmachines/Inkling-Small",
+      "name": "Thinking Machines: Inkling Small (free)",
+      "created": 1785443117,
+      "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image+audio->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "seed",
+        "stop",
+        "temperature",
+        "tools",
         "top_p"
       ],
       "default_parameters": {
@@ -3753,6 +3901,136 @@
       }
     },
     {
+      "id": "thinkingmachines/inkling:free",
+      "canonical_slug": "thinkingmachines/inkling-20260715",
+      "hugging_face_id": "thinkingmachines/Inkling",
+      "name": "Thinking Machines: Inkling (free)",
+      "created": 1784325956,
+      "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image+audio->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "seed",
+        "stop",
+        "temperature",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/thinkingmachines/inkling-20260715/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1203,
+            "win_rate": 42.8,
+            "rank": 48
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1122,
+            "win_rate": 33.3,
+            "rank": 52
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1218,
+            "win_rate": 41.7,
+            "rank": 44
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1195,
+            "win_rate": 39.8,
+            "rank": 53
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1193,
+            "win_rate": 38.4,
+            "rank": 54
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1218,
+            "win_rate": 41.8,
+            "rank": 45
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1226,
+            "win_rate": 42.5,
+            "rank": 44
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 42.3,
+          "coding_index": 52.1,
+          "agentic_index": 34.1
+        }
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
       "id": "openrouter/auto-beta",
       "canonical_slug": "openrouter/auto-beta",
       "hugging_face_id": null,
@@ -5023,18 +5301,18 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.000015",
+        "prompt": "0.000002",
+        "completion": "0.00001",
         "web_search": "0.01",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0.000003125",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0.0000025",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.000005",
-            "completion": "0.0000225",
-            "input_cache_read": "0.0000005",
-            "input_cache_write": "0.00000625"
+            "prompt": "0.000004",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000004",
+            "input_cache_write": "0.000005"
           }
         ]
       },
@@ -5106,16 +5384,18 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.0000075",
+        "prompt": "0.000001",
+        "completion": "0.000005",
         "web_search": "0.01",
-        "input_cache_read": "0.000000125",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.00000125",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.0000025",
-            "completion": "0.00001125",
-            "input_cache_read": "0.00000025"
+            "prompt": "0.000002",
+            "completion": "0.0000075",
+            "input_cache_read": "0.0000002",
+            "input_cache_write": "0.0000025"
           }
         ]
       },
@@ -5186,18 +5466,18 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.000015",
+        "prompt": "0.000002",
+        "completion": "0.00001",
         "web_search": "0.01",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0.000003125",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0.0000025",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.000005",
-            "completion": "0.0000225",
-            "input_cache_read": "0.0000005",
-            "input_cache_write": "0.00000625"
+            "prompt": "0.000004",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000004",
+            "input_cache_write": "0.000005"
           }
         ]
       },
@@ -5277,16 +5557,18 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.0000075",
+        "prompt": "0.000001",
+        "completion": "0.000005",
         "web_search": "0.01",
-        "input_cache_read": "0.000000125",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.00000125",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.0000025",
-            "completion": "0.00001125",
-            "input_cache_read": "0.00000025"
+            "prompt": "0.000002",
+            "completion": "0.0000075",
+            "input_cache_read": "0.0000002",
+            "input_cache_write": "0.0000025"
           }
         ]
       },
@@ -12095,18 +12377,18 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.000015",
+        "prompt": "0.000002",
+        "completion": "0.00001",
         "web_search": "0.01",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0.000003125",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0.0000025",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.000005",
-            "completion": "0.0000225",
-            "input_cache_read": "0.0000005",
-            "input_cache_write": "0.00000625"
+            "prompt": "0.000004",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000004",
+            "input_cache_write": "0.000005"
           }
         ]
       },
@@ -14124,9 +14406,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005795",
-        "completion": "0.00000244",
-        "input_cache_read": "0.0000000976"
+        "prompt": "0.0000005605",
+        "completion": "0.00000236",
+        "input_cache_read": "0.0000000944"
       },
       "top_provider": {
         "context_length": 262144,
@@ -18360,7 +18642,7 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 65536,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -24085,66 +24367,6 @@
       }
     },
     {
-      "id": "deepcogito/cogito-v2.1-671b",
-      "canonical_slug": "deepcogito/cogito-v2.1-671b-20251118",
-      "hugging_face_id": "",
-      "name": "Deep Cogito: Cogito v2.1 671B",
-      "created": 1763071233,
-      "description": "Cogito v2.1 671B MoE represents one of the strongest open models globally, matching performance of frontier closed and open models. This model is trained using self play with reinforcement learning...",
-      "context_length": 128000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00000125"
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logit_bias",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "response_format",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/deepcogito/cogito-v2.1-671b-20251118/endpoints"
-      },
-      "reasoning": {
-        "mandatory": false
-      }
-    },
-    {
       "id": "openai/gpt-5.1",
       "canonical_slug": "openai/gpt-5.1-20251113",
       "hugging_face_id": "",
@@ -29339,99 +29561,6 @@
       }
     },
     {
-      "id": "openai/gpt-oss-20b:free",
-      "canonical_slug": "openai/gpt-oss-20b",
-      "hugging_face_id": "openai/gpt-oss-20b",
-      "name": "OpenAI: gpt-oss-20b (free)",
-      "created": 1754414229,
-      "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for...",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 32768,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "reasoning_effort",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-06-30",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/openai/gpt-oss-20b/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 953,
-            "win_rate": 39.7,
-            "rank": 107
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 872,
-            "win_rate": 27.9,
-            "rank": 122
-          }
-        ],
-        "artificial_analysis": {
-          "intelligence_index": 15.2,
-          "coding_index": 20.7,
-          "agentic_index": 3.1
-        }
-      },
-      "reasoning": {
-        "mandatory": true,
-        "supported_efforts": [
-          "high",
-          "medium",
-          "low"
-        ],
-        "default_effort": "medium"
-      }
-    },
-    {
       "id": "anthropic/claude-opus-4.1",
       "canonical_slug": "anthropic/claude-4.1-opus-20250805",
       "hugging_face_id": "",
@@ -30982,7 +31111,7 @@
       "name": "Mistral: Mistral Small 3.2 24B",
       "created": 1750443016,
       "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on...",
-      "context_length": 256000,
+      "context_length": 131072,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -30996,11 +31125,11 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000009375",
-        "completion": "0.00000025"
+        "prompt": "0.000000075",
+        "completion": "0.0000002"
       },
       "top_provider": {
-        "context_length": 256000,
+        "context_length": 128000,
         "max_completion_tokens": 16384,
         "is_moderated": false
       },
