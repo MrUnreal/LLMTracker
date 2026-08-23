@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-08-22T18:03:15.356718+00:00",
+  "fetched_at": "2026-08-23T00:07:06.466764+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 421,
+  "model_count": 422,
   "data": [
     {
       "id": "meta/muse-spark-1.2-contributor",
@@ -357,6 +357,51 @@
       }
     },
     {
+      "id": "tencent/hy-mt2-7b",
+      "canonical_slug": "tencent/hy-mt2-7b-20260521",
+      "hugging_face_id": "tencent/Hy-MT2-7B",
+      "name": "Tencent: Hy-MT2-7B",
+      "created": 1787148797,
+      "description": "Hy-MT2-7B is a 7B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and style-guided translation.",
+      "context_length": 8192,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000000074",
+        "completion": "0.000000295"
+      },
+      "top_provider": {
+        "context_length": 8192,
+        "max_completion_tokens": 4096,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "max_completion_tokens",
+        "max_tokens",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/tencent/hy-mt2-7b-20260521/endpoints"
+      }
+    },
+    {
       "id": "z-ai/glm-5.3",
       "canonical_slug": "z-ai/glm-5.3-20260816",
       "hugging_face_id": null,
@@ -449,8 +494,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000045",
-        "completion": "0.0000032",
+        "prompt": "0.0000004",
+        "completion": "0.000003",
         "input_cache_read": "0.00000005"
       },
       "top_provider": {
@@ -1060,9 +1105,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000001188",
-        "completion": "0.000003564",
-        "input_cache_read": "0.0000000396"
+        "prompt": "0.000001122",
+        "completion": "0.000003366",
+        "input_cache_read": "0.0000000374"
       },
       "top_provider": {
         "context_length": 1048575,
@@ -2056,13 +2101,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000065",
-        "completion": "0.00000018",
-        "input_cache_read": "0.00000002"
+        "prompt": "0.0000000639",
+        "completion": "0.0000001278",
+        "input_cache_read": "0.00000001278"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 1048576,
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -3634,13 +3679,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000095",
+        "prompt": "0.000001",
         "completion": "0.00000405",
-        "input_cache_read": "0.00000016"
+        "input_cache_read": "0.00000017"
       },
       "top_provider": {
         "context_length": 524288,
-        "max_completion_tokens": 262144,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -13582,9 +13627,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000006006",
-        "completion": "0.00000012012",
-        "input_cache_read": "0.000000012012"
+        "prompt": "0.00000005586",
+        "completion": "0.00000011172",
+        "input_cache_read": "0.000000011172"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -14390,13 +14435,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005415",
-        "completion": "0.00000228",
-        "input_cache_read": "0.0000000912"
+        "prompt": "0.00000095",
+        "completion": "0.000004",
+        "input_cache_read": "0.00000016"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -18626,7 +18671,7 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 65536,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -29344,9 +29389,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000003",
-        "completion": "0.00000017",
-        "input_cache_read": "0.00000003"
+        "prompt": "0.000000037",
+        "completion": "0.00000017"
       },
       "top_provider": {
         "context_length": 131072,
@@ -32665,12 +32709,12 @@
         "instruct_type": "qwen3"
       },
       "pricing": {
-        "prompt": "0.00000013",
-        "completion": "0.00000052"
+        "prompt": "0.00000012",
+        "completion": "0.0000005"
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 8192,
+        "context_length": 40960,
+        "max_completion_tokens": 16384,
         "is_moderated": false
       },
       "per_request_limits": null,
