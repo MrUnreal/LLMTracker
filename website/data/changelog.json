@@ -1,46 +1,64 @@
 {
-  "generated_at": "2026-08-23T12:04:10.949709+00:00",
+  "generated_at": "2026-08-23T18:03:23.195233+00:00",
   "changes": [
     {
-      "model_id": "~deepseek/deepseek-v4-flash-latest",
+      "model_id": "minimax/minimax-m2.7",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.05,
-      "new_value": 0.04,
+      "old_value": 0.3,
+      "new_value": 0.24,
       "percent_change": -20.0,
-      "detected_at": "2026-08-23T12:04:10.946189+00:00"
+      "detected_at": "2026-08-23T18:03:23.191944+00:00"
+    },
+    {
+      "model_id": "minimax/minimax-m2.7",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 1.2,
+      "new_value": 0.96,
+      "percent_change": -20.0,
+      "detected_at": "2026-08-23T18:03:23.191944+00:00"
+    },
+    {
+      "model_id": "thinkingmachines/inkling",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 1.0,
+      "new_value": 0.95,
+      "percent_change": -5.0,
+      "detected_at": "2026-08-23T18:03:23.191944+00:00"
     },
     {
       "model_id": "~deepseek/deepseek-v4-flash-latest",
-      "change_type": "price_increase",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.1,
-      "new_value": 0.13,
-      "percent_change": 30.0,
-      "detected_at": "2026-08-23T12:04:10.946189+00:00"
+      "old_value": 0.13,
+      "new_value": 0.08,
+      "percent_change": -38.46,
+      "detected_at": "2026-08-23T18:03:23.191944+00:00"
     },
     {
       "model_id": "deepseek/deepseek-v4-flash",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.0517,
-      "new_value": 0.0503,
-      "percent_change": -2.71,
-      "detected_at": "2026-08-23T12:04:10.946189+00:00"
+      "old_value": 0.0503,
+      "new_value": 0.0489,
+      "percent_change": -2.78,
+      "detected_at": "2026-08-23T18:03:23.191944+00:00"
     },
     {
       "model_id": "deepseek/deepseek-v4-flash",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.1033,
-      "new_value": 0.1005,
-      "percent_change": -2.71,
-      "detected_at": "2026-08-23T12:04:10.946189+00:00"
+      "old_value": 0.1005,
+      "new_value": 0.0977,
+      "percent_change": -2.79,
+      "detected_at": "2026-08-23T18:03:23.191944+00:00"
     }
   ],
   "summary": {
-    "price_increases": 1,
-    "price_decreases": 3,
+    "price_increases": 0,
+    "price_decreases": 6,
     "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
