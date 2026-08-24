@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-08-24T06:11:12.082104+00:00",
+  "fetched_at": "2026-08-24T12:06:48.017371+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 422,
+  "model_count": 419,
   "data": [
     {
       "id": "meta/muse-spark-1.2-contributor",
@@ -2115,9 +2115,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000035",
-        "completion": "0.00000013",
-        "input_cache_read": "0.00000001"
+        "prompt": "0.00000004",
+        "completion": "0.00000008",
+        "input_cache_read": "0.000000008"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -7684,7 +7684,7 @@
       "pricing": {
         "prompt": "0.00000067",
         "completion": "0.0000034",
-        "input_cache_read": "0.00000017"
+        "input_cache_read": "0.00000019"
       },
       "top_provider": {
         "context_length": 262144,
@@ -11175,84 +11175,6 @@
       }
     },
     {
-      "id": "inclusionai/ring-2.6-1t",
-      "canonical_slug": "inclusionai/ring-2.6-1t-20260508",
-      "hugging_face_id": null,
-      "name": "inclusionAI: Ring-2.6-1T",
-      "created": 1778247440,
-      "description": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool...",
-      "context_length": 262144,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.000000625",
-        "input_cache_read": "0.000000015"
-      },
-      "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 65536,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "reasoning_effort",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-08-24",
-      "links": {
-        "details": "/api/v1/models/inclusionai/ring-2.6-1t-20260508/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": 31.7,
-          "coding_index": 42.8,
-          "agentic_index": 20.1
-        }
-      },
-      "reasoning": {
-        "mandatory": true,
-        "supported_efforts": [
-          "xhigh",
-          "high"
-        ],
-        "default_effort": "high"
-      }
-    },
-    {
       "id": "google/gemini-3.1-flash-lite",
       "canonical_slug": "google/gemini-3.1-flash-lite-20260507",
       "hugging_face_id": null,
@@ -13755,68 +13677,6 @@
       }
     },
     {
-      "id": "inclusionai/ling-2.6-1t",
-      "canonical_slug": "inclusionai/ling-2.6-1t-20260423",
-      "hugging_face_id": null,
-      "name": "inclusionAI: Ling-2.6-1T",
-      "created": 1776948238,
-      "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a “fast...",
-      "context_length": 262144,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.000000625",
-        "input_cache_read": "0.000000015"
-      },
-      "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 32768,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-08-24",
-      "links": {
-        "details": "/api/v1/models/inclusionai/ling-2.6-1t-20260423/endpoints"
-      }
-    },
-    {
       "id": "tencent/hy3-preview",
       "canonical_slug": "tencent/hy3-preview-20260421",
       "hugging_face_id": "tencent/Hy3-preview",
@@ -14236,76 +14096,6 @@
           "none"
         ],
         "default_effort": "medium"
-      }
-    },
-    {
-      "id": "inclusionai/ling-2.6-flash",
-      "canonical_slug": "inclusionai/ling-2.6-flash-20260421",
-      "hugging_face_id": "",
-      "name": "inclusionAI: Ling-2.6-flash",
-      "created": 1776795886,
-      "description": "Ling-2.6-flash is an instant (instruct) model from inclusionAI with 104B total parameters and 7.4B active parameters, designed for real-world agents that require fast responses, strong execution, and high token efficiency....",
-      "context_length": 262144,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00000001",
-        "completion": "0.00000003",
-        "input_cache_read": "0.000000002"
-      },
-      "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 32768,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-08-24",
-      "links": {
-        "details": "/api/v1/models/inclusionai/ling-2.6-flash-20260421/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": 14.2,
-          "coding_index": 25.3,
-          "agentic_index": 2.3
-        }
       }
     },
     {
