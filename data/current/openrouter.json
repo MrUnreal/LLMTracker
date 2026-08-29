@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-08-28T21:22:51.445161+00:00",
+  "fetched_at": "2026-08-29T00:12:35.597462+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 398,
+  "model_count": 396,
   "data": [
     {
       "id": "tencent/hy4-preview",
@@ -678,13 +678,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.0000044",
-        "input_cache_read": "0.00000026"
+        "prompt": "0",
+        "completion": "0"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 131072,
+        "context_length": 1048575,
+        "max_completion_tokens": 943717,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -1385,11 +1384,11 @@
       "pricing": {
         "prompt": "0.000002",
         "completion": "0.000006",
-        "input_cache_read": "0.0000002"
+        "input_cache_read": "0.00000025"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 131072,
+        "context_length": 1000000,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -1465,9 +1464,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.000006",
-        "input_cache_read": "0.00000025"
+        "prompt": "0.0000025",
+        "completion": "0.00000625",
+        "input_cache_read": "0.0000005"
       },
       "top_provider": {
         "context_length": 1010000,
@@ -2929,9 +2928,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.0000001",
-        "input_cache_read": "0.00000001"
+        "prompt": "0.000000045",
+        "completion": "0.00000009",
+        "input_cache_read": "0.000000009"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -5171,9 +5170,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000255",
-        "completion": "0.00001275",
-        "input_cache_read": "0.00000025599999"
+        "prompt": "0.000003",
+        "completion": "0.000015",
+        "input_cache_read": "0.0000003"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -6763,9 +6762,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000825",
-        "completion": "0.00000033",
-        "input_cache_read": "0.000000020625",
+        "prompt": "0.000000132",
+        "completion": "0.000000528",
+        "input_cache_read": "0.000000033",
         "overrides": [
           {
             "utc_start": 0,
@@ -13680,9 +13679,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000741588",
-        "completion": "0.000001483176",
-        "input_cache_read": "0.000000061799"
+        "prompt": "0.000000721404",
+        "completion": "0.000001442808",
+        "input_cache_read": "0.000000060117"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -13838,9 +13837,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000868",
-        "completion": "0.0000001736",
-        "input_cache_read": "0.00000001736"
+        "prompt": "0.00000008624",
+        "completion": "0.00000017248",
+        "input_cache_read": "0.000000017248"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -23838,13 +23837,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000269",
-        "completion": "0.0000004",
-        "input_cache_read": "0.0000001345"
+        "prompt": "0.00000026",
+        "completion": "0.00000038",
+        "input_cache_read": "0.00000013"
       },
       "top_provider": {
         "context_length": 163840,
-        "max_completion_tokens": 65536,
+        "max_completion_tokens": 147456,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -24245,66 +24244,6 @@
       },
       "reasoning": {
         "mandatory": false
-      }
-    },
-    {
-      "id": "allenai/olmo-3-32b-think",
-      "canonical_slug": "allenai/olmo-3-32b-think-20251121",
-      "hugging_face_id": "allenai/Olmo-3-32B-Think",
-      "name": "AllenAI: Olmo 3 32B Think",
-      "created": 1763758276,
-      "description": "Olmo 3 32B Think is a large-scale, 32-billion-parameter model purpose-built for deep reasoning, complex logic chains and advanced instruction-following scenarios. Its capacity enables strong performance on demanding evaluation tasks and...",
-      "context_length": 65536,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000005"
-      },
-      "top_provider": {
-        "context_length": 65536,
-        "max_completion_tokens": 58982,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logit_bias",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.6,
-        "top_p": 0.95,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/allenai/olmo-3-32b-think-20251121/endpoints"
-      },
-      "reasoning": {
-        "mandatory": true
       }
     },
     {
@@ -32088,57 +32027,6 @@
       },
       "reasoning": {
         "mandatory": true
-      }
-    },
-    {
-      "id": "arcee-ai/virtuoso-large",
-      "canonical_slug": "arcee-ai/virtuoso-large",
-      "hugging_face_id": "",
-      "name": "Arcee AI: Virtuoso Large",
-      "created": 1746478885,
-      "description": "Virtuoso‑Large is Arcee's top‑tier general‑purpose LLM at 72 B parameters, tuned to tackle cross‑domain reasoning, creative writing and enterprise QA. Unlike many 70 B peers, it retains the 128 k...",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00000075",
-        "completion": "0.0000012"
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 64000,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2025-03-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/arcee-ai/virtuoso-large/endpoints"
       }
     },
     {
