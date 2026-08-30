@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-08-30T12:06:54.926337+00:00",
+  "fetched_at": "2026-08-30T18:05:28.512336+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 396,
   "data": [
@@ -6777,9 +6777,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -13694,9 +13694,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000427344",
-        "completion": "0.000000854688",
-        "input_cache_read": "0.000000035612"
+        "prompt": "0.000000417252",
+        "completion": "0.000000834504",
+        "input_cache_read": "0.000000034771"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -13852,9 +13852,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000798",
-        "completion": "0.0000001596",
-        "input_cache_read": "0.00000001596"
+        "prompt": "0.00000007896",
+        "completion": "0.00000015792",
+        "input_cache_read": "0.000000015792"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -22883,9 +22883,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000044",
-        "completion": "0.0000022",
-        "input_cache_read": "0.000000044"
+        "prompt": "0.0000004",
+        "completion": "0.000002",
+        "input_cache_read": "0.00000004"
       },
       "top_provider": {
         "context_length": 262144,
