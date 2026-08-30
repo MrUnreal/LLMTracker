@@ -800,5 +800,7 @@
     "new_models": 24,
     "removed_models": 0,
     "other_changes": 2
-  }
+  },
+  "notified": true,
+  "notified_at": "2026-08-30T06:08:36.132836+00:00"
 }
