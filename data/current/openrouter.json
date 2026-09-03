@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-09-03T00:13:48.930494+00:00",
+  "fetched_at": "2026-09-03T06:09:09.683713+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 425,
+  "model_count": 424,
   "data": [
     {
       "id": "meta/muse-spark-1.3-contributor",
@@ -825,7 +825,7 @@
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "max_completion_tokens": 943718,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -857,7 +857,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2098-12-31",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/~z-ai/glm-flash-latest/endpoints"
       },
@@ -1287,6 +1287,7 @@
         "logit_bias",
         "logprobs",
         "max_tokens",
+        "min_p",
         "presence_penalty",
         "reasoning",
         "reasoning_effort",
@@ -1432,13 +1433,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000115",
-        "completion": "0.0000035",
-        "input_cache_read": "0.0000001"
+        "prompt": "0.000001106",
+        "completion": "0.000003476",
+        "input_cache_read": "0.0000001817"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 235929,
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -2141,11 +2142,11 @@
       "pricing": {
         "prompt": "0.000002",
         "completion": "0.000006",
-        "input_cache_read": "0.0000002"
+        "input_cache_read": "0.00000025"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 131072,
+        "context_length": 1000000,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -2371,9 +2372,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000066",
-        "completion": "0.00000198",
-        "input_cache_read": "0.000000022"
+        "prompt": "0.0000011154",
+        "completion": "0.0000033462",
+        "input_cache_read": "0.00000003718"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -3071,12 +3072,12 @@
       },
       "pricing": {
         "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "completion": "0.0000011",
         "input_cache_read": "0.00000004"
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": 16384,
+        "max_completion_tokens": 117964,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -10165,13 +10166,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000625",
-        "completion": "0.000003125",
-        "input_cache_read": "0.0000001875"
+        "prompt": "0.0000006",
+        "completion": "0.0000024",
+        "input_cache_read": "0.00000012"
       },
       "top_provider": {
-        "context_length": 256000,
-        "max_completion_tokens": 32768,
+        "context_length": 202800,
+        "max_completion_tokens": 182520,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -10187,145 +10188,6 @@
         "repetition_penalty",
         "response_format",
         "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 1,
-        "top_p": 0.95,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/nvidia/nemotron-3-ultra-550b-a55b-20260604/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 1173,
-            "win_rate": 41.1,
-            "rank": 58
-          },
-          {
-            "arena": "models",
-            "category": "asciiart",
-            "elo": 1103,
-            "win_rate": 36.5,
-            "rank": 55
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1156,
-            "win_rate": 36.3,
-            "rank": 76
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1158,
-            "win_rate": 38.3,
-            "rank": 70
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1160,
-            "win_rate": 37,
-            "rank": 68
-          },
-          {
-            "arena": "models",
-            "category": "svg",
-            "elo": 1115,
-            "win_rate": 36.4,
-            "rank": 58
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1161,
-            "win_rate": 37.6,
-            "rank": 69
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 1144,
-            "win_rate": 34.2,
-            "rank": 82
-          }
-        ],
-        "artificial_analysis": {
-          "intelligence_index": 38.3,
-          "coding_index": 49.3,
-          "agentic_index": 27.5
-        }
-      },
-      "reasoning": {
-        "mandatory": false,
-        "default_enabled": true,
-        "supports_max_tokens": true,
-        "supported_efforts": [
-          "high",
-          "medium"
-        ],
-        "default_effort": "high"
-      }
-    },
-    {
-      "id": "nvidia/nemotron-3-ultra-550b-a55b:batch",
-      "canonical_slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
-      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-      "name": "NVIDIA: Nemotron 3 Ultra (batch)",
-      "created": 1780551208,
-      "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it...",
-      "context_length": 512288,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.0000036",
-        "input_cache_read": "0.0000002"
-      },
-      "top_provider": {
-        "context_length": 512288,
-        "max_completion_tokens": 461059,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logit_bias",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "reasoning",
-        "reasoning_effort",
-        "repetition_penalty",
-        "response_format",
         "stop",
         "structured_outputs",
         "temperature",
@@ -13408,7 +13270,7 @@
       "top_provider": {
         "context_length": 200000,
         "max_completion_tokens": 64000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
@@ -15660,7 +15522,7 @@
       "top_provider": {
         "context_length": 1000000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
