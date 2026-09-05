@@ -1,68 +1,84 @@
 {
-  "generated_at": "2026-09-05T12:06:17.043310+00:00",
+  "generated_at": "2026-09-05T18:05:18.590176+00:00",
   "changes": [
     {
-      "model_id": "~moonshotai/kimi-latest",
-      "change_type": "price_increase",
+      "model_id": "tencent/hy3",
+      "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 2.5,
-      "new_value": 2.55,
-      "percent_change": 2.0,
-      "detected_at": "2026-09-05T12:06:17.039339+00:00"
+      "old_value": 0.132,
+      "new_value": 0.0825,
+      "percent_change": -37.5,
+      "detected_at": "2026-09-05T18:05:18.586895+00:00"
     },
     {
-      "model_id": "~moonshotai/kimi-latest",
+      "model_id": "tencent/hy3",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 14.0,
-      "new_value": 12.75,
-      "percent_change": -8.93,
-      "detected_at": "2026-09-05T12:06:17.039339+00:00"
+      "old_value": 0.528,
+      "new_value": 0.33,
+      "percent_change": -37.5,
+      "detected_at": "2026-09-05T18:05:18.586895+00:00"
     },
     {
       "model_id": "deepseek/deepseek-v4-pro",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.9513,
-      "new_value": 0.8904,
-      "percent_change": -6.4,
-      "detected_at": "2026-09-05T12:06:17.039339+00:00"
+      "old_value": 0.8904,
+      "new_value": 0.8397,
+      "percent_change": -5.69,
+      "detected_at": "2026-09-05T18:05:18.586895+00:00"
     },
     {
       "model_id": "deepseek/deepseek-v4-pro",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 1.9025,
-      "new_value": 1.7807,
-      "percent_change": -6.4,
-      "detected_at": "2026-09-05T12:06:17.039339+00:00"
+      "old_value": 1.7807,
+      "new_value": 1.6794,
+      "percent_change": -5.69,
+      "detected_at": "2026-09-05T18:05:18.586895+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro-0813",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 1.1207,
+      "new_value": 0.5795,
+      "percent_change": -48.29,
+      "detected_at": "2026-09-05T18:05:18.586895+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro-0813",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 3.362,
+      "new_value": 1.7384,
+      "percent_change": -48.29,
+      "detected_at": "2026-09-05T18:05:18.586895+00:00"
     },
     {
       "model_id": "deepseek/deepseek-v4-flash",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.0864,
-      "new_value": 0.0853,
-      "percent_change": -1.27,
-      "detected_at": "2026-09-05T12:06:17.039339+00:00"
+      "old_value": 0.0853,
+      "new_value": 0.0841,
+      "percent_change": -1.41,
+      "detected_at": "2026-09-05T18:05:18.586895+00:00"
     },
     {
       "model_id": "deepseek/deepseek-v4-flash",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.1728,
-      "new_value": 0.1705,
-      "percent_change": -1.33,
-      "detected_at": "2026-09-05T12:06:17.039339+00:00"
+      "old_value": 0.1705,
+      "new_value": 0.1683,
+      "percent_change": -1.29,
+      "detected_at": "2026-09-05T18:05:18.586895+00:00"
     }
   ],
   "summary": {
-    "price_increases": 1,
-    "price_decreases": 5,
+    "price_increases": 0,
+    "price_decreases": 8,
     "new_models": 0,
     "removed_models": 0,
     "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-09-05T12:07:02.966670+00:00"
+  }
 }
