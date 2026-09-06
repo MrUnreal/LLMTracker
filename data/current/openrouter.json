@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-09-06T06:07:35.256210+00:00",
+  "fetched_at": "2026-09-06T12:06:47.101800+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 431,
   "data": [
@@ -4036,13 +4036,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000004998",
-        "completion": "0.00000009996",
-        "input_cache_read": "0.000000009996"
+        "prompt": "0.000000045",
+        "completion": "0.00000009",
+        "input_cache_read": "0.000000009"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "max_completion_tokens": 943718,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -4108,13 +4108,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000065",
-        "completion": "0.00000018",
-        "input_cache_read": "0.000000016"
+        "prompt": "0.00000004998",
+        "completion": "0.00000009996",
+        "input_cache_read": "0.000000009996"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 943718,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -15536,9 +15536,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000738282",
-        "completion": "0.000001476564",
-        "input_cache_read": "0.0000000615235"
+        "prompt": "0.000000687648",
+        "completion": "0.000001375296",
+        "input_cache_read": "0.000000057304"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -15694,9 +15694,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000819",
-        "completion": "0.0000001638",
-        "input_cache_read": "0.00000001638"
+        "prompt": "0.00000008078",
+        "completion": "0.00000016156",
+        "input_cache_read": "0.000000016156"
       },
       "top_provider": {
         "context_length": 1024000,
