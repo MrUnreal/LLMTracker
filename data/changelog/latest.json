@@ -266,5 +266,7 @@
     "new_models": 5,
     "removed_models": 0,
     "other_changes": 1
-  }
+  },
+  "notified": true,
+  "notified_at": "2026-09-11T06:08:59.982634+00:00"
 }
