@@ -1,9 +1,111 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-09-12T00:12:58.959542+00:00",
+  "fetched_at": "2026-09-12T09:50:32.129303+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 443,
+  "model_count": 445,
   "data": [
+    {
+      "id": "inference-net/schematron-v2-turbo",
+      "canonical_slug": "inference-net/schematron-v2-turbo-20260902",
+      "hugging_face_id": "inference-net/schematron-v2-granite-4.0-h-micro",
+      "name": "Inference.net: Schematron V2 Turbo",
+      "created": 1789176949,
+      "description": "Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in response_format rather...",
+      "context_length": 128000,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000003",
+        "completion": "0.00000015"
+      },
+      "top_provider": {
+        "context_length": 128000,
+        "max_completion_tokens": 8192,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/inference-net/schematron-v2-turbo-20260902/endpoints"
+      }
+    },
+    {
+      "id": "inference-net/schematron-v2-small",
+      "canonical_slug": "inference-net/schematron-v2-small-20260902",
+      "hugging_face_id": "inference-net/schematron-v2-llama-3.2-3b",
+      "name": "Inference.net: Schematron V2 Small",
+      "created": 1789176933,
+      "description": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema...",
+      "context_length": 128000,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000005",
+        "completion": "0.00000023"
+      },
+      "top_provider": {
+        "context_length": 128000,
+        "max_completion_tokens": 4096,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/inference-net/schematron-v2-small-20260902/endpoints"
+      }
+    },
     {
       "id": "~openai/gpt-astra-latest",
       "canonical_slug": "~openai/gpt-astra-latest",
@@ -12,9 +114,9 @@
         "slug": "openai/gpt-6-astra"
       },
       "hugging_face_id": null,
-      "name": "OpenAI GPT Astra Latest",
+      "name": "OpenAI: GPT Astra Latest",
       "created": 1789130932,
-      "description": "This model always redirects to the latest model in the OpenAI GPT Astra family.",
+      "description": "This model always redirects to the latest model in the GPT Astra family.",
       "context_length": 1050000,
       "architecture": {
         "modality": "text+image+file->text",
@@ -91,9 +193,9 @@
         "slug": "openai/gpt-5.6-sol"
       },
       "hugging_face_id": null,
-      "name": "OpenAI GPT Sol Latest",
+      "name": "OpenAI: GPT Sol Latest",
       "created": 1789130928,
-      "description": "This model always redirects to the latest model in the OpenAI GPT Sol family.",
+      "description": "This model always redirects to the latest model in the GPT Sol family.",
       "context_length": 1050000,
       "architecture": {
         "modality": "text+image+file->text",
@@ -178,9 +280,9 @@
         "slug": "openai/gpt-5.6-terra"
       },
       "hugging_face_id": null,
-      "name": "OpenAI GPT Terra Latest",
+      "name": "OpenAI: GPT Terra Latest",
       "created": 1789130925,
-      "description": "This model always redirects to the latest model in the OpenAI GPT Terra family.",
+      "description": "This model always redirects to the latest model in the GPT Terra family.",
       "context_length": 1050000,
       "architecture": {
         "modality": "text+image+file->text",
@@ -265,9 +367,9 @@
         "slug": "openai/gpt-5.6-luna"
       },
       "hugging_face_id": null,
-      "name": "OpenAI GPT Luna Latest",
+      "name": "OpenAI: GPT Luna Latest",
       "created": 1789130922,
-      "description": "This model always redirects to the latest model in the OpenAI GPT Luna family.",
+      "description": "This model always redirects to the latest model in the GPT Luna family.",
       "context_length": 1050000,
       "architecture": {
         "modality": "text+image+file->text",
@@ -2612,9 +2714,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000005",
-        "input_cache_read": "0.00000003"
+        "prompt": "0.000000075",
+        "completion": "0.00000025",
+        "input_cache_read": "0.000000015"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -2650,7 +2752,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2098-12-31",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/z-ai/glm-5.3-flash-20260826/endpoints"
       },
@@ -4363,13 +4465,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000057948",
-        "completion": "0.00000173844",
-        "input_cache_read": "0.000000019316"
+        "prompt": "0.00000057816",
+        "completion": "0.00000173448",
+        "input_cache_read": "0.000000018396"
       },
       "top_provider": {
-        "context_length": 1024000,
-        "max_completion_tokens": 384000,
+        "context_length": 1048576,
+        "max_completion_tokens": 393216,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -5397,7 +5499,7 @@
         "slug": "deepseek/deepseek-v4-flash-0731"
       },
       "hugging_face_id": null,
-      "name": "DeepSeek V4 Flash Latest",
+      "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "created": 1785606009,
       "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
       "context_length": 1310720,
@@ -5413,9 +5515,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.00000016",
-        "input_cache_read": "0.000000013"
+        "prompt": "0.00000003",
+        "completion": "0.00000007",
+        "input_cache_read": "0.000000003"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -5485,9 +5587,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000065",
-        "completion": "0.00000018",
-        "input_cache_read": "0.000000016"
+        "prompt": "0.00000004",
+        "completion": "0.00000008",
+        "input_cache_read": "0.000000008"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -7233,8 +7335,8 @@
         "input_cache_read": "0.00000017"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 32768,
+        "context_length": 524288,
+        "max_completion_tokens": 471859,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -7725,9 +7827,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000015351525",
-        "completion": "0.00000770013",
-        "input_cache_read": "0.000000175446"
+        "prompt": "0.00000230272875",
+        "completion": "0.000011550195",
+        "input_cache_read": "0.000000263169"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -15016,9 +15118,9 @@
         "slug": "anthropic/claude-haiku-4.5"
       },
       "hugging_face_id": null,
-      "name": "Anthropic Claude Haiku Latest",
+      "name": "Anthropic: Claude Haiku Latest",
       "created": 1777318492,
-      "description": "This model always redirects to the latest model in the Anthropic Claude Haiku family.",
+      "description": "This model always redirects to the latest model in the Claude Haiku family.",
       "context_length": 200000,
       "architecture": {
         "modality": "text+image+file->text",
@@ -15087,9 +15189,9 @@
         "slug": "openai/gpt-5.4-mini"
       },
       "hugging_face_id": null,
-      "name": "OpenAI GPT Mini Latest",
+      "name": "OpenAI: GPT Mini Latest",
       "created": 1777318471,
-      "description": "This model always redirects to the latest model in the OpenAI GPT Mini family.",
+      "description": "This model always redirects to the latest model in the GPT Mini family.",
       "context_length": 400000,
       "architecture": {
         "modality": "text+image+file->text",
@@ -15163,9 +15265,9 @@
         "slug": "google/gemini-3.1-pro-preview"
       },
       "hugging_face_id": null,
-      "name": "Google Gemini Pro Latest",
+      "name": "Google: Gemini Pro Latest",
       "created": 1777318451,
-      "description": "This model always redirects to the latest model in the Google Gemini Pro family.",
+      "description": "This model always redirects to the latest model in the Gemini Pro family.",
       "context_length": 1048576,
       "architecture": {
         "modality": "text+image+file+audio+video->text",
@@ -15255,9 +15357,9 @@
         "slug": "moonshotai/kimi-k3"
       },
       "hugging_face_id": null,
-      "name": "MoonshotAI Kimi Latest",
+      "name": "MoonshotAI: Kimi Latest",
       "created": 1777318428,
-      "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
+      "description": "This model always redirects to the latest model in the Kimi family.",
       "context_length": 1048576,
       "architecture": {
         "modality": "text+image+video->text",
@@ -15273,9 +15375,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000015351525",
-        "completion": "0.00000770013",
-        "input_cache_read": "0.000000175446"
+        "prompt": "0.000002125",
+        "completion": "0.0000119",
+        "input_cache_read": "0.0000002465"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -15338,9 +15440,9 @@
         "slug": "google/gemini-3.8-flash"
       },
       "hugging_face_id": null,
-      "name": "Google Gemini Flash Latest",
+      "name": "Google: Gemini Flash Latest",
       "created": 1777318398,
-      "description": "This model always redirects to the latest model in the Google Gemini Flash family.",
+      "description": "This model always redirects to the latest model in the Gemini Flash family.",
       "context_length": 1048576,
       "architecture": {
         "modality": "text+image+file+audio+video->text",
@@ -15414,9 +15516,9 @@
         "slug": "anthropic/claude-sonnet-5"
       },
       "hugging_face_id": null,
-      "name": "Anthropic Claude Sonnet Latest",
+      "name": "Anthropic: Claude Sonnet Latest",
       "created": 1777318368,
-      "description": "This model always redirects to the latest model in the Anthropic Claude Sonnet family.",
+      "description": "This model always redirects to the latest model in the Claude Sonnet family.",
       "context_length": 1000000,
       "architecture": {
         "modality": "text+image+file->text",
@@ -16480,9 +16582,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000839724",
-        "completion": "0.000001679448",
-        "input_cache_read": "0.000000069977"
+        "prompt": "0.000000799182",
+        "completion": "0.000001598364",
+        "input_cache_read": "0.0000000665985"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -16638,9 +16740,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000006762",
-        "completion": "0.00000013524",
-        "input_cache_read": "0.000000013524"
+        "prompt": "0.00000006678",
+        "completion": "0.00000013356",
+        "input_cache_read": "0.000000013356"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -27922,12 +28024,11 @@
       },
       "pricing": {
         "prompt": "0.0000006",
-        "completion": "0.0000025",
-        "input_cache_read": "0.00000015"
+        "completion": "0.0000025"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 100352,
+        "max_completion_tokens": 235929,
         "is_moderated": false
       },
       "per_request_limits": null,
