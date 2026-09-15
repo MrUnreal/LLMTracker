@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-09-15T15:57:05.930446+00:00",
+  "fetched_at": "2026-09-15T20:41:04.402131+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 446,
   "data": [
@@ -2871,13 +2871,10 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
-        "logit_bias",
         "logprobs",
         "max_tokens",
-        "min_p",
         "presence_penalty",
         "reasoning",
-        "repetition_penalty",
         "response_format",
         "seed",
         "stop",
@@ -6389,7 +6386,7 @@
       "id": "anthropic/claude-opus-5",
       "canonical_slug": "anthropic/claude-opus-5-20260723",
       "hugging_face_id": null,
-      "name": "Claude Opus 5",
+      "name": "Anthropic: Claude Opus 5",
       "created": 1784912544,
       "description": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis...",
       "context_length": 1000000,
@@ -6565,7 +6562,7 @@
       "id": "anthropic/claude-opus-5:batch",
       "canonical_slug": "anthropic/claude-opus-5-20260723",
       "hugging_face_id": null,
-      "name": "Claude Opus 5 (batch)",
+      "name": "Anthropic: Claude Opus 5 (batch)",
       "created": 1784912544,
       "description": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis...",
       "context_length": 1000000,
@@ -10075,9 +10072,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -17136,9 +17133,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000008708",
-        "completion": "0.00000017416",
-        "input_cache_read": "0.000000017416"
+        "prompt": "0.00000007938",
+        "completion": "0.00000015876",
+        "input_cache_read": "0.000000015876"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -17675,7 +17672,7 @@
       "id": "~anthropic/claude-opus-latest",
       "canonical_slug": "~anthropic/claude-opus-latest",
       "alias_target": {
-        "name": "Claude Opus 5",
+        "name": "Anthropic: Claude Opus 5",
         "slug": "anthropic/claude-opus-5"
       },
       "hugging_face_id": "",
