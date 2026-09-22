@@ -1,8 +1,8 @@
 {
   "source": "litellm",
-  "fetched_at": "2026-09-22T02:33:48.479246+00:00",
+  "fetched_at": "2026-09-22T10:38:33.934914+00:00",
   "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
-  "model_count": 4495,
+  "model_count": 4500,
   "data": {
     "sample_spec": {
       "code_interpreter_cost_per_session": 0.0,
@@ -14521,6 +14521,7 @@
       "source": "https://docs.anthropic.com/en/docs/about-claude/pricing"
     },
     "claude-sonnet-5": {
+      "supports_anthropic_compaction": true,
       "cache_creation_input_token_cost": 2.5e-06,
       "cache_creation_input_token_cost_above_1hr": 4e-06,
       "cache_read_input_token_cost": 2e-07,
@@ -14560,6 +14561,7 @@
       "source": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     "claude-sonnet-4-6": {
+      "supports_anthropic_compaction": true,
       "cache_creation_input_token_cost": 3.75e-06,
       "cache_creation_input_token_cost_above_1hr": 6e-06,
       "cache_read_input_token_cost": 3e-07,
@@ -14775,6 +14777,7 @@
       "source": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     "claude-opus-4-6": {
+      "supports_anthropic_compaction": true,
       "cache_creation_input_token_cost": 6.25e-06,
       "cache_creation_input_token_cost_above_1hr": 1e-05,
       "cache_read_input_token_cost": 5e-07,
@@ -14813,6 +14816,7 @@
       "source": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     "claude-opus-4-6-20260205": {
+      "supports_anthropic_compaction": true,
       "cache_creation_input_token_cost": 6.25e-06,
       "cache_creation_input_token_cost_above_1hr": 1e-05,
       "cache_read_input_token_cost": 5e-07,
@@ -14850,6 +14854,7 @@
       "prompt_cache_min_tokens": 4096
     },
     "claude-opus-4-7": {
+      "supports_anthropic_compaction": true,
       "cache_creation_input_token_cost": 6.25e-06,
       "cache_creation_input_token_cost_above_1hr": 1e-05,
       "cache_read_input_token_cost": 5e-07,
@@ -14889,6 +14894,7 @@
       "source": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     "claude-opus-4-7-20260416": {
+      "supports_anthropic_compaction": true,
       "cache_creation_input_token_cost": 6.25e-06,
       "cache_creation_input_token_cost_above_1hr": 1e-05,
       "cache_read_input_token_cost": 5e-07,
@@ -14927,6 +14933,7 @@
       "prompt_cache_min_tokens": 2048
     },
     "claude-fable-5": {
+      "supports_anthropic_compaction": true,
       "cache_creation_input_token_cost": 1.25e-05,
       "cache_creation_input_token_cost_above_1hr": 2e-05,
       "cache_read_input_token_cost": 1e-06,
@@ -14966,6 +14973,7 @@
       "source": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     "claude-fable-5-1": {
+      "supports_anthropic_compaction": true,
       "cache_creation_input_token_cost": 1.25e-05,
       "cache_creation_input_token_cost_above_1hr": 2e-05,
       "cache_read_input_token_cost": 2.5e-07,
@@ -15006,6 +15014,7 @@
       "source": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     "claude-opus-5": {
+      "supports_anthropic_compaction": true,
       "cache_creation_input_token_cost": 6.25e-06,
       "cache_creation_input_token_cost_above_1hr": 1e-05,
       "cache_read_input_token_cost": 5e-07,
@@ -15048,6 +15057,7 @@
       "source": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     "claude-opus-4-8": {
+      "supports_anthropic_compaction": true,
       "cache_creation_input_token_cost": 6.25e-06,
       "cache_creation_input_token_cost_above_1hr": 1e-05,
       "cache_read_input_token_cost": 5e-07,
@@ -24970,6 +24980,27 @@
       "supported_endpoints": [
         "/v1/images/generations"
       ]
+    },
+    "fal_ai/fal-ai/trellis": {
+      "litellm_provider": "fal_ai",
+      "mode": "image_generation",
+      "output_cost_per_image": 0.02,
+      "source": "https://fal.ai/models/fal-ai/trellis",
+      "metadata": {
+        "comment": "image-to-3D, returns a GLB mesh; served through the /fal_ai pass-through route"
+      }
+    },
+    "fal_ai/fal-ai/trellis-2": {
+      "litellm_provider": "fal_ai",
+      "mode": "image_generation",
+      "output_cost_per_image": 0.3,
+      "output_cost_per_image_512": 0.25,
+      "output_cost_per_image_1024": 0.3,
+      "output_cost_per_image_1536": 0.35,
+      "source": "https://fal.ai/models/fal-ai/trellis-2",
+      "metadata": {
+        "comment": "image-to-3D, returns a GLB mesh; priced by the request's resolution field (default 1024); served through the /fal_ai pass-through route"
+      }
     },
     "fal_ai/fal-ai/flux-lora-depth": {
       "litellm_provider": "fal_ai",
@@ -62218,6 +62249,7 @@
       "supports_audio_output": true
     },
     "claude-mythos-5": {
+      "supports_anthropic_compaction": true,
       "cache_creation_input_token_cost": 1.25e-05,
       "cache_creation_input_token_cost_above_1hr": 2e-05,
       "cache_read_input_token_cost": 1e-06,
@@ -62257,6 +62289,7 @@
       }
     },
     "claude-mythos-5-1": {
+      "supports_anthropic_compaction": true,
       "cache_creation_input_token_cost": 1.25e-05,
       "cache_creation_input_token_cost_above_1hr": 2e-05,
       "cache_read_input_token_cost": 2.5e-07,
@@ -62297,6 +62330,7 @@
       "source": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     "claude-mythos-preview": {
+      "supports_anthropic_compaction": true,
       "cache_creation_input_token_cost": 1.25e-05,
       "cache_creation_input_token_cost_above_1hr": 2e-05,
       "cache_read_input_token_cost": 1e-06,
@@ -73001,6 +73035,16 @@
       "supports_reasoning": true,
       "supports_vision": true
     },
+    "openrouter/typesafe/jev-1.13": {
+      "input_cost_per_token": 4.2e-08,
+      "litellm_provider": "openrouter",
+      "max_input_tokens": 32000,
+      "max_output_tokens": 28800,
+      "max_tokens": 28800,
+      "mode": "evaluation",
+      "output_cost_per_token": 0.0,
+      "source": "https://openrouter.ai/typesafe/jev-1.13"
+    },
     "typesafe/jev-1.13.0": {
       "input_cost_per_token": 4.2e-08,
       "litellm_provider": "typesafe",
@@ -75316,6 +75360,7 @@
       "supports_web_search": false
     },
     "openrouter/nex-agi/nex-n2.5-mini:free": {
+      "deprecation_date": "2026-09-25",
       "input_cost_per_token": 0.0,
       "litellm_provider": "openrouter",
       "max_input_tokens": 262144,
@@ -75335,6 +75380,7 @@
       "supports_web_search": false
     },
     "openrouter/nex-agi/nex-n2.5-pro:free": {
+      "deprecation_date": "2026-09-25",
       "input_cost_per_token": 0.0,
       "litellm_provider": "openrouter",
       "max_input_tokens": 262144,
@@ -77704,6 +77750,46 @@
       "input_cost_per_image_token": 1.25e-06,
       "supports_prompt_caching": true,
       "supports_response_schema": true
+    },
+    "openrouter/nex-agi/nex-n2.5-mini": {
+      "cache_read_input_token_cost": 2.5e-09,
+      "input_cost_per_token": 2.5e-08,
+      "litellm_provider": "openrouter",
+      "max_input_tokens": 262144,
+      "max_output_tokens": 235929,
+      "max_tokens": 235929,
+      "mode": "chat",
+      "output_cost_per_token": 1e-07,
+      "source": "https://openrouter.ai/api/v1/models",
+      "supports_audio_input": false,
+      "supports_function_calling": false,
+      "supports_pdf_input": false,
+      "supports_prompt_caching": true,
+      "supports_reasoning": true,
+      "supports_response_schema": true,
+      "supports_tool_choice": false,
+      "supports_vision": true,
+      "supports_web_search": false
+    },
+    "openrouter/nex-agi/nex-n2.5-pro": {
+      "cache_read_input_token_cost": 1.5e-08,
+      "input_cost_per_token": 7.5e-08,
+      "litellm_provider": "openrouter",
+      "max_input_tokens": 262144,
+      "max_output_tokens": 235929,
+      "max_tokens": 235929,
+      "mode": "chat",
+      "output_cost_per_token": 2.5e-07,
+      "source": "https://openrouter.ai/api/v1/models",
+      "supports_audio_input": false,
+      "supports_function_calling": true,
+      "supports_pdf_input": false,
+      "supports_prompt_caching": true,
+      "supports_reasoning": true,
+      "supports_response_schema": true,
+      "supports_tool_choice": true,
+      "supports_vision": true,
+      "supports_web_search": false
     }
   }
 }
