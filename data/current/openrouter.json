@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-09-27T16:05:09.943871+00:00",
+  "fetched_at": "2026-09-27T20:38:30.980714+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 458,
   "data": [
@@ -5466,13 +5466,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000003032",
-        "completion": "0.000002574",
-        "input_cache_read": "0.0000000595102"
+        "prompt": "0.0000003556",
+        "completion": "0.0000011176",
+        "input_cache_read": "0.00000006604"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 235929,
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -6663,9 +6663,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000024502",
+        "prompt": "0.00000029304",
         "completion": "0.0000035",
-        "input_cache_read": "0.00000024452"
+        "input_cache_read": "0.000000172"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -11574,9 +11574,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -16705,9 +16705,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000009875",
-        "completion": "0.00000553",
-        "input_cache_read": "0.00000011455"
+        "prompt": "0.000001",
+        "completion": "0.000009",
+        "input_cache_read": "0.0000003"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -42621,7 +42621,7 @@
       "top_provider": {
         "context_length": 8191,
         "max_completion_tokens": 4096,
-        "is_moderated": true
+        "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
