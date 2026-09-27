@@ -1,99 +1,81 @@
 {
-  "generated_at": "2026-09-27T11:05:03.753317+00:00",
+  "generated_at": "2026-09-27T16:05:11.021289+00:00",
   "changes": [
     {
-      "model_id": "~z-ai/glm-flash-latest",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.04,
-      "new_value": 0.045,
-      "percent_change": 12.5,
-      "detected_at": "2026-09-27T11:05:03.747750+00:00"
-    },
-    {
-      "model_id": "~z-ai/glm-flash-latest",
+      "model_id": "azure_ai/grok-4.6",
       "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.5,
-      "new_value": 0.14,
-      "percent_change": -72.0,
-      "detected_at": "2026-09-27T11:05:03.747750+00:00"
+      "field": "input_per_million",
+      "old_value": 2.0,
+      "new_value": 1.25,
+      "percent_change": -37.5,
+      "detected_at": "2026-09-27T16:05:11.015615+00:00"
     },
     {
       "model_id": "~z-ai/glm-latest",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.238,
-      "new_value": 0.2737,
-      "percent_change": 15.0,
-      "detected_at": "2026-09-27T11:05:03.747750+00:00"
+      "old_value": 0.2737,
+      "new_value": 0.3032,
+      "percent_change": 10.78,
+      "detected_at": "2026-09-27T16:05:11.015615+00:00"
     },
     {
-      "model_id": "~z-ai/glm-latest",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 0.748,
-      "new_value": 2.574,
-      "percent_change": 244.12,
-      "detected_at": "2026-09-27T11:05:03.747750+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.3",
+      "model_id": "minimax/minimax-m2",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.238,
-      "new_value": 1.4,
-      "percent_change": 488.24,
-      "detected_at": "2026-09-27T11:05:03.747750+00:00"
+      "old_value": 0.255,
+      "new_value": 0.3,
+      "percent_change": 17.65,
+      "detected_at": "2026-09-27T16:05:11.015615+00:00"
     },
     {
-      "model_id": "z-ai/glm-5.3",
+      "model_id": "minimax/minimax-m2",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 0.748,
-      "new_value": 4.4,
-      "percent_change": 488.24,
-      "detected_at": "2026-09-27T11:05:03.747750+00:00"
+      "old_value": 1.02,
+      "new_value": 1.2,
+      "percent_change": 17.65,
+      "detected_at": "2026-09-27T16:05:11.015615+00:00"
     },
     {
-      "model_id": "deepseek/deepseek-v4-flash",
+      "model_id": "~moonshotai/kimi-latest",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.047,
-      "new_value": 0.0469,
-      "percent_change": -0.21,
-      "detected_at": "2026-09-27T11:05:03.747750+00:00"
+      "old_value": 1.0,
+      "new_value": 0.9875,
+      "percent_change": -1.25,
+      "detected_at": "2026-09-27T16:05:11.015615+00:00"
     },
     {
-      "model_id": "deepseek/deepseek-v4-flash",
+      "model_id": "~moonshotai/kimi-latest",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.0941,
-      "new_value": 0.0938,
-      "percent_change": -0.32,
-      "detected_at": "2026-09-27T11:05:03.747750+00:00"
+      "old_value": 9.0,
+      "new_value": 5.53,
+      "percent_change": -38.56,
+      "detected_at": "2026-09-27T16:05:11.015615+00:00"
     },
     {
-      "model_id": "z-ai/glm-5.3-flash",
+      "model_id": "deepseek/deepseek-chat",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.32,
+      "new_value": 0.2574,
+      "percent_change": -19.56,
+      "detected_at": "2026-09-27T16:05:11.015615+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-chat",
       "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.04,
-      "new_value": 0.045,
-      "percent_change": 12.5,
-      "detected_at": "2026-09-27T11:05:03.747750+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.3-flash",
-      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.5,
-      "new_value": 0.14,
-      "percent_change": -72.0,
-      "detected_at": "2026-09-27T11:05:03.747750+00:00"
+      "old_value": 0.89,
+      "new_value": 1.0287,
+      "percent_change": 15.58,
+      "detected_at": "2026-09-27T16:05:11.015615+00:00"
     }
   ],
   "summary": {
-    "price_increases": 6,
+    "price_increases": 4,
     "price_decreases": 4,
     "new_models": 0,
     "removed_models": 0,

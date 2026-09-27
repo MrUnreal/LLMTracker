@@ -1,6 +1,6 @@
 {
   "source": "litellm",
-  "fetched_at": "2026-09-27T11:05:03.003258+00:00",
+  "fetched_at": "2026-09-27T16:05:10.101128+00:00",
   "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
   "model_count": 4392,
   "data": {
@@ -12262,7 +12262,7 @@
     "azure_ai/grok-4.6": {
       "cache_read_input_token_cost": 5e-07,
       "cache_read_input_token_cost_above_200k_tokens": 1e-06,
-      "input_cost_per_token": 2e-06,
+      "input_cost_per_token": 1.25e-06,
       "input_cost_per_token_above_200k_tokens": 4e-06,
       "litellm_provider": "azure_ai",
       "max_input_tokens": 200000,
@@ -12271,7 +12271,7 @@
       "mode": "chat",
       "output_cost_per_token": 6e-06,
       "output_cost_per_token_above_200k_tokens": 1.2e-05,
-      "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'",
+      "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/grok/",
       "supports_function_calling": true,
       "supports_prompt_caching": true,
       "supports_reasoning": true,
