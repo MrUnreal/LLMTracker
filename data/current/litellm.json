@@ -1,8 +1,8 @@
 {
   "source": "litellm",
-  "fetched_at": "2026-09-29T11:51:24.115091+00:00",
+  "fetched_at": "2026-09-29T17:20:27.761153+00:00",
   "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
-  "model_count": 4422,
+  "model_count": 4423,
   "data": {
     "sample_spec": {
       "code_interpreter_cost_per_session": 0.0,
@@ -78853,6 +78853,23 @@
       "supports_function_calling": true,
       "supports_prompt_caching": false,
       "supports_reasoning": true,
+      "supports_tool_choice": true,
+      "supports_vision": true
+    },
+    "baseten/deepseek-ai/DeepSeek-V4.1-Flash-Fast": {
+      "cache_read_input_token_cost": 1.4e-07,
+      "input_cost_per_token": 6e-07,
+      "litellm_provider": "baseten",
+      "max_input_tokens": 1048576,
+      "max_output_tokens": 32768,
+      "max_tokens": 32768,
+      "mode": "chat",
+      "output_cost_per_token": 2.4e-06,
+      "source": "https://inference.baseten.co/v1/models",
+      "supports_function_calling": true,
+      "supports_prompt_caching": true,
+      "supports_reasoning": true,
+      "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_vision": true
     }
