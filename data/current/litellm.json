@@ -1,6 +1,6 @@
 {
   "source": "litellm",
-  "fetched_at": "2026-09-29T03:26:27.438372+00:00",
+  "fetched_at": "2026-09-29T11:51:24.115091+00:00",
   "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
   "model_count": 4422,
   "data": {
@@ -39704,11 +39704,13 @@
       "input_cost_per_token": 3e-07,
       "litellm_provider": "nebius",
       "max_input_tokens": 1048576,
-      "max_output_tokens": 1048576,
-      "max_tokens": 1048576,
+      "max_output_tokens": 384000,
+      "max_tokens": 384000,
       "mode": "chat",
       "output_cost_per_token": 1.2e-06,
       "source": "https://tokenfactory.nebius.com/endpoints?modals=endpoint-details&model-id=deepseek-ai/DeepSeek-V4.1-Flash",
+      "supports_function_calling": true,
+      "supports_reasoning": true,
       "supports_vision": true
     },
     "nebius/MiniMaxAI/MiniMax-M2.5": {
