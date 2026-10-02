@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-10-02T17:06:09.966451+00:00",
+  "fetched_at": "2026-10-02T21:37:30.521452+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 465,
+  "model_count": 466,
   "data": [
     {
       "id": "inclusionai/ling-3.1-flash",
@@ -2097,6 +2097,44 @@
       }
     },
     {
+      "id": "nvidia/switchyard",
+      "canonical_slug": "nvidia/switchyard",
+      "hugging_face_id": null,
+      "name": "NVIDIA: Switchyard",
+      "created": 1790025947,
+      "description": "Switchyard routes each request among the models you list in `models`, using a routing decision from NVIDIA's open-source Switchyard library running on OpenRouter's edge. Pass `model: nvidia/switchyard` plus two or...",
+      "context_length": 1000000,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Router",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "-1",
+        "completion": "-1"
+      },
+      "top_provider": {
+        "context_length": null,
+        "max_completion_tokens": null,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/nvidia/switchyard/endpoints"
+      }
+    },
+    {
       "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
       "canonical_slug": "xiaomi/mimo-v2.6-pro-ultraspeed-20260921",
       "hugging_face_id": null,
@@ -2825,12 +2863,12 @@
       },
       "pricing": {
         "prompt": "0.00000002",
-        "completion": "0.00000042",
-        "input_cache_read": "0.000000006"
+        "completion": "0.0000006",
+        "input_cache_read": "0.00000002"
       },
       "top_provider": {
-        "context_length": 1040000,
-        "max_completion_tokens": 384000,
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -3553,12 +3591,12 @@
       },
       "pricing": {
         "prompt": "0.00000002",
-        "completion": "0.00000042",
-        "input_cache_read": "0.000000006"
+        "completion": "0.0000006",
+        "input_cache_read": "0.00000002"
       },
       "top_provider": {
-        "context_length": 1040000,
-        "max_completion_tokens": 384000,
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -5441,13 +5479,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000006",
-        "completion": "0.00000018",
-        "input_cache_read": "0.000000012"
+        "prompt": "0.000000042",
+        "completion": "0.0000001232",
+        "input_cache_read": "0.0000000084"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 235929,
+        "max_completion_tokens": 32768,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -5518,7 +5556,7 @@
       },
       "pricing": {
         "prompt": "0.00000002625",
-        "completion": "0.0000009",
+        "completion": "0.000000928749",
         "input_cache_read": "0.00000001125"
       },
       "top_provider": {
@@ -5657,13 +5695,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000002625",
-        "completion": "0.0000009",
-        "input_cache_read": "0.00000001125"
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
+        "input_cache_read": "0.00000003"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 943718,
+        "context_length": 1048575,
+        "max_completion_tokens": 943717,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -8369,9 +8407,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000005775",
-        "completion": "0.0000016",
-        "input_cache_read": "0.000000005775"
+        "prompt": "0.0000000115",
+        "completion": "0.00000128",
+        "input_cache_read": "0.0000000115"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -8441,9 +8479,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000077",
+        "prompt": "0.0000000115",
         "completion": "0.00000128",
-        "input_cache_read": "0.0000000077"
+        "input_cache_read": "0.0000000115"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -14361,13 +14399,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.0000024",
-        "input_cache_read": "0.00000012"
+        "prompt": "0.0000005",
+        "completion": "0.0000022",
+        "input_cache_read": "0.0000001"
       },
       "top_provider": {
-        "context_length": 202800,
-        "max_completion_tokens": 182520,
+        "context_length": 262144,
+        "max_completion_tokens": 16384,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -17505,9 +17543,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000134",
-        "completion": "0.000013",
-        "input_cache_read": "0.0000008"
+        "prompt": "0.000001",
+        "completion": "0.000011357",
+        "input_cache_read": "0.00000029"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -20145,9 +20183,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
-        "input_cache_read": "0.00000005"
+        "prompt": "0.0000000675",
+        "completion": "0.000000225",
+        "input_cache_read": "0.0000000375"
       },
       "top_provider": {
         "context_length": 262144,
