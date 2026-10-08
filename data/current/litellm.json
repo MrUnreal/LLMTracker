@@ -1,6 +1,6 @@
 {
   "source": "litellm",
-  "fetched_at": "2026-10-08T03:42:55.000030+00:00",
+  "fetched_at": "2026-10-08T12:31:20.976147+00:00",
   "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
   "model_count": 4504,
   "data": {
@@ -34547,7 +34547,8 @@
       "supported_endpoints": [
         "/v1/chat/completions",
         "/v1/batch",
-        "/v1/responses"
+        "/v1/responses",
+        "/v1/decisions"
       ],
       "supported_modalities": [
         "text",
@@ -53259,7 +53260,7 @@
       ]
     },
     "azure/sora-2": {
-      "deprecation_date": "2026-10-15",
+      "deprecation_date": "2026-11-02",
       "litellm_provider": "azure",
       "mode": "video_generation",
       "output_cost_per_video_per_second": 0.1,
@@ -58402,6 +58403,7 @@
       "supports_max_reasoning_effort": true,
       "supports_minimal_reasoning_effort": false,
       "supports_prompt_caching": true,
+      "supports_prompt_cache_breakpoint": true,
       "supports_reasoning": true,
       "supports_response_schema": true,
       "supports_tool_choice": true,
@@ -58445,6 +58447,7 @@
       "supports_max_reasoning_effort": true,
       "supports_minimal_reasoning_effort": false,
       "supports_prompt_caching": true,
+      "supports_prompt_cache_breakpoint": true,
       "supports_reasoning": true,
       "supports_response_schema": true,
       "supports_tool_choice": true,
@@ -58477,6 +58480,7 @@
       "supports_function_calling": true,
       "supports_minimal_reasoning_effort": false,
       "supports_prompt_caching": true,
+      "supports_prompt_cache_breakpoint": true,
       "supports_reasoning": true,
       "supports_response_schema": true,
       "supports_tool_choice": true,
@@ -58553,6 +58557,7 @@
       "supports_max_reasoning_effort": true,
       "supports_minimal_reasoning_effort": false,
       "supports_prompt_caching": true,
+      "supports_prompt_cache_breakpoint": true,
       "supports_reasoning": true,
       "supports_response_schema": true,
       "supports_tool_choice": true,
@@ -58940,6 +58945,7 @@
       "supports_minimal_reasoning_effort": false,
       "supports_none_reasoning_effort": false,
       "supports_prompt_caching": true,
+      "supports_prompt_cache_breakpoint": true,
       "supports_reasoning": true,
       "supports_response_schema": true,
       "supports_tool_choice": true,
@@ -58978,6 +58984,7 @@
       "supports_minimal_reasoning_effort": false,
       "supports_none_reasoning_effort": false,
       "supports_prompt_caching": true,
+      "supports_prompt_cache_breakpoint": true,
       "supports_reasoning": true,
       "supports_response_schema": true,
       "supports_tool_choice": true,
@@ -59016,6 +59023,7 @@
       "supports_minimal_reasoning_effort": false,
       "supports_none_reasoning_effort": false,
       "supports_prompt_caching": true,
+      "supports_prompt_cache_breakpoint": true,
       "supports_reasoning": true,
       "supports_response_schema": true,
       "supports_tool_choice": true,
@@ -80489,6 +80497,7 @@
       "supports_minimal_reasoning_effort": false,
       "supports_none_reasoning_effort": false,
       "supports_prompt_caching": true,
+      "supports_prompt_cache_breakpoint": true,
       "supports_reasoning": true,
       "supports_response_schema": true,
       "supports_tool_choice": true,
