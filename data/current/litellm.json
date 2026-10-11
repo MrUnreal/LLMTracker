@@ -1,6 +1,6 @@
 {
   "source": "litellm",
-  "fetched_at": "2026-10-11T11:51:24.446551+00:00",
+  "fetched_at": "2026-10-11T17:05:29.915896+00:00",
   "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
   "model_count": 4042,
   "data": {
@@ -63616,7 +63616,7 @@
     },
     "azure_ai/kimi-k2.7-code": {
       "cache_read_input_token_cost": 1.9e-07,
-      "deprecation_date": "2026-10-03",
+      "deprecation_date": "2027-04-16",
       "input_cost_per_token": 9.5e-07,
       "litellm_provider": "azure_ai",
       "max_input_tokens": 262144,
