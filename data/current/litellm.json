@@ -1,8 +1,8 @@
 {
   "source": "litellm",
-  "fetched_at": "2026-10-19T18:00:39.027336+00:00",
+  "fetched_at": "2026-10-19T22:10:06.034819+00:00",
   "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
-  "model_count": 4223,
+  "model_count": 4225,
   "data": {
     "sample_spec": {
       "code_interpreter_cost_per_session": 0.0,
@@ -3900,7 +3900,7 @@
       "supports_max_reasoning_effort": false,
       "supports_minimal_reasoning_effort": false,
       "supports_native_streaming": true,
-      "supports_none_reasoning_effort": true,
+      "supports_none_reasoning_effort": false,
       "supports_parallel_function_calling": true,
       "supports_pdf_input": true,
       "supports_prompt_cache_breakpoint": true,
@@ -8414,7 +8414,7 @@
       "supports_max_reasoning_effort": false,
       "supports_minimal_reasoning_effort": false,
       "supports_native_streaming": true,
-      "supports_none_reasoning_effort": true,
+      "supports_none_reasoning_effort": false,
       "supports_parallel_function_calling": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
@@ -8463,7 +8463,7 @@
       "supports_max_reasoning_effort": false,
       "supports_minimal_reasoning_effort": false,
       "supports_native_streaming": true,
-      "supports_none_reasoning_effort": true,
+      "supports_none_reasoning_effort": false,
       "supports_parallel_function_calling": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
@@ -9265,7 +9265,7 @@
       "supports_max_reasoning_effort": false,
       "supports_minimal_reasoning_effort": false,
       "supports_native_streaming": true,
-      "supports_none_reasoning_effort": true,
+      "supports_none_reasoning_effort": false,
       "supports_parallel_function_calling": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
@@ -24386,6 +24386,11 @@
         "notes": "Grounding with Bing Search (G1 SKU): $14 per 1,000 transactions. Tokens for the Foundry model deployment that runs the grounded search are billed separately on that deployment."
       }
     },
+    "deepseek/search": {
+      "input_cost_per_query": 0.00075,
+      "litellm_provider": "deepseek",
+      "mode": "search"
+    },
     "tinyfish/search": {
       "input_cost_per_query": 0.0,
       "litellm_provider": "tinyfish",
@@ -32576,6 +32581,7 @@
     "github_copilot/claude-opus-4.8": {
       "cache_creation_input_token_cost": 6.25e-06,
       "cache_read_input_token_cost": 5e-07,
+      "deprecation_date": "2026-11-16",
       "input_cost_per_token": 5e-06,
       "litellm_provider": "github_copilot",
       "max_input_tokens": 200000,
@@ -33403,9 +33409,9 @@
       "supports_response_schema": true,
       "supports_vision": true,
       "supports_reasoning": true,
-      "supports_none_reasoning_effort": false,
-      "supports_xhigh_reasoning_effort": false,
-      "supports_minimal_reasoning_effort": true
+      "supports_none_reasoning_effort": true,
+      "supports_xhigh_reasoning_effort": true,
+      "supports_minimal_reasoning_effort": false
     },
     "chatgpt/gpt-5.3-codex-spark": {
       "litellm_provider": "chatgpt",
@@ -37858,9 +37864,9 @@
       "supports_tool_search": true,
       "supports_vision": true,
       "supports_web_search": true,
-      "supports_none_reasoning_effort": false,
-      "supports_xhigh_reasoning_effort": false,
-      "supports_minimal_reasoning_effort": true,
+      "supports_none_reasoning_effort": true,
+      "supports_xhigh_reasoning_effort": true,
+      "supports_minimal_reasoning_effort": false,
       "deprecation_date": "2027-04-01"
     },
     "gpt-5.3-chat-latest": {
@@ -69817,7 +69823,7 @@
       "supports_max_reasoning_effort": false,
       "supports_minimal_reasoning_effort": false,
       "supports_native_streaming": true,
-      "supports_none_reasoning_effort": true,
+      "supports_none_reasoning_effort": false,
       "supports_parallel_function_calling": true,
       "supports_pdf_input": true,
       "supports_prompt_caching": true,
@@ -75721,7 +75727,6 @@
       "web_search_billing_unit": "per_query"
     },
     "vertex_ai/gemini-4-argon": {
-      "deprecation_date": "2027-10-13",
       "cache_read_input_token_cost": 1e-07,
       "cache_read_input_token_cost_batches": 5e-08,
       "cache_read_input_token_cost_flex": 5e-08,
@@ -76353,20 +76358,40 @@
       ]
     },
     "fireworks_ai/accounts/fireworks/models/minimax-m3p1-flash": {
+      "cache_read_input_token_cost": 1.5e-08,
       "cache_read_input_token_cost_priority": 2.25e-08,
+      "input_cost_per_token": 1.5e-07,
       "input_cost_per_token_priority": 2.25e-07,
       "litellm_provider": "fireworks_ai",
       "max_input_tokens": 1048576,
       "max_output_tokens": 1048576,
       "max_tokens": 1048576,
       "mode": "chat",
+      "output_cost_per_token": 6e-07,
       "output_cost_per_token_priority": 9e-07,
-      "source": "https://api.fireworks.ai/v1/serverless/models?format=nested",
+      "source": "https://platform.minimax.io/docs/guides/pricing",
       "supports_function_calling": true,
       "supports_reasoning": true,
       "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_vision": true
+    },
+    "meta/sam-3.1": {
+      "input_cost_per_image": 0.0025,
+      "litellm_provider": "meta",
+      "mode": "responses",
+      "source": "https://dev.meta.ai/docs/pricing-rate-limits.md",
+      "supported_endpoints": [
+        "/v1/responses"
+      ],
+      "supported_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "supported_output_modalities": [
+        "text"
+      ]
     }
   }
 }
