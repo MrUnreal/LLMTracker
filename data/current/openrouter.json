@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-10-24T02:38:30.704196+00:00",
+  "fetched_at": "2026-10-24T10:01:35.842973+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 469,
   "data": [
@@ -8276,9 +8276,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000304",
-        "completion": "0.0000000852",
-        "input_cache_read": "0.00000003"
+        "prompt": "0.0000000175",
+        "completion": "0.0000001425",
+        "input_cache_read": "0.0000000175"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -8933,13 +8933,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000079",
-        "completion": "0.0000014",
-        "input_cache_read": "0.000000078"
+        "prompt": "0.000000075",
+        "completion": "0.000004295",
+        "input_cache_read": "0.000000075"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 943718,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -20570,9 +20570,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000238",
-        "completion": "0.000016",
-        "input_cache_read": "0.000000228"
+        "prompt": "0.00000019",
+        "completion": "0.00000894",
+        "input_cache_read": "0.00000019"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -21715,9 +21715,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000641886",
-        "completion": "0.000001283772",
-        "input_cache_read": "0.0000000534905"
+        "prompt": "0.000000368184",
+        "completion": "0.000000736368",
+        "input_cache_read": "0.000000030682"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -31119,7 +31119,7 @@
       "pricing": {
         "prompt": "0.0000003",
         "completion": "0.0000009",
-        "input_cache_read": "0.00000005"
+        "input_cache_read": "0.000000055"
       },
       "top_provider": {
         "context_length": 131072,
