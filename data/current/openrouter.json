@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-10-27T17:05:14.423162+00:00",
+  "fetched_at": "2026-10-27T21:38:33.583138+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 463,
+  "model_count": 464,
   "data": [
     {
       "id": "openai/gpt-6.1-terra-pro",
@@ -1152,6 +1152,72 @@
           "none"
         ],
         "default_effort": "medium"
+      }
+    },
+    {
+      "id": "prism-ml/ternary-bonsai-2-9b",
+      "canonical_slug": "prism-ml/ternary-bonsai-2-9b-20261015",
+      "hugging_face_id": "prism-ml/Ternary-Bonsai-2-9B-gguf",
+      "name": "PrismML: Ternary Bonsai 2 9B",
+      "created": 1792130995,
+      "description": "Ternary Bonsai 2 9B is PrismML’s compact, open-weight language model for conversational AI, reasoning, and tool use. Built on Qwen3.5, it uses ternary weights packed into 2 bits for efficient...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000008",
+        "completion": "0.00000013",
+        "input_cache_read": "0.00000004"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": 20
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/prism-ml/ternary-bonsai-2-9b-20261015/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
       }
     },
     {
@@ -6070,9 +6136,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000022",
-        "completion": "0.00000121",
-        "input_cache_read": "0.000000012398"
+        "prompt": "0.0000000182",
+        "completion": "0.0000018",
+        "input_cache_read": "0.0000000165"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -8719,8 +8785,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000417",
-        "completion": "0.000000074",
+        "prompt": "0.0000000416",
+        "completion": "0.0000000798",
         "input_cache_read": "0.00000003"
       },
       "top_provider": {
@@ -13686,9 +13752,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
+        "prompt": "0.000000159",
         "completion": "0.00002",
-        "input_cache_read": "0.00000014"
+        "input_cache_read": "0.000000149"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -21136,9 +21202,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
+        "prompt": "0.000000159",
         "completion": "0.00002",
-        "input_cache_read": "0.00000014"
+        "input_cache_read": "0.000000149"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -22280,9 +22346,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000088044",
-        "completion": "0.00000176088",
-        "input_cache_read": "0.00000007337"
+        "prompt": "0.000000875394",
+        "completion": "0.000001750788",
+        "input_cache_read": "0.0000000729495"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -23746,9 +23812,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
-        "input_cache_read": "0.00000005"
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
+        "input_cache_read": "0.0000000425"
       },
       "top_provider": {
         "context_length": 262144,

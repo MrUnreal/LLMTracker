@@ -1,174 +1,396 @@
 {
-  "generated_at": "2026-10-27T17:05:15.326613+00:00",
+  "generated_at": "2026-10-27T21:38:34.570673+00:00",
   "changes": [
     {
-      "model_id": "~deepseek/deepseek-flash-latest",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.02,
-      "new_value": 0.022,
-      "percent_change": 10.0,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
+      "model_id": "bedrock_mantle/openai.gpt-6.1-terra",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.1,
+        "output_per_million": 5.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
     },
     {
-      "model_id": "~deepseek/deepseek-flash-latest",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 1.0,
-      "new_value": 1.21,
-      "percent_change": 21.0,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
-    },
-    {
-      "model_id": "~deepseek/deepseek-pro-latest",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.2428,
-      "new_value": 0.1259,
-      "percent_change": -48.15,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
-    },
-    {
-      "model_id": "~z-ai/glm-flash-latest",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.0258,
-      "new_value": 0.0417,
-      "percent_change": 61.63,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
-    },
-    {
-      "model_id": "~z-ai/glm-flash-latest",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.0923,
-      "new_value": 0.074,
-      "percent_change": -19.83,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
+      "model_id": "prism-ml/ternary-bonsai-2-9b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.08,
+        "output_per_million": 0.13
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
     },
     {
       "model_id": "deepseek/deepseek-v4-pro",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.9553,
-      "new_value": 0.8804,
-      "percent_change": -7.84,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
+      "old_value": 0.8804,
+      "new_value": 0.8754,
+      "percent_change": -0.57,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
     },
     {
       "model_id": "deepseek/deepseek-v4-pro",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 1.9105,
-      "new_value": 1.7609,
-      "percent_change": -7.83,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
+      "old_value": 1.7609,
+      "new_value": 1.7508,
+      "percent_change": -0.57,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.15,
+      "new_value": 0.159,
+      "percent_change": 6.0,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "global.openai.gpt-5.5",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.09,
+      "new_value": 0.0765,
+      "percent_change": -15.0,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.3,
+      "new_value": 0.255,
+      "percent_change": -15.0,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-luna",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/openai.gpt-5.6-sol",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/openai.gpt-6-astra",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "global.openai.gpt-6-luna",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "us.openai.gpt-5.6-luna",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "global.openai.gpt-5.6-luna",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/openai.gpt-5.5",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "global.openai.gpt-5.4",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "global.openai.gpt-6-astra",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/openai.gpt-5.6-luna",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "openai.gpt-6-luna",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/us-gov-west-1/openai.gpt-5.4",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "~z-ai/glm-flash-latest",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.0417,
+      "new_value": 0.0416,
+      "percent_change": -0.24,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "~z-ai/glm-flash-latest",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.074,
+      "new_value": 0.0798,
+      "percent_change": 7.84,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/openai.gpt-5.6-terra",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-terra",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/openai.gpt-6-sol",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "openai.gpt-6-sol",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "global.openai.gpt-6-sol",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "us.openai.gpt-5.4",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/openai.gpt-5.4",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "~deepseek/deepseek-flash-latest",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.022,
+      "new_value": 0.0182,
+      "percent_change": -17.27,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "~deepseek/deepseek-flash-latest",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 1.21,
+      "new_value": 1.8,
+      "percent_change": 48.76,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/us-gov-east-1/openai.gpt-5.4",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
     },
     {
       "model_id": "moonshotai/kimi-k3",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.159,
-      "new_value": 0.15,
-      "percent_change": -5.66,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
-    },
-    {
-      "model_id": "tencent/hy3",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.132,
-      "new_value": 0.0825,
-      "percent_change": -37.5,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
-    },
-    {
-      "model_id": "tencent/hy3",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.528,
-      "new_value": 0.33,
-      "percent_change": -37.5,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
-    },
-    {
-      "model_id": "~moonshotai/kimi-latest",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.151,
-      "new_value": 0.15,
-      "percent_change": -0.66,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
-    },
-    {
-      "model_id": "~moonshotai/kimi-latest",
       "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 9.7224,
-      "new_value": 20.0,
-      "percent_change": 105.71,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-v4-flash",
-      "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.05,
-      "new_value": 0.0473,
-      "percent_change": -5.4,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
+      "old_value": 0.15,
+      "new_value": 0.159,
+      "percent_change": 6.0,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
     },
     {
-      "model_id": "deepseek/deepseek-v4-flash",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.45,
-      "new_value": 0.0946,
-      "percent_change": -78.98,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
+      "model_id": "us.openai.gpt-5.5",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
     },
     {
-      "model_id": "~deepseek/deepseek-v4-flash-latest",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.0475,
-      "new_value": 0.0422,
-      "percent_change": -11.16,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
+      "model_id": "global.openai.gpt-5.6-terra",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
     },
     {
-      "model_id": "~deepseek/deepseek-v4-flash-latest",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 0.1568,
-      "new_value": 0.1694,
-      "percent_change": 8.04,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
+      "model_id": "us.openai.gpt-6-luna",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
     },
     {
-      "model_id": "tencent/hy4-preview",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.834,
-      "new_value": 0.7506,
-      "percent_change": -10.0,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
+      "model_id": "us.openai.gpt-5.6-sol",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
     },
     {
-      "model_id": "tencent/hy4-preview",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 2.501,
-      "new_value": 2.2509,
-      "percent_change": -10.0,
-      "detected_at": "2026-10-27T17:05:15.320016+00:00"
+      "model_id": "us.openai.gpt-5.6-terra",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/openai.gpt-6-luna",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "global.openai.gpt-5.6-sol",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "us.openai.gpt-6-astra",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
+    },
+    {
+      "model_id": "us.openai.gpt-6-sol",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1050000,
+      "new_value": 922000,
+      "percent_change": -12.19,
+      "detected_at": "2026-10-27T21:38:34.566158+00:00"
     }
   ],
   "summary": {
-    "price_increases": 5,
-    "price_decreases": 13,
-    "new_models": 0,
+    "price_increases": 4,
+    "price_decreases": 6,
+    "new_models": 2,
     "removed_models": 0,
-    "other_changes": 0
+    "other_changes": 30
   }
 }
