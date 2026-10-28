@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-10-28T03:13:39.744606+00:00",
+  "fetched_at": "2026-10-28T11:52:43.379905+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 464,
   "data": [
@@ -619,9 +619,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
-        "input_cache_read": "0.000000006",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "input_cache_read": "0.000000003",
         "overrides": [
           {
             "utc_days": [
@@ -6157,9 +6157,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000151",
+        "prompt": "0.0000000126",
         "completion": "0.0000018",
-        "input_cache_read": "0.000000015"
+        "input_cache_read": "0.0000000114"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -8806,9 +8806,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000453",
-        "completion": "0.0000000745",
-        "input_cache_read": "0.00000003"
+        "prompt": "0.0000000197",
+        "completion": "0.0000001238",
+        "input_cache_read": "0.0000000197"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -8945,13 +8945,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000453",
-        "completion": "0.0000000745",
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
         "input_cache_read": "0.00000003"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "context_length": 1048575,
+        "max_completion_tokens": 943717,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -10628,9 +10628,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000132",
-        "completion": "0.00000396",
-        "input_cache_read": "0.000000044",
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
+        "input_cache_read": "0.000000022",
         "overrides": [
           {
             "utc_days": [
@@ -13780,9 +13780,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000159",
-        "completion": "0.0000115",
-        "input_cache_read": "0.000000149"
+        "prompt": "0.00000015",
+        "completion": "0.00002",
+        "input_cache_read": "0.00000014"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -16818,9 +16818,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000341",
+        "prompt": "0.000000014",
         "completion": "0.000007",
-        "input_cache_read": "0.0000000331"
+        "input_cache_read": "0.000000013"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -17063,7 +17063,7 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000056",
+        "prompt": "0.0000006725",
         "completion": "0.0000031",
         "input_cache_read": "0.00000015"
       },
@@ -21244,9 +21244,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000159",
-        "completion": "0.0000115",
-        "input_cache_read": "0.000000149"
+        "prompt": "0.00000015",
+        "completion": "0.00002",
+        "input_cache_read": "0.00000014"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -22547,13 +22547,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000028",
-        "input_cache_read": "0.000000028"
+        "prompt": "0.000000091",
+        "completion": "0.000000182",
+        "input_cache_read": "0.0000000182"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "context_length": 1048575,
+        "max_completion_tokens": 943717,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -23854,9 +23854,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000765",
-        "completion": "0.000000255",
-        "input_cache_read": "0.0000000425"
+        "prompt": "0.00000009",
+        "completion": "0.0000003",
+        "input_cache_read": "0.00000005"
       },
       "top_provider": {
         "context_length": 262144,
@@ -25591,8 +25591,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000008",
-        "completion": "0.00000045"
+        "prompt": "0.0000003",
+        "completion": "0.0000024",
+        "input_cache_read": "0.00000015"
       },
       "top_provider": {
         "context_length": 262144,
