@@ -1,200 +1,116 @@
 {
-  "generated_at": "2026-10-28T22:01:54.289739+00:00",
+  "generated_at": "2026-10-29T03:38:47.655558+00:00",
   "changes": [
     {
-      "model_id": "zerogpu/qwen3-30b-a3b-fp8",
+      "model_id": "bedrock/ap-southeast-2/mistral.voxtral-mini-3b-2507",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.1,
-        "output_per_million": 0.45
+        "input_per_million": 0.0412,
+        "output_per_million": 0.0412
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "zerogpu/gpt-oss-120b",
+      "model_id": "streamlake/deepseek-r1",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.15,
-        "output_per_million": 0.6
+        "input_per_million": 0.571,
+        "output_per_million": 2.286
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "zerogpu/glm-5.3-flash",
+      "model_id": "streamlake/mimo-v2.6-pro",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.1,
-        "output_per_million": 0.35
+        "input_per_million": 0.435,
+        "output_per_million": 0.87
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "zerogpu/LFM2.5-1.2B-Thinking",
+      "model_id": "streamlake/qwen3.5-397b-a17b",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.02,
-        "output_per_million": 0.05
+        "input_per_million": 0.6,
+        "output_per_million": 3.6
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "databricks/databricks-gpt-image-1",
+      "model_id": "streamlake/qwen3.6-27b",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 0.0
+        "input_per_million": 0.6,
+        "output_per_million": 3.6
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "databricks/databricks-gpt-5-4-pro",
+      "model_id": "streamlake/glm-5.2",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 30.0,
-        "output_per_million": 180.0001
+        "input_per_million": 1.4,
+        "output_per_million": 4.4
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "databricks/databricks-gemini-2-5-flash-lite",
+      "model_id": "bedrock/eu-west-2/mistral.voxtral-mini-3b-2507",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.125,
-        "output_per_million": 0.5
+        "input_per_million": 0.06,
+        "output_per_million": 0.06
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "databricks/databricks-grok-4-7",
+      "model_id": "bedrock/ap-northeast-1/mistral.voxtral-small-24b-2507",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 2.5,
-        "output_per_million": 7.5
+        "input_per_million": 0.12,
+        "output_per_million": 0.36
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "zerogpu/llama-3.1-8b-instruct-fast",
+      "model_id": "streamlake/GLM-5.3",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.15,
-        "output_per_million": 0.28
+        "input_per_million": 1.4,
+        "output_per_million": 4.4
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "databricks/databricks-gpt-6-astra",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 10.0,
-        "output_per_million": 50.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "particle-ai/particle-1",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.25,
-        "output_per_million": 1.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-gpt-image-1-mini",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.0,
-        "output_per_million": 0.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-gpt-6-luna",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.1,
-        "output_per_million": 0.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "zerogpu/gpt-5.4-nano",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.2,
-        "output_per_million": 1.25
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-gpt-image-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 0.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "zerogpu/gpt-5.6-luna",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.2,
-        "output_per_million": 1.2
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-deepseek-v4-1-flash-1017",
+      "model_id": "streamlake/deepseek-v4.1-flash-260910",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
@@ -203,46 +119,34 @@
         "output_per_million": 1.2
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "baseten/decision-models/baseten-elephant-9b-latest",
+      "model_id": "streamlake/deepseek-v3.1",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.035,
-        "output_per_million": 0.0
+        "input_per_million": 0.571,
+        "output_per_million": 1.714
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "databricks/databricks-gemini-3-7-flash",
+      "model_id": "bedrock/ap-southeast-2/mistral.voxtral-small-24b-2507",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.75,
-        "output_per_million": 3.75
+        "input_per_million": 0.103,
+        "output_per_million": 0.309
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "databricks/databricks-gemini-3-pro-image",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.5,
-        "output_per_million": 15.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "zerogpu/deepseek-v4.1-flash",
+      "model_id": "streamlake/deepseek-v4.1-flash-1017",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
@@ -251,70 +155,10 @@
         "output_per_million": 1.2
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "databricks/databricks-gemini-3-1-flash-image",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.625,
-        "output_per_million": 3.75
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-gpt-6-1-sol",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.0,
-        "output_per_million": 10.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-claude-sonnet-5-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.0,
-        "output_per_million": 10.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-typesafeai-jev-1-14-0",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.042,
-        "output_per_million": 0.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-claude-haiku-5-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.1,
-        "output_per_million": 0.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-deepseek-v4-1-flash",
+      "model_id": "streamlake/minimax-m2.5",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
@@ -323,130 +167,10 @@
         "output_per_million": 1.2
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "databricks/databricks-gemini-3-8-flash",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.75,
-        "output_per_million": 3.75
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "zerogpu/LFM2.5-1.2B-Instruct",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.02,
-        "output_per_million": 0.05
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "baseten/decision-models/baseten-mammoth-27b-latest",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.1,
-        "output_per_million": 0.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "mistral/deepseek-v4-1-flash-1017",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.3,
-        "output_per_million": 1.2
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "zerogpu/gpt-4.1-mini",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.4,
-        "output_per_million": 1.6
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-gpt-6-sol",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.0,
-        "output_per_million": 10.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-gemini-4-argon",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.5,
-        "output_per_million": 12.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "zerogpu/qwen3.6-35b-a3b",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.2,
-        "output_per_million": 1.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-gpt-6-1-terra",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.0,
-        "output_per_million": 5.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "zerogpu/gpt-6-luna",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.1,
-        "output_per_million": 0.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-kimi-k2-7",
+      "model_id": "streamlake/kimi-k2.6",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
@@ -455,313 +179,443 @@
         "output_per_million": 4.0
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "zerogpu/llama-3.2-3b-instruct-fast",
+      "model_id": "streamlake/qwen3.6-35b-a3b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.375,
+        "output_per_million": 2.25
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "bedrock/ap-northeast-1/mistral.voxtral-mini-3b-2507",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
         "input_per_million": 0.05,
-        "output_per_million": 0.3
+        "output_per_million": 0.05
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "databricks/databricks-gemini-3-1-flash-lite-image",
+      "model_id": "streamlake/minimax-m3",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.3125,
-        "output_per_million": 1.875
+        "input_per_million": 0.6,
+        "output_per_million": 2.4
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "databricks/databricks-gpt-image-1-5",
+      "model_id": "streamlake/glm-5.1",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 5.0,
-        "output_per_million": 10.0
+        "input_per_million": 1.4,
+        "output_per_million": 4.4
       },
       "percent_change": null,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "streamlake/Kimi-K2-Instruct-0905",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.571,
+        "output_per_million": 2.286
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "streamlake/qwen3.8-2.4t-a95b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.0,
+        "output_per_million": 6.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "bedrock/eu-west-2/mistral.voxtral-small-24b-2507",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.16,
+        "output_per_million": 0.47
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "streamlake/mimo-v2.6-flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.14,
+        "output_per_million": 0.28
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "streamlake/GLM-5.3-Flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "streamlake/deepseek-v4-flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.14,
+        "output_per_million": 0.28
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "streamlake/DeepSeek-V4-Pro-0813",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.32,
+        "output_per_million": 3.96
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "streamlake/deepseek-v4-pro",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.74,
+        "output_per_million": 3.48
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "streamlake/DeepSeek-V3",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.286,
+        "output_per_million": 1.143
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "streamlake/glm-5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.0,
+        "output_per_million": 3.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "streamlake/kimi-k2.7-code",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.95,
+        "output_per_million": 4.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "streamlake/deepseek-v4-flash-0731",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.44,
+        "output_per_million": 1.32
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "streamlake/qwen3.8-27b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.5,
+        "output_per_million": 3.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "tencent/hy3",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.0825,
+      "new_value": 0.132,
+      "percent_change": 60.0,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "tencent/hy3",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.33,
+      "new_value": 0.528,
+      "percent_change": 60.0,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "ibm-granite/granite-4.2-8b",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.25,
+      "new_value": 0.15,
+      "percent_change": -40.0,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
       "model_id": "~deepseek/deepseek-flash-latest",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.0115,
-      "new_value": 0.0138,
-      "percent_change": 20.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "old_value": 0.0138,
+      "new_value": 0.0182,
+      "percent_change": 31.88,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "~deepseek/deepseek-pro-latest",
+      "model_id": "~deepseek/deepseek-flash-latest",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 1.8,
+      "new_value": 1.64,
+      "percent_change": -8.89,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.889,
+      "new_value": 0.9553,
+      "percent_change": 7.46,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 1.7779,
+      "new_value": 1.9105,
+      "percent_change": 7.46,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 5.4,
+      "new_value": 7.0,
+      "percent_change": 29.63,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "~deepseek/deepseek-v4-flash-latest",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.0422,
+      "new_value": 0.0475,
+      "percent_change": 12.56,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "~deepseek/deepseek-v4-flash-latest",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.1694,
+      "new_value": 0.1568,
+      "percent_change": -7.44,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.1639,
-      "new_value": 0.1035,
-      "percent_change": -36.85,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "old_value": 0.1824,
+      "new_value": 0.181,
+      "percent_change": -0.77,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 9.3388,
+      "new_value": 20.0,
+      "percent_change": 114.16,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.3-flash",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.0285,
+      "new_value": 0.0457,
+      "percent_change": 60.35,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.3-flash",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.0923,
+      "new_value": 0.0771,
+      "percent_change": -16.47,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
       "model_id": "moonshotai/kimi-k3",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.22,
-      "new_value": 0.192,
-      "percent_change": -12.73,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "old_value": 0.192,
+      "new_value": 0.181,
+      "percent_change": -5.73,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "z-ai/glm-5.2",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.014,
-      "new_value": 0.006,
-      "percent_change": -57.14,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.2",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 7.0,
-      "new_value": 5.4,
-      "percent_change": -22.86,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "nvidia/nemotron-3-super-120b-a12b",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 262144,
-      "new_value": 1048576,
-      "percent_change": 300.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "mistral/mistral-large-4",
+      "model_id": "~z-ai/glm-flash-latest",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.68,
-      "new_value": 1.36,
+      "old_value": 0.0285,
+      "new_value": 0.0457,
+      "percent_change": 60.35,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "~z-ai/glm-flash-latest",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.0923,
+      "new_value": 0.0771,
+      "percent_change": -16.47,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "tencent/hy4-preview",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.7506,
+      "new_value": 0.834,
+      "percent_change": 11.11,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "tencent/hy4-preview",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 2.2509,
+      "new_value": 2.501,
+      "percent_change": 11.11,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-4.6",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.55,
+      "new_value": 0.5,
+      "percent_change": -9.09,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-4.6",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 2.2,
+      "new_value": 2.0,
+      "percent_change": -9.09,
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro-0813",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.66,
+      "new_value": 1.32,
       "percent_change": 100.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "mistral/mistral-large-4",
+      "model_id": "deepseek/deepseek-v4-pro-0813",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 2.09,
-      "new_value": 4.18,
+      "old_value": 1.98,
+      "new_value": 3.96,
       "percent_change": 100.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "databricks/databricks-claude-fable-5",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 10.0001,
-      "new_value": 10.0,
-      "percent_change": -0.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-claude-opus-4-1",
+      "model_id": "deepseek/deepseek-v4.1-flash-1017",
       "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 75.0,
-      "new_value": 75.0001,
-      "percent_change": 0.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.3-flash",
-      "change_type": "price_decrease",
       "field": "input_per_million",
       "old_value": 0.15,
-      "new_value": 0.0285,
-      "percent_change": -81.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.3-flash",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.5,
-      "new_value": 0.0923,
-      "percent_change": -81.54,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-claude-opus-4",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 75.0,
-      "new_value": 75.0001,
-      "percent_change": 0.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-gpt-5-5-pro",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 180.0,
-      "new_value": 180.0001,
-      "percent_change": 0.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-v4.1-flash",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.14,
-      "new_value": 0.045,
-      "percent_change": -67.86,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-v4.1-flash",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 0.42,
-      "new_value": 0.5,
-      "percent_change": 19.05,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-claude-fable-5-1",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 10.0001,
-      "new_value": 10.0,
-      "percent_change": -0.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "google/gemma-4-26b-a4b-it",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.09,
-      "new_value": 0.0765,
-      "percent_change": -15.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "google/gemma-4-26b-a4b-it",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.3,
-      "new_value": 0.255,
-      "percent_change": -15.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "mistral/mistral-large-4-0",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.68,
-      "new_value": 1.36,
+      "new_value": 0.3,
       "percent_change": 100.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     },
     {
-      "model_id": "mistral/mistral-large-4-0",
+      "model_id": "deepseek/deepseek-v4.1-flash-1017",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 2.09,
-      "new_value": 4.18,
+      "old_value": 0.6,
+      "new_value": 1.2,
       "percent_change": 100.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "~z-ai/glm-flash-latest",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.0259,
-      "new_value": 0.0285,
-      "percent_change": 10.04,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "~z-ai/glm-flash-latest",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.1042,
-      "new_value": 0.0923,
-      "percent_change": -11.42,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-claude-sonnet-5",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 3.0,
-      "new_value": 2.0,
-      "percent_change": -33.33,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-claude-sonnet-5",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 15.0,
-      "new_value": 10.0,
-      "percent_change": -33.33,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "~moonshotai/kimi-latest",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.2185,
-      "new_value": 0.1824,
-      "percent_change": -16.52,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "~moonshotai/kimi-latest",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 8.099,
-      "new_value": 9.3388,
-      "percent_change": 15.31,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-gemini-3-6-flash",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 1.875,
-      "new_value": 0.75,
-      "percent_change": -60.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
-    },
-    {
-      "model_id": "databricks/databricks-gemini-3-6-flash",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 9.375,
-      "new_value": 3.75,
-      "percent_change": -60.0,
-      "detected_at": "2026-10-28T22:01:54.285648+00:00"
+      "detected_at": "2026-10-29T03:38:47.651706+00:00"
     }
   ],
   "summary": {
-    "price_increases": 11,
-    "price_decreases": 17,
-    "new_models": 41,
+    "price_increases": 16,
+    "price_decreases": 9,
+    "new_models": 32,
     "removed_models": 0,
-    "other_changes": 1
-  },
-  "notified": true,
-  "notified_at": "2026-10-28T22:03:01.151160+00:00"
+    "other_changes": 0
+  }
 }
