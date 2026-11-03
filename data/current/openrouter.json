@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-11-02T14:18:19.046063+00:00",
+  "fetched_at": "2026-11-03T00:13:21.456737+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 451,
   "data": [
@@ -28,7 +28,7 @@
       "pricing": {
         "prompt": "0.00000037",
         "completion": "0.00000125",
-        "input_cache_read": "0.00000009"
+        "input_cache_read": "0.000000075"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -571,16 +571,23 @@
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1227,
-            "win_rate": 53.5,
-            "rank": 12
+            "elo": 1257,
+            "win_rate": 57.2,
+            "rank": 8
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1300,
-            "win_rate": 64.9,
-            "rank": 3
+            "elo": 1260,
+            "win_rate": 59.5,
+            "rank": 6
+          },
+          {
+            "arena": "agents",
+            "category": "webapps",
+            "elo": 1328,
+            "win_rate": 63,
+            "rank": 1
           },
           {
             "arena": "models",
@@ -592,9 +599,9 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1290,
+            "elo": 1286,
             "win_rate": 57.5,
-            "rank": 5
+            "rank": 6
           },
           {
             "arena": "models",
@@ -614,14 +621,14 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1412,
-            "win_rate": 67.2,
+            "win_rate": 67.1,
             "rank": 4
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1332,
-            "win_rate": 62.8,
+            "elo": 1331,
+            "win_rate": 62.6,
             "rank": 1
           },
           {
@@ -738,9 +745,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000015",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
+        "input_cache_read": "0.0000000075",
         "overrides": [
           {
             "utc_start": 1500,
@@ -973,7 +980,7 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1280,
+            "elo": 1286,
             "win_rate": 51.2,
             "rank": 6
           },
@@ -1015,15 +1022,15 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1247,
-            "win_rate": 52,
+            "elo": 1245,
+            "win_rate": 51.7,
             "rank": 17
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1299,
-            "win_rate": 50.1,
+            "elo": 1301,
+            "win_rate": 50.5,
             "rank": 18
           },
           {
@@ -1033,7 +1040,12 @@
             "win_rate": 51.8,
             "rank": 17
           }
-        ]
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 28.5,
+          "coding_index": null,
+          "agentic_index": null
+        }
       },
       "reasoning": {
         "mandatory": false,
@@ -1256,14 +1268,14 @@
             "arena": "models",
             "category": "codecategories",
             "elo": 1226,
-            "win_rate": 44.2,
+            "win_rate": 44.3,
             "rank": 54
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1205,
-            "win_rate": 41.8,
+            "elo": 1206,
+            "win_rate": 42,
             "rank": 54
           },
           {
@@ -1273,7 +1285,12 @@
             "win_rate": 45.4,
             "rank": 52
           }
-        ]
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 17.7,
+          "coding_index": null,
+          "agentic_index": null
+        }
       },
       "reasoning": {
         "mandatory": true,
@@ -1370,7 +1387,7 @@
             "category": "svg",
             "elo": 1178,
             "win_rate": 43.2,
-            "rank": 39
+            "rank": 40
           },
           {
             "arena": "models",
@@ -1664,32 +1681,37 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1300,
-            "win_rate": 51.5,
-            "rank": 16
+            "elo": 1303,
+            "win_rate": 51.4,
+            "rank": 15
           },
           {
             "arena": "models",
             "category": "gamedev",
             "elo": 1275,
-            "win_rate": 50.8,
+            "win_rate": 50.9,
             "rank": 24
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1333,
-            "win_rate": 54.3,
-            "rank": 12
+            "elo": 1324,
+            "win_rate": 52.8,
+            "rank": 13
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1300,
-            "win_rate": 50.9,
-            "rank": 14
+            "elo": 1304,
+            "win_rate": 51,
+            "rank": 13
           }
-        ]
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 24.7,
+          "coding_index": null,
+          "agentic_index": null
+        }
       },
       "reasoning": {
         "mandatory": true,
@@ -1773,8 +1795,8 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1124,
-            "win_rate": 30.3,
+            "elo": 1123,
+            "win_rate": 30.1,
             "rank": 82
           },
           {
@@ -1877,8 +1899,8 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1124,
-            "win_rate": 30.3,
+            "elo": 1123,
+            "win_rate": 30.1,
             "rank": 82
           },
           {
@@ -2245,7 +2267,7 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1193,
+            "elo": 1196,
             "win_rate": 32.8,
             "rank": 11
           },
@@ -2280,8 +2302,8 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1329,
-            "win_rate": 60.7,
+            "elo": 1327,
+            "win_rate": 60.3,
             "rank": 2
           },
           {
@@ -2289,7 +2311,7 @@
             "category": "uicomponent",
             "elo": 1332,
             "win_rate": 57.8,
-            "rank": 13
+            "rank": 12
           },
           {
             "arena": "models",
@@ -2403,7 +2425,7 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1193,
+            "elo": 1196,
             "win_rate": 32.8,
             "rank": 11
           },
@@ -2438,8 +2460,8 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1329,
-            "win_rate": 60.7,
+            "elo": 1327,
+            "win_rate": 60.3,
             "rank": 2
           },
           {
@@ -2447,7 +2469,7 @@
             "category": "uicomponent",
             "elo": 1332,
             "win_rate": 57.8,
-            "rank": 13
+            "rank": 12
           },
           {
             "arena": "models",
@@ -2658,7 +2680,7 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1280,
+            "elo": 1285,
             "win_rate": 49.7,
             "rank": 7
           },
@@ -2666,14 +2688,14 @@
             "arena": "models",
             "category": "3d",
             "elo": 1443,
-            "win_rate": 60.3,
+            "win_rate": 60.4,
             "rank": 3
           },
           {
             "arena": "models",
             "category": "codecategories",
             "elo": 1386,
-            "win_rate": 61.8,
+            "win_rate": 61.9,
             "rank": 1
           },
           {
@@ -2704,7 +2726,12 @@
             "win_rate": 62.7,
             "rank": 1
           }
-        ]
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 43.3,
+          "coding_index": null,
+          "agentic_index": null
+        }
       },
       "reasoning": {
         "mandatory": true,
@@ -2886,16 +2913,16 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1338,
-            "win_rate": 57.3,
+            "elo": 1337,
+            "win_rate": 57.2,
             "rank": 11
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1202,
-            "win_rate": 50,
-            "rank": 26
+            "elo": 1210,
+            "win_rate": 51,
+            "rank": 22
           },
           {
             "arena": "models",
@@ -2907,15 +2934,15 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1288,
-            "win_rate": 51.7,
-            "rank": 17
+            "elo": 1291,
+            "win_rate": 52,
+            "rank": 15
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1321,
-            "win_rate": 53.7,
+            "elo": 1320,
+            "win_rate": 53.4,
             "rank": 12
           },
           {
@@ -2935,9 +2962,9 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1262,
+            "elo": 1261,
             "win_rate": 48.7,
-            "rank": 36
+            "rank": 37
           }
         ],
         "artificial_analysis": {
@@ -3029,16 +3056,16 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1338,
-            "win_rate": 57.3,
+            "elo": 1337,
+            "win_rate": 57.2,
             "rank": 11
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1202,
-            "win_rate": 50,
-            "rank": 26
+            "elo": 1210,
+            "win_rate": 51,
+            "rank": 22
           },
           {
             "arena": "models",
@@ -3050,15 +3077,15 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1288,
-            "win_rate": 51.7,
-            "rank": 17
+            "elo": 1291,
+            "win_rate": 52,
+            "rank": 15
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1321,
-            "win_rate": 53.7,
+            "elo": 1320,
+            "win_rate": 53.4,
             "rank": 12
           },
           {
@@ -3078,9 +3105,9 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1262,
+            "elo": 1261,
             "win_rate": 48.7,
-            "rank": 36
+            "rank": 37
           }
         ],
         "artificial_analysis": {
@@ -3240,8 +3267,8 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1249,
-            "win_rate": 45.1,
+            "elo": 1250,
+            "win_rate": 45.2,
             "rank": 33
           },
           {
@@ -3249,7 +3276,7 @@
             "category": "asciiart",
             "elo": 1206,
             "win_rate": 43.5,
-            "rank": 24
+            "rank": 25
           },
           {
             "arena": "models",
@@ -3625,8 +3652,8 @@
           {
             "arena": "agents",
             "category": "blender3d",
-            "elo": 1298,
-            "win_rate": 68.9,
+            "elo": 1296,
+            "win_rate": 68.8,
             "rank": 2
           },
           {
@@ -3634,28 +3661,28 @@
             "category": "mobileapps",
             "elo": 1233,
             "win_rate": 52.9,
-            "rank": 10
+            "rank": 11
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1148,
-            "win_rate": 43.8,
-            "rank": 20
+            "elo": 1128,
+            "win_rate": 41.2,
+            "rank": 22
           },
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1289,
+            "elo": 1294,
             "win_rate": 52.8,
             "rank": 5
           },
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1287,
-            "win_rate": 59.2,
-            "rank": 4
+            "elo": 1284,
+            "win_rate": 58.3,
+            "rank": 6
           },
           {
             "arena": "models",
@@ -3676,7 +3703,7 @@
             "category": "dataviz",
             "elo": 1289,
             "win_rate": 54.1,
-            "rank": 16
+            "rank": 17
           },
           {
             "arena": "models",
@@ -3787,8 +3814,8 @@
           {
             "arena": "agents",
             "category": "blender3d",
-            "elo": 1298,
-            "win_rate": 68.9,
+            "elo": 1296,
+            "win_rate": 68.8,
             "rank": 2
           },
           {
@@ -3796,28 +3823,28 @@
             "category": "mobileapps",
             "elo": 1233,
             "win_rate": 52.9,
-            "rank": 10
+            "rank": 11
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1148,
-            "win_rate": 43.8,
-            "rank": 20
+            "elo": 1128,
+            "win_rate": 41.2,
+            "rank": 22
           },
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1289,
+            "elo": 1294,
             "win_rate": 52.8,
             "rank": 5
           },
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1287,
-            "win_rate": 59.2,
-            "rank": 4
+            "elo": 1284,
+            "win_rate": 58.3,
+            "rank": 6
           },
           {
             "arena": "models",
@@ -3838,7 +3865,7 @@
             "category": "dataviz",
             "elo": 1289,
             "win_rate": 54.1,
-            "rank": 16
+            "rank": 17
           },
           {
             "arena": "models",
@@ -3947,8 +3974,8 @@
           {
             "arena": "agents",
             "category": "blender3d",
-            "elo": 1262,
-            "win_rate": 64.4,
+            "elo": 1263,
+            "win_rate": 64.6,
             "rank": 4
           },
           {
@@ -3961,23 +3988,23 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1258,
-            "win_rate": 60.3,
-            "rank": 7
+            "elo": 1248,
+            "win_rate": 59.4,
+            "rank": 8
           },
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1294,
-            "win_rate": 54,
+            "elo": 1297,
+            "win_rate": 54.4,
             "rank": 4
           },
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1292,
-            "win_rate": 60.4,
-            "rank": 3
+            "elo": 1289,
+            "win_rate": 59.5,
+            "rank": 4
           },
           {
             "arena": "models",
@@ -3989,7 +4016,7 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1351,
+            "elo": 1350,
             "win_rate": 56.4,
             "rank": 6
           },
@@ -4003,8 +4030,8 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1408,
-            "win_rate": 62,
+            "elo": 1407,
+            "win_rate": 61.9,
             "rank": 5
           },
           {
@@ -4100,8 +4127,8 @@
           {
             "arena": "agents",
             "category": "blender3d",
-            "elo": 1262,
-            "win_rate": 64.4,
+            "elo": 1263,
+            "win_rate": 64.6,
             "rank": 4
           },
           {
@@ -4114,23 +4141,23 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1258,
-            "win_rate": 60.3,
-            "rank": 7
+            "elo": 1248,
+            "win_rate": 59.4,
+            "rank": 8
           },
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1294,
-            "win_rate": 54,
+            "elo": 1297,
+            "win_rate": 54.4,
             "rank": 4
           },
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1292,
-            "win_rate": 60.4,
-            "rank": 3
+            "elo": 1289,
+            "win_rate": 59.5,
+            "rank": 4
           },
           {
             "arena": "models",
@@ -4142,7 +4169,7 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1351,
+            "elo": 1350,
             "win_rate": 56.4,
             "rank": 6
           },
@@ -4156,8 +4183,8 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1408,
-            "win_rate": 62,
+            "elo": 1407,
+            "win_rate": 61.9,
             "rank": 5
           },
           {
@@ -4683,14 +4710,14 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1080,
-            "win_rate": 22.5,
-            "rank": 94
+            "elo": 1084,
+            "win_rate": 22.8,
+            "rank": 93
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1138,
+            "elo": 1139,
             "win_rate": 31,
             "rank": 96
           },
@@ -4712,7 +4739,7 @@
             "arena": "models",
             "category": "website",
             "elo": 1153,
-            "win_rate": 33.3,
+            "win_rate": 33.2,
             "rank": 93
           }
         ]
@@ -5587,6 +5614,13 @@
           },
           {
             "arena": "agents",
+            "category": "codetovideo",
+            "elo": 1359,
+            "win_rate": 74.4,
+            "rank": 1
+          },
+          {
+            "arena": "agents",
             "category": "mobileapps",
             "elo": 1309,
             "win_rate": 63,
@@ -5595,23 +5629,23 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1319,
-            "win_rate": 67.7,
-            "rank": 2
+            "elo": 1334,
+            "win_rate": 70.1,
+            "rank": 1
           },
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1392,
-            "win_rate": 69.1,
+            "elo": 1394,
+            "win_rate": 68.8,
             "rank": 2
           },
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1309,
-            "win_rate": 61.2,
-            "rank": 1
+            "elo": 1307,
+            "win_rate": 60.7,
+            "rank": 2
           },
           {
             "arena": "models",
@@ -5644,7 +5678,7 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1434,
+            "elo": 1435,
             "win_rate": 64,
             "rank": 1
           },
@@ -5659,7 +5693,7 @@
             "arena": "models",
             "category": "uicomponent",
             "elo": 1378,
-            "win_rate": 63.5,
+            "win_rate": 63.6,
             "rank": 3
           },
           {
@@ -5754,6 +5788,13 @@
           },
           {
             "arena": "agents",
+            "category": "codetovideo",
+            "elo": 1359,
+            "win_rate": 74.4,
+            "rank": 1
+          },
+          {
+            "arena": "agents",
             "category": "mobileapps",
             "elo": 1309,
             "win_rate": 63,
@@ -5762,23 +5803,23 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1319,
-            "win_rate": 67.7,
-            "rank": 2
+            "elo": 1334,
+            "win_rate": 70.1,
+            "rank": 1
           },
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1392,
-            "win_rate": 69.1,
+            "elo": 1394,
+            "win_rate": 68.8,
             "rank": 2
           },
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1309,
-            "win_rate": 61.2,
-            "rank": 1
+            "elo": 1307,
+            "win_rate": 60.7,
+            "rank": 2
           },
           {
             "arena": "models",
@@ -5811,7 +5852,7 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1434,
+            "elo": 1435,
             "win_rate": 64,
             "rank": 1
           },
@@ -5826,7 +5867,7 @@
             "arena": "models",
             "category": "uicomponent",
             "elo": 1378,
-            "win_rate": 63.5,
+            "win_rate": 63.6,
             "rank": 3
           },
           {
@@ -6083,7 +6124,7 @@
             "category": "webapps",
             "elo": 1275,
             "win_rate": 58.3,
-            "rank": 8
+            "rank": 9
           },
           {
             "arena": "models",
@@ -6095,43 +6136,43 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1316,
-            "win_rate": 52.7,
+            "elo": 1315,
+            "win_rate": 52.5,
             "rank": 11
           },
           {
             "arena": "models",
             "category": "dataviz",
             "elo": 1337,
-            "win_rate": 58.6,
+            "win_rate": 58.5,
             "rank": 7
           },
           {
             "arena": "models",
             "category": "gamedev",
             "elo": 1315,
-            "win_rate": 53.3,
+            "win_rate": 53.1,
             "rank": 15
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1303,
-            "win_rate": 55.2,
-            "rank": 7
+            "elo": 1305,
+            "win_rate": 55.4,
+            "rank": 6
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1335,
-            "win_rate": 58.3,
-            "rank": 10
+            "elo": 1336,
+            "win_rate": 58.4,
+            "rank": 9
           },
           {
             "arena": "models",
             "category": "website",
             "elo": 1307,
-            "win_rate": 50.9,
+            "win_rate": 50.7,
             "rank": 12
           }
         ],
@@ -6194,10 +6235,12 @@
         "reasoning_effort",
         "response_format",
         "seed",
+        "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
+        "top_k",
         "top_logprobs",
         "top_p"
       ],
@@ -6229,15 +6272,15 @@
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1273,
-            "win_rate": 58.7,
+            "elo": 1270,
+            "win_rate": 58,
             "rank": 3
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1156,
-            "win_rate": 46.1,
+            "elo": 1163,
+            "win_rate": 46.5,
             "rank": 17
           },
           {
@@ -6250,8 +6293,8 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1271,
-            "win_rate": 48,
+            "elo": 1272,
+            "win_rate": 47.9,
             "rank": 31
           },
           {
@@ -6264,8 +6307,8 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1319,
-            "win_rate": 52.4,
+            "elo": 1316,
+            "win_rate": 51.7,
             "rank": 14
           },
           {
@@ -6474,7 +6517,7 @@
       "pricing": {
         "prompt": "0.00000037",
         "completion": "0.00000125",
-        "input_cache_read": "0.00000009"
+        "input_cache_read": "0.000000075"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -8309,8 +8352,8 @@
           {
             "arena": "agents",
             "category": "androidnative",
-            "elo": 1286,
-            "win_rate": 60.9,
+            "elo": 1288,
+            "win_rate": 61.1,
             "rank": 2
           },
           {
@@ -8330,16 +8373,16 @@
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1224,
-            "win_rate": 50.7,
-            "rank": 13
+            "elo": 1222,
+            "win_rate": 50.6,
+            "rank": 14
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1155,
-            "win_rate": 47.1,
-            "rank": 19
+            "elo": 1130,
+            "win_rate": 43.6,
+            "rank": 21
           },
           {
             "arena": "agents",
@@ -8351,8 +8394,8 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1093,
-            "win_rate": 29.8,
+            "elo": 1098,
+            "win_rate": 30,
             "rank": 17
           },
           {
@@ -8360,7 +8403,7 @@
             "category": "webapps",
             "elo": 1282,
             "win_rate": 54.9,
-            "rank": 6
+            "rank": 7
           },
           {
             "arena": "models",
@@ -8374,42 +8417,42 @@
             "category": "asciiart",
             "elo": 1288,
             "win_rate": 54.4,
-            "rank": 6
+            "rank": 5
           },
           {
             "arena": "models",
             "category": "codecategories",
             "elo": 1350,
-            "win_rate": 57,
+            "win_rate": 56.9,
             "rank": 7
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1344,
-            "win_rate": 58.3,
+            "elo": 1342,
+            "win_rate": 57.9,
             "rank": 6
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1343,
-            "win_rate": 55.9,
+            "elo": 1344,
+            "win_rate": 56,
             "rank": 9
           },
           {
             "arena": "models",
             "category": "svg",
             "elo": 1322,
-            "win_rate": 55.3,
+            "win_rate": 55.2,
             "rank": 4
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1346,
-            "win_rate": 57.7,
-            "rank": 6
+            "elo": 1347,
+            "win_rate": 57.8,
+            "rank": 5
           },
           {
             "arena": "models",
@@ -8524,9 +8567,9 @@
           {
             "arena": "agents",
             "category": "blender3d",
-            "elo": 1202,
-            "win_rate": 55.1,
-            "rank": 5
+            "elo": 1200,
+            "win_rate": 54.8,
+            "rank": 6
           },
           {
             "arena": "agents",
@@ -8547,14 +8590,14 @@
             "category": "mobileapps",
             "elo": 1234,
             "win_rate": 54.5,
-            "rank": 8
+            "rank": 9
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1235,
-            "win_rate": 54.7,
-            "rank": 9
+            "elo": 1227,
+            "win_rate": 54.5,
+            "rank": 10
           },
           {
             "arena": "agents",
@@ -8566,16 +8609,16 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1057,
-            "win_rate": 41.6,
-            "rank": 22
+            "elo": 1054,
+            "win_rate": 42.1,
+            "rank": 24
           },
           {
             "arena": "agents",
             "category": "webapps",
             "elo": 1225,
             "win_rate": 47.1,
-            "rank": 14
+            "rank": 15
           },
           {
             "arena": "models",
@@ -8587,8 +8630,8 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1266,
-            "win_rate": 51.5,
+            "elo": 1265,
+            "win_rate": 51.4,
             "rank": 14
           },
           {
@@ -8596,7 +8639,7 @@
             "category": "codecategories",
             "elo": 1302,
             "win_rate": 50.4,
-            "rank": 15
+            "rank": 16
           },
           {
             "arena": "models",
@@ -8608,30 +8651,30 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1304,
+            "elo": 1305,
             "win_rate": 51.1,
             "rank": 17
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1295,
-            "win_rate": 54.8,
+            "elo": 1294,
+            "win_rate": 54.6,
             "rank": 10
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1313,
-            "win_rate": 53.1,
+            "elo": 1312,
+            "win_rate": 53,
             "rank": 15
           },
           {
             "arena": "models",
             "category": "website",
             "elo": 1299,
-            "win_rate": 50.1,
-            "rank": 16
+            "win_rate": 50,
+            "rank": 15
           }
         ],
         "artificial_analysis": {
@@ -8723,9 +8766,9 @@
           {
             "arena": "agents",
             "category": "blender3d",
-            "elo": 1202,
-            "win_rate": 55.1,
-            "rank": 5
+            "elo": 1200,
+            "win_rate": 54.8,
+            "rank": 6
           },
           {
             "arena": "agents",
@@ -8746,14 +8789,14 @@
             "category": "mobileapps",
             "elo": 1234,
             "win_rate": 54.5,
-            "rank": 8
+            "rank": 9
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1235,
-            "win_rate": 54.7,
-            "rank": 9
+            "elo": 1227,
+            "win_rate": 54.5,
+            "rank": 10
           },
           {
             "arena": "agents",
@@ -8765,16 +8808,16 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1057,
-            "win_rate": 41.6,
-            "rank": 22
+            "elo": 1054,
+            "win_rate": 42.1,
+            "rank": 24
           },
           {
             "arena": "agents",
             "category": "webapps",
             "elo": 1225,
             "win_rate": 47.1,
-            "rank": 14
+            "rank": 15
           },
           {
             "arena": "models",
@@ -8786,8 +8829,8 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1266,
-            "win_rate": 51.5,
+            "elo": 1265,
+            "win_rate": 51.4,
             "rank": 14
           },
           {
@@ -8795,7 +8838,7 @@
             "category": "codecategories",
             "elo": 1302,
             "win_rate": 50.4,
-            "rank": 15
+            "rank": 16
           },
           {
             "arena": "models",
@@ -8807,30 +8850,30 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1304,
+            "elo": 1305,
             "win_rate": 51.1,
             "rank": 17
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1295,
-            "win_rate": 54.8,
+            "elo": 1294,
+            "win_rate": 54.6,
             "rank": 10
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1313,
-            "win_rate": 53.1,
+            "elo": 1312,
+            "win_rate": 53,
             "rank": 15
           },
           {
             "arena": "models",
             "category": "website",
             "elo": 1299,
-            "win_rate": 50.1,
-            "rank": 16
+            "win_rate": 50,
+            "rank": 15
           }
         ],
         "artificial_analysis": {
@@ -8951,7 +8994,7 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1418,
+            "elo": 1422,
             "win_rate": 70.4,
             "rank": 1
           },
@@ -8960,7 +9003,7 @@
             "category": "webapps",
             "elo": 1294,
             "win_rate": 54.9,
-            "rank": 2
+            "rank": 3
           },
           {
             "arena": "models",
@@ -9132,7 +9175,7 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1418,
+            "elo": 1422,
             "win_rate": 70.4,
             "rank": 1
           },
@@ -9141,7 +9184,7 @@
             "category": "webapps",
             "elo": 1294,
             "win_rate": 54.9,
-            "rank": 2
+            "rank": 3
           },
           {
             "arena": "models",
@@ -9289,7 +9332,7 @@
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
-          "intelligence_index": null,
+          "intelligence_index": 5.1,
           "coding_index": 22.4,
           "agentic_index": 1.3
         }
@@ -9659,21 +9702,21 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1275,
-            "win_rate": 46.9,
+            "win_rate": 46.8,
             "rank": 25
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1275,
-            "win_rate": 54.6,
+            "elo": 1274,
+            "win_rate": 54.4,
             "rank": 14
           },
           {
             "arena": "models",
             "category": "uicomponent",
             "elo": 1305,
-            "win_rate": 53,
+            "win_rate": 52.8,
             "rank": 16
           },
           {
@@ -9800,21 +9843,21 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1275,
-            "win_rate": 46.9,
+            "win_rate": 46.8,
             "rank": 25
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1275,
-            "win_rate": 54.6,
+            "elo": 1274,
+            "win_rate": 54.4,
             "rank": 14
           },
           {
             "arena": "models",
             "category": "uicomponent",
             "elo": 1305,
-            "win_rate": 53,
+            "win_rate": 52.8,
             "rank": 16
           },
           {
@@ -10319,7 +10362,7 @@
             "category": "asciiart",
             "elo": 1208,
             "win_rate": 47.6,
-            "rank": 22
+            "rank": 23
           },
           {
             "arena": "models",
@@ -10477,7 +10520,7 @@
             "category": "asciiart",
             "elo": 1208,
             "win_rate": 47.6,
-            "rank": 22
+            "rank": 23
           },
           {
             "arena": "models",
@@ -10784,7 +10827,7 @@
             "category": "agenticgamedev",
             "elo": 1183,
             "win_rate": 52,
-            "rank": 7
+            "rank": 6
           },
           {
             "arena": "agents",
@@ -10819,14 +10862,14 @@
             "category": "mobileapps",
             "elo": 1233,
             "win_rate": 53.1,
-            "rank": 9
+            "rank": 10
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1222,
-            "win_rate": 53.7,
-            "rank": 12
+            "elo": 1199,
+            "win_rate": 50.8,
+            "rank": 15
           },
           {
             "arena": "agents",
@@ -10840,7 +10883,7 @@
             "category": "webapps",
             "elo": 1208,
             "win_rate": 47.1,
-            "rank": 16
+            "rank": 17
           },
           {
             "arena": "models",
@@ -10860,7 +10903,7 @@
             "arena": "models",
             "category": "codecategories",
             "elo": 1306,
-            "win_rate": 53.8,
+            "win_rate": 53.7,
             "rank": 14
           },
           {
@@ -10874,14 +10917,14 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1319,
-            "win_rate": 53.6,
+            "win_rate": 53.5,
             "rank": 13
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1284,
-            "win_rate": 53.9,
+            "elo": 1283,
+            "win_rate": 53.8,
             "rank": 11
           },
           {
@@ -10895,8 +10938,8 @@
             "arena": "models",
             "category": "website",
             "elo": 1303,
-            "win_rate": 53.9,
-            "rank": 13
+            "win_rate": 53.8,
+            "rank": 14
           }
         ],
         "artificial_analysis": {
@@ -10983,7 +11026,7 @@
             "category": "agenticgamedev",
             "elo": 1183,
             "win_rate": 52,
-            "rank": 7
+            "rank": 6
           },
           {
             "arena": "agents",
@@ -11018,14 +11061,14 @@
             "category": "mobileapps",
             "elo": 1233,
             "win_rate": 53.1,
-            "rank": 9
+            "rank": 10
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1222,
-            "win_rate": 53.7,
-            "rank": 12
+            "elo": 1199,
+            "win_rate": 50.8,
+            "rank": 15
           },
           {
             "arena": "agents",
@@ -11039,7 +11082,7 @@
             "category": "webapps",
             "elo": 1208,
             "win_rate": 47.1,
-            "rank": 16
+            "rank": 17
           },
           {
             "arena": "models",
@@ -11059,7 +11102,7 @@
             "arena": "models",
             "category": "codecategories",
             "elo": 1306,
-            "win_rate": 53.8,
+            "win_rate": 53.7,
             "rank": 14
           },
           {
@@ -11073,14 +11116,14 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1319,
-            "win_rate": 53.6,
+            "win_rate": 53.5,
             "rank": 13
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1284,
-            "win_rate": 53.9,
+            "elo": 1283,
+            "win_rate": 53.8,
             "rank": 11
           },
           {
@@ -11094,8 +11137,8 @@
             "arena": "models",
             "category": "website",
             "elo": 1303,
-            "win_rate": 53.9,
-            "rank": 13
+            "win_rate": 53.8,
+            "rank": 14
           }
         ],
         "artificial_analysis": {
@@ -11503,8 +11546,8 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1161,
-            "win_rate": 47.1,
+            "elo": 1158,
+            "win_rate": 47,
             "rank": 9
           },
           {
@@ -11547,14 +11590,14 @@
             "category": "mobileapps",
             "elo": 1232,
             "win_rate": 55.3,
-            "rank": 11
+            "rank": 12
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1251,
-            "win_rate": 60,
-            "rank": 8
+            "elo": 1255,
+            "win_rate": 59.3,
+            "rank": 7
           },
           {
             "arena": "agents",
@@ -11568,7 +11611,7 @@
             "category": "webapps",
             "elo": 1233,
             "win_rate": 55.8,
-            "rank": 12
+            "rank": 13
           },
           {
             "arena": "models",
@@ -12073,7 +12116,7 @@
             "category": "webapps",
             "elo": 1089,
             "win_rate": 30,
-            "rank": 38
+            "rank": 39
           },
           {
             "arena": "models",
@@ -12233,9 +12276,9 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1160,
-            "win_rate": 35.8,
-            "rank": 89
+            "elo": 1161,
+            "win_rate": 35.9,
+            "rank": 88
           }
         ],
         "artificial_analysis": {
@@ -12321,7 +12364,7 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1131,
+            "elo": 1129,
             "win_rate": 42.9,
             "rank": 13
           },
@@ -12363,8 +12406,8 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1042,
-            "win_rate": 29.4,
+            "elo": 1025,
+            "win_rate": 27.3,
             "rank": 25
           },
           {
@@ -12377,16 +12420,16 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1063,
-            "win_rate": 40.9,
-            "rank": 21
+            "elo": 1066,
+            "win_rate": 41.7,
+            "rank": 22
           },
           {
             "arena": "agents",
             "category": "webapps",
             "elo": 1206,
             "win_rate": 50,
-            "rank": 18
+            "rank": 19
           },
           {
             "arena": "models",
@@ -12412,8 +12455,8 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1329,
-            "win_rate": 56.8,
+            "elo": 1328,
+            "win_rate": 56.6,
             "rank": 10
           },
           {
@@ -12426,15 +12469,15 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1279,
-            "win_rate": 54.4,
+            "elo": 1278,
+            "win_rate": 54.3,
             "rank": 13
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1303,
-            "win_rate": 52.5,
+            "elo": 1302,
+            "win_rate": 52.3,
             "rank": 17
           },
           {
@@ -12566,9 +12609,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000119",
-        "completion": "0.000000238",
-        "input_cache_read": "0.0000000238"
+        "prompt": "0.000000059",
+        "completion": "0.0000003",
+        "input_cache_read": "0.000000035"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -12836,7 +12879,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-11-04",
       "links": {
         "details": "/api/v1/models/thinkingmachines/inkling-small-20260730/endpoints"
       },
@@ -13023,7 +13066,7 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1208,
+            "elo": 1206,
             "win_rate": 53.1,
             "rank": 3
           },
@@ -13039,7 +13082,7 @@
             "category": "blender3d",
             "elo": 1201,
             "win_rate": 63.1,
-            "rank": 6
+            "rank": 5
           },
           {
             "arena": "agents",
@@ -13065,9 +13108,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1207,
-            "win_rate": 52.8,
-            "rank": 14
+            "elo": 1234,
+            "win_rate": 56.7,
+            "rank": 9
           },
           {
             "arena": "agents",
@@ -13079,7 +13122,7 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1175,
+            "elo": 1178,
             "win_rate": 50,
             "rank": 12
           },
@@ -13088,7 +13131,7 @@
             "category": "webapps",
             "elo": 1253,
             "win_rate": 54.5,
-            "rank": 10
+            "rank": 11
           },
           {
             "arena": "models",
@@ -13121,7 +13164,7 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1340,
+            "elo": 1339,
             "win_rate": 58.6,
             "rank": 10
           },
@@ -13137,7 +13180,7 @@
             "category": "uicomponent",
             "elo": 1346,
             "win_rate": 60.8,
-            "rank": 5
+            "rank": 6
           },
           {
             "arena": "models",
@@ -13227,7 +13270,7 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1208,
+            "elo": 1206,
             "win_rate": 53.1,
             "rank": 3
           },
@@ -13243,7 +13286,7 @@
             "category": "blender3d",
             "elo": 1201,
             "win_rate": 63.1,
-            "rank": 6
+            "rank": 5
           },
           {
             "arena": "agents",
@@ -13269,9 +13312,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1207,
-            "win_rate": 52.8,
-            "rank": 14
+            "elo": 1234,
+            "win_rate": 56.7,
+            "rank": 9
           },
           {
             "arena": "agents",
@@ -13283,7 +13326,7 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1175,
+            "elo": 1178,
             "win_rate": 50,
             "rank": 12
           },
@@ -13292,7 +13335,7 @@
             "category": "webapps",
             "elo": 1253,
             "win_rate": 54.5,
-            "rank": 10
+            "rank": 11
           },
           {
             "arena": "models",
@@ -13325,7 +13368,7 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1340,
+            "elo": 1339,
             "win_rate": 58.6,
             "rank": 10
           },
@@ -13341,7 +13384,7 @@
             "category": "uicomponent",
             "elo": 1346,
             "win_rate": 60.8,
-            "rank": 5
+            "rank": 6
           },
           {
             "arena": "models",
@@ -13568,9 +13611,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1220,
-            "win_rate": 52.9,
-            "rank": 13
+            "elo": 1213,
+            "win_rate": 52.1,
+            "rank": 12
           },
           {
             "arena": "agents",
@@ -13582,16 +13625,16 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1077,
-            "win_rate": 45.8,
-            "rank": 20
+            "elo": 1084,
+            "win_rate": 46.8,
+            "rank": 18
           },
           {
             "arena": "agents",
             "category": "webapps",
             "elo": 1181,
             "win_rate": 45.5,
-            "rank": 25
+            "rank": 26
           },
           {
             "arena": "models",
@@ -13610,16 +13653,16 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1289,
-            "win_rate": 53.1,
+            "elo": 1288,
+            "win_rate": 52.9,
             "rank": 21
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1290,
+            "elo": 1291,
             "win_rate": 52.3,
-            "rank": 15
+            "rank": 16
           },
           {
             "arena": "models",
@@ -13638,9 +13681,9 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1299,
-            "win_rate": 54.7,
-            "rank": 15
+            "elo": 1298,
+            "win_rate": 54.3,
+            "rank": 16
           }
         ],
         "artificial_analysis": {
@@ -13775,9 +13818,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1220,
-            "win_rate": 52.9,
-            "rank": 13
+            "elo": 1213,
+            "win_rate": 52.1,
+            "rank": 12
           },
           {
             "arena": "agents",
@@ -13789,16 +13832,16 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1077,
-            "win_rate": 45.8,
-            "rank": 20
+            "elo": 1084,
+            "win_rate": 46.8,
+            "rank": 18
           },
           {
             "arena": "agents",
             "category": "webapps",
             "elo": 1181,
             "win_rate": 45.5,
-            "rank": 25
+            "rank": 26
           },
           {
             "arena": "models",
@@ -13817,16 +13860,16 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1289,
-            "win_rate": 53.1,
+            "elo": 1288,
+            "win_rate": 52.9,
             "rank": 21
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1290,
+            "elo": 1291,
             "win_rate": 52.3,
-            "rank": 15
+            "rank": 16
           },
           {
             "arena": "models",
@@ -13845,9 +13888,9 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1299,
-            "win_rate": 54.7,
-            "rank": 15
+            "elo": 1298,
+            "win_rate": 54.3,
+            "rank": 16
           }
         ],
         "artificial_analysis": {
@@ -14198,7 +14241,7 @@
             "category": "webapps",
             "elo": 1180,
             "win_rate": 48.6,
-            "rank": 26
+            "rank": 27
           },
           {
             "arena": "models",
@@ -14210,8 +14253,8 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1091,
-            "win_rate": 33.9,
+            "elo": 1092,
+            "win_rate": 34.1,
             "rank": 65
           },
           {
@@ -14331,7 +14374,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-11-04",
       "links": {
         "details": "/api/v1/models/thinkingmachines/inkling-20260715/endpoints"
       },
@@ -14348,7 +14391,7 @@
             "category": "webapps",
             "elo": 1180,
             "win_rate": 48.6,
-            "rank": 26
+            "rank": 27
           },
           {
             "arena": "models",
@@ -14360,8 +14403,8 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1091,
-            "win_rate": 33.9,
+            "elo": 1092,
+            "win_rate": 34.1,
             "rank": 65
           },
           {
@@ -14522,8 +14565,8 @@
           {
             "arena": "agents",
             "category": "blender3d",
-            "elo": 1175,
-            "win_rate": 44.2,
+            "elo": 1176,
+            "win_rate": 44.4,
             "rank": 8
           },
           {
@@ -14550,16 +14593,16 @@
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1266,
-            "win_rate": 57.4,
+            "elo": 1264,
+            "win_rate": 57.2,
             "rank": 5
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1333,
-            "win_rate": 72,
-            "rank": 1
+            "elo": 1325,
+            "win_rate": 70.2,
+            "rank": 2
           },
           {
             "arena": "agents",
@@ -14571,8 +14614,8 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1116,
-            "win_rate": 32.4,
+            "elo": 1117,
+            "win_rate": 32.2,
             "rank": 15
           },
           {
@@ -14580,7 +14623,7 @@
             "category": "webapps",
             "elo": 1280,
             "win_rate": 59.1,
-            "rank": 7
+            "rank": 8
           },
           {
             "arena": "models",
@@ -14592,7 +14635,7 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1353,
+            "elo": 1352,
             "win_rate": 60,
             "rank": 5
           },
@@ -14607,7 +14650,7 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1349,
-            "win_rate": 53.9,
+            "win_rate": 54,
             "rank": 8
           },
           {
@@ -14615,13 +14658,13 @@
             "category": "svg",
             "elo": 1305,
             "win_rate": 60.1,
-            "rank": 6
+            "rank": 7
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1338,
-            "win_rate": 59.9,
+            "elo": 1339,
+            "win_rate": 60,
             "rank": 8
           },
           {
@@ -14736,8 +14779,8 @@
           {
             "arena": "agents",
             "category": "blender3d",
-            "elo": 1175,
-            "win_rate": 44.2,
+            "elo": 1176,
+            "win_rate": 44.4,
             "rank": 8
           },
           {
@@ -14764,16 +14807,16 @@
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1266,
-            "win_rate": 57.4,
+            "elo": 1264,
+            "win_rate": 57.2,
             "rank": 5
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1333,
-            "win_rate": 72,
-            "rank": 1
+            "elo": 1325,
+            "win_rate": 70.2,
+            "rank": 2
           },
           {
             "arena": "agents",
@@ -14785,8 +14828,8 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1116,
-            "win_rate": 32.4,
+            "elo": 1117,
+            "win_rate": 32.2,
             "rank": 15
           },
           {
@@ -14794,7 +14837,7 @@
             "category": "webapps",
             "elo": 1280,
             "win_rate": 59.1,
-            "rank": 7
+            "rank": 8
           },
           {
             "arena": "models",
@@ -14806,7 +14849,7 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1353,
+            "elo": 1352,
             "win_rate": 60,
             "rank": 5
           },
@@ -14821,7 +14864,7 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1349,
-            "win_rate": 53.9,
+            "win_rate": 54,
             "rank": 8
           },
           {
@@ -14829,13 +14872,13 @@
             "category": "svg",
             "elo": 1305,
             "win_rate": 60.1,
-            "rank": 6
+            "rank": 7
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1338,
-            "win_rate": 59.9,
+            "elo": 1339,
+            "win_rate": 60,
             "rank": 8
           },
           {
@@ -14946,7 +14989,7 @@
             "category": "blender3d",
             "elo": 1009,
             "win_rate": 35.9,
-            "rank": 19
+            "rank": 20
           },
           {
             "arena": "agents",
@@ -14979,9 +15022,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1144,
-            "win_rate": 46.9,
-            "rank": 21
+            "elo": 1162,
+            "win_rate": 50,
+            "rank": 18
           },
           {
             "arena": "agents",
@@ -14993,21 +15036,21 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1054,
-            "win_rate": 35.3,
-            "rank": 24
+            "elo": 1075,
+            "win_rate": 38.9,
+            "rank": 20
           },
           {
             "arena": "agents",
             "category": "webapps",
             "elo": 1192,
             "win_rate": 49.2,
-            "rank": 21
+            "rank": 22
           },
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1258,
+            "elo": 1257,
             "win_rate": 49,
             "rank": 30
           },
@@ -15035,7 +15078,7 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1268,
+            "elo": 1269,
             "win_rate": 48.1,
             "rank": 26
           },
@@ -15043,7 +15086,7 @@
             "arena": "models",
             "category": "svg",
             "elo": 1229,
-            "win_rate": 48.8,
+            "win_rate": 48.9,
             "rank": 20
           },
           {
@@ -16239,7 +16282,7 @@
             "category": "agenticgamedev",
             "elo": 1184,
             "win_rate": 55.8,
-            "rank": 6
+            "rank": 5
           },
           {
             "arena": "agents",
@@ -16279,15 +16322,15 @@
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1213,
-            "win_rate": 51.8,
+            "elo": 1215,
+            "win_rate": 51.9,
             "rank": 16
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1169,
-            "win_rate": 46.8,
+            "elo": 1173,
+            "win_rate": 47.1,
             "rank": 16
           },
           {
@@ -16300,8 +16343,8 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1094,
-            "win_rate": 45.5,
+            "elo": 1106,
+            "win_rate": 47.8,
             "rank": 16
           },
           {
@@ -16309,7 +16352,7 @@
             "category": "webapps",
             "elo": 1202,
             "win_rate": 53.3,
-            "rank": 19
+            "rank": 20
           },
           {
             "arena": "models",
@@ -16350,7 +16393,7 @@
             "arena": "models",
             "category": "svg",
             "elo": 1207,
-            "win_rate": 47.6,
+            "win_rate": 47.5,
             "rank": 26
           },
           {
@@ -16413,21 +16456,23 @@
       "pricing": {
         "prompt": "0.000002",
         "completion": "0.000006",
-        "web_search": "0.005",
+        "web_search": "0.01",
         "input_cache_read": "0.0000005",
+        "input_cache_write": "0",
         "overrides": [
           {
             "min_prompt_tokens": 200000,
             "prompt": "0.000004",
             "completion": "0.000012",
-            "input_cache_read": "0.000001"
+            "input_cache_read": "0.000001",
+            "input_cache_write": "0"
           }
         ]
       },
       "top_provider": {
         "context_length": 500000,
         "max_completion_tokens": 450000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "per_request_limits": null,
       "supported_parameters": [
@@ -16438,10 +16483,12 @@
         "reasoning_effort",
         "response_format",
         "seed",
+        "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
+        "top_k",
         "top_logprobs",
         "top_p"
       ],
@@ -16797,8 +16844,8 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1174,
-            "win_rate": 51.8,
+            "elo": 1172,
+            "win_rate": 51.7,
             "rank": 8
           },
           {
@@ -16811,16 +16858,16 @@
           {
             "arena": "agents",
             "category": "blender3d",
-            "elo": 1003,
-            "win_rate": 35.2,
-            "rank": 21
+            "elo": 1009,
+            "win_rate": 35.9,
+            "rank": 19
           },
           {
             "arena": "agents",
             "category": "codetovideo",
-            "elo": 1111,
-            "win_rate": 40.5,
-            "rank": 2
+            "elo": 1116,
+            "win_rate": 40.7,
+            "rank": 3
           },
           {
             "arena": "agents",
@@ -16846,8 +16893,8 @@
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1209,
-            "win_rate": 50.4,
+            "elo": 1208,
+            "win_rate": 50.2,
             "rank": 18
           },
           {
@@ -16855,7 +16902,7 @@
             "category": "pdf",
             "elo": 1207,
             "win_rate": 51.7,
-            "rank": 15
+            "rank": 14
           },
           {
             "arena": "agents",
@@ -16876,7 +16923,7 @@
             "category": "webapps",
             "elo": 1227,
             "win_rate": 52.6,
-            "rank": 13
+            "rank": 14
           },
           {
             "arena": "models",
@@ -16890,7 +16937,7 @@
             "category": "asciiart",
             "elo": 1204,
             "win_rate": 51,
-            "rank": 25
+            "rank": 26
           },
           {
             "arena": "models",
@@ -16916,9 +16963,9 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1191,
-            "win_rate": 49.2,
-            "rank": 33
+            "elo": 1190,
+            "win_rate": 49.3,
+            "rank": 34
           },
           {
             "arena": "models",
@@ -17015,8 +17062,8 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1174,
-            "win_rate": 51.8,
+            "elo": 1172,
+            "win_rate": 51.7,
             "rank": 8
           },
           {
@@ -17029,16 +17076,16 @@
           {
             "arena": "agents",
             "category": "blender3d",
-            "elo": 1003,
-            "win_rate": 35.2,
-            "rank": 21
+            "elo": 1009,
+            "win_rate": 35.9,
+            "rank": 19
           },
           {
             "arena": "agents",
             "category": "codetovideo",
-            "elo": 1111,
-            "win_rate": 40.5,
-            "rank": 2
+            "elo": 1116,
+            "win_rate": 40.7,
+            "rank": 3
           },
           {
             "arena": "agents",
@@ -17064,8 +17111,8 @@
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1209,
-            "win_rate": 50.4,
+            "elo": 1208,
+            "win_rate": 50.2,
             "rank": 18
           },
           {
@@ -17073,7 +17120,7 @@
             "category": "pdf",
             "elo": 1207,
             "win_rate": 51.7,
-            "rank": 15
+            "rank": 14
           },
           {
             "arena": "agents",
@@ -17094,7 +17141,7 @@
             "category": "webapps",
             "elo": 1227,
             "win_rate": 52.6,
-            "rank": 13
+            "rank": 14
           },
           {
             "arena": "models",
@@ -17108,7 +17155,7 @@
             "category": "asciiart",
             "elo": 1204,
             "win_rate": 51,
-            "rank": 25
+            "rank": 26
           },
           {
             "arena": "models",
@@ -17134,9 +17181,9 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1191,
-            "win_rate": 49.2,
-            "rank": 33
+            "elo": 1190,
+            "win_rate": 49.3,
+            "rank": 34
           },
           {
             "arena": "models",
@@ -17613,7 +17660,7 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1157,
+            "elo": 1155,
             "win_rate": 49.2,
             "rank": 10
           },
@@ -17662,9 +17709,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1224,
-            "win_rate": 51.1,
-            "rank": 11
+            "elo": 1213,
+            "win_rate": 50,
+            "rank": 13
           },
           {
             "arena": "agents",
@@ -17678,7 +17725,7 @@
             "category": "webapps",
             "elo": 1207,
             "win_rate": 55.8,
-            "rank": 17
+            "rank": 18
           },
           {
             "arena": "models",
@@ -17704,7 +17751,7 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1285,
+            "elo": 1286,
             "win_rate": 51.9,
             "rank": 18
           },
@@ -17832,7 +17879,7 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1080,
+            "elo": 1078,
             "win_rate": 43,
             "rank": 22
           },
@@ -17883,13 +17930,13 @@
             "category": "webapps",
             "elo": 1161,
             "win_rate": 46.9,
-            "rank": 28
+            "rank": 29
           },
           {
             "arena": "models",
             "category": "3d",
             "elo": 1238,
-            "win_rate": 50.3,
+            "win_rate": 50.2,
             "rank": 38
           },
           {
@@ -17923,15 +17970,15 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1174,
+            "elo": 1172,
             "win_rate": 44.1,
             "rank": 42
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1253,
-            "win_rate": 50.4,
+            "elo": 1254,
+            "win_rate": 50.5,
             "rank": 41
           },
           {
@@ -17939,7 +17986,7 @@
             "category": "website",
             "elo": 1262,
             "win_rate": 51.2,
-            "rank": 37
+            "rank": 36
           }
         ],
         "artificial_analysis": {
@@ -18124,7 +18171,7 @@
           {
             "arena": "agents",
             "category": "androidnative",
-            "elo": 1280,
+            "elo": 1282,
             "win_rate": 65.1,
             "rank": 3
           },
@@ -18168,7 +18215,7 @@
             "category": "webapps",
             "elo": 1245,
             "win_rate": 56.3,
-            "rank": 11
+            "rank": 12
           },
           {
             "arena": "models",
@@ -18333,7 +18380,7 @@
           {
             "arena": "agents",
             "category": "androidnative",
-            "elo": 1280,
+            "elo": 1282,
             "win_rate": 65.1,
             "rank": 3
           },
@@ -18377,7 +18424,7 @@
             "category": "webapps",
             "elo": 1245,
             "win_rate": 56.3,
-            "rank": 11
+            "rank": 12
           },
           {
             "arena": "models",
@@ -18949,7 +18996,7 @@
             "arena": "models",
             "category": "3d",
             "elo": 1236,
-            "win_rate": 48.5,
+            "win_rate": 48.4,
             "rank": 39
           },
           {
@@ -18969,9 +19016,9 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1276,
-            "win_rate": 51,
-            "rank": 24
+            "elo": 1277,
+            "win_rate": 51.1,
+            "rank": 23
           },
           {
             "arena": "models",
@@ -18983,8 +19030,8 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1205,
-            "win_rate": 46.8,
+            "elo": 1206,
+            "win_rate": 46.9,
             "rank": 27
           },
           {
@@ -19075,7 +19122,7 @@
             "arena": "models",
             "category": "3d",
             "elo": 1236,
-            "win_rate": 48.5,
+            "win_rate": 48.4,
             "rank": 39
           },
           {
@@ -19095,9 +19142,9 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1276,
-            "win_rate": 51,
-            "rank": 24
+            "elo": 1277,
+            "win_rate": 51.1,
+            "rank": 23
           },
           {
             "arena": "models",
@@ -19109,8 +19156,8 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1205,
-            "win_rate": 46.8,
+            "elo": 1206,
+            "win_rate": 46.9,
             "rank": 27
           },
           {
@@ -19217,8 +19264,8 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1117,
-            "win_rate": 45.1,
+            "elo": 1116,
+            "win_rate": 44.9,
             "rank": 18
           },
           {
@@ -19238,9 +19285,9 @@
           {
             "arena": "agents",
             "category": "codetovideo",
-            "elo": 1216,
-            "win_rate": 55.9,
-            "rank": 1
+            "elo": 1213,
+            "win_rate": 55.1,
+            "rank": 2
           },
           {
             "arena": "agents",
@@ -19266,9 +19313,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1279,
-            "win_rate": 62.1,
-            "rank": 5
+            "elo": 1282,
+            "win_rate": 62.4,
+            "rank": 4
           },
           {
             "arena": "agents",
@@ -19287,15 +19334,15 @@
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1189,
-            "win_rate": 47.1,
-            "rank": 23
+            "elo": 1190,
+            "win_rate": 47.3,
+            "rank": 24
           },
           {
             "arena": "models",
             "category": "3d",
             "elo": 1205,
-            "win_rate": 50.1,
+            "win_rate": 50,
             "rank": 48
           },
           {
@@ -19330,7 +19377,7 @@
             "arena": "models",
             "category": "svg",
             "elo": 1157,
-            "win_rate": 44.6,
+            "win_rate": 44.7,
             "rank": 46
           },
           {
@@ -19443,7 +19490,7 @@
             "arena": "models",
             "category": "asciiart",
             "elo": 1148,
-            "win_rate": 44.7,
+            "win_rate": 44.6,
             "rank": 46
           },
           {
@@ -19463,14 +19510,14 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1157,
+            "elo": 1156,
             "win_rate": 37.8,
             "rank": 74
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1080,
+            "elo": 1081,
             "win_rate": 36.7,
             "rank": 70
           },
@@ -19571,9 +19618,9 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1185,
+            "elo": 1182,
             "win_rate": 55.2,
-            "rank": 5
+            "rank": 7
           },
           {
             "arena": "agents",
@@ -19648,9 +19695,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1155,
-            "win_rate": 49,
-            "rank": 18
+            "elo": 1143,
+            "win_rate": 46.1,
+            "rank": 20
           },
           {
             "arena": "agents",
@@ -19669,22 +19716,22 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1231,
-            "win_rate": 67.9,
-            "rank": 9
+            "elo": 1215,
+            "win_rate": 65.5,
+            "rank": 10
           },
           {
             "arena": "agents",
             "category": "webapps",
             "elo": 1218,
             "win_rate": 51.5,
-            "rank": 15
+            "rank": 16
           },
           {
             "arena": "models",
             "category": "3d",
             "elo": 1220,
-            "win_rate": 51.3,
+            "win_rate": 51.2,
             "rank": 43
           },
           {
@@ -19713,7 +19760,7 @@
             "category": "gamedev",
             "elo": 1263,
             "win_rate": 52.4,
-            "rank": 30
+            "rank": 31
           },
           {
             "arena": "models",
@@ -19817,9 +19864,9 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1185,
+            "elo": 1182,
             "win_rate": 55.2,
-            "rank": 5
+            "rank": 7
           },
           {
             "arena": "agents",
@@ -19894,9 +19941,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1155,
-            "win_rate": 49,
-            "rank": 18
+            "elo": 1143,
+            "win_rate": 46.1,
+            "rank": 20
           },
           {
             "arena": "agents",
@@ -19915,22 +19962,22 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1231,
-            "win_rate": 67.9,
-            "rank": 9
+            "elo": 1215,
+            "win_rate": 65.5,
+            "rank": 10
           },
           {
             "arena": "agents",
             "category": "webapps",
             "elo": 1218,
             "win_rate": 51.5,
-            "rank": 15
+            "rank": 16
           },
           {
             "arena": "models",
             "category": "3d",
             "elo": 1220,
-            "win_rate": 51.3,
+            "win_rate": 51.2,
             "rank": 43
           },
           {
@@ -19959,7 +20006,7 @@
             "category": "gamedev",
             "elo": 1263,
             "win_rate": 52.4,
-            "rank": 30
+            "rank": 31
           },
           {
             "arena": "models",
@@ -20077,8 +20124,8 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1110,
-            "win_rate": 46.1,
+            "elo": 1107,
+            "win_rate": 45.9,
             "rank": 20
           },
           {
@@ -20126,9 +20173,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1121,
-            "win_rate": 41,
-            "rank": 23
+            "elo": 1115,
+            "win_rate": 40,
+            "rank": 24
           },
           {
             "arena": "agents",
@@ -20140,8 +20187,8 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1018,
-            "win_rate": 40,
+            "elo": 1041,
+            "win_rate": 42.9,
             "rank": 25
           },
           {
@@ -20149,7 +20196,7 @@
             "category": "webapps",
             "elo": 1193,
             "win_rate": 48.7,
-            "rank": 20
+            "rank": 21
           },
           {
             "arena": "models",
@@ -20163,7 +20210,7 @@
             "category": "asciiart",
             "elo": 1208,
             "win_rate": 53,
-            "rank": 23
+            "rank": 24
           },
           {
             "arena": "models",
@@ -20177,7 +20224,7 @@
             "category": "dataviz",
             "elo": 1276,
             "win_rate": 52.9,
-            "rank": 23
+            "rank": 24
           },
           {
             "arena": "models",
@@ -20385,8 +20432,8 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1130,
-            "win_rate": 55.4,
+            "elo": 1128,
+            "win_rate": 55.3,
             "rank": 14
           },
           {
@@ -20462,9 +20509,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1085,
-            "win_rate": 38.9,
-            "rank": 24
+            "elo": 1117,
+            "win_rate": 43.5,
+            "rank": 23
           },
           {
             "arena": "agents",
@@ -20483,16 +20530,16 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1080,
-            "win_rate": 44,
-            "rank": 18
+            "elo": 1069,
+            "win_rate": 42.3,
+            "rank": 21
           },
           {
             "arena": "agents",
             "category": "webapps",
             "elo": 1187,
             "win_rate": 52.1,
-            "rank": 24
+            "rank": 25
           },
           {
             "arena": "models",
@@ -20532,7 +20579,7 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1252,
+            "elo": 1251,
             "win_rate": 58.1,
             "rank": 16
           },
@@ -20642,8 +20689,8 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1130,
-            "win_rate": 55.4,
+            "elo": 1128,
+            "win_rate": 55.3,
             "rank": 14
           },
           {
@@ -20719,9 +20766,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1085,
-            "win_rate": 38.9,
-            "rank": 24
+            "elo": 1117,
+            "win_rate": 43.5,
+            "rank": 23
           },
           {
             "arena": "agents",
@@ -20740,16 +20787,16 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1080,
-            "win_rate": 44,
-            "rank": 18
+            "elo": 1069,
+            "win_rate": 42.3,
+            "rank": 21
           },
           {
             "arena": "agents",
             "category": "webapps",
             "elo": 1187,
             "win_rate": 52.1,
-            "rank": 24
+            "rank": 25
           },
           {
             "arena": "models",
@@ -20789,7 +20836,7 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1252,
+            "elo": 1251,
             "win_rate": 58.1,
             "rank": 16
           },
@@ -21280,8 +21327,8 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 920,
-            "win_rate": 18.9,
+            "elo": 924,
+            "win_rate": 19.1,
             "rank": 26
           },
           {
@@ -21301,8 +21348,8 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 930,
-            "win_rate": 34.5,
+            "elo": 940,
+            "win_rate": 34.4,
             "rank": 27
           },
           {
@@ -21310,7 +21357,7 @@
             "category": "webapps",
             "elo": 1111,
             "win_rate": 42.8,
-            "rank": 34
+            "rank": 35
           },
           {
             "arena": "models",
@@ -21540,8 +21587,8 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 920,
-            "win_rate": 18.9,
+            "elo": 924,
+            "win_rate": 19.1,
             "rank": 26
           },
           {
@@ -21561,8 +21608,8 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 930,
-            "win_rate": 34.5,
+            "elo": 940,
+            "win_rate": 34.4,
             "rank": 27
           },
           {
@@ -21570,7 +21617,7 @@
             "category": "webapps",
             "elo": 1111,
             "win_rate": 42.8,
-            "rank": 34
+            "rank": 35
           },
           {
             "arena": "models",
@@ -23036,7 +23083,7 @@
             "category": "webapps",
             "elo": 1102,
             "win_rate": 42.6,
-            "rank": 36
+            "rank": 37
           },
           {
             "arena": "models",
@@ -23048,9 +23095,9 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1253,
-            "win_rate": 58.1,
-            "rank": 17
+            "elo": 1252,
+            "win_rate": 58,
+            "rank": 18
           },
           {
             "arena": "models",
@@ -23273,7 +23320,7 @@
             "category": "webapps",
             "elo": 1102,
             "win_rate": 42.6,
-            "rank": 36
+            "rank": 37
           },
           {
             "arena": "models",
@@ -23285,9 +23332,9 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1253,
-            "win_rate": 58.1,
-            "rank": 17
+            "elo": 1252,
+            "win_rate": 58,
+            "rank": 18
           },
           {
             "arena": "models",
@@ -23441,7 +23488,7 @@
             "category": "webapps",
             "elo": 1000,
             "win_rate": 26.4,
-            "rank": 45
+            "rank": 46
           },
           {
             "arena": "models",
@@ -23460,7 +23507,7 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1239,
+            "elo": 1238,
             "win_rate": 51.9,
             "rank": 47
           },
@@ -23842,9 +23889,9 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1186,
+            "elo": 1185,
             "win_rate": 48.5,
-            "rank": 35
+            "rank": 36
           },
           {
             "arena": "models",
@@ -23980,9 +24027,9 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1178,
+            "elo": 1179,
             "win_rate": 50.1,
-            "rank": 40
+            "rank": 38
           },
           {
             "arena": "models",
@@ -24245,7 +24292,7 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1090,
+            "elo": 1088,
             "win_rate": 47.5,
             "rank": 21
           },
@@ -24338,7 +24385,7 @@
             "category": "webapps",
             "elo": 1268,
             "win_rate": 59.3,
-            "rank": 9
+            "rank": 10
           },
           {
             "arena": "models",
@@ -24372,7 +24419,7 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1249,
-            "win_rate": 54.9,
+            "win_rate": 54.8,
             "rank": 39
           },
           {
@@ -24380,7 +24427,7 @@
             "category": "svg",
             "elo": 1178,
             "win_rate": 51.2,
-            "rank": 38
+            "rank": 39
           },
           {
             "arena": "models",
@@ -24672,9 +24719,9 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1263,
+            "elo": 1264,
             "win_rate": 54.7,
-            "rank": 31
+            "rank": 30
           },
           {
             "arena": "models",
@@ -24700,8 +24747,8 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1113,
-            "win_rate": 49.3,
+            "elo": 1111,
+            "win_rate": 49.2,
             "rank": 19
           },
           {
@@ -24770,9 +24817,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1234,
-            "win_rate": 57.5,
-            "rank": 10
+            "elo": 1223,
+            "win_rate": 56.9,
+            "rank": 11
           },
           {
             "arena": "agents",
@@ -24800,7 +24847,7 @@
             "category": "webapps",
             "elo": 1160,
             "win_rate": 50.6,
-            "rank": 29
+            "rank": 30
           }
         ],
         "artificial_analysis": {
@@ -24836,9 +24883,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000089",
-        "completion": "0.000000268",
-        "input_cache_read": "0.000000045"
+        "prompt": "0.000000067",
+        "completion": "0.000000201",
+        "input_cache_read": "0.000000033"
       },
       "top_provider": {
         "context_length": 262144,
@@ -25346,7 +25393,7 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1051,
+            "elo": 1049,
             "win_rate": 42.6,
             "rank": 24
           },
@@ -25432,7 +25479,7 @@
             "category": "webapps",
             "elo": 1109,
             "win_rate": 44.7,
-            "rank": 35
+            "rank": 36
           },
           {
             "arena": "models",
@@ -25700,7 +25747,7 @@
             "category": "webapps",
             "elo": 1129,
             "win_rate": 49.7,
-            "rank": 31
+            "rank": 32
           },
           {
             "arena": "models",
@@ -26613,7 +26660,7 @@
             "arena": "models",
             "category": "svg",
             "elo": 1202,
-            "win_rate": 54,
+            "win_rate": 53.9,
             "rank": 29
           },
           {
@@ -27172,7 +27219,7 @@
             "category": "svg",
             "elo": 1191,
             "win_rate": 57.8,
-            "rank": 34
+            "rank": 33
           },
           {
             "arena": "models",
@@ -27221,7 +27268,7 @@
             "category": "webapps",
             "elo": 1043,
             "win_rate": 40.3,
-            "rank": 41
+            "rank": 42
           }
         ],
         "artificial_analysis": {
@@ -27353,7 +27400,7 @@
             "category": "svg",
             "elo": 1191,
             "win_rate": 57.8,
-            "rank": 34
+            "rank": 33
           },
           {
             "arena": "models",
@@ -27402,7 +27449,7 @@
             "category": "webapps",
             "elo": 1043,
             "win_rate": 40.3,
-            "rank": 41
+            "rank": 42
           }
         ],
         "artificial_analysis": {
@@ -27526,14 +27573,14 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 999,
-            "win_rate": 24.7,
+            "elo": 1000,
+            "win_rate": 24.8,
             "rank": 90
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 992,
+            "elo": 993,
             "win_rate": 19.6,
             "rank": 120
           },
@@ -28400,7 +28447,7 @@
             "category": "webapps",
             "elo": 1017,
             "win_rate": 36.9,
-            "rank": 43
+            "rank": 44
           },
           {
             "arena": "models",
@@ -28622,7 +28669,7 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1063,
+            "elo": 1061,
             "win_rate": 44,
             "rank": 23
           },
@@ -28699,9 +28746,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1136,
-            "win_rate": 41.1,
-            "rank": 22
+            "elo": 1145,
+            "win_rate": 41.6,
+            "rank": 19
           },
           {
             "arena": "agents",
@@ -28720,8 +28767,8 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1004,
-            "win_rate": 33.3,
+            "elo": 988,
+            "win_rate": 30.8,
             "rank": 26
           },
           {
@@ -28729,7 +28776,7 @@
             "category": "webapps",
             "elo": 1111,
             "win_rate": 44.4,
-            "rank": 33
+            "rank": 34
           },
           {
             "arena": "models",
@@ -28883,7 +28930,7 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1063,
+            "elo": 1061,
             "win_rate": 44,
             "rank": 23
           },
@@ -28960,9 +29007,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1136,
-            "win_rate": 41.1,
-            "rank": 22
+            "elo": 1145,
+            "win_rate": 41.6,
+            "rank": 19
           },
           {
             "arena": "agents",
@@ -28981,8 +29028,8 @@
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1004,
-            "win_rate": 33.3,
+            "elo": 988,
+            "win_rate": 30.8,
             "rank": 26
           },
           {
@@ -28990,7 +29037,7 @@
             "category": "webapps",
             "elo": 1111,
             "win_rate": 44.4,
-            "rank": 33
+            "rank": 34
           },
           {
             "arena": "models",
@@ -29171,7 +29218,7 @@
             "category": "webapps",
             "elo": 1175,
             "win_rate": 57,
-            "rank": 27
+            "rank": 28
           },
           {
             "arena": "models",
@@ -29347,7 +29394,7 @@
             "category": "webapps",
             "elo": 1175,
             "win_rate": 57,
-            "rank": 27
+            "rank": 28
           },
           {
             "arena": "models",
@@ -30059,8 +30106,8 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1148,
-            "win_rate": 45.6,
+            "elo": 1144,
+            "win_rate": 45.5,
             "rank": 11
           },
           {
@@ -30075,7 +30122,7 @@
             "category": "blender3d",
             "elo": 1008,
             "win_rate": 37.2,
-            "rank": 20
+            "rank": 21
           },
           {
             "arena": "agents",
@@ -30088,29 +30135,29 @@
             "arena": "agents",
             "category": "mobileapps",
             "elo": 1207,
-            "win_rate": 58.1,
+            "win_rate": 57.9,
             "rank": 19
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1287,
-            "win_rate": 61,
-            "rank": 4
+            "elo": 1269,
+            "win_rate": 58.7,
+            "rank": 5
           },
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1218,
+            "elo": 1222,
             "win_rate": 69.6,
-            "rank": 10
+            "rank": 9
           },
           {
             "arena": "agents",
             "category": "webapps",
             "elo": 1191,
             "win_rate": 56.3,
-            "rank": 22
+            "rank": 23
           },
           {
             "arena": "models",
@@ -30124,7 +30171,7 @@
             "category": "asciiart",
             "elo": 1252,
             "win_rate": 61.9,
-            "rank": 18
+            "rank": 17
           },
           {
             "arena": "models",
@@ -30246,8 +30293,8 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1148,
-            "win_rate": 45.6,
+            "elo": 1144,
+            "win_rate": 45.5,
             "rank": 11
           },
           {
@@ -30262,7 +30309,7 @@
             "category": "blender3d",
             "elo": 1008,
             "win_rate": 37.2,
-            "rank": 20
+            "rank": 21
           },
           {
             "arena": "agents",
@@ -30275,29 +30322,29 @@
             "arena": "agents",
             "category": "mobileapps",
             "elo": 1207,
-            "win_rate": 58.1,
+            "win_rate": 57.9,
             "rank": 19
           },
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1287,
-            "win_rate": 61,
-            "rank": 4
+            "elo": 1269,
+            "win_rate": 58.7,
+            "rank": 5
           },
           {
             "arena": "agents",
             "category": "spreadsheet",
-            "elo": 1218,
+            "elo": 1222,
             "win_rate": 69.6,
-            "rank": 10
+            "rank": 9
           },
           {
             "arena": "agents",
             "category": "webapps",
             "elo": 1191,
             "win_rate": 56.3,
-            "rank": 22
+            "rank": 23
           },
           {
             "arena": "models",
@@ -30311,7 +30358,7 @@
             "category": "asciiart",
             "elo": 1252,
             "win_rate": 61.9,
-            "rank": 18
+            "rank": 17
           },
           {
             "arena": "models",
@@ -30616,7 +30663,7 @@
             "category": "webapps",
             "elo": 1120,
             "win_rate": 51.6,
-            "rank": 32
+            "rank": 33
           },
           {
             "arena": "models",
@@ -31151,7 +31198,7 @@
             "category": "webapps",
             "elo": 1035,
             "win_rate": 39.6,
-            "rank": 42
+            "rank": 43
           }
         ]
       },
@@ -31722,7 +31769,7 @@
             "category": "webapps",
             "elo": 1095,
             "win_rate": 48.5,
-            "rank": 37
+            "rank": 38
           },
           {
             "arena": "models",
@@ -31888,7 +31935,7 @@
             "category": "webapps",
             "elo": 1095,
             "win_rate": 48.5,
-            "rank": 37
+            "rank": 38
           },
           {
             "arena": "models",
@@ -32316,7 +32363,7 @@
             "category": "webapps",
             "elo": 1070,
             "win_rate": 45.5,
-            "rank": 39
+            "rank": 40
           },
           {
             "arena": "models",
@@ -32483,7 +32530,7 @@
             "category": "webapps",
             "elo": 1070,
             "win_rate": 45.5,
-            "rank": 39
+            "rank": 40
           },
           {
             "arena": "models",
@@ -33603,7 +33650,7 @@
             "category": "webapps",
             "elo": 1144,
             "win_rate": 55.1,
-            "rank": 30
+            "rank": 31
           }
         ]
       },
@@ -33750,7 +33797,7 @@
             "category": "webapps",
             "elo": 1144,
             "win_rate": 55.1,
-            "rank": 30
+            "rank": 31
           }
         ]
       },
@@ -34227,7 +34274,7 @@
             "category": "webapps",
             "elo": 1003,
             "win_rate": 44,
-            "rank": 44
+            "rank": 45
           },
           {
             "arena": "models",
@@ -34262,7 +34309,7 @@
             "category": "website",
             "elo": 1160,
             "win_rate": 56.1,
-            "rank": 88
+            "rank": 89
           }
         ]
       },
@@ -36070,7 +36117,7 @@
             "category": "webapps",
             "elo": 1044,
             "win_rate": 43.2,
-            "rank": 40
+            "rank": 41
           }
         ],
         "artificial_analysis": {
@@ -36233,7 +36280,7 @@
             "category": "webapps",
             "elo": 1044,
             "win_rate": 43.2,
-            "rank": 40
+            "rank": 41
           }
         ],
         "artificial_analysis": {
@@ -36767,12 +36814,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000011"
+        "prompt": "0.0000001",
+        "completion": "0.0000011",
+        "input_cache_read": "0.00000007"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 16384,
+        "max_completion_tokens": 235929,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -37370,7 +37418,7 @@
             "category": "svg",
             "elo": 1185,
             "win_rate": 64.1,
-            "rank": 36
+            "rank": 35
           },
           {
             "arena": "models",
@@ -37506,7 +37554,7 @@
             "category": "svg",
             "elo": 1185,
             "win_rate": 64.1,
-            "rank": 36
+            "rank": 35
           },
           {
             "arena": "models",
@@ -38889,13 +38937,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000007",
-        "completion": "0.00000028"
+        "prompt": "0.00000015",
+        "completion": "0.0000006"
       },
       "top_provider": {
         "context_length": 262144,
         "max_completion_tokens": 235929,
-        "is_moderated": false
+        "is_moderated": true
       },
       "per_request_limits": null,
       "supported_parameters": [
@@ -40785,7 +40833,7 @@
             "category": "3d",
             "elo": 1081,
             "win_rate": 54.7,
-            "rank": 93
+            "rank": 94
           },
           {
             "arena": "models",
@@ -43694,12 +43742,13 @@
         "instruct_type": "llama3"
       },
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.00000032"
+        "prompt": "0.0000002",
+        "completion": "0.00000052",
+        "input_cache_read": "0.0000001"
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": 16384,
+        "max_completion_tokens": 128000,
         "is_moderated": false
       },
       "per_request_limits": null,
