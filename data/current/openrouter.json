@@ -1,9 +1,80 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-11-03T13:18:55.764825+00:00",
+  "fetched_at": "2026-11-03T22:43:17.021146+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 451,
+  "model_count": 454,
   "data": [
+    {
+      "id": "stealth/crouton-alpha",
+      "canonical_slug": "stealth/crouton-alpha",
+      "hugging_face_id": null,
+      "name": "Crouton Alpha",
+      "created": 1793669930,
+      "description": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated work. Developers...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/stealth/crouton-alpha/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default_effort": "max"
+      }
+    },
     {
       "id": "z-ai/glm-5.3-flashx-legal",
       "canonical_slug": "z-ai/glm-5.3-flashx-legal-20261102",
@@ -314,7 +385,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-6.1-terra-pro-20261026/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": true,
         "default_enabled": true,
@@ -481,7 +554,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-6.1-terra-20261026/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -547,9 +622,11 @@
         "response_format",
         "stop",
         "structured_outputs",
+        "temperature",
         "tool_choice",
         "tools",
-        "top_logprobs"
+        "top_logprobs",
+        "top_p"
       ],
       "default_parameters": {
         "top_p": 0.95
@@ -745,9 +822,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000015",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
+        "input_cache_read": "0.0000000075",
         "overrides": [
           {
             "utc_start": 1500,
@@ -1751,8 +1828,8 @@
         "input_cache_read": "0.00000002"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 235929,
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -2151,7 +2228,8 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs"
+        "top_logprobs",
+        "top_p"
       ],
       "default_parameters": {
         "temperature": 0.1,
@@ -2405,7 +2483,9 @@
       "links": {
         "details": "/api/v1/models/google/gemini-4-argon-20261013/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -3050,7 +3130,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-haiku-5.5-20261007/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -3564,7 +3646,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-6.1-sol-pro-20260929/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": true,
         "default_enabled": true,
@@ -3808,7 +3892,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-6.1-sol-20260929/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -4121,7 +4207,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-sonnet-5.5-20260928/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -4989,7 +5077,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-6-luna-pro-20260922/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": false,
         "default_enabled": true,
@@ -5171,7 +5261,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-6-luna-20260922/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -5353,7 +5445,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-6-sol-pro-20260922/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": false,
         "default_enabled": true,
@@ -5527,7 +5621,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-6-sol-20260922/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": false,
         "default_enabled": true,
@@ -5776,7 +5872,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-opus-5.5-20260921/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -6259,6 +6357,159 @@
         "/api/v1/completions",
         "/api/v1/messages",
         "/api/v1/responses"
+      ],
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "agents",
+            "category": "blender3d",
+            "elo": 1163,
+            "win_rate": 60,
+            "rank": 9
+          },
+          {
+            "arena": "agents",
+            "category": "mobileapps",
+            "elo": 1267,
+            "win_rate": 57.5,
+            "rank": 5
+          },
+          {
+            "arena": "agents",
+            "category": "pdf",
+            "elo": 1149,
+            "win_rate": 44,
+            "rank": 19
+          },
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1263,
+            "win_rate": 47.5,
+            "rank": 27
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1272,
+            "win_rate": 47.9,
+            "rank": 31
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1242,
+            "win_rate": 46.5,
+            "rank": 39
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1316,
+            "win_rate": 51.6,
+            "rank": 14
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1266,
+            "win_rate": 48,
+            "rank": 34
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1249,
+            "win_rate": 45.9,
+            "rank": 44
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 35,
+          "coding_index": null,
+          "agentic_index": null
+        }
+      },
+      "reasoning": {
+        "mandatory": true,
+        "default_enabled": true,
+        "supported_efforts": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
+      "id": "x-ai/grok-4.7:batch",
+      "canonical_slug": "x-ai/grok-4.7-20260916",
+      "hugging_face_id": null,
+      "name": "SpaceXAI: Grok 4.7 (batch)",
+      "created": 1790007541,
+      "description": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. It is particularly strong at long-running software engineering tasks, verifying its own work, and...",
+      "context_length": 500000,
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Grok",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000016",
+        "completion": "0.0000048",
+        "web_search": "0.005",
+        "input_cache_read": "0.0000004",
+        "overrides": [
+          {
+            "min_prompt_tokens": 200000,
+            "prompt": "0.0000032",
+            "completion": "0.0000096",
+            "input_cache_read": "0.0000008"
+          }
+        ]
+      },
+      "top_provider": {
+        "context_length": 500000,
+        "max_completion_tokens": 450000,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 0.7,
+        "top_p": 0.95
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/x-ai/grok-4.7-20260916/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/batches"
       ],
       "benchmarks": {
         "design_arena": [
@@ -7573,7 +7824,9 @@
       "links": {
         "details": "/api/v1/models/deepseek/deepseek-v4.1-flash-20260910/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": false,
         "default_enabled": true,
@@ -7947,7 +8200,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-6-astra-20260903/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -8113,7 +8368,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-6-astra-pro-20260903/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": true,
         "default_enabled": true,
@@ -8753,7 +9010,9 @@
       "links": {
         "details": "/api/v1/models/google/gemini-3.8-flash-20260902/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -9134,7 +9393,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-fable-5.1-20260831/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -9368,9 +9629,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
-        "input_cache_read": "0.000000042",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
+        "input_cache_read": "0.0000000378",
         "overrides": [
           {
             "utc_start": 0,
@@ -9808,7 +10069,9 @@
       "links": {
         "details": "/api/v1/models/z-ai/glm-5.3-flash-20260826/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -10505,7 +10768,9 @@
       "links": {
         "details": "/api/v1/models/z-ai/glm-5.3-20260816/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -11018,7 +11283,9 @@
       "links": {
         "details": "/api/v1/models/google/gemini-3.7-flash-20260813/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -11689,6 +11956,219 @@
       }
     },
     {
+      "id": "x-ai/grok-4.6:batch",
+      "canonical_slug": "x-ai/grok-4.6-20260810",
+      "hugging_face_id": null,
+      "name": "SpaceXAI: Grok 4.6 (batch)",
+      "created": 1786548957,
+      "description": "Grok 4.6 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM. It is succeeded by [Grok 4.7](/x-ai/grok-4.7).",
+      "context_length": 500000,
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Grok",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000016",
+        "completion": "0.0000048",
+        "web_search": "0.005",
+        "input_cache_read": "0.0000004",
+        "overrides": [
+          {
+            "min_prompt_tokens": 200000,
+            "prompt": "0.0000032",
+            "completion": "0.0000096",
+            "input_cache_read": "0.0000008"
+          }
+        ]
+      },
+      "top_provider": {
+        "context_length": 500000,
+        "max_completion_tokens": 450000,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/x-ai/grok-4.6-20260810/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/batches"
+      ],
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "agents",
+            "category": "agenticgamedev",
+            "elo": 1158,
+            "win_rate": 47,
+            "rank": 9
+          },
+          {
+            "arena": "agents",
+            "category": "androidnative",
+            "elo": 1294,
+            "win_rate": 62,
+            "rank": 1
+          },
+          {
+            "arena": "agents",
+            "category": "blender3d",
+            "elo": 1147,
+            "win_rate": 48.6,
+            "rank": 10
+          },
+          {
+            "arena": "agents",
+            "category": "fullstack",
+            "elo": 1264,
+            "win_rate": 54.9,
+            "rank": 7
+          },
+          {
+            "arena": "agents",
+            "category": "godotgamedev",
+            "elo": 1276,
+            "win_rate": 53,
+            "rank": 4
+          },
+          {
+            "arena": "agents",
+            "category": "htmlslides",
+            "elo": 1146,
+            "win_rate": 60.1,
+            "rank": 6
+          },
+          {
+            "arena": "agents",
+            "category": "mobileapps",
+            "elo": 1232,
+            "win_rate": 55.3,
+            "rank": 11
+          },
+          {
+            "arena": "agents",
+            "category": "pdf",
+            "elo": 1260,
+            "win_rate": 60.3,
+            "rank": 6
+          },
+          {
+            "arena": "agents",
+            "category": "python-pptxslides",
+            "elo": 1197,
+            "win_rate": 52.9,
+            "rank": 11
+          },
+          {
+            "arena": "agents",
+            "category": "webapps",
+            "elo": 1235,
+            "win_rate": 55.7,
+            "rank": 13
+          },
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1273,
+            "win_rate": 52.4,
+            "rank": 23
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1272,
+            "win_rate": 57.1,
+            "rank": 12
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1290,
+            "win_rate": 52.5,
+            "rank": 20
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1283,
+            "win_rate": 51.4,
+            "rank": 20
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1295,
+            "win_rate": 54,
+            "rank": 20
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1234,
+            "win_rate": 48.7,
+            "rank": 18
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1290,
+            "win_rate": 53.1,
+            "rank": 24
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1287,
+            "win_rate": 52.2,
+            "rank": 22
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": null,
+          "coding_index": 76.8,
+          "agentic_index": 53
+        }
+      },
+      "reasoning": {
+        "mandatory": true,
+        "default_enabled": true,
+        "supported_efforts": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
       "id": "liquid/lfm-2.5-2.6b",
       "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
       "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
@@ -11815,7 +12295,8 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs"
+        "top_logprobs",
+        "top_p"
       ],
       "default_parameters": {
         "temperature": 0.1,
@@ -13264,7 +13745,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-opus-5-20260723/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -13770,7 +14253,9 @@
       "links": {
         "details": "/api/v1/models/google/gemini-3.6-flash-20260721/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -14070,7 +14555,9 @@
       "links": {
         "details": "/api/v1/models/google/gemini-3.5-flash-lite-20260721/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -14492,9 +14979,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000192",
-        "completion": "0.000015",
-        "input_cache_read": "0.000000182"
+        "prompt": "0.000000276",
+        "completion": "0.0000096",
+        "input_cache_read": "0.00000013"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -14759,7 +15246,9 @@
       "links": {
         "details": "/api/v1/models/moonshotai/kimi-k3-20260715/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -15279,7 +15768,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.6-luna-pro-20260709/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": false,
         "default_enabled": true,
@@ -15459,7 +15950,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.6-luna-20260709/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -15639,7 +16132,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.6-terra-pro-20260709/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": false,
         "default_enabled": true,
@@ -15819,7 +16314,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.6-terra-20260709/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -16001,7 +16498,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.6-sol-pro-20260709/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": false,
         "default_enabled": true,
@@ -16183,7 +16682,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.6-sol-20260709/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -16654,9 +17155,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -17056,7 +17557,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-sonnet-5-20260630/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -18353,7 +18856,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-5-fable-20260609/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -19115,7 +19620,9 @@
       "links": {
         "details": "/api/v1/models/qwen/qwen3.7-plus-20260602/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -19858,7 +20365,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-4.8-opus-20260528/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -20683,7 +21192,9 @@
       "links": {
         "details": "/api/v1/models/google/gemini-3.5-flash-20260519/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -21093,7 +21604,9 @@
       "links": {
         "details": "/api/v1/models/google/gemini-3.1-flash-lite-20260507/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": false,
         "default_enabled": true,
@@ -21504,7 +22017,9 @@
       "links": {
         "details": "/api/v1/models/x-ai/grok-4.3-20260430/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -21839,7 +22354,9 @@
       "links": {
         "details": "/api/v1/models/mistralai/mistral-medium-3.5-20260430/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -22218,9 +22735,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000001548",
-        "completion": "0.0000093388",
-        "input_cache_read": "0.00000015"
+        "prompt": "0.0000001615",
+        "completion": "0.0000101551",
+        "input_cache_read": "0.00000016"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -22907,7 +23424,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.5-pro-20260423/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": true,
         "supported_efforts": [
@@ -23228,7 +23747,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.5-20260423/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -24592,7 +25113,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-4.7-opus-20260416/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -24883,9 +25406,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000006",
-        "completion": "0.000000179",
-        "input_cache_read": "0.00000003"
+        "prompt": "0.000000085",
+        "completion": "0.000000256",
+        "input_cache_read": "0.000000043"
       },
       "top_provider": {
         "context_length": 262144,
@@ -26058,7 +26581,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-11-05",
       "links": {
         "details": "/api/v1/models/minimax/minimax-m2.7-20260318/endpoints"
       },
@@ -26283,7 +26806,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.4-nano-20260317/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -26451,7 +26976,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.4-mini-20260317/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -27092,7 +27619,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.4-pro-20260305/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": true,
         "supported_efforts": [
@@ -27357,7 +27886,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.4-20260305/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -28924,7 +29455,9 @@
       "links": {
         "details": "/api/v1/models/google/gemini-3.1-pro-preview-20260219/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -29351,7 +29884,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-4.6-sonnet-20260217/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -30287,7 +30822,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-4.6-opus-20260205/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -30775,7 +31312,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-11-05",
       "links": {
         "details": "/api/v1/models/minimax/minimax-m2-her-20260123/endpoints"
       },
@@ -31404,7 +31941,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-11-05",
       "links": {
         "details": "/api/v1/models/minimax/minimax-m2.1/endpoints"
       },
@@ -31878,7 +32415,9 @@
       "links": {
         "details": "/api/v1/models/google/gemini-3-flash-preview-20251217/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -32242,7 +32781,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.2-pro-20251211/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": true,
         "supported_efforts": [
@@ -32485,7 +33026,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.2-20251211/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -33710,7 +34253,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-4.5-opus-20251124/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -34109,7 +34654,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5.1-20251113/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -34844,7 +35391,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-11-05",
       "links": {
         "details": "/api/v1/models/minimax/minimax-m2/endpoints"
       },
@@ -35206,7 +35753,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-4.5-haiku-20251001/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -35791,7 +36340,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5-pro-2025-10-06/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": true,
         "supported_efforts": [
@@ -36200,7 +36751,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-4.5-sonnet-20250929/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -36964,12 +37517,15 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logit_bias",
         "logprobs",
         "max_tokens",
         "presence_penalty",
         "reasoning",
         "repetition_penalty",
         "response_format",
+        "seed",
+        "stop",
         "structured_outputs",
         "temperature",
         "top_k",
@@ -37509,7 +38065,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5-2025-08-07/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -37787,7 +38345,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5-mini-2025-08-07/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -38046,7 +38606,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-5-nano-2025-08-07/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -38124,9 +38686,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000075"
+        "prompt": "0.000000022",
+        "completion": "0.000000081",
+        "input_cache_read": "0.00000002"
       },
       "top_provider": {
         "context_length": 131072,
@@ -38295,7 +38857,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-oss-120b/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -38377,13 +38941,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000003",
-        "completion": "0.00000013",
-        "input_cache_read": "0.00000003"
+        "prompt": "0.000000018",
+        "completion": "0.00000009",
+        "input_cache_read": "0.000000009"
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": 117964,
+        "max_completion_tokens": 32768,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -38519,7 +39083,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-oss-20b/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -38743,7 +39309,9 @@
       "links": {
         "details": "/api/v1/models/anthropic/claude-4.1-opus-20250805/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -39659,12 +40227,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.00000055"
+        "prompt": "0.00000014",
+        "completion": "0.0000008",
+        "input_cache_read": "0.00000005"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 16384,
+        "context_length": 131072,
+        "max_completion_tokens": 117964,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -41337,7 +41906,9 @@
       "links": {
         "details": "/api/v1/models/openai/o3-2025-04-16/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -41431,7 +42002,9 @@
       "links": {
         "details": "/api/v1/models/openai/o4-mini-2025-04-16/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -41636,7 +42209,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-4.1-2025-04-14/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -41843,7 +42418,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-4.1-mini-2025-04-14/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -42054,7 +42631,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-4.1-nano-2025-04-14/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -43320,7 +43899,9 @@
       "links": {
         "details": "/api/v1/models/openai/o3-mini-2025-01-31/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "reasoning": {
         "mandatory": true
       }
@@ -43483,7 +44064,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2024-03-31",
-      "expiration_date": null,
+      "expiration_date": "2026-11-05",
       "links": {
         "details": "/api/v1/models/minimax/minimax-01/endpoints"
       },
@@ -45171,7 +45752,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-4o-mini/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -45475,7 +46058,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-4o/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -45637,7 +46222,9 @@
       "links": {
         "details": "/api/v1/models/openai/gpt-4-turbo/endpoints"
       },
-      "endpoints": [],
+      "endpoints": [
+        "/api/v1/batches"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
