@@ -1,9 +1,68 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-11-04T13:30:59.194192+00:00",
+  "fetched_at": "2026-11-04T23:00:54.190665+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 453,
+  "model_count": 454,
   "data": [
+    {
+      "id": "ricursiveai/ripple-65b-preview",
+      "canonical_slug": "ricursiveai/ripple-65b-preview-20261104",
+      "hugging_face_id": null,
+      "name": "ricursiveAI/Ripple-65B-Preview",
+      "created": 1793818990,
+      "description": "Ripple-65B-Preview by ricursiveAI, a 65B model with native tool calling, served in BF16.",
+      "context_length": 16384,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000002",
+        "completion": "0.0000006",
+        "input_cache_read": "0.00000005"
+      },
+      "top_provider": {
+        "context_length": 16384,
+        "max_completion_tokens": 14745,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "logprobs",
+        "max_tokens",
+        "response_format",
+        "seed",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/ricursiveai/ripple-65b-preview-20261104/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": false
+      }
+    },
     {
       "id": "tencent/hy4",
       "canonical_slug": "tencent/hy4-20261104",
@@ -650,7 +709,7 @@
     {
       "id": "moonshotai/kimi-k3.1-pro",
       "canonical_slug": "moonshotai/kimi-k3.1-pro-20261023",
-      "hugging_face_id": null,
+      "hugging_face_id": "moonshotai/Kimi-K3.1-Pro",
       "name": "MoonshotAI: Kimi K3.1 Pro",
       "created": 1792778188,
       "description": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D...",
@@ -682,17 +741,22 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logit_bias",
         "logprobs",
         "max_tokens",
+        "min_p",
         "presence_penalty",
         "reasoning",
         "reasoning_effort",
+        "repetition_penalty",
         "response_format",
+        "seed",
         "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
+        "top_k",
         "top_logprobs",
         "top_p"
       ],
@@ -897,9 +961,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000015",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
+        "input_cache_read": "0.0000000075",
         "overrides": [
           {
             "utc_start": 1500,
@@ -6295,6 +6359,7 @@
         "frequency_penalty",
         "include_reasoning",
         "logit_bias",
+        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -6308,6 +6373,7 @@
         "tool_choice",
         "tools",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {
@@ -7035,9 +7101,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000032",
-        "completion": "0.0000005",
-        "input_cache_read": "0.000000005"
+        "prompt": "0.000000022",
+        "completion": "0.0000004",
+        "input_cache_read": "0.000000004"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -9755,9 +9821,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
-        "input_cache_read": "0.000000042",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
+        "input_cache_read": "0.0000000378",
         "overrides": [
           {
             "utc_start": 0,
@@ -9855,9 +9921,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000269",
-        "completion": "0.0000000996",
-        "input_cache_read": "0.0000000269"
+        "prompt": "0.0000000285",
+        "completion": "0.0000000923",
+        "input_cache_read": "0.0000000285"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -10006,13 +10072,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000269",
-        "completion": "0.0000000996",
-        "input_cache_read": "0.0000000269"
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
+        "input_cache_read": "0.00000003"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "context_length": 1048575,
+        "max_completion_tokens": 943717,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -10688,9 +10754,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000008",
-        "completion": "0.0000036",
-        "input_cache_read": "0.000000076"
+        "prompt": "0.0000000699",
+        "completion": "0.0000014",
+        "input_cache_read": "0.0000000689"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -13137,7 +13203,7 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000059",
+        "prompt": "0.0000000434",
         "completion": "0.0000003",
         "input_cache_read": "0.000000035"
       },
@@ -13216,7 +13282,7 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000059",
+        "prompt": "0.0000000434",
         "completion": "0.0000003",
         "input_cache_read": "0.000000035"
       },
@@ -17066,9 +17132,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -22661,7 +22727,7 @@
       },
       "pricing": {
         "prompt": "0.0000001824",
-        "completion": "0.0000101551",
+        "completion": "0.000010146",
         "input_cache_read": "0.00000018"
       },
       "top_provider": {
@@ -25330,9 +25396,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000085",
-        "completion": "0.000000256",
-        "input_cache_read": "0.000000043"
+        "prompt": "0.000000033",
+        "completion": "0.000000098",
+        "input_cache_read": "0.000000016"
       },
       "top_provider": {
         "context_length": 262144,
@@ -38638,9 +38704,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000075"
+        "prompt": "0.000000022",
+        "completion": "0.000000081",
+        "input_cache_read": "0.00000002"
       },
       "top_provider": {
         "context_length": 131072,
@@ -38893,13 +38959,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000003",
-        "completion": "0.00000013",
-        "input_cache_read": "0.00000003"
+        "prompt": "0.000000018",
+        "completion": "0.00000009",
+        "input_cache_read": "0.000000009"
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": 117964,
+        "max_completion_tokens": 32768,
         "is_moderated": false
       },
       "per_request_limits": null,
