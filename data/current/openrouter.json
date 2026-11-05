@@ -1,9 +1,139 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-11-05T13:45:36.348590+00:00",
+  "fetched_at": "2026-11-05T23:03:59.669392+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 452,
+  "model_count": 454,
   "data": [
+    {
+      "id": "google/gemini-omni-1.2-flash",
+      "canonical_slug": "google/gemini-omni-1.2-flash-20261105",
+      "hugging_face_id": null,
+      "name": "Google: Gemini Omni 1.2 Flash",
+      "created": 1793898961,
+      "description": "Gemini Omni 1.2 Flash is Google's native multimodal video generation and editing model, the successor to Gemini Omni 1.1 Flash. It generates clips up to 15 seconds long with native...",
+      "context_length": 131072,
+      "architecture": {
+        "modality": "text+image+video->text+video",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text",
+          "video"
+        ],
+        "tokenizer": "Gemini",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000015",
+        "completion": "0.000009",
+        "web_search": "0.014"
+      },
+      "top_provider": {
+        "context_length": 131072,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "seed",
+        "temperature",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/google/gemini-omni-1.2-flash-20261105/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses",
+        "/api/v1/videos"
+      ],
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "high",
+          "low"
+        ],
+        "default_effort": "low"
+      }
+    },
+    {
+      "id": "google/gemini-omni-1.1-flash",
+      "canonical_slug": "google/gemini-omni-1.1-flash-20260911",
+      "hugging_face_id": null,
+      "name": "Google: Gemini Omni 1.1 Flash",
+      "created": 1793825668,
+      "description": "Gemini Omni 1.1 Flash is Google's native multimodal video generation and editing model, the generally available successor to Gemini Omni Flash Preview. It is suited for text-to-video, image-to-video, first and...",
+      "context_length": 131072,
+      "architecture": {
+        "modality": "text+image+video->text+video",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text",
+          "video"
+        ],
+        "tokenizer": "Gemini",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000015",
+        "completion": "0.000009",
+        "web_search": "0.014"
+      },
+      "top_provider": {
+        "context_length": 131072,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "seed",
+        "temperature",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/google/gemini-omni-1.1-flash-20260911/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses",
+        "/api/v1/videos"
+      ],
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "high",
+          "low"
+        ],
+        "default_effort": "low"
+      }
+    },
     {
       "id": "ricursiveai/ripple-65b-preview",
       "canonical_slug": "ricursiveai/ripple-65b-preview-20261104",
@@ -983,9 +1113,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000015",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
+        "input_cache_read": "0.0000000075",
         "overrides": [
           {
             "utc_start": 1500,
@@ -1455,13 +1585,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000025",
+        "prompt": "0.0000003",
         "completion": "0.000001",
-        "input_cache_read": "0.00000005"
+        "input_cache_read": "0.00000004"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "max_completion_tokens": 943718,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -9862,9 +9992,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
-        "input_cache_read": "0.000000042",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
+        "input_cache_read": "0.0000000378",
         "overrides": [
           {
             "utc_start": 0,
@@ -13361,7 +13491,7 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000566",
+        "prompt": "0.0000000434",
         "completion": "0.0000003",
         "input_cache_read": "0.000000035"
       },
@@ -13440,7 +13570,7 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000566",
+        "prompt": "0.0000000434",
         "completion": "0.0000003",
         "input_cache_read": "0.000000035"
       },
@@ -17318,9 +17448,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -18497,7 +18627,7 @@
       "pricing": {
         "prompt": "0.0000006",
         "completion": "0.0000035",
-        "input_cache_read": "0.00000015"
+        "input_cache_read": "0.00000016"
       },
       "top_provider": {
         "context_length": 262144,
@@ -22948,7 +23078,7 @@
       },
       "pricing": {
         "prompt": "0.0000001824",
-        "completion": "0.0000105448",
+        "completion": "0.0000101489",
         "input_cache_read": "0.00000018"
       },
       "top_provider": {
@@ -25617,13 +25747,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000061",
-        "completion": "0.000000184",
-        "input_cache_read": "0.000000031"
+        "prompt": "0.0000000765",
+        "completion": "0.000000255",
+        "input_cache_read": "0.0000000425"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 32768,
+        "max_completion_tokens": 235929,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -44227,13 +44357,13 @@
         "instruct_type": "llama3"
       },
       "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.00000052",
-        "input_cache_read": "0.0000001"
+        "prompt": "0.00000059",
+        "completion": "0.00000079",
+        "input_cache_read": "0.000000295"
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": 128000,
+        "max_completion_tokens": 32768,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -46572,7 +46702,7 @@
       "hugging_face_id": null,
       "name": "Auto Router",
       "created": 1793885889,
-      "description": "Auto is OpenRouter’s general-purpose router, now powered by [Jev Router](https://openrouter.ai/typesafe/jev-router). It replaces market-spend rankings with request-aware selection of both the model and reasoning effort, weighing task difficulty, measured benchmark results,...",
+      "description": "Auto is OpenRouter’s flagship model router, built for general-purpose usage. It adapts to each request, choosing cost-optimal models and adjusting reasoning effort. It balances task difficulty, benchmark results, live prices,...",
       "context_length": 2000000,
       "architecture": {
         "modality": "text+image+file+audio+video->text+image",
