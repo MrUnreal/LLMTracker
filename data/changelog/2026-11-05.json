@@ -1,0 +1,318 @@
+{
+  "generated_at": "2026-11-05T04:24:47.179705+00:00",
+  "changes": [
+    {
+      "model_id": "bedrock_mantle/xai.grok-4.7",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.2,
+        "output_per_million": 6.6
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "bedrock/us-gov-west-1/moonshotai.kimi-k3",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 3.96,
+        "output_per_million": 19.8
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "gpt-image-2.6-sunburst",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.0,
+        "output_per_million": 0.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "bedrock/us-gov-west-1/anthropic.claude-3-haiku-20240307-v1:0",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.3,
+        "output_per_million": 1.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/us-gov-west-1/xai.grok-4.7",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.64,
+        "output_per_million": 7.92
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "bedrock/us-gov-east-1/anthropic.claude-3-haiku-20240307-v1:0",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.3,
+        "output_per_million": 1.5
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "gpt-image-2.6-flare",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 5.0,
+        "output_per_million": 0.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/us-gov-east-1/xai.grok-4.7",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.64,
+        "output_per_million": 7.92
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "bedrock/us-gov-east-1/moonshotai.kimi-k3",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 3.96,
+        "output_per_million": 19.8
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "meta-llama/llama-4-maverick",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.1875,
+      "new_value": 0.35,
+      "percent_change": 86.67,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "meta-llama/llama-4-maverick",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.6525,
+      "new_value": 1.0,
+      "percent_change": 53.26,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "ricursiveai/ripple-65b-preview",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 16384,
+      "new_value": 1048576,
+      "percent_change": 6300.0,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash-0731",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.0434,
+      "new_value": 0.059,
+      "percent_change": 35.94,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "tencent/hy4-preview",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.7506,
+      "new_value": 0.834,
+      "percent_change": 11.11,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "tencent/hy4-preview",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 2.2509,
+      "new_value": 2.501,
+      "percent_change": 11.11,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 10.146,
+      "new_value": 9.3388,
+      "percent_change": -7.96,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "~deepseek/deepseek-flash-latest",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.022,
+      "new_value": 0.006,
+      "percent_change": -72.73,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "~deepseek/deepseek-flash-latest",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.4,
+      "new_value": 0.5,
+      "percent_change": 25.0,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "~deepseek/deepseek-v4-flash-latest",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.0434,
+      "new_value": 0.059,
+      "percent_change": 35.94,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "meta-llama/llama-3.3-70b-instruct",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.1,
+      "new_value": 0.2,
+      "percent_change": 100.0,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "meta-llama/llama-3.3-70b-instruct",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.32,
+      "new_value": 0.52,
+      "percent_change": 62.5,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.022,
+      "new_value": 0.016,
+      "percent_change": -27.27,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.081,
+      "new_value": 0.059,
+      "percent_change": -27.16,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.033,
+      "new_value": 0.027,
+      "percent_change": -18.18,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.098,
+      "new_value": 0.082,
+      "percent_change": -16.33,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "minimax/minimax-m3.1-flash",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.075,
+      "new_value": 0.15,
+      "percent_change": 100.0,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "minimax/minimax-m3.1-flash",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.3,
+      "new_value": 0.6,
+      "percent_change": 100.0,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "tencent/hy3",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.0825,
+      "new_value": 0.132,
+      "percent_change": 60.0,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "tencent/hy3",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.33,
+      "new_value": 0.528,
+      "percent_change": 60.0,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.018,
+      "new_value": 0.03,
+      "percent_change": 66.67,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    },
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.09,
+      "new_value": 0.13,
+      "percent_change": 44.44,
+      "detected_at": "2026-11-05T04:24:47.174433+00:00"
+    }
+  ],
+  "summary": {
+    "price_increases": 15,
+    "price_decreases": 6,
+    "new_models": 9,
+    "removed_models": 0,
+    "other_changes": 1
+  }
+}
