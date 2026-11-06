@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-11-06T13:29:37.049931+00:00",
+  "fetched_at": "2026-11-06T22:33:44.543485+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 453,
+  "model_count": 458,
   "data": [
     {
       "id": "google/gemini-omni-1.2-flash",
@@ -138,7 +138,7 @@
       "id": "ricursiveai/ripple-65b-preview",
       "canonical_slug": "ricursiveai/ripple-65b-preview-20261104",
       "hugging_face_id": null,
-      "name": "ricursiveAI/Ripple-65B-Preview",
+      "name": "Ricursive: Ripple 65B Preview",
       "created": 1793818990,
       "description": "Ripple-65B-Preview by ricursiveAI, a 65B model with native tool calling, served in BF16.",
       "context_length": 1048576,
@@ -1128,9 +1128,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000015",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
+        "input_cache_read": "0.0000000075",
         "overrides": [
           {
             "utc_start": 1500,
@@ -10028,9 +10028,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
-        "input_cache_read": "0.000000042",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
+        "input_cache_read": "0.0000000378",
         "overrides": [
           {
             "utc_start": 0,
@@ -11352,6 +11352,92 @@
         "/api/v1/completions",
         "/api/v1/messages",
         "/api/v1/responses"
+      ],
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 20.1,
+          "coding_index": 68.1,
+          "agentic_index": 45.8
+        }
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "xhigh",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default_effort": "xhigh"
+      }
+    },
+    {
+      "id": "qwen/qwen3.8-27b:batch",
+      "canonical_slug": "qwen/qwen3.8-27b-20260814",
+      "hugging_face_id": "Qwen/Qwen3.8-27B",
+      "name": "Qwen: Qwen3.8 27B (batch)",
+      "created": 1786722910,
+      "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000016",
+        "completion": "0.000002",
+        "input_cache_read": "0.00000004"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": 20
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3.8-27b-20260814/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/batches"
       ],
       "benchmarks": {
         "design_arena": [],
@@ -13233,6 +13319,119 @@
       }
     },
     {
+      "id": "meta/muse-glimmer-30b:batch",
+      "canonical_slug": "meta/muse-glimmer-30b-20260810",
+      "hugging_face_id": "meta-models/Muse-Glimmer-30B",
+      "name": "Meta: Muse Glimmer 30B (batch)",
+      "created": 1786302394,
+      "description": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon...",
+      "context_length": 131072,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000024",
+        "completion": "0.00000096",
+        "input_cache_read": "0.000000032"
+      },
+      "top_provider": {
+        "context_length": 131072,
+        "max_completion_tokens": 16384,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": 64
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/meta/muse-glimmer-30b-20260810/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/batches"
+      ],
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1153,
+            "win_rate": 34.9,
+            "rank": 85
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1103,
+            "win_rate": 29.5,
+            "rank": 95
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1207,
+            "win_rate": 41,
+            "rank": 57
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1173,
+            "win_rate": 37.5,
+            "rank": 82
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 6.3,
+          "coding_index": 49,
+          "agentic_index": 8.5
+        }
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
       "id": "inclusionai/ling-3.0-tiny",
       "canonical_slug": "inclusionai/ling-3.0-tiny-20260806",
       "hugging_face_id": "inclusionAI/Ling-3.0-tiny",
@@ -13541,13 +13740,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000005896",
-        "completion": "0.00000017688",
-        "input_cache_read": "0.000000001876"
+        "prompt": "0.0000000434",
+        "completion": "0.0000003",
+        "input_cache_read": "0.000000035"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "max_completion_tokens": 943718,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -13620,7 +13819,7 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000059",
+        "prompt": "0.0000000434",
         "completion": "0.0000003",
         "input_cache_read": "0.000000035"
       },
@@ -13666,6 +13865,143 @@
         "/api/v1/completions",
         "/api/v1/messages",
         "/api/v1/responses"
+      ],
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1202,
+            "win_rate": 48.7,
+            "rank": 48
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1088,
+            "win_rate": 33.3,
+            "rank": 67
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1226,
+            "win_rate": 46.4,
+            "rank": 55
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1180,
+            "win_rate": 41.1,
+            "rank": 67
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1204,
+            "win_rate": 44.6,
+            "rank": 53
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1180,
+            "win_rate": 45.1,
+            "rank": 37
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1230,
+            "win_rate": 46.8,
+            "rank": 51
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1236,
+            "win_rate": 46.7,
+            "rank": 53
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": null,
+          "coding_index": 69.1,
+          "agentic_index": 41
+        }
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "low",
+          "none"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-0731:batch",
+      "canonical_slug": "deepseek/deepseek-v4-flash-20260731",
+      "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+      "created": 1785478908,
+      "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "DeepSeek",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000000048",
+        "completion": "0.000000144",
+        "input_cache_read": "0.000000012"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 384000,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": [],
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/deepseek/deepseek-v4-flash-20260731/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/batches"
       ],
       "benchmarks": {
         "design_arena": [
@@ -13813,6 +14149,95 @@
         "/api/v1/completions",
         "/api/v1/messages",
         "/api/v1/responses"
+      ],
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 12.9,
+          "coding_index": 52.9,
+          "agentic_index": 23.5
+        }
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling-small:batch",
+      "canonical_slug": "thinkingmachines/inkling-small-20260730",
+      "hugging_face_id": "thinkingmachines/Inkling-Small",
+      "name": "Thinking Machines: Inkling Small (batch)",
+      "created": 1785443117,
+      "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
+      "context_length": 524288,
+      "architecture": {
+        "modality": "text+image+audio->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000036",
+        "completion": "0.00000096",
+        "input_cache_read": "0.00000008"
+      },
+      "top_provider": {
+        "context_length": 524288,
+        "max_completion_tokens": 262144,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/thinkingmachines/inkling-small-20260730/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/batches"
       ],
       "benchmarks": {
         "design_arena": [],
@@ -17498,9 +17923,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -20052,6 +20477,219 @@
         "/api/v1/completions",
         "/api/v1/messages",
         "/api/v1/responses"
+      ],
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "agents",
+            "category": "agenticgamedev",
+            "elo": 1114,
+            "win_rate": 44.9,
+            "rank": 18
+          },
+          {
+            "arena": "agents",
+            "category": "androidnative",
+            "elo": 1158,
+            "win_rate": 44.5,
+            "rank": 25
+          },
+          {
+            "arena": "agents",
+            "category": "blender3d",
+            "elo": 1092,
+            "win_rate": 43.3,
+            "rank": 15
+          },
+          {
+            "arena": "agents",
+            "category": "codetovideo",
+            "elo": 1230,
+            "win_rate": 57.3,
+            "rank": 6
+          },
+          {
+            "arena": "agents",
+            "category": "fullstack",
+            "elo": 1191,
+            "win_rate": 47.2,
+            "rank": 19
+          },
+          {
+            "arena": "agents",
+            "category": "htmlslides",
+            "elo": 1076,
+            "win_rate": 46.7,
+            "rank": 14
+          },
+          {
+            "arena": "agents",
+            "category": "mobileapps",
+            "elo": 1173,
+            "win_rate": 46.4,
+            "rank": 27
+          },
+          {
+            "arena": "agents",
+            "category": "pdf",
+            "elo": 1280,
+            "win_rate": 62,
+            "rank": 4
+          },
+          {
+            "arena": "agents",
+            "category": "python-pptxslides",
+            "elo": 1163,
+            "win_rate": 47.5,
+            "rank": 17
+          },
+          {
+            "arena": "agents",
+            "category": "spreadsheet",
+            "elo": 1115,
+            "win_rate": 49.2,
+            "rank": 19
+          },
+          {
+            "arena": "agents",
+            "category": "webapps",
+            "elo": 1193,
+            "win_rate": 47.5,
+            "rank": 22
+          },
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1202,
+            "win_rate": 50,
+            "rank": 50
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1154,
+            "win_rate": 45.9,
+            "rank": 43
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1243,
+            "win_rate": 50.5,
+            "rank": 44
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1234,
+            "win_rate": 51.1,
+            "rank": 45
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1208,
+            "win_rate": 45.4,
+            "rank": 51
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1158,
+            "win_rate": 44.7,
+            "rank": 46
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1241,
+            "win_rate": 50.5,
+            "rank": 45
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1254,
+            "win_rate": 51.5,
+            "rank": 42
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 18.9,
+          "coding_index": 58.6,
+          "agentic_index": 29.5
+        }
+      },
+      "reasoning": {
+        "mandatory": false
+      }
+    },
+    {
+      "id": "minimax/minimax-m3:batch",
+      "canonical_slug": "minimax/minimax-m3-20260531",
+      "hugging_face_id": "MiniMaxAI/Minimax-M3",
+      "name": "MiniMax: MiniMax M3 (batch)",
+      "created": 1780245374,
+      "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
+      "context_length": 524288,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000000224",
+        "completion": "0.00000088",
+        "input_cache_read": "0.0000000448"
+      },
+      "top_provider": {
+        "context_length": 524288,
+        "max_completion_tokens": 512000,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/minimax/minimax-m3-20260531/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/batches"
       ],
       "benchmarks": {
         "design_arena": [
@@ -23064,9 +23702,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000001824",
-        "completion": "0.0000093388",
-        "input_cache_read": "0.00000018"
+        "prompt": "0.0000001539",
+        "completion": "0.0000105539",
+        "input_cache_read": "0.00000015"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -24268,9 +24906,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000894012",
-        "completion": "0.000001788024",
-        "input_cache_read": "0.000000074501"
+        "prompt": "0.000000709572",
+        "completion": "0.000001419144",
+        "input_cache_read": "0.000000059131"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -25734,9 +26372,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
-        "input_cache_read": "0.00000005"
+        "prompt": "0.0000000675",
+        "completion": "0.000000225",
+        "input_cache_read": "0.0000000375"
       },
       "top_provider": {
         "context_length": 262144,
@@ -25904,7 +26542,6 @@
         "include_reasoning",
         "logit_bias",
         "logprobs",
-        "max_completion_tokens",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -38761,9 +39398,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000024",
-        "completion": "0.00000009",
-        "input_cache_read": "0.000000022"
+        "prompt": "0.000000013",
+        "completion": "0.000000048",
+        "input_cache_read": "0.000000012"
       },
       "top_provider": {
         "context_length": 131072,
@@ -44968,7 +45605,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2023-12-31",
-      "expiration_date": "2026-11-15",
+      "expiration_date": "2026-11-20",
       "links": {
         "details": "/api/v1/models/meta-llama/llama-3.2-1b-instruct/endpoints"
       },
@@ -45027,7 +45664,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2023-12-31",
-      "expiration_date": "2026-11-15",
+      "expiration_date": "2026-11-20",
       "links": {
         "details": "/api/v1/models/meta-llama/llama-3.2-3b-instruct/endpoints"
       },
