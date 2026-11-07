@@ -1,6 +1,6 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-11-07T12:09:01.593719+00:00",
+  "fetched_at": "2026-11-07T21:15:14.632779+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
   "model_count": 460,
   "data": [
@@ -1292,9 +1292,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000015",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
+        "input_cache_read": "0.0000000075",
         "overrides": [
           {
             "utc_start": 1500,
@@ -10221,9 +10221,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
-        "input_cache_read": "0.000000042",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
+        "input_cache_read": "0.0000000378",
         "overrides": [
           {
             "utc_start": 0,
@@ -10321,9 +10321,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000285",
-        "completion": "0.0000000923",
-        "input_cache_read": "0.0000000285"
+        "prompt": "0.0000000335",
+        "completion": "0.000000083",
+        "input_cache_read": "0.00000003"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -12374,9 +12374,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000001165",
-        "completion": "0.00000466",
-        "input_cache_read": "0.000000111"
+        "prompt": "0.000000111",
+        "completion": "0.00000444",
+        "input_cache_read": "0.000000106"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -13954,7 +13954,7 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000487",
+        "prompt": "0.0000000434",
         "completion": "0.0000003",
         "input_cache_read": "0.000000035"
       },
@@ -14033,7 +14033,7 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000487",
+        "prompt": "0.0000000434",
         "completion": "0.0000003",
         "input_cache_read": "0.000000035"
       },
@@ -18144,9 +18144,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -25127,9 +25127,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000738282",
-        "completion": "0.000001476564",
-        "input_cache_read": "0.0000000615235"
+        "prompt": "0.000000545664",
+        "completion": "0.000001091328",
+        "input_cache_read": "0.000000045472"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -32328,13 +32328,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000025",
-        "input_cache_read": "0.00000015"
+        "prompt": "0.000000532",
+        "completion": "0.000003325",
+        "input_cache_read": "0.000000209"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 235929,
+        "context_length": 256000,
+        "max_completion_tokens": 65536,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -32369,7 +32369,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-11-18",
       "links": {
         "details": "/api/v1/models/moonshotai/kimi-k2.5-0127/endpoints"
       },
@@ -39621,7 +39621,7 @@
       },
       "pricing": {
         "prompt": "0.000000019",
-        "completion": "0.000000072",
+        "completion": "0.000000069",
         "input_cache_read": "0.000000017"
       },
       "top_provider": {
