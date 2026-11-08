@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-11-08T03:34:05.781014+00:00",
+  "fetched_at": "2026-11-08T12:30:06.874815+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 464,
+  "model_count": 461,
   "data": [
     {
       "id": "liquid/lfm-3-1.7b",
@@ -1919,126 +1919,6 @@
           "low"
         ],
         "default_effort": "max"
-      }
-    },
-    {
-      "id": "inception/mercury-3",
-      "canonical_slug": "inception/mercury-3-20261019",
-      "hugging_face_id": null,
-      "name": "Inception: Mercury 3",
-      "created": 1792158337,
-      "description": "Mercury 3 is a diffusion-based language model from Inception, and the lab's most capable model to date. It is suited for agentic workflows and real-time applications where latency compounds, such...",
-      "context_length": 1000000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.00000035",
-        "input_cache_read": "0.00000001"
-      },
-      "top_provider": {
-        "context_length": 1000000,
-        "max_completion_tokens": 131072,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-11-08",
-      "links": {
-        "details": "/api/v1/models/inception/mercury-3-20261019/endpoints"
-      },
-      "endpoints": [
-        "/api/v1/chat/completions",
-        "/api/v1/completions",
-        "/api/v1/messages",
-        "/api/v1/responses"
-      ],
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 1243,
-            "win_rate": 48.9,
-            "rank": 36
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1232,
-            "win_rate": 45.6,
-            "rank": 50
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1216,
-            "win_rate": 45.5,
-            "rank": 55
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1216,
-            "win_rate": 44.3,
-            "rank": 49
-          },
-          {
-            "arena": "models",
-            "category": "svg",
-            "elo": 1176,
-            "win_rate": 42.7,
-            "rank": 41
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1234,
-            "win_rate": 45.6,
-            "rank": 47
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 1235,
-            "win_rate": 46.1,
-            "rank": 54
-          }
-        ]
-      },
-      "reasoning": {
-        "mandatory": false,
-        "default_enabled": true,
-        "supported_efforts": [
-          "high",
-          "medium",
-          "low",
-          "none"
-        ],
-        "default_effort": "medium"
       }
     },
     {
@@ -8370,8 +8250,8 @@
       },
       "pricing": {
         "prompt": "0.000000051",
-        "completion": "0.000000567",
-        "input_cache_read": "0.000000018"
+        "completion": "0.00000041",
+        "input_cache_read": "0.000000022"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -8499,73 +8379,6 @@
           "none"
         ],
         "default_effort": "high"
-      }
-    },
-    {
-      "id": "inception/mercury-2.5",
-      "canonical_slug": "inception/mercury-2.5-20260908",
-      "hugging_face_id": null,
-      "name": "Inception: Mercury 2.5",
-      "created": 1788892137,
-      "description": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving...",
-      "context_length": 260000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00000004",
-        "completion": "0.00000015",
-        "input_cache_read": "0.000000004"
-      },
-      "top_provider": {
-        "context_length": 260000,
-        "max_completion_tokens": 65536,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-11-08",
-      "links": {
-        "details": "/api/v1/models/inception/mercury-2.5-20260908/endpoints"
-      },
-      "endpoints": [
-        "/api/v1/chat/completions",
-        "/api/v1/completions",
-        "/api/v1/messages",
-        "/api/v1/responses"
-      ],
-      "reasoning": {
-        "mandatory": false,
-        "default_enabled": true,
-        "supported_efforts": [
-          "high",
-          "medium",
-          "low",
-          "none"
-        ],
-        "default_effort": "medium"
       }
     },
     {
@@ -12469,7 +12282,7 @@
       "pricing": {
         "prompt": "0.000000111",
         "completion": "0.00000444",
-        "input_cache_read": "0.000000106"
+        "input_cache_read": "0.000000097"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -16263,9 +16076,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000001084",
+        "prompt": "0.000000997",
         "completion": "0.000006",
-        "input_cache_read": "0.000000267"
+        "input_cache_read": "0.000000246"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -24240,8 +24053,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000001662",
-        "completion": "0.0000101398",
+        "prompt": "0.0000001605",
+        "completion": "0.0000101583",
         "input_cache_read": "0.00000016"
       },
       "top_provider": {
@@ -25444,13 +25257,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000009",
-        "completion": "0.0000015",
-        "input_cache_read": "0.00000025"
+        "prompt": "0.000000261696",
+        "completion": "0.000000523392",
+        "input_cache_read": "0.000000021808"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 393216,
+        "context_length": 1024000,
+        "max_completion_tokens": 384000,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -29497,145 +29310,6 @@
         "default_enabled": false,
         "supported_efforts": [
           "xhigh",
-          "high",
-          "medium",
-          "low",
-          "none"
-        ],
-        "default_effort": "medium"
-      }
-    },
-    {
-      "id": "inception/mercury-2",
-      "canonical_slug": "inception/mercury-2-20260304",
-      "hugging_face_id": null,
-      "name": "Inception: Mercury 2",
-      "created": 1772636275,
-      "description": "Mercury 2 is an extremely fast reasoning LLM, and the first reasoning diffusion LLM (dLLM). Instead of generating tokens sequentially, Mercury 2 produces and refines multiple tokens in parallel, achieving...",
-      "context_length": 128000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.00000075",
-        "input_cache_read": "0.000000025"
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 50000,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools"
-      ],
-      "default_parameters": {
-        "temperature": 0.75,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-11-08",
-      "links": {
-        "details": "/api/v1/models/inception/mercury-2-20260304/endpoints"
-      },
-      "endpoints": [
-        "/api/v1/chat/completions",
-        "/api/v1/completions",
-        "/api/v1/messages",
-        "/api/v1/responses"
-      ],
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 971,
-            "win_rate": 21,
-            "rank": 121
-          },
-          {
-            "arena": "models",
-            "category": "asciiart",
-            "elo": 986,
-            "win_rate": 24.2,
-            "rank": 74
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1017,
-            "win_rate": 21.2,
-            "rank": 126
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1013,
-            "win_rate": 22.7,
-            "rank": 118
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 977,
-            "win_rate": 18.3,
-            "rank": 127
-          },
-          {
-            "arena": "models",
-            "category": "svg",
-            "elo": 1002,
-            "win_rate": 24.9,
-            "rank": 90
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 992,
-            "win_rate": 19.6,
-            "rank": 121
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 1035,
-            "win_rate": 22.3,
-            "rank": 127
-          }
-        ],
-        "artificial_analysis": {
-          "intelligence_index": null,
-          "coding_index": 31.1,
-          "agentic_index": 1.6
-        }
-      },
-      "reasoning": {
-        "mandatory": false,
-        "default_enabled": true,
-        "supported_efforts": [
           "high",
           "medium",
           "low",
@@ -38690,6 +38364,7 @@
       "per_request_limits": null,
       "supported_parameters": [
         "frequency_penalty",
+        "logprobs",
         "max_tokens",
         "presence_penalty",
         "repetition_penalty",
@@ -38701,6 +38376,7 @@
         "tool_choice",
         "tools",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {},
@@ -39937,9 +39613,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000025",
-        "completion": "0.000000092",
-        "input_cache_read": "0.000000022"
+        "prompt": "0.000000027",
+        "completion": "0.000000098",
+        "input_cache_read": "0.000000024"
       },
       "top_provider": {
         "context_length": 131072,
