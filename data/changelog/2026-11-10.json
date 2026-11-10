@@ -1,68 +1,32 @@
 {
-  "generated_at": "2026-11-10T00:59:57.591519+00:00",
+  "generated_at": "2026-11-10T13:59:54.193996+00:00",
   "changes": [
     {
-      "model_id": "anthropic/claude-fable-5.2:batch",
+      "model_id": "together_ai/elorian-labs/glimpse-1.0",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 4.0,
-        "output_per_million": 20.0
+        "input_per_million": 0.6,
+        "output_per_million": 3.0
       },
       "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
     },
     {
-      "model_id": "us-gov.anthropic.claude-mythos-5-2",
+      "model_id": "nex-agi/nex-n2.6",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 9.6,
-        "output_per_million": 48.0
+        "input_per_million": 0.12,
+        "output_per_million": 0.4
       },
       "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
     },
     {
-      "model_id": "global.anthropic.claude-fable-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.0,
-        "output_per_million": 40.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "bedrock/us-gov-west-1/anthropic.claude-fable-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 9.6,
-        "output_per_million": 48.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "minimax/MiniMax-M3.1-Flash",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.15,
-        "output_per_million": 0.6
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "vertex_ai/claude-fable-5-2@default",
+      "model_id": "azure_ai/claude-mythos-5-2",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
@@ -71,10 +35,10 @@
         "output_per_million": 40.0
       },
       "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
     },
     {
-      "model_id": "vertex_ai/claude-fable-5-2",
+      "model_id": "claude-mythos-5-2",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
@@ -83,202 +47,10 @@
         "output_per_million": 40.0
       },
       "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
     },
     {
-      "model_id": "bedrock/us-gov-east-1/anthropic.claude-fable-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 9.6,
-        "output_per_million": 48.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "bedrock/us-gov-east-1/anthropic.claude-mythos-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 9.6,
-        "output_per_million": 48.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "eu.anthropic.claude-mythos-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.8,
-        "output_per_million": 44.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "global.anthropic.claude-mythos-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.0,
-        "output_per_million": 40.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "meta/muse-ember",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.1,
-        "output_per_million": 0.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "anthropic.claude-fable-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.0,
-        "output_per_million": 40.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "anthropic.claude-mythos-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.0,
-        "output_per_million": 40.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "us.anthropic.claude-fable-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.8,
-        "output_per_million": 44.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "azure_ai/claude-fable-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.0,
-        "output_per_million": 40.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "bedrock/us-gov-west-1/anthropic.claude-mythos-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 9.6,
-        "output_per_million": 48.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "github_copilot/claude-fable-5.2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.0,
-        "output_per_million": 40.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "eu.anthropic.claude-fable-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.8,
-        "output_per_million": 44.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "us.anthropic.claude-mythos-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.8,
-        "output_per_million": 44.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "claude-fable-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.0,
-        "output_per_million": 40.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "us-gov.anthropic.claude-fable-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 9.6,
-        "output_per_million": 48.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "anthropic/claude-fable-5.2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.0,
-        "output_per_million": 40.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "azure_ai/claude-fable-5-2-fast",
+      "model_id": "azure_ai/claude-mythos-5-2-fast",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
@@ -287,356 +59,143 @@
         "output_per_million": 80.0
       },
       "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
     },
     {
-      "model_id": "thinkingmachines/inkling-2-small:free",
+      "model_id": "meta/muse-ember-1.0",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.0,
-        "output_per_million": 0.0
+        "input_per_million": 0.1,
+        "output_per_million": 0.5
       },
       "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
     },
     {
-      "model_id": "bedrock/claude_platform/claude-fable-5-2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 8.0,
-        "output_per_million": 40.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "stealth/crouton-alpha",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 0.0,
-        "output_per_million": 0.0
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "friendliai/MiniMaxAI/MiniMax-M2.5",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 0.3,
-        "output_per_million": 1.2
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "minimax/minimax-m1",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 0.55,
-        "output_per_million": 2.2
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "friendliai/deepseek-ai/DeepSeek-V3.2",
-      "change_type": "removed_model",
-      "field": "model",
-      "old_value": {
-        "input_per_million": 0.5,
-        "output_per_million": 1.5
-      },
-      "new_value": null,
-      "percent_change": null,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "google/gemma-4-26b-a4b-it",
+      "model_id": "z-ai/glm-5.2:batch",
       "change_type": "price_decrease",
       "field": "input_per_million",
-      "old_value": 0.09,
-      "new_value": 0.08,
-      "percent_change": -11.11,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
+      "old_value": 0.623,
+      "new_value": 0.527,
+      "percent_change": -15.41,
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
     },
     {
-      "model_id": "google/gemma-4-26b-a4b-it",
+      "model_id": "z-ai/glm-5.2:batch",
       "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.3,
-      "new_value": 0.1,
-      "percent_change": -66.67,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
+      "old_value": 1.271,
+      "new_value": 1.075,
+      "percent_change": -15.42,
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
     },
     {
-      "model_id": "xiaomi/mimo-v2.5-pro",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 1050000,
-      "new_value": 1024000,
-      "percent_change": -2.48,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "deepinfra/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.085,
-      "new_value": 0.075,
-      "percent_change": -11.76,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "minimax/minimax-m3.1-flash",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.15,
-      "new_value": 0.075,
-      "percent_change": -50.0,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "minimax/minimax-m3.1-flash",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.6,
-      "new_value": 0.3,
-      "percent_change": -50.0,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "minimax/minimax-m2.7",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 204800,
-      "new_value": 196608,
-      "percent_change": -4.0,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "~moonshotai/kimi-latest",
+      "model_id": "z-ai/glm-5.2",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.1634,
-      "new_value": 0.1719,
-      "percent_change": 5.2,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
+      "old_value": 0.006,
+      "new_value": 0.01,
+      "percent_change": 66.67,
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
     },
     {
-      "model_id": "~moonshotai/kimi-latest",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 10.5539,
-      "new_value": 9.3388,
-      "percent_change": -11.51,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "nvidia/nemotron-3.5-super-vl",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.5,
-      "new_value": 0.47,
-      "percent_change": -6.0,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "minimax/minimax-m2.5",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 204800,
-      "new_value": 200000,
-      "percent_change": -2.34,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-v4-pro",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.894,
-      "new_value": 0.9553,
-      "percent_change": 6.86,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-v4-pro",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 1.788,
-      "new_value": 1.9105,
-      "percent_change": 6.85,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "~anthropic/claude-fable-latest",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 10.0,
-      "new_value": 8.0,
-      "percent_change": -20.0,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "~anthropic/claude-fable-latest",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 50.0,
-      "new_value": 40.0,
-      "percent_change": -20.0,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k3:batch",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.883,
-      "new_value": 2.28,
-      "percent_change": 158.21,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k3:batch",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 6.0,
-      "new_value": 11.4,
-      "percent_change": 90.0,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-14b",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.12,
-      "new_value": 0.1,
-      "percent_change": -16.67,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "qwen/qwen3-14b",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.24,
-      "new_value": 0.22,
-      "percent_change": -8.33,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "wandb/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.13,
-      "new_value": 0.3,
-      "percent_change": 130.77,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "wandb/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 0.65,
-      "new_value": 1.2,
-      "percent_change": 84.62,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-v4.1-flash:batch",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.011,
-      "new_value": 0.112,
-      "percent_change": 918.18,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-v4.1-flash:batch",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 0.2,
-      "new_value": 0.336,
-      "percent_change": 68.0,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "meta-llama/llama-3.3-70b-instruct",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.59,
-      "new_value": 0.71,
-      "percent_change": 20.34,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "meta-llama/llama-3.3-70b-instruct",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.79,
-      "new_value": 0.71,
-      "percent_change": -10.13,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.3-flash:batch",
-      "change_type": "price_decrease",
-      "field": "input_per_million",
-      "old_value": 0.05,
-      "new_value": 0.03,
-      "percent_change": -40.0,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.3-flash:batch",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.18,
-      "new_value": 0.061,
-      "percent_change": -66.11,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "stepfun/step-5-preview",
-      "change_type": "context_change",
-      "field": "context_window",
-      "old_value": 1048576,
-      "new_value": 1000000,
-      "percent_change": -4.63,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.3-flash",
+      "model_id": "~z-ai/glm-flash-latest",
       "change_type": "price_increase",
       "field": "input_per_million",
       "old_value": 0.0335,
-      "new_value": 0.15,
-      "percent_change": 347.76,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
+      "new_value": 0.0399,
+      "percent_change": 19.1,
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
+    },
+    {
+      "model_id": "~z-ai/glm-flash-latest",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.083,
+      "new_value": 0.0784,
+      "percent_change": -5.54,
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
     },
     {
       "model_id": "z-ai/glm-5.3-flash",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.15,
+      "new_value": 0.0399,
+      "percent_change": -73.4,
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.3-flash",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.5,
+      "new_value": 0.0784,
+      "percent_change": -84.32,
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
+    },
+    {
+      "model_id": "minimax/minimax-m3.1-flash",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.075,
+      "new_value": 0.15,
+      "percent_change": 100.0,
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
+    },
+    {
+      "model_id": "minimax/minimax-m3.1-flash",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 0.083,
+      "old_value": 0.3,
+      "new_value": 0.6,
+      "percent_change": 100.0,
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.1719,
+      "new_value": 0.1824,
+      "percent_change": 6.11,
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 1024000,
+      "new_value": 1048575,
+      "percent_change": 2.4,
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.051,
+      "new_value": 0.006,
+      "percent_change": -88.24,
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.567,
       "new_value": 0.5,
-      "percent_change": 502.41,
-      "detected_at": "2026-11-10T00:59:57.585345+00:00"
+      "percent_change": -11.82,
+      "detected_at": "2026-11-10T13:59:54.189889+00:00"
     }
   ],
   "summary": {
-    "price_increases": 12,
-    "price_decreases": 14,
-    "new_models": 26,
-    "removed_models": 4,
-    "other_changes": 4
+    "price_increases": 5,
+    "price_decreases": 7,
+    "new_models": 6,
+    "removed_models": 0,
+    "other_changes": 1
   }
 }
