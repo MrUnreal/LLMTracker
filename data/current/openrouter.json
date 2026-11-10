@@ -1,9 +1,305 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-11-10T13:59:53.507645+00:00",
+  "fetched_at": "2026-11-10T22:40:37.145664+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 465,
+  "model_count": 469,
   "data": [
+    {
+      "id": "baidu/ernie-5.5-flash-preview",
+      "canonical_slug": "baidu/ernie-5.5-flash-preview-20261110",
+      "hugging_face_id": "baidu/ERNIE-5.5-Flash-Preview",
+      "name": "Baidu: ERNIE-5.5-Flash-Preview",
+      "created": 1794333533,
+      "description": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total...",
+      "context_length": 1024000,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000028",
+        "completion": "0.00000113",
+        "input_cache_read": "0.000000028"
+      },
+      "top_provider": {
+        "context_length": 1024000,
+        "max_completion_tokens": 921600,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/baidu/ernie-5.5-flash-preview-20261110/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
+      "reasoning": {
+        "mandatory": true,
+        "default_enabled": true,
+        "supported_efforts": [
+          "high"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
+      "id": "baidu/ernie-light-dt-1.0-intl",
+      "canonical_slug": "baidu/ernie-light-dt-1.0-intl-20261110",
+      "hugging_face_id": null,
+      "name": "Baidu: ERNIE-Light-DT-1.0",
+      "created": 1794331260,
+      "description": "ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mechanism developed by...",
+      "context_length": 1024000,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000113",
+        "completion": "0.00000394",
+        "input_cache_read": "0.000000113"
+      },
+      "top_provider": {
+        "context_length": 1024000,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/baidu/ernie-light-dt-1.0-intl-20261110/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "low",
+          "none"
+        ],
+        "default_effort": "max"
+      }
+    },
+    {
+      "id": "google/gemini-4-carbon",
+      "canonical_slug": "google/gemini-4-carbon-20261110",
+      "hugging_face_id": null,
+      "name": "Google: Gemini 4 Carbon",
+      "created": 1794326871,
+      "description": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": [
+          "audio",
+          "file",
+          "image",
+          "text",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Gemini",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.00001",
+        "image": "0.000002",
+        "audio": "0.000002",
+        "input_audio_cache": "0.0000001",
+        "web_search": "0.014",
+        "internal_reasoning": "0.00001",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.0000001875"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/google/gemini-4-carbon-20261110/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
+      "id": "google/gemini-4-carbon:batch",
+      "canonical_slug": "google/gemini-4-carbon-20261110",
+      "hugging_face_id": null,
+      "name": "Google: Gemini 4 Carbon (batch)",
+      "created": 1794326871,
+      "description": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": [
+          "audio",
+          "file",
+          "image",
+          "text",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Gemini",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000005",
+        "image": "0.000001",
+        "audio": "0.000001",
+        "input_audio_cache": "0.00000005",
+        "web_search": "0.014",
+        "internal_reasoning": "0.000005",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.0000001875"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/google/gemini-4-carbon-20261110/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/batches"
+      ],
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "medium"
+      }
+    },
     {
       "id": "nex-agi/nex-n2.6",
       "canonical_slug": "nex-agi/nex-n2.6-20261110",
@@ -359,6 +655,7 @@
         "reasoning_effort",
         "repetition_penalty",
         "response_format",
+        "seed",
         "structured_outputs",
         "temperature",
         "tool_choice",
@@ -1626,9 +1923,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000015",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
+        "input_cache_read": "0.0000000075",
         "overrides": [
           {
             "utc_start": 1500,
@@ -2481,8 +2778,8 @@
         "input_cache_read": "0.00000015"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "context_length": 1000000,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -3503,6 +3800,7 @@
         "reasoning_effort",
         "repetition_penalty",
         "response_format",
+        "seed",
         "structured_outputs",
         "temperature",
         "tool_choice",
@@ -8653,9 +8951,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000006",
-        "completion": "0.0000005",
-        "input_cache_read": "0.000000005"
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
+        "input_cache_read": "0.000000006"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -9544,6 +9842,7 @@
         "reasoning_effort",
         "repetition_penalty",
         "response_format",
+        "seed",
         "structured_outputs",
         "temperature",
         "tool_choice",
@@ -10610,9 +10909,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
-        "input_cache_read": "0.000000042",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
+        "input_cache_read": "0.0000000378",
         "overrides": [
           {
             "utc_start": 0,
@@ -11007,9 +11306,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000003",
+        "prompt": "0.000000042",
         "completion": "0.000000061",
-        "input_cache_read": "0.000000013"
+        "input_cache_read": "0.000000018"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -18548,9 +18847,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -19498,9 +19797,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000001",
+        "prompt": "0.000000007",
         "completion": "0.0000068",
-        "input_cache_read": "0.000000009"
+        "input_cache_read": "0.000000006"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -24439,8 +24738,8 @@
       "id": "~google/gemini-pro-latest",
       "canonical_slug": "~google/gemini-pro-latest",
       "alias_target": {
-        "name": "Google: Gemini 4 Argon",
-        "slug": "google/gemini-4-argon"
+        "name": "Google: Gemini 4 Carbon",
+        "slug": "google/gemini-4-carbon"
       },
       "hugging_face_id": null,
       "name": "Google: Gemini Pro Latest",
@@ -25753,9 +26052,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
-        "input_cache_read": "0.000000079605"
+        "prompt": "0.000000887226",
+        "completion": "0.000001774452",
+        "input_cache_read": "0.0000000739355"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -47837,9 +48136,9 @@
         "instruct_type": "alpaca"
       },
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.00000075",
-        "input_cache_read": "0.0000004"
+        "prompt": "0.0000003",
+        "completion": "0.0000005",
+        "input_cache_read": "0.0000003"
       },
       "top_provider": {
         "context_length": 8000,
@@ -47898,9 +48197,9 @@
         "instruct_type": "alpaca"
       },
       "pricing": {
-        "prompt": "0.00000035",
-        "completion": "0.00000065",
-        "input_cache_read": "0.00000035"
+        "prompt": "0.0000003",
+        "completion": "0.0000005",
+        "input_cache_read": "0.0000002"
       },
       "top_provider": {
         "context_length": 6144,
