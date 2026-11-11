@@ -1,8 +1,8 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-11-11T13:16:21.476124+00:00",
+  "fetched_at": "2026-11-11T23:53:12.938929+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 466,
+  "model_count": 467,
   "data": [
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
@@ -2170,9 +2170,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000015",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
+        "input_cache_read": "0.0000000075",
         "overrides": [
           {
             "utc_start": 1500,
@@ -4724,17 +4724,13 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
-        "logit_bias",
         "logprobs",
         "max_tokens",
-        "min_p",
         "presence_penalty",
         "reasoning",
         "repetition_penalty",
-        "response_format",
         "seed",
         "stop",
-        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -4759,6 +4755,59 @@
         "mandatory": false,
         "default_enabled": true
       }
+    },
+    {
+      "id": "unbiased/pareto-26.10-preview",
+      "canonical_slug": "unbiased/pareto-26.10-preview-20260929",
+      "hugging_face_id": null,
+      "name": "Pareto 26.10 Preview",
+      "created": 1790863623,
+      "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000008",
+        "completion": "0.0000032",
+        "input_cache_read": "0.00000003"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "max_tokens",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/unbiased/pareto-26.10-preview-20260929/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ]
     },
     {
       "id": "openai/gpt-6.1-sol-pro",
@@ -11087,9 +11136,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
-        "input_cache_read": "0.000000042",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
+        "input_cache_read": "0.0000000378",
         "overrides": [
           {
             "utc_start": 0,
@@ -18953,9 +19002,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -26160,9 +26209,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000894012",
-        "completion": "0.000001788024",
-        "input_cache_read": "0.000000074501"
+        "prompt": "0.00000095526",
+        "completion": "0.00000191052",
+        "input_cache_read": "0.000000079605"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -37625,7 +37674,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "links": {
         "details": "/api/v1/models/openai/gpt-5-image/endpoints"
       },
@@ -42832,7 +42881,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2024-06-30",
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "links": {
         "details": "/api/v1/models/openai/o3-pro-2025-06-10/endpoints"
       },
@@ -43520,7 +43569,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2024-06-30",
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "links": {
         "details": "/api/v1/models/openai/o3-2025-04-16/endpoints"
       },
@@ -43619,7 +43668,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2024-06-30",
-      "expiration_date": null,
+      "expiration_date": "2026-12-11",
       "links": {
         "details": "/api/v1/models/openai/o3-2025-04-16/endpoints"
       },
@@ -45037,7 +45086,7 @@
       },
       "pricing": {
         "prompt": "0.00000008",
-        "completion": "0.00000045",
+        "completion": "0.00000035",
         "input_cache_read": "0.00000004"
       },
       "top_provider": {
