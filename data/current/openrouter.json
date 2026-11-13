@@ -1,9 +1,73 @@
 {
   "source": "openrouter",
-  "fetched_at": "2026-11-13T13:41:09.966585+00:00",
+  "fetched_at": "2026-11-13T23:03:18.299845+00:00",
   "api_url": "https://openrouter.ai/api/v1/models",
-  "model_count": 470,
+  "model_count": 471,
   "data": [
+    {
+      "id": "inclusionai/ling-3.2-flash:free",
+      "canonical_slug": "inclusionai/ling-3.2-flash-20261113",
+      "hugging_face_id": "inclusionAI/Ling-3.2-flash",
+      "name": "inclusionAI: Ling 3.2 Flash (free)",
+      "created": 1794591958,
+      "description": "Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 262144,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/inclusionai/ling-3.2-flash-20261113/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
+      }
+    },
     {
       "id": "google/gemini-4-hydrogen",
       "canonical_slug": "google/gemini-4-hydrogen-20261112",
@@ -2832,9 +2896,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000015",
+        "prompt": "0.000000075",
+        "completion": "0.0000003",
+        "input_cache_read": "0.0000000075",
         "overrides": [
           {
             "utc_start": 1500,
@@ -2934,13 +2998,94 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000038",
-        "completion": "0.0000005",
-        "input_cache_read": "0.00000001"
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "input_cache_read": "0.000000003",
+        "overrides": [
+          {
+            "utc_days": [
+              "saturday",
+              "sunday"
+            ],
+            "prompt": "0.00000015",
+            "completion": "0.0000006",
+            "input_cache_read": "0.000000003"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 0,
+            "utc_end": 100,
+            "prompt": "0.00000015",
+            "completion": "0.0000006",
+            "input_cache_read": "0.000000003"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 100,
+            "utc_end": 400,
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.000000006"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 400,
+            "utc_end": 600,
+            "prompt": "0.00000015",
+            "completion": "0.0000006",
+            "input_cache_read": "0.000000003"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 600,
+            "utc_end": 1000,
+            "prompt": "0.0000003",
+            "completion": "0.0000012",
+            "input_cache_read": "0.000000006"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 1000,
+            "utc_end": 0,
+            "prompt": "0.00000015",
+            "completion": "0.0000006",
+            "input_cache_read": "0.000000003"
+          }
+        ]
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 943718,
+        "max_completion_tokens": 393216,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -8932,6 +9077,7 @@
         "reasoning",
         "reasoning_effort",
         "response_format",
+        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -9857,13 +10003,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000507",
-        "completion": "0.0000002028",
-        "input_cache_read": "0.000000001014"
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
+        "input_cache_read": "0.000000006"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 393216,
+        "max_completion_tokens": 943718,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -11815,9 +11961,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
-        "input_cache_read": "0.000000042",
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
+        "input_cache_read": "0.0000000378",
         "overrides": [
           {
             "utc_start": 0,
@@ -17316,9 +17462,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000002",
+        "prompt": "0.000000192",
         "completion": "0.000016",
-        "input_cache_read": "0.00000019"
+        "input_cache_read": "0.000000182"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -17331,10 +17477,8 @@
         "include_reasoning",
         "logit_bias",
         "logprobs",
-        "max_completion_tokens",
         "max_tokens",
         "min_p",
-        "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
         "reasoning_effort",
@@ -19520,9 +19664,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -25538,10 +25682,8 @@
         "include_reasoning",
         "logit_bias",
         "logprobs",
-        "max_completion_tokens",
         "max_tokens",
         "min_p",
-        "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
         "reasoning_effort",
@@ -28199,9 +28341,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000003",
-        "input_cache_read": "0.00000005"
+        "prompt": "0.0000000675",
+        "completion": "0.000000225",
+        "input_cache_read": "0.0000000375"
       },
       "top_provider": {
         "context_length": 262144,
@@ -30195,9 +30337,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000021",
-        "completion": "0.000000031",
-        "input_cache_read": "0.000000019"
+        "prompt": "0.000000163",
+        "completion": "0.000000239",
+        "input_cache_read": "0.000000146"
       },
       "top_provider": {
         "context_length": 262144,
@@ -46394,12 +46536,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000032",
-        "completion": "0.00000089"
+        "prompt": "0.0000002574",
+        "completion": "0.0000010287"
       },
       "top_provider": {
-        "context_length": 163840,
-        "max_completion_tokens": 16384,
+        "context_length": 128000,
+        "max_completion_tokens": 16000,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -47158,12 +47300,12 @@
         "instruct_type": "llama3"
       },
       "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.00000033"
+        "prompt": "0.0000000509",
+        "completion": "0.000000335"
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 117964,
+        "context_length": 80000,
+        "max_completion_tokens": 72000,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -47186,7 +47328,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2023-12-31",
-      "expiration_date": null,
+      "expiration_date": "2026-11-20",
       "links": {
         "details": "/api/v1/models/meta-llama/llama-3.2-3b-instruct/endpoints"
       },
