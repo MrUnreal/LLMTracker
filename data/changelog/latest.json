@@ -1,260 +1,20 @@
 {
-  "generated_at": "2026-11-17T15:14:24.942171+00:00",
+  "generated_at": "2026-11-18T00:15:20.849360+00:00",
   "changes": [
     {
-      "model_id": "bedrock_mantle/anthropic.claude-mythos-5",
+      "model_id": "azure/gpt-6.2-sol",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 11.0,
-        "output_per_million": 55.0
+        "input_per_million": 2.0,
+        "output_per_million": 10.0
       },
       "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "bedrock_mantle/mistral.ministral-3-8b-instruct",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.15,
-        "output_per_million": 0.15
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "vispark/vision-small",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.05,
-        "output_per_million": 3.16
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "vispark/vision-medium",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 4.21,
-        "output_per_million": 12.63
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/mistral.magistral-small-2509",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.5,
-        "output_per_million": 1.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/moonshotai.kimi-k2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.6,
-        "output_per_million": 3.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/nvidia.nemotron-nano-12b-v2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.2,
-        "output_per_million": 0.6
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/mistral.mistral-large-3-675b-instruct",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.5,
-        "output_per_million": 1.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock/mantle/anthropic.claude-mythos-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 11.0,
-        "output_per_million": 55.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/writer.palmyra-vision-7b",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.15,
-        "output_per_million": 0.6
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/google.gemma-3-12b-it",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.09,
-        "output_per_million": 0.29
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/zai.glm-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.0,
-        "output_per_million": 3.2
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/anthropic.claude-opus-4-8",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 27.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/google.gemma-3-27b-it",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.23,
-        "output_per_million": 0.38
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/zai.glm-4.7-flash",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.07,
-        "output_per_million": 0.4
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/nvidia.nemotron-nano-3-30b",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.06,
-        "output_per_million": 0.24
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/deepseek.v3.2",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.62,
-        "output_per_million": 1.85
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/mistral.ministral-3-14b-instruct",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.2,
-        "output_per_million": 0.2
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock/mantle/anthropic.claude-opus-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 27.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/anthropic.claude-fable-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 11.0,
-        "output_per_million": 55.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock/mantle/anthropic.claude-fable-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 11.0,
-        "output_per_million": 55.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/mistral.ministral-3-3b-instruct",
+      "model_id": "snowflake/llama3.2-1b",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
@@ -263,190 +23,34 @@
         "output_per_million": 0.1
       },
       "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "bedrock_mantle/nvidia.nemotron-nano-9b-v2",
+      "model_id": "openai/gpt-6.2-sol-pro",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.06,
-        "output_per_million": 0.23
+        "input_per_million": 2.0,
+        "output_per_million": 10.0
       },
       "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "bedrock_mantle/mistral.devstral-2-123b",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.4,
-        "output_per_million": 2.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/google.gemma-3-4b-it",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.04,
-        "output_per_million": 0.08
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/anthropic.claude-sonnet-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 2.2,
-        "output_per_million": 11.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock/mantle/anthropic.claude-opus-4-7",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 27.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock/mantle/anthropic.claude-opus-5-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 4.4,
-        "output_per_million": 22.0
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/qwen.qwen3-coder-next",
+      "model_id": "github_copilot/mai-code-2",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
         "input_per_million": 0.5,
-        "output_per_million": 1.2
+        "output_per_million": 2.5
       },
       "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "bedrock_mantle/zai.glm-4.7",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.6,
-        "output_per_million": 2.2
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/anthropic.claude-opus-4-7",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 27.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/nvidia.nemotron-super-3-120b",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.15,
-        "output_per_million": 0.65
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "vispark/vision-large",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 7.37,
-        "output_per_million": 22.11
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/minimax.minimax-m2.5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.3,
-        "output_per_million": 1.2
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/anthropic.claude-opus-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 27.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/mistral.voxtral-mini-3b-2507",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 0.04,
-        "output_per_million": 0.04
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock/mantle/anthropic.claude-haiku-4-5",
-      "change_type": "new_model",
-      "field": "model",
-      "old_value": null,
-      "new_value": {
-        "input_per_million": 1.1,
-        "output_per_million": 5.5
-      },
-      "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock/mantle/anthropic.claude-sonnet-5",
+      "model_id": "azure/us/gpt-6.2-sol",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
@@ -455,232 +59,695 @@
         "output_per_million": 11.0
       },
       "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "bedrock_mantle/minimax.minimax-m2",
+      "model_id": "bedrock/mantle/anthropic.claude-haiku-5-5",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.3,
-        "output_per_million": 1.2
+        "input_per_million": 0.11,
+        "output_per_million": 0.55
       },
       "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "bedrock_mantle/minimax.minimax-m2.1",
+      "model_id": "azure/us/gpt-6.2-astra",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.3,
-        "output_per_million": 1.2
+        "input_per_million": 8.8,
+        "output_per_million": 44.0
       },
       "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "bedrock_mantle/mistral.voxtral-small-24b-2507",
+      "model_id": "openai/gpt-6.2-astra:batch",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 0.1,
-        "output_per_million": 0.3
+        "input_per_million": 4.0,
+        "output_per_million": 20.0
       },
       "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "bedrock/mantle/anthropic.claude-opus-4-8",
+      "model_id": "gpt-6.2-sol",
       "change_type": "new_model",
       "field": "model",
       "old_value": null,
       "new_value": {
-        "input_per_million": 5.5,
-        "output_per_million": 27.5
+        "input_per_million": 2.0,
+        "output_per_million": 10.0
       },
       "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "bedrock/us-gov-west-1/claude-sonnet-4-5-20250929-v1:0",
-      "change_type": "removed_model",
+      "model_id": "databricks/system.ai.gemini-4-hydrogen",
+      "change_type": "new_model",
       "field": "model",
-      "old_value": {
-        "input_per_million": 3.6,
-        "output_per_million": 18.0
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.5,
+        "output_per_million": 7.5
       },
-      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0",
-      "change_type": "removed_model",
+      "model_id": "azure_ai/Microsoft-Decision-1.1",
+      "change_type": "new_model",
       "field": "model",
-      "old_value": {
-        "input_per_million": 3.6,
-        "output_per_million": 18.0
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.042,
+        "output_per_million": 0.0
       },
-      "new_value": null,
       "percent_change": null,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "openai/gpt-6.2-astra-pro:batch",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 4.0,
+        "output_per_million": 20.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "snowflake/mistral-7b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.2
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "us.openai.gpt-6.2-sol",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.2,
+        "output_per_million": 11.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/openai.gpt-6.2-sol",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.2,
+        "output_per_million": 11.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "github_copilot/mai-code-2-flash",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.05,
+        "output_per_million": 0.25
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "openai/gpt-6.2-sol:batch",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.0,
+        "output_per_million": 5.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "azure/apac/gpt-6.2-sol",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.4,
+        "output_per_million": 12.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "openai.gpt-6.2-sol",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.0,
+        "output_per_million": 10.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "bedrock_mantle/openai.gpt-6.2-astra",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 8.8,
+        "output_per_million": 44.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "bedrock/mantle/anthropic.claude-sonnet-5-5",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.2,
+        "output_per_million": 11.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "eu.cohere.embed-v4:0",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.12,
+        "output_per_million": 0.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "openai.gpt-6.2-astra",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 8.0,
+        "output_per_million": 40.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "gpt-6.2-astra",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 8.0,
+        "output_per_million": 40.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "openai/gpt-6.2-astra-pro",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 8.0,
+        "output_per_million": 40.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "global.openai.gpt-6.2-astra",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 8.0,
+        "output_per_million": 40.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "gpt-6.2-astra-law",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 8.0,
+        "output_per_million": 40.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "azure/apac/gpt-6.2-astra",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 9.6,
+        "output_per_million": 48.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "azure/eu/gpt-6.2-sol",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.4,
+        "output_per_million": 12.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "openai/gpt-6.2-astra",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 8.0,
+        "output_per_million": 40.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "azure/gpt-6.2-astra",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 8.0,
+        "output_per_million": 40.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "azure/eu/gpt-6.2-astra",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 9.6,
+        "output_per_million": 48.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "openai/gpt-6.2-sol-pro:batch",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 1.0,
+        "output_per_million": 5.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "openai/gpt-6.2-sol",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.0,
+        "output_per_million": 10.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "snowflake/llama3.2-3b",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 0.15,
+        "output_per_million": 0.15
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "us.openai.gpt-6.2-astra",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 8.8,
+        "output_per_million": 44.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "global.openai.gpt-6.2-sol",
+      "change_type": "new_model",
+      "field": "model",
+      "old_value": null,
+      "new_value": {
+        "input_per_million": 2.0,
+        "output_per_million": 10.0
+      },
+      "percent_change": null,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "~openai/gpt-astra-latest",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 10.0,
+      "new_value": 8.0,
+      "percent_change": -20.0,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "~openai/gpt-astra-latest",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 50.0,
+      "new_value": 40.0,
+      "percent_change": -20.0,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.09,
+      "new_value": 0.0765,
+      "percent_change": -15.0,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.3,
+      "new_value": 0.255,
+      "percent_change": -15.0,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "mistralai/mistral-medium-3.1",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.4,
+      "new_value": 0.44,
+      "percent_change": 10.0,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "mistralai/mistral-medium-3.1",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 2.0,
+      "new_value": 2.2,
+      "percent_change": 10.0,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "mistralai/mistral-small-3.2-24b-instruct",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.1,
+      "new_value": 0.075,
+      "percent_change": -25.0,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "mistralai/mistral-small-3.2-24b-instruct",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.3,
+      "new_value": 0.2,
+      "percent_change": -33.33,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "moonshotai/kimi-k3",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.192,
+      "new_value": 0.2,
+      "percent_change": 4.17,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "google/gemma-3-27b-it",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 0.35,
+      "new_value": 0.45,
+      "percent_change": 28.57,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "multimodalembedding",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 2048,
+      "new_value": 32,
+      "percent_change": -98.44,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
       "model_id": "openai/gpt-oss-20b",
-      "change_type": "price_decrease",
+      "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.03,
-      "new_value": 0.018,
-      "percent_change": -40.0,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "old_value": 0.018,
+      "new_value": 0.075,
+      "percent_change": 316.67,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
       "model_id": "openai/gpt-oss-20b",
-      "change_type": "price_decrease",
-      "field": "output_per_million",
-      "old_value": 0.13,
-      "new_value": 0.09,
-      "percent_change": -30.77,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.3-flash",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.0399,
-      "new_value": 0.15,
-      "percent_change": 275.94,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "z-ai/glm-5.3-flash",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 0.0784,
-      "new_value": 0.5,
-      "percent_change": 537.76,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "old_value": 0.09,
+      "new_value": 0.3,
+      "percent_change": 233.33,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "bedrock_mantle/anthropic.claude-haiku-4-5",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 1.0,
-      "new_value": 1.1,
-      "percent_change": 10.0,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "bedrock_mantle/anthropic.claude-haiku-4-5",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 5.0,
-      "new_value": 5.5,
-      "percent_change": 10.0,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "minimax/minimax-m3.1-flash",
+      "model_id": "qwen/qwen3.8-27b",
       "change_type": "price_decrease",
       "field": "input_per_million",
       "old_value": 0.15,
-      "new_value": 0.075,
-      "percent_change": -50.0,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "new_value": 0.06,
+      "percent_change": -60.0,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "minimax/minimax-m3.1-flash",
+      "model_id": "qwen/qwen3.8-27b",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 1.875,
+      "new_value": 2.2,
+      "percent_change": 17.33,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "multimodalembedding@001",
+      "change_type": "context_change",
+      "field": "context_window",
+      "old_value": 2048,
+      "new_value": 32,
+      "percent_change": -98.44,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.3-flash",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.15,
+      "new_value": 0.0399,
+      "percent_change": -73.4,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "z-ai/glm-5.3-flash",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.5,
+      "new_value": 0.0784,
+      "percent_change": -84.32,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.09,
+      "new_value": 0.1,
+      "percent_change": 11.11,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "snowflake/openai-gpt-5-nano",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.15,
+      "new_value": 0.06,
+      "percent_change": -60.0,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "snowflake/openai-gpt-5-nano",
       "change_type": "price_decrease",
       "field": "output_per_million",
       "old_value": 0.6,
-      "new_value": 0.3,
-      "percent_change": -50.0,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "new_value": 0.44,
+      "percent_change": -26.67,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "qwen/qwen3.5-9b",
+      "model_id": "snowflake/llama3.1-8b",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.24,
+      "new_value": 0.22,
+      "percent_change": -8.33,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "snowflake/llama3.1-8b",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 0.24,
+      "new_value": 0.22,
+      "percent_change": -8.33,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "mistralai/mistral-medium-3",
       "change_type": "price_increase",
       "field": "input_per_million",
-      "old_value": 0.159,
-      "new_value": 0.17,
-      "percent_change": 6.92,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "old_value": 0.4,
+      "new_value": 0.44,
+      "percent_change": 10.0,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "mistralai/mistral-medium-3",
+      "change_type": "price_increase",
+      "field": "output_per_million",
+      "old_value": 2.0,
+      "new_value": 2.2,
+      "percent_change": 10.0,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3.5-27b",
+      "change_type": "price_increase",
+      "field": "input_per_million",
+      "old_value": 0.26,
+      "new_value": 0.3,
+      "percent_change": 15.38,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3.5-27b",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 2.6,
+      "new_value": 2.4,
+      "percent_change": -7.69,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
       "model_id": "qwen/qwen3.5-9b",
-      "change_type": "price_increase",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.17,
+      "new_value": 0.097,
+      "percent_change": -42.94,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "qwen/qwen3.5-9b",
+      "change_type": "price_decrease",
       "field": "output_per_million",
-      "old_value": 0.234,
+      "old_value": 0.25,
+      "new_value": 0.143,
+      "percent_change": -42.8,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.3,
+      "new_value": 0.051,
+      "percent_change": -83.0,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash",
+      "change_type": "price_decrease",
+      "field": "output_per_million",
+      "old_value": 1.2,
+      "new_value": 0.567,
+      "percent_change": -52.75,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
+    },
+    {
+      "model_id": "snowflake/openai-gpt-5-mini",
+      "change_type": "price_decrease",
+      "field": "input_per_million",
+      "old_value": 0.3,
       "new_value": 0.25,
-      "percent_change": 6.84,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "percent_change": -16.67,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     },
     {
-      "model_id": "google/gemma-4-26b-a4b-it",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.0765,
-      "new_value": 0.09,
-      "percent_change": 17.65,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "google/gemma-4-26b-a4b-it",
+      "model_id": "snowflake/openai-gpt-5-mini",
       "change_type": "price_increase",
       "field": "output_per_million",
-      "old_value": 0.255,
-      "new_value": 0.3,
-      "percent_change": 17.65,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.7-code",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.6,
-      "new_value": 0.7,
-      "percent_change": 16.67,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "moonshotai/kimi-k2.7-code",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 3.5,
-      "new_value": 3.75,
-      "percent_change": 7.14,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-v4.1-flash",
-      "change_type": "price_increase",
-      "field": "input_per_million",
-      "old_value": 0.14,
-      "new_value": 0.3,
-      "percent_change": 114.29,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
-    },
-    {
-      "model_id": "deepseek/deepseek-v4.1-flash",
-      "change_type": "price_increase",
-      "field": "output_per_million",
-      "old_value": 0.42,
-      "new_value": 1.2,
-      "percent_change": 185.71,
-      "detected_at": "2026-11-17T15:14:24.937954+00:00"
+      "old_value": 1.2,
+      "new_value": 2.0,
+      "percent_change": 66.67,
+      "detected_at": "2026-11-18T00:15:20.844301+00:00"
     }
   ],
   "summary": {
     "price_increases": 12,
-    "price_decreases": 4,
-    "new_models": 42,
-    "removed_models": 2,
-    "other_changes": 0
-  },
-  "notified": true,
-  "notified_at": "2026-11-17T15:15:33.474436+00:00"
+    "price_decreases": 19,
+    "new_models": 37,
+    "removed_models": 0,
+    "other_changes": 2
+  }
 }
